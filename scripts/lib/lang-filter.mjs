@@ -1,14 +1,27 @@
 import { franc } from "franc-min";
 
-// Very small German/English stopword sets (fallback when language detection is inconclusive).
-const EN_STOP = new Set(["the","and","for","with","to","of","in","on","at","from","your","you","we","our","a","an","as","is","are","be","will","this","that","role","responsibilities","requirements"]);
-const DE_STOP = new Set(["und","der","die","das","für","mit","zu","von","im","in","auf","am","aus","wir","unser","unsere","sie","ihr","eine","ein","ist","sind","werden","diese","dieser","stelle","aufgaben","anforderungen"]);
+// Small stopword sets (used only as fallback when franc is 'und')
+const EN_STOP = new Set([
+  "the","and","for","with","to","of","in","on","at","from","your","you","we","our","a","an",
+  "as","is","are","be","will","this","that","role","responsibilities","requirements"
+]);
+const DE_STOP = new Set([
+  "und","der","die","das","für","mit","zu","von","im","in","auf","am","aus","wir","unser",
+  "unsere","sie","ihr","eine","ein","ist","sind","werden","diese","dieser","stelle","aufgaben","anforderungen"
+]);
 
 function normalizeSample(text) {
   return String(text || "")
     .replace(/https?:\/\/\S+/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function containsNonLatinScript(text) {
+  // Hard gate for obvious non-DE/EN scripts
+  return /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Arabic}\p{Script=Cyrillic}]/u.test(
+    String(text || "")
+  );
 }
 
 function nonLatinRatio(text) {
@@ -19,16 +32,14 @@ function nonLatinRatio(text) {
   let letters = 0;
 
   for (const ch of s) {
-    const code = ch.codePointAt(0);
-    // Count only letters-ish characters (skip digits/punctuation/whitespace)
-    if (!(/[A-Za-z\u00C0-\u024F]/.test(ch)) && !(/\p{L}/u.test(ch))) continue;
+    if (!(/\p{L}/u.test(ch))) continue;
     letters += 1;
 
-    // Treat Latin + Latin-extended as "Latin"; everything else counts as non-Latin
+    const code = ch.codePointAt(0);
     const isLatin =
       (code >= 0x0041 && code <= 0x007a) || // basic Latin letters
       (code >= 0x00c0 && code <= 0x024f) || // Latin-1 + Latin Extended
-      (code >= 0x1e00 && code <= 0x1eff); // Latin Extended Additional
+      (code >= 0x1e00 && code <= 0x1eff);   // Latin Extended Additional
 
     if (!isLatin) nonLatin += 1;
   }
@@ -46,36 +57,86 @@ function stopwordScore(text, stopset) {
   return hits / words.length;
 }
 
-export function isGermanOrEnglish(text) {
+function francLang(text, minLength = 80) {
   const sample = normalizeSample(text);
-  if (!sample) return true; // nothing to judge => keep
+  if (!sample || sample.length < minLength) return "und";
+  return franc(sample, { minLength });
+}
 
-  // If the text is clearly in a non-Latin script, drop it.
-  // (This catches Chinese, Japanese, Arabic, Cyrillic, etc.)
+function isLikelyDeOrEn(text) {
+  const sample = normalizeSample(text);
+  if (!sample) return true;
+
+  if (containsNonLatinScript(sample)) return false;
   if (nonLatinRatio(sample) > 0.15) return false;
 
-  // Primary detector: franc (ISO-639-3)
-  // IMPORTANT: do NOT whitelist to [deu, eng]. If we do, franc will *always* pick one
-  // of them even for French/Spanish/etc, and we'll accidentally keep non-DE/EN jobs.
-  // If franc returns 'und' we fall back to stopwords.
-  const minLength = 60;
-  const lang = franc(sample, { minLength });
-
+  const lang = francLang(sample, 80);
   if (lang === "deu" || lang === "eng") return true;
 
-  // If undetermined, do a stopword fallback.
-  // Thresholds are intentionally low; we just want to catch obvious cases.
   if (lang === "und") {
     const en = stopwordScore(sample, EN_STOP);
     const de = stopwordScore(sample, DE_STOP);
+    // low thresholds; just catch obvious DE/EN
     if (en >= 0.02 || de >= 0.02) return true;
-
-    // Short/ambiguous: keep to avoid false negatives.
-    if (sample.length < 120) return true;
+    // short ambiguous -> keep (reduce false negatives)
+    return sample.length < 140;
   }
 
-  // Long Latin text, not detected as DE/EN => drop.
+  // clearly something else (spa, fra, por, ita, etc.)
   return false;
+}
+
+function stripCommonBoilerplate(text) {
+  // Remove common Johnson & Johnson boilerplate blocks that can "poison" language detection.
+  // Keep this conservative: remove only when the phrases clearly appear.
+  let s = String(text || "");
+  const patterns = [
+    /Bei\s+Johnson\s*&\s*Johnson\s+glauben\s+wir[\s\S]{0,1200}(?=\n\n|\n\s*\n)/i,
+    /At\s+Johnson\s*&\s*Johnson\s+we\s+believe[\s\S]{0,1200}(?=\n\n|\n\s*\n)/i
+  ];
+  for (const p of patterns) {
+    s = s.replace(p, "");
+  }
+  return s;
+}
+
+function chunkSamples(text) {
+  const s0 = normalizeSample(text);
+  if (!s0) return [];
+
+  const s = stripCommonBoilerplate(s0);
+
+  const out = [];
+  const n = s.length;
+
+  const take = (start) => s.slice(start, Math.min(start + 600, n));
+
+  if (n <= 700) {
+    out.push(s);
+    return out;
+  }
+
+  out.push(take(0));                       // start
+  out.push(take(Math.floor(n / 2) - 300)); // middle
+  out.push(s.slice(Math.max(0, n - 600))); // end
+  return out.map((x) => normalizeSample(x)).filter(Boolean);
+}
+
+function isTitleGermanOrEnglish(title) {
+  const t = normalizeSample(title);
+  if (!t) return true;
+
+  // Hard reject: Chinese/Japanese/Arabic/Cyrillic etc.
+  if (containsNonLatinScript(t)) return false;
+
+  // Ratio gate for mixed titles
+  if (nonLatinRatio(t) > 0.10) return false;
+
+  // For longer titles, require franc to say DE/EN (or be und + stopwords)
+  if (t.length >= 18) return isLikelyDeOrEn(t);
+
+  // Short Latin titles like "QA Engineer" should pass.
+  return true;
 }
 
 export function filterJobsGermanEnglish(jobs) {
@@ -85,10 +146,50 @@ export function filterJobsGermanEnglish(jobs) {
   for (const job of jobs) {
     const title = job?.title || "";
     const desc = job?.description?.text || "";
-    const combined = `${title}\n\n${desc}`.trim();
 
-    if (isGermanOrEnglish(combined)) kept.push(job);
-    else removed.push(job);
+    // 1) Title must be DE/EN (prevents Chinese titles leaking through)
+    if (!isTitleGermanOrEnglish(title)) {
+      removed.push(job);
+      continue;
+    }
+
+    // 2) Description sampling: if it contains strong non-DE/EN chunks, drop it.
+    // This is robust against "German boilerplate + Spanish body" cases.
+    const samples = chunkSamples(desc);
+    if (!samples.length) {
+      kept.push(job);
+      continue;
+    }
+
+    let nonDeEnStrong = 0;
+    let deEnStrong = 0;
+
+    for (const s of samples) {
+      const lang = francLang(s, 80);
+      if (lang === "deu" || lang === "eng") {
+        deEnStrong += 1;
+      } else if (lang !== "und") {
+        nonDeEnStrong += 1;
+      } else {
+        // und: try stopwords
+        const en = stopwordScore(s, EN_STOP);
+        const de = stopwordScore(s, DE_STOP);
+        if (en >= 0.02 || de >= 0.02) deEnStrong += 1;
+      }
+    }
+
+    // If any chunk is clearly non-DE/EN AND we don't also see DE/EN strongly, drop.
+    if (deEnStrong === 0 && nonDeEnStrong > 0) {
+      removed.push(job);
+      continue;
+    }
+    // If multiple chunks are clearly foreign, drop.
+    if (nonDeEnStrong >= 2) {
+      removed.push(job);
+      continue;
+    }
+
+    kept.push(job);
   }
 
   return { kept, removed };
