@@ -96,6 +96,7 @@ export async function scrapeWorkday({
 
   function parseBulletLocation(bullets) {
     if (!Array.isArray(bullets)) return [];
+
     const hits = [];
     for (const b of bullets) {
       const s = cleanText(b);
@@ -172,6 +173,99 @@ export async function scrapeWorkday({
     return null;
   }
 
+  function toUtcMidnightIso(d) {
+    return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate())).toISOString();
+  }
+
+  function parsePostedOnRelative(text) {
+    const s = cleanText(text).toLowerCase();
+    if (!s) return null;
+
+    // Prefer native date parsing first (some tenants return ISO / RFC strings)
+    const direct = safeIsoDate(text);
+    if (direct) return direct;
+
+    // German
+    // examples: "Heute ausgeschrieben", "Gestern ausgeschrieben", "Vor 7 Tagen ausgeschrieben",
+    //           "Vor mehr als 30 Tagen ausgeschrieben"
+    if (s.includes("heute")) return { daysAgo: 0 };
+    if (s.includes("gestern")) return { daysAgo: 1 };
+
+    let m = s.match(/vor\s+(?:mehr\s+als\s+)?(\d+)\s+tag(?:en)?/i);
+    if (m?.[1]) return { daysAgo: Number(m[1]) };
+    m = s.match(/vor\s+(?:mehr\s+als\s+)?(\d+)\s+woche(?:n)?/i);
+    if (m?.[1]) return { daysAgo: Number(m[1]) * 7 };
+    m = s.match(/vor\s+einem\s+tag/i);
+    if (m) return { daysAgo: 1 };
+
+    // English
+    // examples: "Posted Today", "Posted Yesterday", "Posted 7 Days Ago"
+    if (s.includes("posted today")) return { daysAgo: 0 };
+    if (s.includes("posted yesterday")) return { daysAgo: 1 };
+    m = s.match(/posted\s+(\d+)\s+day(?:s)?\s+ago/i);
+    if (m?.[1]) return { daysAgo: Number(m[1]) };
+    m = s.match(/posted\s+(\d+)\s+week(?:s)?\s+ago/i);
+    if (m?.[1]) return { daysAgo: Number(m[1]) * 7 };
+
+    return null;
+  }
+
+  function postedAtFromAny(listItem, info) {
+    const raw =
+      info?.postedOn ??
+      info?.postedDate ??
+      info?.datePosted ??
+      listItem?.postedOn ??
+      listItem?.postedDate ??
+      listItem?.datePosted ??
+      null;
+
+    if (!raw) return { postedAt: null, postedOnRaw: null };
+
+    const rel = parsePostedOnRelative(raw);
+    if (!rel) return { postedAt: null, postedOnRaw: cleanText(raw) };
+
+    if (typeof rel === "string") return { postedAt: rel, postedOnRaw: cleanText(raw) };
+    if (typeof rel === "object" && typeof rel.daysAgo === "number") {
+      const ref = new Date(scrapedAt);
+      const baseMidnight = new Date(Date.UTC(ref.getUTCFullYear(), ref.getUTCMonth(), ref.getUTCDate()));
+      baseMidnight.setUTCDate(baseMidnight.getUTCDate() - rel.daysAgo);
+      return { postedAt: toUtcMidnightIso(baseMidnight), postedOnRaw: cleanText(raw) };
+    }
+
+    return { postedAt: null, postedOnRaw: cleanText(raw) };
+  }
+
+  function firstNonEmpty(...vals) {
+    for (const v of vals) {
+      const t = cleanText(v);
+      if (t) return t;
+    }
+    return null;
+  }
+
+  function extractWorkplaceRaw(listItem, info, locationsJoined, descriptionText) {
+    const candidates = [];
+    candidates.push(info?.remoteType, info?.workplaceType, info?.workLocationType, info?.workType, info?.workplace);
+    candidates.push(listItem?.remoteType, listItem?.workplaceType, listItem?.workLocationType, listItem?.workType);
+
+    // bullet fields sometimes contain "Work Location: Flex" / "Workplace: Hybrid" etc.
+    if (Array.isArray(listItem?.bulletFields)) {
+      for (const b of listItem.bulletFields) {
+        const s = cleanText(b);
+        const m = s.match(/^(work\s*location|workplace|arbeitsort|arbeitsmodell|remote\s*type)\s*:\s*(.+)$/i);
+        if (m?.[2]) candidates.push(m[2]);
+      }
+    }
+
+    const raw = firstNonEmpty(...candidates);
+    if (raw) return raw;
+
+    // last resort: infer from visible text
+    const inferred = normalizeWorkplace(`${locationsJoined || ""} ${descriptionText || ""}`);
+    return inferred ? inferred : null;
+  }
+
   const jobs = [];
   const seen = new Set();
 
@@ -201,34 +295,41 @@ export async function scrapeWorkday({
       const descriptionText = info?.jobDescription ? stripHtml(info.jobDescription) : null;
 
       // A more stable ID if the req id is present; otherwise hash URL.
-      const reqId = cleanText(jp?.jobReqId ?? info?.jobReqId ?? "");
+      const reqId = cleanText(jp?.jobReqId ?? info?.jobReqId ?? info?.jobRequisitionId ?? "");
       const id = reqId ? `workday:${reqId}` : stableId("workday", postingUrl);
 
-      // Posted date: list payload sometimes contains postedOn/postedDate; detail often contains postedOn.
-      const postedAt = safeIsoDate(info?.postedOn ?? jp?.postedOn ?? jp?.postedDate ?? null);
+      // Posted date: Workday often returns a localized relative string (e.g. "Heute ausgeschrieben").
+      const { postedAt, postedOnRaw } = postedAtFromAny(jp, info);
 
       // Employment/time type signals can appear in different fields.
-      const timeTypeRaw = cleanText(info?.timeType ?? jp?.timeType ?? "");
-      const categoryRaw = cleanText(jp?.categoriesText ?? "");
+      const timeTypeRaw = firstNonEmpty(info?.timeType, jp?.timeType, info?.timeTypeText, jp?.timeTypeText);
+      const categoryRaw = firstNonEmpty(jp?.categoriesText, info?.categoriesText);
       const employmentType = normalizeEmploymentType(timeTypeRaw || categoryRaw);
 
-      const department = cleanText(
-        info?.jobFamily ??
-          jp?.jobFamily ??
-          info?.jobCategory ??
-          jp?.category ??
-          jp?.categoryText ??
-          ""
-      );
+      const jobFamily = firstNonEmpty(info?.jobFamily, jp?.jobFamily, info?.jobFamilyGroup, jp?.jobFamilyGroup);
+      const jobCategory = firstNonEmpty(info?.jobCategory, jp?.jobCategory, info?.category, jp?.categoryText, jp?.category);
+      const jobType = firstNonEmpty(info?.jobType, jp?.jobType, info?.workerType, jp?.workerType);
+
+      const department = cleanText(jobFamily ?? jobCategory ?? "");
+
+      const workplaceRaw = extractWorkplaceRaw(jp, info, location, descriptionText);
+      const workplace = normalizeWorkplace(workplaceRaw || location || "");
 
       jobs.push({
         id,
         company,
         title,
         location,
-        workplace: normalizeWorkplace(location),
+        locations,
+        workplace,
         employmentType,
         department: department || null,
+        jobFamily: jobFamily || null,
+        jobCategory: jobCategory || null,
+        jobType: jobType || null,
+        timeType: timeTypeRaw || null,
+        workplaceRaw: workplaceRaw || null,
+        reqId: reqId || null,
         team: null,
         url: postingUrl,
         applyUrl: info?.externalUrl ?? postingUrl,
@@ -238,7 +339,8 @@ export async function scrapeWorkday({
           raw: {
             externalPath: jp?.externalPath ?? null,
             jobReqId: reqId || null,
-            locations
+            locations,
+            postedOnRaw
           }
         },
         postedAt,
