@@ -39,7 +39,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-056808",
@@ -53,7 +53,7 @@
     "locations": [
       "Little Rock, Arkansas, United States"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-056808",
     "timeType": "Vollzeit",
@@ -81,7 +81,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-054049",
@@ -96,7 +96,7 @@
       "New York, New York, United States",
       "Newark, New Jersey, United States"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-054049",
     "timeType": "Vollzeit",
@@ -125,7 +125,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-056745",
@@ -169,7 +169,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-055419",
@@ -211,7 +211,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-043921",
@@ -255,7 +255,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057101",
@@ -269,7 +269,7 @@
     "locations": [
       "Monroe, Louisiana, United States"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-057101",
     "timeType": "Vollzeit",
@@ -297,7 +297,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-055682",
@@ -339,7 +339,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-038118",
@@ -353,7 +353,7 @@
     "locations": [
       "Jacksonville, Florida, United States of America"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-038118",
     "timeType": "Vollzeit",
@@ -381,7 +381,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057139",
@@ -396,7 +396,7 @@
       "Titusville, New Jersey, United States of America",
       "Raynham, Massachusetts, United States of America"
     ],
-    "workplace": null,
+    "workplace": "remote",
     "employmentType": "full_time",
     "reqId": "R-057139",
     "timeType": "Vollzeit",
@@ -425,7 +425,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-049355",
@@ -442,7 +442,7 @@
       "Leiden, South Holland, Netherlands",
       "Ringaskiddy, Cork, Ireland"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-049355",
     "timeType": "Vollzeit",
@@ -473,7 +473,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057692",
@@ -515,7 +515,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-056980",
@@ -557,7 +557,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-042721",
@@ -605,7 +605,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-054928",
@@ -647,7 +647,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-056526",
@@ -689,7 +689,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057348",
@@ -739,91 +739,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
-  },
-  {
-    "id": "workday:R-032822",
-    "company": {
-      "id": "jnj",
-      "name": "Johnson & Johnson",
-      "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
-    },
-    "title": "Manager, Clinical Research (Irvine, CA) - Johnson and Johnson MedTech, Electrophysiology",
-    "location": "Irvine, California, United States of America",
-    "locations": [
-      "Irvine, California, United States of America"
-    ],
-    "workplace": "hybrid",
-    "employmentType": "full_time",
-    "reqId": "R-032822",
-    "timeType": "Vollzeit",
-    "workplaceRaw": "Hybridarbeit",
-    "jobFamily": null,
-    "jobCategory": null,
-    "jobType": null,
-    "department": null,
-    "team": null,
-    "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Irvine-California-United-States-of-America/Manager--Clinical-Research--Irvine--CA----Johnson-and-Johnson-MedTech--Electrophysiology_R-032822-1",
-    "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Irvine-California-United-States-of-America/Manager--Clinical-Research--Irvine--CA----Johnson-and-Johnson-MedTech--Electrophysiology_R-032822-1",
-    "description": {
-      "text": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at https://www.jnj.com Job Function: Discovery & Pre-Clinical/Clinical Development Job Sub Function: Clinical Development & Research – Non-MD Job Category: People Leader All Job Posting Locations: Irvine, California, United States of America Job Description: Johnson & Johnson MedTech Electrophysiology is recruiting for a Clinical Research, Manager, to support the Electrophysiology (EP) business unit based in Irvine, CA. At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow and profoundly impact health for humanity. Learn more at https://www.jnj.com/. Fueled by innovation at the intersection of biology and technology, we’re developing the next generation of smarter, less invasive, more personalized treatments. Are you passionate about improving and expanding the possibilities of Cardiovascular? Ready to join a team that’s reimagining how we heal? Our Cardiovascular team develops leading solutions for heart recovery, electrophysiology, and stroke. You will join a proud heritage of continually elevating standards of care for stroke, heart failure and atrial fibrillation (AFib) patients. Your unique talents will help patients on their journey to wellness. Learn more at https://www.jnj.com/medtech . Key Responsibilities: Leads evidence generation and dissemination strategy for APAC region, including developing and implementing publication plan Leads publication planning and oversees the development of publications (e.g. abstracts, posters, congress presentations, manuscripts) in partnership with local APAC teams Develops positive relationship with diverse cross-functional teams including Clinical Research, Medical Affairs, Health Economics and Market Access, Global Strategic Marketing etc. to drive timely project's execution and success Qualifications A minimum of a Bachelor’s or Master's Degree with a minimum of 10 years of clinical, medical affairs or related technical experience, OR PhD/MD/ PharmD with a minimum of 8 years of industry/academic research experience preferred. A Life Science, Physical Science, Nursing, or Biological Science degree. Required: Knowledge of Good Clinical Practices, Good Publication Practices, and ICMJE standard Able to influence others along with strong written and oral communication skills Strong medical writing and systematic literature review experience Advanced project management skills with the ability to balance multiple projects Strategic mentality and critical analysis skill Preferred: Successful experience in publication planning and leadership in EGS/EDS within medical device highly preferred Proficiency/fluency in Mandarin/Chinese language preferred Medical device experience, especially in neurovascular therapeutic experience advantageous Pre- or Post-market study design experience The Company maintains highly competitive, performance-based compensation programs. Under current guidelines, this position is eligible for an annual performance bonus in accordance with the terms of the applicable plan. The annual performance bonus is a cash bonus intended to provide an incentive to achieve annual targeted results by rewarding for individual and the corporation’s performance over a calendar/performance year. Bonuses are awarded at the Company’s discretion on an individual basis. · Employees and/or eligible dependents may be eligible to participate in the following Company sponsored employee benefit programs: medical, dental, vision, life insurance, short- and long-term disability, business accident insurance, and group legal insurance. Employees may be eligible to participate in the Company’s consolidated retirement plan (pension) and savings plan (401(k)). This position is eligible to participate in the Company’s long-term incentive program. Employees are eligible for the following time off benefits: Vacation – up to 120 hours per calendar year Sick time - up to 40 hours per calendar year; for employees who reside in the State of Washington – up to 56 hours per calendar year Holiday pay, including Floating Holidays – up to 13 days per calendar year of Work, Personal and Family Time - up to 40 hours per calendar year Additional information can be found through the link below. https://www.careers.jnj.com/employee-benefits The compensation and benefits information set forth in this posting applies to candidates hired in the United States. Candidates hired outside the United States will be eligible for compensation and benefits in accordance with their local market. Johnson & Johnson is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, protected veteran status or other characteristics protected by federal, state or local law. We actively seek qualified candidates who are protected veterans and individuals with disabilities as defined under VEVRAA and Section 503 of the Rehabilitation Act. Johnson & Johnson is committed to providing an interview process that is inclusive of our applicants’ needs. If you are an individual with a disability and would like to request an accommodation, please contact us via https://www.jnj.com/contact-us/careers or contact AskGS to be directed to your accommodation resource. #PULSE #EP Required Skills: Preferred Skills: The anticipated base pay range for this position is : $117,000.00 - $201,250.00 Additional Description for Pay Transparency: This position is eligible to participate in the Company’s long-term incentive program. Subject to the terms of their respective policies and date of hire, employees are eligible for the following time off benefits: Vacation –120 hours per calendar year Sick time - 40 hours per calendar year; for employees who reside in the State of Colorado –48 hours per calendar year; for employees who reside in the State of Washington –56 hours per calendar year Holiday pay, including Floating Holidays –13 days per calendar year Work, Personal and Family Time - up to 40 hours per calendar year Parental Leave – 480 hours within one year of the birth/adoption/foster care of a child Bereavement Leave – 240 hours for an immediate family member: 40 hours for an extended family member per calendar year Caregiver Leave – 80 hours in a 52-week rolling period10 days Volunteer Leave – 32 hours per calendar year Military Spouse Time-Off – 80 hours per calendar year For additional general information on Company benefits, please go to: https://www.careers.jnj.com/employee-benefits",
-      "html": null
-    },
-    "source": {
-      "kind": "workday_api",
-      "raw": {
-        "externalPath": "/job/Irvine-California-United-States-of-America/Manager--Clinical-Research--Irvine--CA----Johnson-and-Johnson-MedTech--Electrophysiology_R-032822-1",
-        "jobReqId": "R-032822",
-        "postedOnRaw": "Vor 3 Tagen ausgeschrieben",
-        "locations": [
-          "Irvine, California, United States of America"
-        ]
-      }
-    },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
-  },
-  {
-    "id": "workday:R-032832",
-    "company": {
-      "id": "jnj",
-      "name": "Johnson & Johnson",
-      "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
-    },
-    "title": "Manager, Clinical Research (Irvine, CA) Johnson and Johnson MedTech, Electrophysiology",
-    "location": "Irvine, California, United States of America",
-    "locations": [
-      "Irvine, California, United States of America"
-    ],
-    "workplace": "hybrid",
-    "employmentType": "full_time",
-    "reqId": "R-032832",
-    "timeType": "Vollzeit",
-    "workplaceRaw": "Hybridarbeit",
-    "jobFamily": null,
-    "jobCategory": null,
-    "jobType": null,
-    "department": null,
-    "team": null,
-    "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Irvine-California-United-States-of-America/Manager--Clinical-Research--Irvine--CA--Johnson-and-Johnson-MedTech--Electrophysiology_R-032832-1",
-    "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Irvine-California-United-States-of-America/Manager--Clinical-Research--Irvine--CA--Johnson-and-Johnson-MedTech--Electrophysiology_R-032832-1",
-    "description": {
-      "text": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at https://www.jnj.com Job Function: Discovery & Pre-Clinical/Clinical Development Job Sub Function: Clinical Development & Research – Non-MD Job Category: People Leader All Job Posting Locations: Irvine, California, United States of America Job Description: Johnson & Johnson MedTech Electrophysiology is recruiting for a Clinical Research, Manager, to support the Electrophysiology (EP) business unit based in Irvine, CA. At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow and profoundly impact health for humanity. Learn more at https://www.jnj.com/. Fueled by innovation at the intersection of biology and technology, we’re developing the next generation of smarter, less invasive, more personalized treatments. Are you passionate about improving and expanding the possibilities of Cardiovascular? Ready to join a team that’s reimagining how we heal? Our Cardiovascular team develops leading solutions for heart recovery, electrophysiology, and stroke. You will join a proud heritage of continually elevating standards of care for stroke, heart failure and atrial fibrillation (AFib) patients. Your unique talents will help patients on their journey to wellness. Learn more at https://www.jnj.com/medtech . Key Responsibilities: Leads evidence generation and dissemination strategy for EMEA region, including developing and implementing publication plan Leads publication planning and oversees the development of publications (e.g. abstracts, posters, congress presentations, manuscripts) in partnership with local EMEA teams Manages all steering committee meetings and related activities for publication plan with EMEA KOLs Develops positive relationship with diverse cross-functional teams including Clinical Research, Medical Affairs, Health Economics and Market Access, Global Strategic Marketing etc. to drive timely project's execution and success Qualifications A minimum of a Bachelor’s or Master's Degree with a minimum of 10 years of clinical, medical affairs or related technical experience, OR PhD/MD/ PharmD with a minimum of 8 years of industry/academic research experience preferred. A Life Science, Physical Science, Nursing, or Biological Science degree. Required: Knowledge of Good Clinical Practices, Good Publication Practices, and ICMJE standard Able to influence others along with strong written and oral communication skills Strong medical writing and systematic literature review experience Advanced project management skills with the ability to balance multiple projects Strategic mentality and critical analysis skill Preferred: Successful experience in publication planning and leadership in EGS/EDS within medical device highly preferred Proficiency/fluency in Mandarin/Chinese language preferred Medical device experience, especially in neurovascular therapeutic experience advantageous Pre- or Post-market study design experience The Company maintains highly competitive, performance-based compensation programs. Under current guidelines, this position is eligible for an annual performance bonus in accordance with the terms of the applicable plan. The annual performance bonus is a cash bonus intended to provide an incentive to achieve annual targeted results by rewarding for individual and the corporation’s performance over a calendar/performance year. Bonuses are awarded at the Company’s discretion on an individual basis. · Employees and/or eligible dependents may be eligible to participate in the following Company sponsored employee benefit programs: medical, dental, vision, life insurance, short- and long-term disability, business accident insurance, and group legal insurance. Employees may be eligible to participate in the Company’s consolidated retirement plan (pension) and savings plan (401(k)). This position is eligible to participate in the Company’s long-term incentive program. Employees are eligible for the following time off benefits: Vacation – up to 120 hours per calendar year Sick time - up to 40 hours per calendar year; for employees who reside in the State of Washington – up to 56 hours per calendar year Holiday pay, including Floating Holidays – up to 13 days per calendar year of Work, Personal and Family Time - up to 40 hours per calendar year Additional information can be found through the link below. https://www.careers.jnj.com/employee-benefits The compensation and benefits information set forth in this posting applies to candidates hired in the United States. Candidates hired outside the United States will be eligible for compensation and benefits in accordance with their local market. Johnson & Johnson is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, protected veteran status or other characteristics protected by federal, state or local law. We actively seek qualified candidates who are protected veterans and individuals with disabilities as defined under VEVRAA and Section 503 of the Rehabilitation Act. Johnson & Johnson is committed to providing an interview process that is inclusive of our applicants’ needs. If you are an individual with a disability and would like to request an accommodation, please contact us via https://www.jnj.com/contact-us/careers or contact AskGS to be directed to your accommodation resource. #PULSE #EP Required Skills: Preferred Skills: The anticipated base pay range for this position is : $117,000.00 - $201,250.00 Additional Description for Pay Transparency: This position is eligible to participate in the Company’s long-term incentive program. Subject to the terms of their respective policies and date of hire, employees are eligible for the following time off benefits: Vacation –120 hours per calendar year Sick time - 40 hours per calendar year; for employees who reside in the State of Colorado –48 hours per calendar year; for employees who reside in the State of Washington –56 hours per calendar year Holiday pay, including Floating Holidays –13 days per calendar year Work, Personal and Family Time - up to 40 hours per calendar year Parental Leave – 480 hours within one year of the birth/adoption/foster care of a child Bereavement Leave – 240 hours for an immediate family member: 40 hours for an extended family member per calendar year Caregiver Leave – 80 hours in a 52-week rolling period10 days Volunteer Leave – 32 hours per calendar year Military Spouse Time-Off – 80 hours per calendar year https://www.careers.jnj.com/employee-benefits",
-      "html": null
-    },
-    "source": {
-      "kind": "workday_api",
-      "raw": {
-        "externalPath": "/job/Irvine-California-United-States-of-America/Manager--Clinical-Research--Irvine--CA--Johnson-and-Johnson-MedTech--Electrophysiology_R-032832-1",
-        "jobReqId": "R-032832",
-        "postedOnRaw": "Vor 3 Tagen ausgeschrieben",
-        "locations": [
-          "Irvine, California, United States of America"
-        ]
-      }
-    },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-051206",
@@ -865,7 +781,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057637",
@@ -907,7 +823,7 @@
       }
     },
     "postedAt": "2026-02-06T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-054425",
@@ -949,7 +865,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057345",
@@ -1003,7 +919,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-054183",
@@ -1018,7 +934,7 @@
       "New Jersey (Any City)",
       "New York, New York, United States"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-054183",
     "timeType": "Vollzeit",
@@ -1047,7 +963,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-048865",
@@ -1091,7 +1007,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-056506",
@@ -1105,7 +1021,7 @@
     "locations": [
       "Raynham, Massachusetts, United States of America"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-056506",
     "timeType": "Vollzeit",
@@ -1133,7 +1049,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057342",
@@ -1175,7 +1091,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057131",
@@ -1191,7 +1107,7 @@
       "Los Angeles, California, United States of America",
       "Long Beach, California, United States"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-057131",
     "timeType": "Vollzeit",
@@ -1221,7 +1137,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-057326",
@@ -1235,7 +1151,7 @@
     "locations": [
       "Grecia, Costa Rica"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-057326",
     "timeType": "Vollzeit",
@@ -1248,7 +1164,7 @@
     "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Grecia-Costa-Rica/Sr-Supervisor-Training-and-Doc-Control-Orthopedics--Grecia--Costa-Rica-_R-057326",
     "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Grecia-Costa-Rica/Sr-Supervisor-Training-and-Doc-Control-Orthopedics--Grecia--Costa-Rica-_R-057326",
     "description": {
-      "text": "Bei Johnson & Johnson glauben wir, dass Gesundheit alles ist. Unsere Stärke bei Innovationen im Gesundheitswesen versetzt uns in die Lage, eine Welt aufzubauen, in der komplexe Krankheiten verhindert, behandelt und geheilt werden, in der Behandlungen intelligenter und weniger invasiv sind und Lösungen persönlich sind. Durch unsere Expertise in innovativer Medizin und MedTech sind wir in einer einzigartigen Position, um heute über das gesamte Spektrum von Gesundheitslösungen hinweg Innovationen zu entwickeln, um die Durchbrüche von morgen zu liefern und die Gesundheit der Menschheit nachhaltig zu beeinflussen. Weitere Informationen finden Sie unter https://www.jnj.com/ Tätigkeitsbereich:Quality Unterfunktion Der Tätigkeit:Quality Documentation Tätigkeitskategorie:People Leader Alle Standorte Für Stellenangebote:Grecia, Costa Rica Jobbeschreibung: \"Johnson & Johnson announced plans to separate our Orthopedics business to establish a standalone orthopedics company, operating as DePuy Synthes. The process of the planned separation is anticipated to be completed within 18 to 24 months, subject to legal requirements, including consultation with works councils and other employee representative bodies, as may be required, regulatory approvals and other customary conditions and approvals. Should you accept this position, it is anticipated that, following conclusion of the transaction, you would be an employee of DePuy Synthes and your employment would be governed by DePuy Synthes employment processes, programs, policies, and benefit plans. In that case, details of any planned changes would be provided to you by DePuy Synthes at an appropriate time and subject to any necessary consultation processes.” About Orthopedics Fueled by innovation at the intersection of biology and technology, we’re developing the next generation of smarter, less invasive, more personalized treatments. Are you passionate about improving and expanding the possibilities of Orthopedics? Ready to join a team that’s reimagining how we heal? Our Orthopedics teams help keep more than 6 million people moving each year while delivering clinical and economic value to surgeons and healthcare systems. Our teams build solutions for joint reconstruction; trauma and craniomaxillofacial; sports, extremities, and elective foot and ankle; spine; and robotics and digital surgery. Your unique talents will help patients on their journey to wellness. Learn more at https://www.jnj.com/medtech We are searching for the best talent for Sr Supervisor, Training and Doc Control to support our MedTech Orthopedics business​ in Grecia, Costa Rica. Purpose: The Senior Supervisor, Quality Documentation will own and lead the document control and training system within the Quality Management System (QMS). This individual will develop, maintain, and continuously improve controlled documentation and training process to ensure compliance with applicable regulatory requirements (e.g., ISO 13485, FDA QSR) and internal policies. You will be responsible for: In accordance with all applicable federal, state and local laws/regulations and Corporate Johnson & Johnson, procedures and guidelines, this position: Lead and manage day-to-day document control activities for the QMS, including creation, review, approval, distribution, archival, and obsolescence of controlled documents (SOPs, work instructions, forms, policies). Design, implement, and maintain an effective training program tied to QMS documents, job roles, and regulatory requirements. Configure, administer, and optimize change control and training process to ensure data integrity, agile processes, and audit readiness. Serve as the primary owner for document change control processes ensuring timely reviews and approvals. Develop and deliver training content (classroom, e-learning, on-the-job) and evaluate training effectiveness through assessments and metrics. Partner with cross-functional stakeholders (R&D, Manufacturing, Regulatory, Clinical, Supply Chain) to ensure documentation and training needs are met and aligned with product and process changes. Support internal and external audits and inspections by preparing documentation, responding to findings, and driving corrective actions. Monitor and report key performance indicators for document control and training (e.g., training completion rates, overdue trainings, document cycle times) and report them to quality data management review or management review. Mentor and coach staff involved in document control and training activities; foster a culture of quality and continuous improvement. Ensure records retention and confidentiality policies are followed and that document control activities meet company and regulatory requirements. Contribute to CAPA, risk management, and process improvement initiatives as they relate to documentation and training. Responsible for communicating business-related issues or opportunities to next management level. Responsible for following all Company guidelines related to Health, Safety and Environmental practices as applicable. For those who supervise or manage a staff, responsible for ensuring that subordinates follow all Company guidelines related to Health, Safety and Environmental practices and that all resources needed to do so are available and in good condition, if applicable. Responsible for ensuring personal and Company compliance with all Federal, State, local and Company regulations, policies, and procedures. Performs other duties assigned as needed. Qualifications / Requirements: EXPERIENCE AND EDUCATION University Bachelor’ degree in Engineering, Life Sciences, Quality Management, or a related field. 4 to 6 years’ experience in a highly regulated industry is required Demonstrated knowledge of QMS standards and regulations (ISO 13485, 21 CFR Part 820 / FDA QSR). Experience managing or administering an electronic document management system and training systems. Proven experience leading projects and/or small teams; strong organizational and prioritization skills. Excellent written and verbal communication skills; ability to write clear SOPs and training materials. Strong attention to detail and a systems-thinking approach. REQUIRED KNOWLEDGE, SKILLS, ABILITIES, CERTIFICATIONS/LICENSES and AFFILIATIONS Certified Quality Engineer (CQE), Certified Quality Auditor (CQA), Six Sigma Black/Green Belt, or equivalent certification is preferred. Excellent written and verbal communication skills; proven ability to interact with suppliers and cross-functional internal stakeholders. ​ Ability leads to change, drive reliability, and foster a culture of quality and safety. #LI-Onsite Required Skills: Preferred Skills: Andere weiterentwickeln, Compliance Management, Einbeziehender Führungsstil, Forschen, Führung, Funktionsübergreifende Zusammenarbeit, ISO 9001, Prozessverbesserungen, Qualitätskontrolle (QC), Qualitätsmanagementsysteme (QMS), Qualitätsstandards, Qualitätssystemdokumentation, Regulatorische Compliance, Standardarbeitsanweisung (SOP), Teammanagement, Technisches Schreiben, Unternehmensbewertungen, Zeitmanagement",
+      "text": "Bei Johnson & Johnson glauben wir, dass Gesundheit alles ist. Unsere Stärke bei Innovationen im Gesundheitswesen versetzt uns in die Lage, eine Welt aufzubauen, in der komplexe Krankheiten verhindert, behandelt und geheilt werden, in der Behandlungen intelligenter und weniger invasiv sind und Lösungen persönlich sind. Durch unsere Expertise in innovativer Medizin und MedTech sind wir in einer einzigartigen Position, um heute über das gesamte Spektrum von Gesundheitslösungen hinweg Innovationen zu entwickeln, um die Durchbrüche von morgen zu liefern und die Gesundheit der Menschheit nachhaltig zu beeinflussen. Weitere Informationen finden Sie unter https://www.jnj.com/ Tätigkeitsbereich:Quality Unterfunktion Der Tätigkeit:Quality Documentation Tätigkeitskategorie:People Leader Alle Standorte Für Stellenangebote:Grecia, Costa Rica Jobbeschreibung: \"Johnson & Johnson announced plans to separate our Orthopedics business to establish a standalone orthopedics company, operating as DePuy Synthes. The process of the planned separation is anticipated to be completed within 18 to 24 months, subject to legal requirements, including consultation with works councils and other employee representative bodies, as may be required, regulatory approvals and other customary conditions and approvals. Should you accept this position, it is anticipated that, following conclusion of the transaction, you would be an employee of DePuy Synthes and your employment would be governed by DePuy Synthes employment processes, programs, policies, and benefit plans. In that case, details of any planned changes would be provided to you by DePuy Synthes at an appropriate time and subject to any necessary consultation processes.” About Orthopedics Fueled by innovation at the intersection of biology and technology, we’re developing the next generation of smarter, less invasive, more personalized treatments. Are you passionate about improving and expanding the possibilities of Orthopedics? Ready to join a team that’s reimagining how we heal? Our Orthopedics teams help keep more than 6 million people moving each year while delivering clinical and economic value to surgeons and healthcare systems. Our teams build solutions for joint reconstruction; trauma and craniomaxillofacial; sports, extremities, and elective foot and ankle; spine; and robotics and digital surgery. Your unique talents will help patients on their journey to wellness. Learn more at https://www.jnj.com/medtech We are searching for the best talent for Sr Supervisor, Training and Doc Control to support our MedTech Orthopedics business in Grecia, Costa Rica. Purpose: The Senior Supervisor, Quality Documentation will own and lead the document control and training system within the Quality Management System (QMS). This individual will develop, maintain, and continuously improve controlled documentation and training process to ensure compliance with applicable regulatory requirements (e.g., ISO 13485, FDA QSR) and internal policies. You will be responsible for: In accordance with all applicable federal, state and local laws/regulations and Corporate Johnson & Johnson, procedures and guidelines, this position: Lead and manage day-to-day document control activities for the QMS, including creation, review, approval, distribution, archival, and obsolescence of controlled documents (SOPs, work instructions, forms, policies). Design, implement, and maintain an effective training program tied to QMS documents, job roles, and regulatory requirements. Configure, administer, and optimize change control and training process to ensure data integrity, agile processes, and audit readiness. Serve as the primary owner for document change control processes ensuring timely reviews and approvals. Develop and deliver training content (classroom, e-learning, on-the-job) and evaluate training effectiveness through assessments and metrics. Partner with cross-functional stakeholders (R&D, Manufacturing, Regulatory, Clinical, Supply Chain) to ensure documentation and training needs are met and aligned with product and process changes. Support internal and external audits and inspections by preparing documentation, responding to findings, and driving corrective actions. Monitor and report key performance indicators for document control and training (e.g., training completion rates, overdue trainings, document cycle times) and report them to quality data management review or management review. Mentor and coach staff involved in document control and training activities; foster a culture of quality and continuous improvement. Ensure records retention and confidentiality policies are followed and that document control activities meet company and regulatory requirements. Contribute to CAPA, risk management, and process improvement initiatives as they relate to documentation and training. Responsible for communicating business-related issues or opportunities to next management level. Responsible for following all Company guidelines related to Health, Safety and Environmental practices as applicable. For those who supervise or manage a staff, responsible for ensuring that subordinates follow all Company guidelines related to Health, Safety and Environmental practices and that all resources needed to do so are available and in good condition, if applicable. Responsible for ensuring personal and Company compliance with all Federal, State, local and Company regulations, policies, and procedures. Performs other duties assigned as needed. Qualifications / Requirements: EXPERIENCE AND EDUCATION University Bachelor’ degree in Engineering, Life Sciences, Quality Management, or a related field. 4 to 6 years’ experience in a highly regulated industry is required Demonstrated knowledge of QMS standards and regulations (ISO 13485, 21 CFR Part 820 / FDA QSR). Experience managing or administering an electronic document management system and training systems. Proven experience leading projects and/or small teams; strong organizational and prioritization skills. Excellent written and verbal communication skills; ability to write clear SOPs and training materials. Strong attention to detail and a systems-thinking approach. REQUIRED KNOWLEDGE, SKILLS, ABILITIES, CERTIFICATIONS/LICENSES and AFFILIATIONS Certified Quality Engineer (CQE), Certified Quality Auditor (CQA), Six Sigma Black/Green Belt, or equivalent certification is preferred. Excellent written and verbal communication skills; proven ability to interact with suppliers and cross-functional internal stakeholders. Ability leads to change, drive reliability, and foster a culture of quality and safety. #LI-Onsite Required Skills: Preferred Skills: Andere weiterentwickeln, Compliance Management, Einbeziehender Führungsstil, Forschen, Führung, Funktionsübergreifende Zusammenarbeit, ISO 9001, Prozessverbesserungen, Qualitätskontrolle (QC), Qualitätsmanagementsysteme (QMS), Qualitätsstandards, Qualitätssystemdokumentation, Regulatorische Compliance, Standardarbeitsanweisung (SOP), Teammanagement, Technisches Schreiben, Unternehmensbewertungen, Zeitmanagement",
       "html": null
     },
     "source": {
@@ -1263,7 +1179,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:R-055642",
@@ -1289,7 +1205,7 @@
       "Santa Clara, California, United States of America",
       "Raritan, New Jersey, United States of America"
     ],
-    "workplace": null,
+    "workplace": "onsite",
     "employmentType": "full_time",
     "reqId": "R-055642",
     "timeType": "Vollzeit",
@@ -1329,7 +1245,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:29:30.992Z"
+    "scrapedAt": "2026-02-09T22:59:58.025Z"
   },
   {
     "id": "workday:REQ-10069368",
@@ -1371,7 +1287,7 @@
       }
     },
     "postedAt": "2026-02-02T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10056820",
@@ -1413,7 +1329,91 @@
       }
     },
     "postedAt": "2026-01-28T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
+  },
+  {
+    "id": "workday:REQ-10066516",
+    "company": {
+      "id": "novartis",
+      "name": "Novartis",
+      "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+    },
+    "title": "Director EEE Excellence - Standards, Process and Training",
+    "location": "Hyderabad (Office)",
+    "locations": [
+      "Hyderabad (Office)"
+    ],
+    "workplace": "onsite",
+    "employmentType": "full_time",
+    "reqId": "REQ-10066516",
+    "timeType": "Full time",
+    "workplaceRaw": null,
+    "jobFamily": null,
+    "jobCategory": null,
+    "jobType": null,
+    "department": null,
+    "team": null,
+    "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Hyderabad-Office/Director-EEE-Excellence---Standards--Process-and-Training_REQ-10066516-2",
+    "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Director-EEE-Excellence---Standards--Process-and-Training_REQ-10066516-2",
+    "description": {
+      "text": "Job Description Summary Drive the identification of new topics, development, implementation, internal alignment, and continuous improvement of global standards, end-to-end processes, and training strategies related to External Expert Engagement (EEE). Reporting into the Senior Director, EEE Excellence, this role ensures policies, procedures, and engagement models are documented and consistently aligned with Novartis compliance requirements and business needs across Global and International Medical Affairs. Lead the creation of scalable training and knowledge management solutions to build capabilities across stakeholders and support audit-readiness, operational excellence, and process adoption enterprise-wide. Job Description Major accountabilities: Standards & Process Governance Maintain and update enterprise-wide standards, guidelines, and processes for external expert engagement, ensuring alignment with legal, regulatory, and internal compliance requirements Provide input and maintain, in cooperation with legal and compliance, policies, standards and guidelines to ensure solid ground rules and clear roles and responsibilities for HCP and HCO engagements. Translate policies into clear, practical processes and role-based responsibilities (RACI), enabling operational efficiency and cross-functional clarity Contribute to governance forums and audits by ensuring documented process adherence and improvements are in place Stay at the HCP and HCO transparency forefront to ensure accurate and complete reporting of figures in Business Solutions’ remit Establish an integrated governance plan around observations, periodic reviews, stakeholder alignment, updates, and communication & training. Training & Knowledge Management Design and manage global training content and delivery strategy for GMA/IMA EEE stakeholders, including onboarding programs, systems training, and process refreshers Oversee the creation of toolkits, job aids, FAQs, and training modules in collaboration with internal teams and external vendors Deliver training sessions and support localization or business unit adaptation as needed Drive a culture of continuous learning and readiness by capturing feedback and iterating learning solutions Operational Excellence & Process Improvement Collaborate with colleagues and stakeholders to identify areas of improvement in engagement workflows and user experience, where relevant ensure country and user feedback is obtained and integrated. Ensure training and documentation support business process changes and enhancements Monitor process adherence through internal metrics and contribute to audit support and CAPA implementation where applicable Cross-Functional Collaboration Serve as a key partner to Operations, Legal, Compliance, Governance and IT/Systems teams to align training and standards with execution and systems functionality Ensure that process and training components are consistently integrated into enterprise programs and change initiatives Key performance indicators: % adherence to updated standards and process documentation Timeliness and reach of training programs; stakeholder training satisfaction System usability scores and issue resolution metrics On-time delivery of regulatory reports and audit preparedness Implementation rate of process or system improvement initiatives Minimum Requirements: Education: Master’s degree in Life Sciences, Business, Legal, or a related discipline. Additional certifications in process excellence, training, or digital systems (e.g., Lean, Agile, Lean Six Sigma) are a plus Languages: Excellent English language skills Experience/Professional Requirement: Minimum of 6 years of experience in Health Care compliance in a multinational company Excellent organizational and project management skills Outstanding problem-solving abilities Sound experience in pharmaceutical compliance/ governance environment Excellent communication, interpersonal and presentation skills External vendor management experience Change management skills to sustain a culture of high ethical standards and compliance Strong tolerance for ambiguity, willingness to adapt, willing to speak-up and challenge Experience in developing effective working relationships with internal and external stakeholders Organizational awareness, including experience working cross-functionally and in global teams Other competencies: Well-structured, detail-oriented, diligent, diplomatic, honest, accountable, strong negotiation skills, stress-resistant, ability to build strong relationships and networks Other competencies: Well-structured, detail-oriented, diligent, diplomatic, honest, accountable, strong negotiation skills, stress-resistant, ability to build strong relationships and networks Skills Desired Agility, Agility, Arzneimittelentwicklung, Clinical Practices, Datenanalyse, Ergebnisorientiert, Expertise in vorrangigen Krankheitsbereichen, Fähigkeiten zur Beeinflussung, Forschungsmethoden, Funktionsübergreifende Zusammenarbeit, Health Sciences, Innovation, Inspirierende Führung, Integrierte Evidenzgenerierung, Medical Affairs, Medical Communication, Medizinische Ausbildung, Mitarbeiterentwicklung, Patientenpflege, Personalführung, Pharmazeutik, Product Strategy, Produkteinführungen, Real World Evidence (RWE), Regulatorische Compliance {+ 4 more}",
+      "html": null
+    },
+    "source": {
+      "kind": "workday_api",
+      "raw": {
+        "externalPath": "/job/Hyderabad-Office/Director-EEE-Excellence---Standards--Process-and-Training_REQ-10066516-2",
+        "jobReqId": "REQ-10066516",
+        "postedOnRaw": "Vor 13 Tagen ausgeschrieben",
+        "locations": [
+          "Hyderabad (Office)"
+        ]
+      }
+    },
+    "postedAt": "2026-01-26T23:00:00.000Z",
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
+  },
+  {
+    "id": "workday:REQ-10069789",
+    "company": {
+      "id": "novartis",
+      "name": "Novartis",
+      "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+    },
+    "title": "Director, US IM Medical Affairs Business Planning & Strategy",
+    "location": "East Hanover",
+    "locations": [
+      "East Hanover"
+    ],
+    "workplace": "hybrid",
+    "employmentType": "full_time",
+    "reqId": "REQ-10069789",
+    "timeType": "Full time",
+    "workplaceRaw": "Hybrid",
+    "jobFamily": null,
+    "jobCategory": null,
+    "jobType": null,
+    "department": null,
+    "team": null,
+    "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/East-Hanover/Director--US-IM-Medical-Affairs-Business-Planning---Strategy_REQ-10069789-1",
+    "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/East-Hanover/Director--US-IM-Medical-Affairs-Business-Planning---Strategy_REQ-10069789-1",
+    "description": {
+      "text": "Job Description Summary #LI-Hybrid This position will be based in East Hanover, NJ and will not have the ability to be located remotely. Relocation may be considered. The positions will require 20% travel as defined by the business (domestic and/or international). Job Description The Director Business Planning and Strategy, IM US will work closely with the CMO and Head Medical Affairs in executing the new Medical Affairs strategy, team operations, and enhanced and simplified engagement within Medical Affairs. The Director Business Planning and Strategy will engage with all levels of the organization on behalf of Medical Affairs, identifying areas of strategic and operational focus to enable business-critical transformational change. He/she will play a critical role in managing ongoing organization meeting/ engagement operations, developing cross-divisional interconnectivity, and enable change management for the medical affairs organization. This role has no direct reports. The Director Business Planning and Strategy, US Innovative Medicines Medical Affairs, will be responsible for meeting and engagement planning and excellence across various strategic pillars. This individual will be the key point of contact for executive engagements in the US and Globally in partnership with the Head of Medical Affairs. Major accountabilities: Create and provide strategic communications support for executive engagement for the Head of Medical Strategy Oversee and manage strategic engagements related to critical business priorities to senior internal and external audiences Provide strategic counsel, daily operational and business planning support to the Head of Medical Affairs and Medical Affairs Organization Lead/facilitate MALT meetings/events, defining focus areas based on strategic priorities Lead strategic communications for defined forums and ad-hoc requests from senior leadership, consolidating input from MALT and key stakeholders Own MALT action tracker, following up on open items, ensuring timely feedback/responses Lead MA townhalls’ preparation and facilitate presentations Lead MA internal communications and associate engagement channels and forums Build excellence in day-to-day meeting operations and outcomes in service of the Head of Market Access and Market Access Organization Minimum Requirements: Work Experience: Minimum of 8+ years in pharmaceutical, biotech, healthcare, or healthcare consulting industry inclusive of at least 2 different types of cross-functional roles/experience Minimum 2+ years in project management and translation of strategy into execution Minimum 2+ years leading complex projects requiring global and local alignment AI/Digital Fluency: Experience leveraging data to drive insights and performance metrics to optimize strategies. Experience using digital tools and analytics for KPI measurement and dashboarding. Minimum 2+ years with significant consulting group preferred Minimum 3+ year commercial experience preferably with a multi-functional experience in a pharmaceutical, biotech, healthcare or consulting environment Experience in project management and translation of strategy into execution Strong ability to simplify complex concepts & strategies and “tell a story” orally and in writing Strong analytical skills and an ability to generate insights and develop relevant action plans Strong influencing skills, and the ability to exercise tact and diplomacy in stressful situations Ability to manage multiple priorities and a heavy workload Curious, with excellent listening skills; able to challenge current thinking Track record of exceptional performance and execution that drives results Ability to lead, manage and motivate teams, with or without authority Experience working collaboratively across the matrix Location: East Hanover, NJ; 10-20% travel is required Education: Bachelor’s degree required; MBA or Health Policy degree preferred Novartis Compensation and Benefit Summary: The salary for this position is expected to range between $176,400.000 and $327,600.00 per year. The final salary offered is determined based on factors like, but not limited to, relevant skills and experience, and upon joining Novartis will be reviewed periodically. Novartis may change the published salary range based on company and market factors. Your compensation will include a performance-based cash incentive and, depending on the level of the role, eligibility to be considered for annual equity awards. US-based eligible employees will receive a comprehensive benefits package that includes health, life and disability benefits, a 401(k) with company contribution and match, and a variety of other benefits. In addition, employees are eligible for a generous time off package including vacation, personal days, holidays and other leaves. To learn more about the culture, rewards and benefits we offer our people click here . EEO Statement: The Novartis Group of Companies are Equal Opportunity Employers. We do not discriminate in recruitment, hiring, training, promotion or other employment practices for reasons of race, color, religion, sex, national origin, age, sexual orientation, gender identity or expression, marital or veteran status, disability, or any other legally protected status. Accessibility and reasonable accommodations The Novartis Group of Companies are committed to working with and providing reasonable accommodation to individuals with disabilities. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the application process, or to perform the essential functions of a position, please send an e-mail to us.reasonableaccommodations@novartis.com or call +1(877)395-2339 and let us know the nature of your request and your contact information. Please include the job requisition number in your message. Salary Range $176,400.00 - $327,600.00 Skills Desired Analytische Fähigkeiten, Business Strategy, Change Management, Data Analytics, Entscheidungsbaum (Prognosemodell), Fähigkeiten zur Beeinflussung, Finanzen, Führung, Geschäftsentwicklung, Geschäftspartner, Go-To-Market Strategy, Künstliche Intelligenz (KI), Managementberatung, Pipeline (Software), Senior Management, Strategische Planung",
+      "html": null
+    },
+    "source": {
+      "kind": "workday_api",
+      "raw": {
+        "externalPath": "/job/East-Hanover/Director--US-IM-Medical-Affairs-Business-Planning---Strategy_REQ-10069789-1",
+        "jobReqId": "REQ-10069789",
+        "postedOnRaw": "Vor 4 Tagen ausgeschrieben",
+        "locations": [
+          "East Hanover"
+        ]
+      }
+    },
+    "postedAt": "2026-02-04T23:00:00.000Z",
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10069921",
@@ -1455,7 +1455,7 @@
       }
     },
     "postedAt": "2026-02-04T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10061762",
@@ -1497,7 +1497,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10070092",
@@ -1541,7 +1541,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10070450",
@@ -1583,7 +1583,49 @@
       }
     },
     "postedAt": "2026-02-03T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
+  },
+  {
+    "id": "workday:REQ-10071483",
+    "company": {
+      "id": "novartis",
+      "name": "Novartis",
+      "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+    },
+    "title": "Head, QA Ops and Compliance",
+    "location": "Durham",
+    "locations": [
+      "Durham"
+    ],
+    "workplace": "onsite",
+    "employmentType": "full_time",
+    "reqId": "REQ-10071483",
+    "timeType": "Full time",
+    "workplaceRaw": "Onsite",
+    "jobFamily": null,
+    "jobCategory": null,
+    "jobType": null,
+    "department": null,
+    "team": null,
+    "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Durham/Head--QA-Ops-and-Compliance_REQ-10071483-1",
+    "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Durham/Head--QA-Ops-and-Compliance_REQ-10071483-1",
+    "description": {
+      "text": "Job Description Summary Job Description Summary Provide strategic and hands on leadership for Quality Assurance within the Small Molecule Operations division, ensuring excellence in cGMP compliance, regulatory execution, and quality oversight across all operational activities. This role leads and develops Quality Assurance Managers, partners closely with manufacturing and external suppliers, and ensures that all products, manufactured on site, by external partners, or imported, are released to market in full alignment with Novartis Quality Standards, policies, and global regulatory requirements. The Head, QA Ops and Compliance plays a pivotal role in safeguarding product quality, enabling operational excellence, and supporting the reliable and compliant supply of high quality small molecule therapies to patients. Job Description #LI-Onsite Location: Durham, NC This role is on-site 5 days a week and does not have the ability to work remotely. This role is located in Durham, NC and will eventually move to Morrisville, NC at a later date Key Responsibilities: Provide end-to-end leadership for Quality Operations and Compliance across manufacturing, Quality Control, AS&T, and logistics, ensuring adherence to cGMP, regulatory requirements, and internal quality standards. Serve as the final QA authority for review, approval, and release of batch documentation and patient or commercial product lots manufactured at the site. Ensure strong on-the-floor QA presence, delivering real-time quality oversight, decision-making, and guidance to support compliant and efficient operations. Lead investigations of deviations, OOX/OOS events, complaints, and adverse events, ensuring timely root cause analysis, effective CAPA implementation, and sustainable corrective actions. Implement and maintain site Quality Systems, including SOP governance, training compliance, documentation control, and inspection readiness for internal, external, and regulatory audits. Drive QA Operational Excellence through performance metrics (KPIs/KQIs), continuous improvement initiatives, and proactive identification of quality and process risks. Provide QA leadership for technology transfers, process validation, and new equipment commissioning, including review and approval of validation strategies and OQ/PQ execution. Lead, develop, and retain a high-performing QA team through hiring, coaching, performance management, and resource planning, while supporting budget and capacity planning in alignment with site strategy. Essential Requirements: BS or MS in Life Sciences, Pharmacy, Chemistry, Biotechnology, or related scientific discipline; advanced degree preferred. Minimum 10+ years of experience in pharmaceutical, biotechnology, or cell and gene therapy industry within cGMP regulated environments. Demonstrated experience in Quality Operations and/or Quality Systems & Compliance leadership roles, with direct responsibility for product release, quality systems, and audit readiness. Minimum 6-10 years of direct people leadership, including team development, performance management, and cross-functional collaboration. Strong working knowledge of FDA, EMA, and global regulatory requirements, including experience supporting regulatory inspections and audits. Proven experience leading deviation investigations, CAPA management, and continuous improvement initiatives in an operational QA setting. Experience supporting manufacturing operations, Quality Control, validation, and technology transfer activities. Excellent communication, decision-making, and organizational skills, with the ability to operate effectively in a fast-paced CGT manufacturing environment. Fluency in English (written and verbal). Novartis Compensation and Benefit Summary: The salary for this position is expected to range between $138,600 and $257,400/year. The final salary offered is determined based on factors like, but not limited to, relevant skills and experience, and upon joining Novartis will be reviewed periodically. Novartis may change the published salary range based on company and market factors. Your compensation will include a performance-based cash incentive and, depending on the level of the role, eligibility to be considered for annual equity awards. US-based eligible employees will receive a comprehensive benefits package that includes health, life and disability benefits, a 401(k) with company contribution and match, and a variety of other benefits. In addition, employees are eligible for a generous time off package including vacation, personal days, holidays and other leaves. EEO Statement: The Novartis Group of Companies are Equal Opportunity Employers. We do not discriminate in recruitment, hiring, training, promotion or other employment practices for reasons of race, color, religion, sex, national origin, age, sexual orientation, gender identity or expression, marital or veteran status, disability, or any other legally protected status. Accessibility and reasonable accommodations The Novartis Group of Companies are committed to working with and providing reasonable accommodation to individuals with disabilities. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the application process, or to perform the essential functions of a position, please send an e-mail to us.reasonableaccommodations@novartis.com or call +1(877)395-2339 and let us know the nature of your request and your contact information. Please include the job requisition number in your message. Salary Range $138,600.00 - $257,400.00 Skills Desired Communication Skills, Datenintegrität, Dealing With Ambiguity, Digital saviness, Entscheidungsfindung, Führung, Problem Solving Skills, Regulatory Requirements knowledge, Zusammenarbeit",
+      "html": null
+    },
+    "source": {
+      "kind": "workday_api",
+      "raw": {
+        "externalPath": "/job/Durham/Head--QA-Ops-and-Compliance_REQ-10071483-1",
+        "jobReqId": "REQ-10071483",
+        "postedOnRaw": "Vor 4 Tagen ausgeschrieben",
+        "locations": [
+          "Durham"
+        ]
+      }
+    },
+    "postedAt": "2026-02-04T23:00:00.000Z",
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10068041",
@@ -1625,7 +1667,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10066624",
@@ -1667,7 +1709,7 @@
       }
     },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10070332",
@@ -1709,7 +1751,7 @@
       }
     },
     "postedAt": "2026-02-01T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10066689",
@@ -1751,7 +1793,7 @@
       }
     },
     "postedAt": "2026-01-27T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10065405",
@@ -1793,7 +1835,7 @@
       }
     },
     "postedAt": "2026-02-02T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10070943",
@@ -1835,49 +1877,7 @@
       }
     },
     "postedAt": "2026-02-04T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
-  },
-  {
-    "id": "workday:REQ-10070457",
-    "company": {
-      "id": "novartis",
-      "name": "Novartis",
-      "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
-    },
-    "title": "Record to Report Manager",
-    "location": "INSURGENTES",
-    "locations": [
-      "INSURGENTES"
-    ],
-    "workplace": null,
-    "employmentType": "full_time",
-    "reqId": "REQ-10070457",
-    "timeType": "Full time",
-    "workplaceRaw": null,
-    "jobFamily": null,
-    "jobCategory": null,
-    "jobType": null,
-    "department": null,
-    "team": null,
-    "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/INSURGENTES/Record-to-Report-Manager_REQ-10070457-1",
-    "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/INSURGENTES/Record-to-Report-Manager_REQ-10070457-1",
-    "description": {
-      "text": "Job Description Summary Das Unternehmen innerhalb eines Landes mit komplexen Analysen, Berichten, Prognosen usw. zu unterstützen (in der Regel sehr hohe bis hohe Einnahmen) und fachliche Beratung innerhalb eines FRA-Kernprozesses/-bereichs/-technologie Job Description Major Accountabilities ~ Gewährleistung der operativen Umsetzung der strategischen Finanzziele innerhalb eines speziellen Unternehmensbereichs sowie Überwachung der Leistung und Entwicklung eines kleinen Teams von FRA-Spezialisten. ~ Gewährleistung der Integrität, Durchführbarkeit und Interoperabilität der Finanzberichterstattungsprozesse (Ist-Daten, Budgets und neueste Schätzungen) und -systeme, einschließlich Steuer-, Bestands- und Unternehmenskontrollen sowie Zahlungs- und Einkaufsdaten. ~ Leiten und Betreiben der grundlegenden Berichterstattung für Ist Daten und Prognosen von Qualität und mit schnellstmöglichem Abschluss. ~ Bereitstellung von Finanzbuchhaltungsdiensten und -daten in zeitnaher und genauer Weise, einschließlich Anlagevermögen, Cash-Aktivitäten und Veräußerungsaktivitäten; Gewährleistung der Bereitstellung angemessener Informationen für relevante Einzelpersonen und externe Stellen. ~ Leitung von Audit Prozessen und Unterstützung bei der Einhaltung verschiedener steuerbezogener Berichte (z. B.: Mehrwertsteuer, Körperschaftssteuer, Mitarbeitersteuer); alle Daten für interne und externe Behörden. ~ Leitung und Automatisierung der Bereitstellung von Routineinformationen für lokale Benutzer aus SAP und BW und Wahrnehmung von Superuser-Zuständigkeiten für Finanz- und Controlling-Module in SAP. ~ Überwachung der Entwicklung und Pflege der aktuellen Berichtssysteme (SAP, BW, Excel); Integration anderer Anforderungen und der sich ändernden Bedürfnisse der Organisation, so dass die Prozesse zur Berichterstattung über Ist-Daten, Budgets, neueste Schätzungen und mittelfristige Pläne kosteneffektiv und reaktionsschnell erfüllt werden. ~ Erstellung Ad-hoc- und routinemäßiger Informationen zu Buchhaltung/Management sowie Finanzanalysen von hoher Qualität zur Erfüllung der globalen und organisatorischen Anforderungen. ~ Meldung von technischen Beschwerden / unerwünschten Ereignissen / Sonderfallszenarien im Zusammenhang mit Novartis-Produkten innerhalb von 24 Stunden nach Erhalt ~ Verteilung von Vermarktungsmustern (falls zutreffend) Key Performance Indicators ~ Interne Kundenzufriedenheit mit der Qualität, Angemessenheit und Pünktlichkeit der bereitgestellten Finanzanalysen ~ Kundenzufriedenheit bei der Erbringung von Dienstleistungen und prozessspezifische KPIs gemäß vereinbarten SLAs Work Experience ~Operations Management und Ausführung ~Führungsqualitäten ~Funktionale Breite Skills ~Werttreiber verstehen ~Kritisches Denken ~Fähigkeit, wichtige Stakeholder zu beeinflussen ~Effektive Kommunikation ~Prozessoptimierung ~Effektive Teams aufbauen ~Personalentwicklung ~Finanzbuchhaltung ~Finanz- und Managementberichterstattung ~Ressourcenallokation Language Englisch Skills Desired Building Effective Teams, Effective Communications, Fähigkeit, wichtige Stakeholder zu beeinflussen, Finanzbuchhaltung, Finanz- und Managementberichterstattung, Kritisches Denken, Personalentwicklung, Prozessoptimierung, Ressourcenallokation, Werttreiber verstehen",
-      "html": null
-    },
-    "source": {
-      "kind": "workday_api",
-      "raw": {
-        "externalPath": "/job/INSURGENTES/Record-to-Report-Manager_REQ-10070457-1",
-        "jobReqId": "REQ-10070457",
-        "postedOnRaw": "Vor 6 Tagen ausgeschrieben",
-        "locations": [
-          "INSURGENTES"
-        ]
-      }
-    },
-    "postedAt": "2026-02-02T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10070456",
@@ -1919,7 +1919,7 @@
       }
     },
     "postedAt": "2026-01-29T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10070451",
@@ -1961,7 +1961,7 @@
       }
     },
     "postedAt": "2026-01-29T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10064968",
@@ -2003,7 +2003,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10065292",
@@ -2045,7 +2045,7 @@
       }
     },
     "postedAt": "2026-02-01T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10071502",
@@ -2087,7 +2087,7 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   },
   {
     "id": "workday:REQ-10071368",
@@ -2114,7 +2114,7 @@
     "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Basel-City/Value---Access-Exe-Director-IM-EU_REQ-10071368-2",
     "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Basel-City/Value---Access-Exe-Director-IM-EU_REQ-10071368-2",
     "description": {
-      "text": "Job Description Summary The Executive Director, Value and Access for the Direct Report Markets in Region Europe leads and executes the patient access strategy for Novartis portfolio products in a region/country - working strategically and operationally in partnership with Regional TAs, Medical, CE&E and priority Country teams to maximize access to IM assets. This senior leader drives the execution of innovative Patient Access strategy across the strategic TAs for compounds/brands from (pre) POC up to the end of their commercial lifecycle post launch and is also responsible for building and continually enhancing best in class Patient Access capabilities to establish and retain competitive advantage in a dynamic market environment. Reporting to the Region Europe V&A Head, the ED is an active member of the Region Europe Access leadership team and provides strategic directions to access leaders in the region. Job Description MAJOR ACCOUNTABILITIES: · Develops and implements access solutions serving strategic TAs and maximizing IM assets, with focus on our priority geographic markets, major HTA architypes and budget impact archetypes needs and feasibility. · Representation of region access at the international level. · Responsible for pricing strategy across brands and countries. · Provides effective and inspiring functional leadership for the market access team(s), actively works on career development. · Work in close collaboration with International V&A and the Cluster countries​. · Utilizes sound understanding and knowledge of local healthcare systems to support countries in development and execution of V&A strategies. Partners with Medical Affairs, Commercial, Regulatory, Public Affairs, Communications & Patient Engagement to ensure robust launch readiness plans and integrated approaches to access. Build and maintain relationships with key external stakeholders (payers, HTA bodies, government agencies, patient organizations) to advocate for patient access and shape policy. Monitors and influences healthcare policy developments impacting access, collaborating with public affairs to create a favorable access environment. Represent Novartis in external governmental, payer, HTA, and patient advocacy forums, actively promoting access-related initiatives, shaping evidentiary standards, and supporting innovation in market access and patient outcomes through education and policy engagement. Accountable for Value and access performance management, incl. metrics & KPIs being updated and tracked. KPIs include Revenue, market availability/level of access, time to market, pricing vs. targets, Reimbursement / Listing status of Key Brands - Performance vs. functional targets. Role models ethical standards and contribute proactively to a credible image for Novartis in the Region Europe. Optimizes Value and Access resources and allocation: Advocates early resourcing where and when appropriate, while ensuring cost adherence in spend of V&A activities and resourcing. Ability to articulate and defend priorities and needs of access with strong influencing skills. Leads and develops the value and access team, fostering leadership, talent, and critical capabilities across the region. Ensures all access activities adhere to governance, compliance, quality, and ethical standards. Requirements: Minimum Requirements: At least 10-15 years of experience in the pharmaceutical industry, with significant senior leadership experience in market access, pricing, reimbursement, or health policy. Advanced degree in life sciences, health economics, public health, or related field; business qualification (e.g., MBA) is desirable. Experience in both country and regional/global roles; strong knowledge of key European markets and HTA-based systems. Proven track record in developing and executing access strategies and leading cross-functional teams. Understanding of National Health Care, regulatory environment of drug. Able to understand changing dynamics of pharmaceutical industry. Strong business acumen, superior leadership, and influencing skills. Strategic and enterprise thinking, with flexibility to manage complexity. Competencies: Demonstrates strong communication skills and can influence across a range of diverse stakeholders to drive change Balances strategy and operational excellence to ensure end to end execution of the strategy Effectively balances the needs of various stakeholders and defines priorities based on highest impact for business and patients Strong solution-orientation and enterprise mindset Competitive and entrepreneurial mindset with proven track record of fostering innovation Skills Desired Ergebnisorientiert, Ergebnisorientiert, Fähigkeiten zur Beeinflussung, Finanzen, Funktionsübergreifendes Arbeiten, Gesundheitsökonomie, Gesundheitspolitik, Gesundheitstechnologiebewertung (HTA), Go-to-Market-Strategien, Innovation, Inspirierende Führung, Kundenzentrierte Denkweise, LCM-Strategie, Marktzugangsstrategien, Mitarbeiterentwicklung, Öffentliche Angelegenheiten, Personalführung, Preisstrategien, Produkteinführungen, Prozessmanagement, Real World Evidence (RWE), Regulatorische Compliance, Ressourcenallokation, Risiko-Management, Schnelligkeits- und Agilitätstraining (Inactive) {+ 6 more}",
+      "text": "Job Description Summary The Executive Director, Value and Access for the Direct Report Markets in Region Europe leads and executes the patient access strategy for Novartis portfolio products in a region/country - working strategically and operationally in partnership with Regional TAs, Medical, CE&E and priority Country teams to maximize access to IM assets. This senior leader drives the execution of innovative Patient Access strategy across the strategic TAs for compounds/brands from (pre) POC up to the end of their commercial lifecycle post launch and is also responsible for building and continually enhancing best in class Patient Access capabilities to establish and retain competitive advantage in a dynamic market environment. Reporting to the Region Europe V&A Head, the ED is an active member of the Region Europe Access leadership team and provides strategic directions to access leaders in the region. Job Description MAJOR ACCOUNTABILITIES: · Develops and implements access solutions serving strategic TAs and maximizing IM assets, with focus on our priority geographic markets, major HTA architypes and budget impact archetypes needs and feasibility. · Representation of region access at the international level. · Responsible for pricing strategy across brands and countries. · Provides effective and inspiring functional leadership for the market access team(s), actively works on career development. · Work in close collaboration with International V&A and the Cluster countries. · Utilizes sound understanding and knowledge of local healthcare systems to support countries in development and execution of V&A strategies. Partners with Medical Affairs, Commercial, Regulatory, Public Affairs, Communications & Patient Engagement to ensure robust launch readiness plans and integrated approaches to access. Build and maintain relationships with key external stakeholders (payers, HTA bodies, government agencies, patient organizations) to advocate for patient access and shape policy. Monitors and influences healthcare policy developments impacting access, collaborating with public affairs to create a favorable access environment. Represent Novartis in external governmental, payer, HTA, and patient advocacy forums, actively promoting access-related initiatives, shaping evidentiary standards, and supporting innovation in market access and patient outcomes through education and policy engagement. Accountable for Value and access performance management, incl. metrics & KPIs being updated and tracked. KPIs include Revenue, market availability/level of access, time to market, pricing vs. targets, Reimbursement / Listing status of Key Brands - Performance vs. functional targets. Role models ethical standards and contribute proactively to a credible image for Novartis in the Region Europe. Optimizes Value and Access resources and allocation: Advocates early resourcing where and when appropriate, while ensuring cost adherence in spend of V&A activities and resourcing. Ability to articulate and defend priorities and needs of access with strong influencing skills. Leads and develops the value and access team, fostering leadership, talent, and critical capabilities across the region. Ensures all access activities adhere to governance, compliance, quality, and ethical standards. Requirements: Minimum Requirements: At least 10-15 years of experience in the pharmaceutical industry, with significant senior leadership experience in market access, pricing, reimbursement, or health policy. Advanced degree in life sciences, health economics, public health, or related field; business qualification (e.g., MBA) is desirable. Experience in both country and regional/global roles; strong knowledge of key European markets and HTA-based systems. Proven track record in developing and executing access strategies and leading cross-functional teams. Understanding of National Health Care, regulatory environment of drug. Able to understand changing dynamics of pharmaceutical industry. Strong business acumen, superior leadership, and influencing skills. Strategic and enterprise thinking, with flexibility to manage complexity. Competencies: Demonstrates strong communication skills and can influence across a range of diverse stakeholders to drive change Balances strategy and operational excellence to ensure end to end execution of the strategy Effectively balances the needs of various stakeholders and defines priorities based on highest impact for business and patients Strong solution-orientation and enterprise mindset Competitive and entrepreneurial mindset with proven track record of fostering innovation Skills Desired Ergebnisorientiert, Ergebnisorientiert, Fähigkeiten zur Beeinflussung, Finanzen, Funktionsübergreifendes Arbeiten, Gesundheitsökonomie, Gesundheitspolitik, Gesundheitstechnologiebewertung (HTA), Go-to-Market-Strategien, Innovation, Inspirierende Führung, Kundenzentrierte Denkweise, LCM-Strategie, Marktzugangsstrategien, Mitarbeiterentwicklung, Öffentliche Angelegenheiten, Personalführung, Preisstrategien, Produkteinführungen, Prozessmanagement, Real World Evidence (RWE), Regulatorische Compliance, Ressourcenallokation, Risiko-Management, Schnelligkeits- und Agilitätstraining (Inactive) {+ 6 more}",
       "html": null
     },
     "source": {
@@ -2129,6 +2129,6 @@
       }
     },
     "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:27:29.727Z"
+    "scrapedAt": "2026-02-09T22:57:42.334Z"
   }
 ]
