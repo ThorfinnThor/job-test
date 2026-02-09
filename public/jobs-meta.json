@@ -1,14 +1,14 @@
 {
-  "scrapedAt": "2026-02-09T11:41:29.917Z",
-  "total": 507,
+  "scrapedAt": "2026-02-09T20:43:04.969Z",
+  "total": 517,
   "sources": {
     "immatics": 5,
-    "novartis": 253,
-    "jnj": 249
+    "novartis": 257,
+    "jnj": 255
   },
   "filteredOutNonDeEn": {
     "immatics": 0,
-    "novartis": 4,
-    "jnj": 11
+    "novartis": 3,
+    "jnj": 5
   }
 }
