@@ -64,6 +64,12 @@ export default async function JobPage({ params }: { params: { id: string } }) {
         <span>{job.company.name}</span>
         <span>·</span>
         <span>{job.location ?? "Location not listed"}</span>
+        {job.postedAt ? (
+          <>
+            <span>·</span>
+            <span>Posted {new Date(job.postedAt).toLocaleDateString()}</span>
+          </>
+        ) : null}
       </div>
 
       <div className="jobLayout">
@@ -98,6 +104,7 @@ export default async function JobPage({ params }: { params: { id: string } }) {
           <div className="metaRow" style={{ marginBottom: 12 }}>
             {job.workplace ? <span className="pill">{job.workplace}</span> : null}
             {job.employmentType ? <span className="pill">{job.employmentType}</span> : null}
+            {job.timeType ? <span className="pill">{job.timeType}</span> : null}
             {job.department ? <span className="pill">{job.department}</span> : null}
             {job.team ? <span className="pill">{job.team}</span> : null}
           </div>
@@ -105,6 +112,34 @@ export default async function JobPage({ params }: { params: { id: string } }) {
           <a className="button" href={job.applyUrl ?? job.url} target="_blank" rel="noreferrer">
             Apply / View original posting →
           </a>
+
+          <div className="small" style={{ marginTop: 14 }}>
+            {job.reqId ? (
+              <div>
+                <strong>Req ID:</strong> {job.reqId}
+              </div>
+            ) : null}
+            {job.jobFamily ? (
+              <div>
+                <strong>Job family:</strong> {job.jobFamily}
+              </div>
+            ) : null}
+            {job.jobCategory ? (
+              <div>
+                <strong>Job category:</strong> {job.jobCategory}
+              </div>
+            ) : null}
+            {job.jobType ? (
+              <div>
+                <strong>Job type:</strong> {job.jobType}
+              </div>
+            ) : null}
+            {Array.isArray(job.locations) && job.locations.length > 1 ? (
+              <div>
+                <strong>Locations:</strong> {job.locations.join(" | ")}
+              </div>
+            ) : null}
+          </div>
 
           <div className="small" style={{ marginTop: 12 }}>
             <div>
