@@ -37,6 +37,7 @@ function jsonLd(job: any) {
 }
 
 export default async function JobPage({ params }: { params: { id: string } }) {
+  const tz = "Europe/Berlin";
   const id = decodeURIComponent(params.id);
   const job = await getJobById(id);
 
@@ -67,7 +68,7 @@ export default async function JobPage({ params }: { params: { id: string } }) {
         {job.postedAt ? (
           <>
             <span>·</span>
-            <span>Posted {new Date(job.postedAt).toLocaleDateString()}</span>
+            <span>Posted {new Date(job.postedAt).toLocaleDateString("de-DE", { timeZone: tz })}</span>
           </>
         ) : null}
       </div>
@@ -79,7 +80,7 @@ export default async function JobPage({ params }: { params: { id: string } }) {
           <p className="small">
             Source: <strong>{job.source.kind}</strong>
             {" · "}
-            Scraped: <strong>{new Date(job.scrapedAt).toLocaleString()}</strong>
+            Scraped: <strong>{new Date(job.scrapedAt).toLocaleString("de-DE", { timeZone: tz })}</strong>
           </p>
 
           <hr className="hr" />
