@@ -13,8 +13,50 @@ export function absoluteUrl(base, href) {
   }
 }
 
+// Decode common HTML entities + numeric entities without adding deps.
+export function decodeHtmlEntities(str) {
+  const s = String(str ?? "");
+  if (!s.includes("&")) return s;
+
+  const named = {
+    amp: "&",
+    lt: "<",
+    gt: ">",
+    quot: '"',
+    apos: "'",
+    nbsp: " ",
+    ndash: "–",
+    mdash: "—",
+    hellip: "…",
+    rsquo: "’",
+    lsquo: "‘",
+    ldquo: "“",
+    rdquo: "”"
+  };
+
+  return s
+    .replace(/&(#\d+|#x[0-9a-fA-F]+|[a-zA-Z]+);/g, (m, g1) => {
+      if (!g1) return m;
+      if (g1[0] === "#") {
+        const hex = g1[1]?.toLowerCase() === "x";
+        const n = parseInt(g1.slice(hex ? 2 : 1), hex ? 16 : 10);
+        if (!Number.isFinite(n)) return m;
+        try {
+          return String.fromCodePoint(n);
+        } catch {
+          return m;
+        }
+      }
+      const key = g1.toLowerCase();
+      return Object.prototype.hasOwnProperty.call(named, key) ? named[key] : m;
+    })
+    .replace(/\u00A0/g, " ");
+}
+
 export function stripHtml(html) {
-  return cleanText(String(html ?? "").replace(/<[^>]*>/g, " "));
+  const noTags = String(html ?? "").replace(/<[^>]*>/g, " ");
+  const decoded = decodeHtmlEntities(noTags);
+  return cleanText(decoded);
 }
 
 export function stableId(prefix, uniqueString) {
