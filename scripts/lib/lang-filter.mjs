@@ -1,6 +1,6 @@
 import { franc } from "franc-min";
 
-// Very small German/English stopword sets (fallback when language detection is inconclusive).
+// Small stopword sets (fallback when language detection is inconclusive)
 const EN_STOP = new Set([
   "the","and","for","with","to","of","in","on","at","from","your","you","we","our","a","an",
   "as","is","are","be","will","this","that","role","responsibilities","requirements"
@@ -25,13 +25,12 @@ function nonLatinRatio(text) {
   let letters = 0;
 
   for (const ch of s) {
-    const code = ch.codePointAt(0);
-
-    // Count only letters-ish characters (skip digits/punctuation/whitespace)
-    if (!(/[A-Za-z\u00C0-\u024F]/.test(ch)) && !(/\p{L}/u.test(ch))) continue;
+    // Count only letters-ish characters
+    if (!(/\p{L}/u.test(ch))) continue;
     letters += 1;
 
     // Treat Latin + Latin-extended as "Latin"; everything else counts as non-Latin
+    const code = ch.codePointAt(0);
     const isLatin =
       (code >= 0x0041 && code <= 0x007a) || // basic Latin letters
       (code >= 0x00c0 && code <= 0x024f) || // Latin-1 + Latin Extended
@@ -41,6 +40,13 @@ function nonLatinRatio(text) {
   }
 
   return letters === 0 ? 0 : nonLatin / letters;
+}
+
+function containsCJKOrArabicOrCyrillic(text) {
+  // Very robust “title gate” for obvious non-DE/EN titles.
+  return /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Arabic}\p{Script=Cyrillic}]/u.test(
+    String(text || "")
+  );
 }
 
 function stopwordScore(text, stopset) {
@@ -55,14 +61,13 @@ function stopwordScore(text, stopset) {
 
 export function isGermanOrEnglish(text) {
   const sample = normalizeSample(text);
-  if (!sample) return true; // nothing to judge => keep
+  if (!sample) return true;
 
-  // If the text is clearly in a non-Latin script, drop it (Chinese, Japanese, Arabic, Cyrillic, etc.)
+  // If the text is clearly in a non-Latin script, drop it
+  if (containsCJKOrArabicOrCyrillic(sample)) return false;
   if (nonLatinRatio(sample) > 0.15) return false;
 
   // Primary detector: franc (ISO-639-3)
-  // - whitelist avoids random guesses into unrelated languages
-  // - if it returns 'und', we fall back to stopwords
   const minLength = 60;
   const lang = franc(sample, { minLength, whitelist: ["deu", "eng"] });
 
@@ -73,10 +78,35 @@ export function isGermanOrEnglish(text) {
   const de = stopwordScore(sample, DE_STOP);
   if (en >= 0.02 || de >= 0.02) return true;
 
-  // Long Latin text with no EN/DE signal: treat as non-en/de
+  // Long Latin text with no EN/DE signal -> treat as non-en/de
   if (sample.length >= 120) return false;
 
-  // Short/ambiguous: keep to avoid false negatives
+  // Short/ambiguous -> keep to avoid false negatives
+  return true;
+}
+
+function isTitleGermanOrEnglish(title) {
+  const t = normalizeSample(title);
+  if (!t) return true; // don’t drop because of missing title; upstream should validate title anyway
+
+  // Strong gate: obvious non-Latin scripts in title
+  if (containsCJKOrArabicOrCyrillic(t)) return false;
+
+  // Ratio gate: if title is mostly non-Latin letters, drop
+  if (nonLatinRatio(t) > 0.10) return false;
+
+  // For longer titles, use franc; for short titles franc often returns "und"
+  if (t.length >= 20) {
+    const lang = franc(t, { minLength: 10, whitelist: ["deu", "eng"] });
+    if (lang === "deu" || lang === "eng") return true;
+  }
+
+  // Stopword fallback (helps for short EN/DE titles)
+  const en = stopwordScore(t, EN_STOP);
+  const de = stopwordScore(t, DE_STOP);
+  if (en >= 0.02 || de >= 0.02) return true;
+
+  // If it’s Latin-ish and short, keep (avoid false negatives on titles like "QA Engineer")
   return true;
 }
 
@@ -88,6 +118,12 @@ export function filterJobsGermanEnglish(jobs) {
     const title = job?.title || "";
     const desc = job?.description?.text || "";
     const combined = `${title}\n\n${desc}`.trim();
+
+    // NEW: title must pass, independently of description
+    if (!isTitleGermanOrEnglish(title)) {
+      removed.push(job);
+      continue;
+    }
 
     if (isGermanOrEnglish(combined)) kept.push(job);
     else removed.push(job);
