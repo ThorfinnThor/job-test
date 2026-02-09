@@ -1,6 +1,6 @@
 import { franc } from "franc-min";
 
-// Small stopword sets (used only as fallback when franc is 'und')
+// Small stopword sets (fallback when franc is 'und')
 const EN_STOP = new Set([
   "the","and","for","with","to","of","in","on","at","from","your","you","we","our","a","an",
   "as","is","are","be","will","this","that","role","responsibilities","requirements"
@@ -37,8 +37,8 @@ function nonLatinRatio(text) {
 
     const code = ch.codePointAt(0);
     const isLatin =
-      (code >= 0x0041 && code <= 0x007a) || // basic Latin letters
-      (code >= 0x00c0 && code <= 0x024f) || // Latin-1 + Latin Extended
+      (code >= 0x0041 && code <= 0x007a) || // basic Latin
+      (code >= 0x00c0 && code <= 0x024f) || // Latin Extended
       (code >= 0x1e00 && code <= 0x1eff);   // Latin Extended Additional
 
     if (!isLatin) nonLatin += 1;
@@ -57,46 +57,20 @@ function stopwordScore(text, stopset) {
   return hits / words.length;
 }
 
-function francLang(text, minLength = 80) {
+function francLang(text, minLength) {
   const sample = normalizeSample(text);
   if (!sample || sample.length < minLength) return "und";
   return franc(sample, { minLength });
 }
 
-function isLikelyDeOrEn(text) {
-  const sample = normalizeSample(text);
-  if (!sample) return true;
-
-  if (containsNonLatinScript(sample)) return false;
-  if (nonLatinRatio(sample) > 0.15) return false;
-
-  const lang = francLang(sample, 80);
-  if (lang === "deu" || lang === "eng") return true;
-
-  if (lang === "und") {
-    const en = stopwordScore(sample, EN_STOP);
-    const de = stopwordScore(sample, DE_STOP);
-    // low thresholds; just catch obvious DE/EN
-    if (en >= 0.02 || de >= 0.02) return true;
-    // short ambiguous -> keep (reduce false negatives)
-    return sample.length < 140;
-  }
-
-  // clearly something else (spa, fra, por, ita, etc.)
-  return false;
-}
-
+// Conservative boilerplate stripping (prevents “German intro + Spanish body” from passing).
 function stripCommonBoilerplate(text) {
-  // Remove common Johnson & Johnson boilerplate blocks that can "poison" language detection.
-  // Keep this conservative: remove only when the phrases clearly appear.
   let s = String(text || "");
   const patterns = [
-    /Bei\s+Johnson\s*&\s*Johnson\s+glauben\s+wir[\s\S]{0,1200}(?=\n\n|\n\s*\n)/i,
-    /At\s+Johnson\s*&\s*Johnson\s+we\s+believe[\s\S]{0,1200}(?=\n\n|\n\s*\n)/i
+    /Bei\s+Johnson\s*&\s*Johnson\s+glauben\s+wir[\s\S]{0,1500}(?=\n\n|\n\s*\n)/i,
+    /At\s+Johnson\s*&\s*Johnson\s+we\s+believe[\s\S]{0,1500}(?=\n\n|\n\s*\n)/i
   ];
-  for (const p of patterns) {
-    s = s.replace(p, "");
-  }
+  for (const p of patterns) s = s.replace(p, "");
   return s;
 }
 
@@ -104,38 +78,61 @@ function chunkSamples(text) {
   const s0 = normalizeSample(text);
   if (!s0) return [];
 
-  const s = stripCommonBoilerplate(s0);
+  const s = normalizeSample(stripCommonBoilerplate(s0));
+  if (!s) return [];
 
-  const out = [];
   const n = s.length;
+  const take = (start, len = 700) => s.slice(Math.max(0, start), Math.min(n, start + len));
 
-  const take = (start) => s.slice(start, Math.min(start + 600, n));
+  // Short description: one chunk
+  if (n <= 900) return [s];
 
-  if (n <= 700) {
-    out.push(s);
-    return out;
+  return [
+    take(0),
+    take(Math.floor(n / 2) - 350),
+    s.slice(Math.max(0, n - 700))
+  ].map(normalizeSample).filter(Boolean);
+}
+
+function classifyChunk(text) {
+  const s = normalizeSample(text);
+  if (!s) return "unknown";
+
+  // hard reject for non-Latin scripts
+  if (containsNonLatinScript(s)) return "foreign";
+  if (nonLatinRatio(s) > 0.15) return "foreign";
+
+  const lang = francLang(s, 120);
+
+  if (lang === "deu" || lang === "eng") return "de_en";
+
+  if (lang === "und") {
+    // fall back to stopwords
+    const en = stopwordScore(s, EN_STOP);
+    const de = stopwordScore(s, DE_STOP);
+    if (en >= 0.02 || de >= 0.02) return "de_en";
+    return "unknown";
   }
 
-  out.push(take(0));                       // start
-  out.push(take(Math.floor(n / 2) - 300)); // middle
-  out.push(s.slice(Math.max(0, n - 600))); // end
-  return out.map((x) => normalizeSample(x)).filter(Boolean);
+  // Anything else (fra/spa/por/nld/pol/ita/etc.) counts as foreign
+  return "foreign";
 }
 
 function isTitleGermanOrEnglish(title) {
   const t = normalizeSample(title);
   if (!t) return true;
 
-  // Hard reject: Chinese/Japanese/Arabic/Cyrillic etc.
   if (containsNonLatinScript(t)) return false;
-
-  // Ratio gate for mixed titles
   if (nonLatinRatio(t) > 0.10) return false;
 
-  // For longer titles, require franc to say DE/EN (or be und + stopwords)
-  if (t.length >= 18) return isLikelyDeOrEn(t);
+  // For meaningful titles, require DE/EN.
+  // (This drops French/Spanish/Portuguese titles that previously slipped through as "und".)
+  if (t.length >= 10) {
+    const c = classifyChunk(t);
+    return c === "de_en";
+  }
 
-  // Short Latin titles like "QA Engineer" should pass.
+  // Very short titles like "QA" / "R&D" are ambiguous -> keep
   return true;
 }
 
@@ -147,44 +144,42 @@ export function filterJobsGermanEnglish(jobs) {
     const title = job?.title || "";
     const desc = job?.description?.text || "";
 
-    // 1) Title must be DE/EN (prevents Chinese titles leaking through)
+    // 1) Title gate (strict)
     if (!isTitleGermanOrEnglish(title)) {
       removed.push(job);
       continue;
     }
 
-    // 2) Description sampling: if it contains strong non-DE/EN chunks, drop it.
-    // This is robust against "German boilerplate + Spanish body" cases.
+    // 2) Description gate (strict)
+    // If ANY sampled chunk is clearly foreign -> remove.
     const samples = chunkSamples(desc);
-    if (!samples.length) {
+    if (samples.length === 0) {
+      // No description -> keep (avoid dropping valid postings)
       kept.push(job);
       continue;
     }
 
-    let nonDeEnStrong = 0;
-    let deEnStrong = 0;
+    let deEn = 0;
+    let foreign = 0;
+    let unknown = 0;
 
     for (const s of samples) {
-      const lang = francLang(s, 80);
-      if (lang === "deu" || lang === "eng") {
-        deEnStrong += 1;
-      } else if (lang !== "und") {
-        nonDeEnStrong += 1;
-      } else {
-        // und: try stopwords
-        const en = stopwordScore(s, EN_STOP);
-        const de = stopwordScore(s, DE_STOP);
-        if (en >= 0.02 || de >= 0.02) deEnStrong += 1;
-      }
+      const cls = classifyChunk(s);
+      if (cls === "de_en") deEn += 1;
+      else if (cls === "foreign") foreign += 1;
+      else unknown += 1;
     }
 
-    // If any chunk is clearly non-DE/EN AND we don't also see DE/EN strongly, drop.
-    if (deEnStrong === 0 && nonDeEnStrong > 0) {
+    // Strict rule aligned with your requirement:
+    // - if any chunk is clearly foreign -> drop
+    // - also require at least one DE/EN chunk for non-trivial descriptions
+    if (foreign > 0) {
       removed.push(job);
       continue;
     }
-    // If multiple chunks are clearly foreign, drop.
-    if (nonDeEnStrong >= 2) {
+
+    const combinedLen = normalizeSample(desc).length;
+    if (combinedLen >= 200 && deEn === 0) {
       removed.push(job);
       continue;
     }
