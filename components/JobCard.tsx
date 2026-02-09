@@ -12,11 +12,18 @@ export function JobCard({ job }: { job: Job }) {
         <span className="pill">{job.company.name}</span>
         {job.location ? <span className="pill">{job.location}</span> : null}
         {job.workplace ? <span className="pill">{job.workplace}</span> : null}
+        {job.employmentType ? <span className="pill">{job.employmentType}</span> : null}
         {job.department ? <span className="pill">{job.department}</span> : null}
       </div>
 
       <div className="small">
         <span>Source: {job.source.kind}</span>
+        {job.postedAt ? (
+          <>
+            {" · "}
+            <span>Posted: {new Date(job.postedAt).toLocaleDateString()}</span>
+          </>
+        ) : null}
         {" · "}
         <span>Scraped: {new Date(job.scrapedAt).toLocaleString()}</span>
       </div>
