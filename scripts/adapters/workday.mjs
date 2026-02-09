@@ -177,6 +177,62 @@ export async function scrapeWorkday({
     return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate())).toISOString();
   }
 
+  // Convert a calendar date (Y-M-D) to an ISO timestamp corresponding to 00:00 in Europe/Berlin.
+  // This ensures that "Heute" / "Vor X Tagen" resolve to the correct local date in Berlin,
+  // including DST changes.
+  const BERLIN_TZ = "Europe/Berlin";
+
+  function getTimeZoneOffsetMs(date, timeZone) {
+    // Node 20 supports timeZoneName: 'shortOffset' (e.g. "GMT+01:00").
+    const fmt = new Intl.DateTimeFormat("en-US", {
+      timeZone,
+      timeZoneName: "shortOffset",
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: false
+    });
+    const tzPart = fmt.formatToParts(date).find((p) => p.type === "timeZoneName")?.value || "GMT";
+    // Examples: "GMT+01:00", "GMT+1", "GMT-05:00"
+    const m = tzPart.match(/GMT([+-])(\d{1,2})(?::?(\d{2}))?/i);
+    if (!m) return 0;
+    const sign = m[1] === "-" ? -1 : 1;
+    const hh = Number(m[2] ?? 0);
+    const mm = Number(m[3] ?? 0);
+    return sign * (hh * 60 + mm) * 60 * 1000;
+  }
+
+  function berlinYmd(date) {
+    const fmt = new Intl.DateTimeFormat("en-CA", {
+      timeZone: BERLIN_TZ,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit"
+    });
+    const parts = fmt.formatToParts(date);
+    const y = Number(parts.find((p) => p.type === "year")?.value);
+    const m = Number(parts.find((p) => p.type === "month")?.value);
+    const d = Number(parts.find((p) => p.type === "day")?.value);
+    return { y, m, d };
+  }
+
+  function berlinMidnightIsoFromYmd({ y, m, d }) {
+    // Start with a UTC guess at 00:00 of that calendar day.
+    const utcGuess = new Date(Date.UTC(y, m - 1, d, 0, 0, 0));
+    const offsetMs = getTimeZoneOffsetMs(utcGuess, BERLIN_TZ);
+    const utcMillis = Date.UTC(y, m - 1, d, 0, 0, 0) - offsetMs;
+    return new Date(utcMillis).toISOString();
+  }
+
+  function subtractDaysFromYmd(ymd, days) {
+    const d = new Date(Date.UTC(ymd.y, ymd.m - 1, ymd.d, 0, 0, 0));
+    d.setUTCDate(d.getUTCDate() - days);
+    return { y: d.getUTCFullYear(), m: d.getUTCMonth() + 1, d: d.getUTCDate() };
+  }
+
   function parsePostedOnRelative(text) {
     const s = cleanText(text).toLowerCase();
     if (!s) return null;
@@ -198,6 +254,12 @@ export async function scrapeWorkday({
     m = s.match(/vor\s+einem\s+tag/i);
     if (m) return { daysAgo: 1 };
 
+    // German hours/minutes (occasionally used)
+    m = s.match(/vor\s+(\d+)\s+stunde(?:n)?/i);
+    if (m?.[1]) return { hoursAgo: Number(m[1]) };
+    m = s.match(/vor\s+(\d+)\s+minute(?:n)?/i);
+    if (m?.[1]) return { minutesAgo: Number(m[1]) };
+
     // English
     // examples: "Posted Today", "Posted Yesterday", "Posted 7 Days Ago"
     if (s.includes("posted today")) return { daysAgo: 0 };
@@ -207,11 +269,17 @@ export async function scrapeWorkday({
     m = s.match(/posted\s+(\d+)\s+week(?:s)?\s+ago/i);
     if (m?.[1]) return { daysAgo: Number(m[1]) * 7 };
 
+    // English hours/minutes (occasionally used)
+    m = s.match(/posted\s+(\d+)\s+hour(?:s)?\s+ago/i);
+    if (m?.[1]) return { hoursAgo: Number(m[1]) };
+    m = s.match(/posted\s+(\d+)\s+minute(?:s)?\s+ago/i);
+    if (m?.[1]) return { minutesAgo: Number(m[1]) };
+
     return null;
   }
 
   function postedAtFromAny(listItem, info) {
-    const raw =
+    let raw =
       info?.postedOn ??
       info?.postedDate ??
       info?.datePosted ??
@@ -220,17 +288,52 @@ export async function scrapeWorkday({
       listItem?.datePosted ??
       null;
 
+    // Some tenants only expose "posted" as a bullet field string (DE/EN).
+    if (!raw && Array.isArray(listItem?.bulletFields)) {
+      for (const b of listItem.bulletFields) {
+        const s = cleanText(b);
+        if (!s) continue;
+        // examples: "Heute ausgeschrieben", "Vor 7 Tagen ausgeschrieben", "Posted 7 Days Ago"
+        if (/ausgeschrieben/i.test(s) || /^posted\b/i.test(s)) {
+          raw = s;
+          break;
+        }
+        // examples: "Posted: Today" / "Ausschreibung: Heute"
+        const m = s.match(/^(posted|ausschreibung|ver[öo]ffentlicht)\s*:\s*(.+)$/i);
+        if (m?.[2]) {
+          raw = m[2];
+          break;
+        }
+      }
+    }
+
     if (!raw) return { postedAt: null, postedOnRaw: null };
 
     const rel = parsePostedOnRelative(raw);
     if (!rel) return { postedAt: null, postedOnRaw: cleanText(raw) };
 
     if (typeof rel === "string") return { postedAt: rel, postedOnRaw: cleanText(raw) };
-    if (typeof rel === "object" && typeof rel.daysAgo === "number") {
-      const ref = new Date(scrapedAt);
-      const baseMidnight = new Date(Date.UTC(ref.getUTCFullYear(), ref.getUTCMonth(), ref.getUTCDate()));
-      baseMidnight.setUTCDate(baseMidnight.getUTCDate() - rel.daysAgo);
-      return { postedAt: toUtcMidnightIso(baseMidnight), postedOnRaw: cleanText(raw) };
+
+    if (typeof rel === "object") {
+      // Relative days/weeks: interpret relative to the Berlin calendar date and convert to Berlin midnight.
+      if (typeof rel.daysAgo === "number") {
+        const ref = new Date(scrapedAt);
+        const todayBerlin = berlinYmd(ref);
+        const targetBerlin = subtractDaysFromYmd(todayBerlin, rel.daysAgo);
+        return { postedAt: berlinMidnightIsoFromYmd(targetBerlin), postedOnRaw: cleanText(raw) };
+      }
+
+      // Relative hours/minutes: subtract from the scrape timestamp (instant), keep actual time.
+      if (typeof rel.hoursAgo === "number") {
+        const d = new Date(scrapedAt);
+        d.setHours(d.getHours() - rel.hoursAgo);
+        return { postedAt: d.toISOString(), postedOnRaw: cleanText(raw) };
+      }
+      if (typeof rel.minutesAgo === "number") {
+        const d = new Date(scrapedAt);
+        d.setMinutes(d.getMinutes() - rel.minutesAgo);
+        return { postedAt: d.toISOString(), postedOnRaw: cleanText(raw) };
+      }
     }
 
     return { postedAt: null, postedOnRaw: cleanText(raw) };
