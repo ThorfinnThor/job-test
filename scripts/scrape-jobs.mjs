@@ -3,6 +3,7 @@ import { sites } from "./sites.mjs";
 import { toCsv } from "./lib/csv.mjs";
 import { cleanText } from "./lib/normalize.mjs";
 import { createLimiter } from "./lib/limit.mjs";
+import { filterJobsGermanEnglish } from "./lib/lang-filter.mjs";
 
 import { scrapeBiontech } from "./adapters/biontech.mjs";
 import { scrapeWorkday } from "./adapters/workday.mjs";
@@ -38,6 +39,7 @@ async function scrapeOneSite(site) {
 async function main() {
   const all = [];
   const sourceCounts = {};
+  const filteredOutNonDeEn = {};
 
   const limit = createLimiter(2); // be polite; Playwright is heavy
 
@@ -46,26 +48,30 @@ async function main() {
     try {
       const jobs = await limit(async () => await scrapeOneSite(site));
       const good = jobs.filter(isJobValid);
-      console.log(`  -> ${good.length} jobs`);
-      sourceCounts[site.company.id] = good.length;
-      all.push(...good);
+
+      const { kept, removed } = filterJobsGermanEnglish(good);
+      console.log(`  -> ${kept.length} jobs (filtered out ${removed.length} non-DE/EN)`);
+
+      sourceCounts[site.company.id] = kept.length;
+      filteredOutNonDeEn[site.company.id] = removed.length;
+
+      all.push(...kept);
     } catch (e) {
       console.error(`  !! failed: ${e.message}`);
       sourceCounts[site.company.id] = 0;
+      filteredOutNonDeEn[site.company.id] = 0;
     }
   }
 
   const jobs = uniqById(all).sort((a, b) => {
-    return (
-      a.company.name.localeCompare(b.company.name) ||
-      a.title.localeCompare(b.title)
-    );
+    return a.company.name.localeCompare(b.company.name) || a.title.localeCompare(b.title);
   });
 
   const meta = {
     scrapedAt: new Date().toISOString(),
     total: jobs.length,
-    sources: sourceCounts
+    sources: sourceCounts,
+    filteredOutNonDeEn
   };
 
   await writeFile("public/jobs.json", JSON.stringify(jobs, null, 2));
