@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Job } from "@/lib/types";
 
 export function JobCard({ job }: { job: Job }) {
+  const tz = "Europe/Berlin";
   return (
     <div className="card">
       <h3 className="cardTitle">
@@ -21,11 +22,13 @@ export function JobCard({ job }: { job: Job }) {
         {job.postedAt ? (
           <>
             {" · "}
-            <span>Posted: {new Date(job.postedAt).toLocaleDateString()}</span>
+            <span>
+              Posted: {new Date(job.postedAt).toLocaleDateString("de-DE", { timeZone: tz })}
+            </span>
           </>
         ) : null}
         {" · "}
-        <span>Scraped: {new Date(job.scrapedAt).toLocaleString()}</span>
+        <span>Scraped: {new Date(job.scrapedAt).toLocaleString("de-DE", { timeZone: tz })}</span>
       </div>
     </div>
   );
