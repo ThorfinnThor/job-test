@@ -28,7 +28,12 @@ export default function SearchClient({ jobs }: { jobs: Job[] }) {
         j.title,
         j.company.name,
         j.location ?? "",
+        Array.isArray(j.locations) ? j.locations.join(" | ") : "",
         j.department ?? "",
+        j.jobFamily ?? "",
+        j.jobCategory ?? "",
+        j.jobType ?? "",
+        j.reqId ?? "",
         j.team ?? "",
         j.description?.text ?? ""
       ]
