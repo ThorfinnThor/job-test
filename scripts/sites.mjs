@@ -34,6 +34,19 @@ export const sites = [
   },
   {
     company: {
+      id: "roche",
+      name: "Roche",
+      careersUrl: "https://roche.wd3.myworkdayjobs.com/roche-ext"
+    },
+    kind: "workday",
+    workday: {
+      host: "roche.wd3.myworkdayjobs.com",
+      tenant: "roche",
+      site: "roche-ext"
+    }
+  },
+  {
+    company: {
       id: "novartis",
       name: "Novartis",
       careersUrl: "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
@@ -45,6 +58,37 @@ export const sites = [
       site: "Novartis_Careers"
     }
   },
+  {
+    company: {
+      id: "pfizer",
+      name: "Pfizer",
+      careersUrl: "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+    },
+    kind: "workday",
+    workday: {
+      host: "pfizer.wd1.myworkdayjobs.com",
+      tenant: "pfizer",
+      site: "PfizerCareers"
+    }
+  },
+  {
+    company: {
+      id: "astrazeneca",
+      name: "AstraZeneca",
+      careersUrl: "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+    },
+    kind: "workday",
+    workday: {
+      host: "astrazeneca.wd3.myworkdayjobs.com",
+      tenant: "astrazeneca",
+      site: "Careers"
+    }
+  },
+
+  // NOTE: Bayer does not appear to use a public Workday job board for all roles.
+  // Their public careers site routes through a different ATS (Eightfold) rather than myworkdayjobs.
+  // If you still want Bayer, we can add a separate adapter.
+
   {
     company: {
       id: "jnj",
