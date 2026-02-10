@@ -38,8 +38,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-056808",
@@ -80,8 +80,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-054049",
@@ -124,8 +124,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-056745",
@@ -168,8 +168,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-055419",
@@ -210,8 +210,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-043921",
@@ -254,8 +254,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-057101",
@@ -296,8 +296,92 @@
         ]
       }
     },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-06T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
+  },
+  {
+    "id": "workday:R-050066",
+    "company": {
+      "id": "jnj",
+      "name": "Johnson & Johnson",
+      "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+    },
+    "title": "Clinical Manager (Metro Atlanta) Johnson and Johnson MedTech, Electrophysiology",
+    "location": "Atlanta, Georgia, United States",
+    "locations": [
+      "Atlanta, Georgia, United States"
+    ],
+    "workplace": "onsite",
+    "employmentType": "full_time",
+    "reqId": "R-050066",
+    "timeType": "Vollzeit",
+    "workplaceRaw": "Feldbasiert",
+    "jobFamily": null,
+    "jobCategory": null,
+    "jobType": null,
+    "department": null,
+    "team": null,
+    "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Atlanta-Georgia-United-States/Clinical-Manager--Metro-Atlanta--Johnson-and-Johnson-MedTech--Electrophysiology_R-050066-2",
+    "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Atlanta-Georgia-United-States/Clinical-Manager--Metro-Atlanta--Johnson-and-Johnson-MedTech--Electrophysiology_R-050066-2",
+    "description": {
+      "text": "Bei Johnson & Johnson glauben wir, dass Gesundheit alles ist. Unsere Stärke bei Innovationen im Gesundheitswesen versetzt uns in die Lage, eine Welt aufzubauen, in der komplexe Krankheiten verhindert, behandelt und geheilt werden, in der Behandlungen intelligenter und weniger invasiv sind und Lösungen persönlich sind. Durch unsere Expertise in innovativer Medizin und MedTech sind wir in einer einzigartigen Position, um heute über das gesamte Spektrum von Gesundheitslösungen hinweg Innovationen zu entwickeln, um die Durchbrüche von morgen zu liefern und die Gesundheit der Menschheit nachhaltig zu beeinflussen. Weitere Informationen finden Sie unter https://www.jnj.com/ Tätigkeitsbereich:MedTech Sales Unterfunktion Der Tätigkeit:Technical Sales - MedTech (Commission) Tätigkeitskategorie:People Leader Alle Standorte Für Stellenangebote:Atlanta, Georgia, United States Jobbeschreibung: J&J MedTech Electrophysiology (JJMT EP) US Commercial team is recruiting for a Clinical Manager, located in Metro Atlanta area. Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow and profoundly impact health for humanity. Learn more at https://www.jnj.com/. Fueled by innovation at the intersection of biology and technology, we’re developing the next generation of smarter, less invasive, more personalized treatments. Are you passionate about improving and expanding the possibilities of Cardiovascular? Ready to join a team that’s reimagining how we heal? Our Cardiovascular team develops leading solutions for heart recovery, electrophysiology, and stroke. You will join a proud heritage of continually elevating standards of care for stroke, heart failure and atrial fibrillation (AFib) patients. Your unique talents will help patients on their journey to wellness. Learn more at https://www.jnj.com/medtech Role Summary The Clinical Manager (CM) is accountable for the successful development of EP Clinical Account Specialists (CAS) hold. This strategic role directly supports all aspects of talent development, pipeline building, onboarding, and clinical readiness within the territory. The CM ensures new CAS hires are effectively trained, supported, and aligned with both clinical and commercial goals, maximizing their impact and performance. Key Responsibilities Talent Development: Directly supervises new CAS hires throughout their early development, providing guidance to ensure consistent progress and operational readiness. Strategic Support: Partners closely with the Regional Business Director to enable all aspects of developing CAS talent, including recruiting, onboarding, training, and performance management. Operational Oversight: Oversees the region’s training effectiveness and optimizing clinical coverage. Hiring & Development Strategy: Implements strategic hiring and development plans aimed at improving regional CAS performance and building a robust talent pipeline for the CAS role. Cross-Functional Collaboration: Works in close alignment with the Regional Technology Specialist (RTS) and Territory Managers (TM) to harmonize commercial and clinical objectives, ensuring seamless integration between new CAS talent development and commercial execution. Leadership: This regional leader works in close partnership with Commercial Education, the RTS, and the EP CAS Field Trainer (FT) to drive CAS talent development and commercial execution. The CM provides strategic oversight and continuity in CAS development, bridging the gap between training delivery and commercial integration. Required Qualifications Bachelor’s degree required (4-year degree). Proven ability to manage and develop clinical talent within a high-performance team environment. Strong organizational and communication skills. Ability to collaborate cross-functionally and influence stakeholders. Preferred Qualifications 5+ years of experience in EP mapping procedures required with clinical and commercial talent 2+ years clinical training or clinical education experience Experience with CARTODAY scheduling and EP clinical training programs is highly desired. Travel & Work Environment Travel: Approximately 60% within assigned region Environment: Hospitals/EP labs and professional office settings; variable hours aligned to customer needs. Position requires sitting for extended periods of time, working in a hospital laboratory setting, attending live patient cases, and wearing protective gear (i.e. lead aprons), and willing to work variable hours to meet patient needs Johnson & Johnson is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, protected veteran status or other characteristics protected by federal, state or local law. We actively seek qualified candidates who are protected veterans and individuals with disabilities as defined under VEVRAA and Section 503 of the Rehabilitation Act. Johnson & Johnson is committed to providing an interview process that is inclusive of our applicants’ needs. If you are an individual with a disability and would like to request an accommodation, external applicants please contact us via https://www.jnj.com/contact-us/careers . internal employees contact AskGS to be directed to your accommodation resource. Required Skills: Preferred Skills: Anbieterauswahl, Andere weiterentwickeln, Aufbau von Beziehungen, Einbeziehender Führungsstil, Führung, Innovation, Marktexpansion, Medicines and Device Development and Regulation, Nachhaltige Beschaffung, Produktwissen, Representing, Strategische Vertriebsplanung, Verkaufsschulung, Vertriebstechnik",
+      "html": null
+    },
+    "source": {
+      "kind": "workday_api",
+      "raw": {
+        "externalPath": "/job/Atlanta-Georgia-United-States/Clinical-Manager--Metro-Atlanta--Johnson-and-Johnson-MedTech--Electrophysiology_R-050066-2",
+        "jobReqId": "R-050066",
+        "postedOnRaw": "Heute ausgeschrieben",
+        "locations": [
+          "Atlanta, Georgia, United States"
+        ]
+      }
+    },
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
+  },
+  {
+    "id": "workday:R-049843",
+    "company": {
+      "id": "jnj",
+      "name": "Johnson & Johnson",
+      "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+    },
+    "title": "Clinical Manager (Nashville, TN) Johnson and Johnson MedTech, Electrophysiology",
+    "location": "Nashville, Tennessee, United States",
+    "locations": [
+      "Nashville, Tennessee, United States"
+    ],
+    "workplace": "onsite",
+    "employmentType": "full_time",
+    "reqId": "R-049843",
+    "timeType": "Vollzeit",
+    "workplaceRaw": "Feldbasiert",
+    "jobFamily": null,
+    "jobCategory": null,
+    "jobType": null,
+    "department": null,
+    "team": null,
+    "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Nashville-Tennessee-United-States/Clinical-Manager--Nashville--TN--Johnson-and-Johnson-MedTech--Electrophysiology_R-049843-1",
+    "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Nashville-Tennessee-United-States/Clinical-Manager--Nashville--TN--Johnson-and-Johnson-MedTech--Electrophysiology_R-049843-1",
+    "description": {
+      "text": "Bei Johnson & Johnson glauben wir, dass Gesundheit alles ist. Unsere Stärke bei Innovationen im Gesundheitswesen versetzt uns in die Lage, eine Welt aufzubauen, in der komplexe Krankheiten verhindert, behandelt und geheilt werden, in der Behandlungen intelligenter und weniger invasiv sind und Lösungen persönlich sind. Durch unsere Expertise in innovativer Medizin und MedTech sind wir in einer einzigartigen Position, um heute über das gesamte Spektrum von Gesundheitslösungen hinweg Innovationen zu entwickeln, um die Durchbrüche von morgen zu liefern und die Gesundheit der Menschheit nachhaltig zu beeinflussen. Weitere Informationen finden Sie unter https://www.jnj.com/ Tätigkeitsbereich:MedTech Sales Unterfunktion Der Tätigkeit:Technical Sales - MedTech (Commission) Tätigkeitskategorie:People Leader Alle Standorte Für Stellenangebote:Nashville, Tennessee, United States Jobbeschreibung: J&J MedTech Electrophysiology (JJMT EP) US Commercial team is recruiting for a Clinical Manager, located in Nashville, TN. Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow and profoundly impact health for humanity. Learn more at https://www.jnj.com/. Fueled by innovation at the intersection of biology and technology, we’re developing the next generation of smarter, less invasive, more personalized treatments. Are you passionate about improving and expanding the possibilities of Cardiovascular? Ready to join a team that’s reimagining how we heal? Our Cardiovascular team develops leading solutions for heart recovery, electrophysiology, and stroke. You will join a proud heritage of continually elevating standards of care for stroke, heart failure and atrial fibrillation (AFib) patients. Your unique talents will help patients on their journey to wellness. Learn more at https://www.jnj.com/medtech Role Summary The Clinical Manager (CM) is accountable for the successful development of EP Clinical Account Specialists (CAS) hold. This strategic role directly supports all aspects of talent development, pipeline building, onboarding, and clinical readiness within the territory. The CM ensures new CAS hires are effectively trained, supported, and aligned with both clinical and commercial goals, maximizing their impact and performance. Key Responsibilities Talent Development: Directly supervises new CAS hires throughout their early development, providing guidance to ensure consistent progress and operational readiness. Strategic Support: Partners closely with the Regional Business Director to enable all aspects of developing CAS talent, including recruiting, onboarding, training, and performance management. Operational Oversight: Oversees the region’s training effectiveness and optimizing clinical coverage. Hiring & Development Strategy: Implements strategic hiring and development plans aimed at improving regional CAS performance and building a robust talent pipeline for the CAS role. Cross-Functional Collaboration: Works in close alignment with the Regional Technology Specialist (RTS) and Territory Managers (TM) to harmonize commercial and clinical objectives, ensuring seamless integration between new CAS talent development and commercial execution. Leadership: This regional leader works in close partnership with Commercial Education, the RTS, and the EP CAS Field Trainer (FT) to drive CAS talent development and commercial execution. The CM provides strategic oversight and continuity in CAS development, bridging the gap between training delivery and commercial integration. Required Qualifications Bachelor’s degree required (4-year degree). Proven ability to manage and develop clinical talent within a high-performance team environment. Strong organizational and communication skills. Ability to collaborate cross-functionally and influence stakeholders. Preferred Qualifications 5+ years of experience in EP mapping procedures required with clinical and commercial talent 2+ years clinical training or clinical education experience Experience with CARTODAY scheduling and EP clinical training programs is highly desired. Travel & Work Environment Travel: Approximately 60% within assigned region Environment: Hospitals/EP labs and professional office settings; variable hours aligned to customer needs. Position requires sitting for extended periods of time, working in a hospital laboratory setting, attending live patient cases, and wearing protective gear (i.e. lead aprons), and willing to work variable hours to meet patient needs Johnson & Johnson is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, protected veteran status or other characteristics protected by federal, state or local law. We actively seek qualified candidates who are protected veterans and individuals with disabilities as defined under VEVRAA and Section 503 of the Rehabilitation Act. Johnson & Johnson is committed to providing an interview process that is inclusive of our applicants’ needs. If you are an individual with a disability and would like to request an accommodation, external applicants please contact us via https://www.jnj.com/contact-us/careers . internal employees contact AskGS to be directed to your accommodation resource. Required Skills: Preferred Skills: Anbieterauswahl, Andere weiterentwickeln, Aufbau von Beziehungen, Einbeziehender Führungsstil, Führung, Innovation, Marktexpansion, Medicines and Device Development and Regulation, Nachhaltige Beschaffung, Produktwissen, Representing, Strategische Vertriebsplanung, Verkaufsschulung, Vertriebstechnik",
+      "html": null
+    },
+    "source": {
+      "kind": "workday_api",
+      "raw": {
+        "externalPath": "/job/Nashville-Tennessee-United-States/Clinical-Manager--Nashville--TN--Johnson-and-Johnson-MedTech--Electrophysiology_R-049843-1",
+        "jobReqId": "R-049843",
+        "postedOnRaw": "Heute ausgeschrieben",
+        "locations": [
+          "Nashville, Tennessee, United States"
+        ]
+      }
+    },
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-055682",
@@ -338,8 +422,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-06T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-038118",
@@ -380,52 +464,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
-  },
-  {
-    "id": "workday:R-057139",
-    "company": {
-      "id": "jnj",
-      "name": "Johnson & Johnson",
-      "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
-    },
-    "title": "Director, IM SCT Americas Deliver PGL",
-    "location": "Titusville, New Jersey, United States of America",
-    "locations": [
-      "Titusville, New Jersey, United States of America",
-      "Raynham, Massachusetts, United States of America"
-    ],
-    "workplace": "remote",
-    "employmentType": "full_time",
-    "reqId": "R-057139",
-    "timeType": "Vollzeit",
-    "workplaceRaw": "Vollständig Ferngesteuert",
-    "jobFamily": null,
-    "jobCategory": null,
-    "jobType": null,
-    "department": null,
-    "team": null,
-    "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Director--IM-SCT-Americas-Deliver-PGL_R-057139-1",
-    "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/Director--IM-SCT-Americas-Deliver-PGL_R-057139-1",
-    "description": {
-      "text": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at https://www.jnj.com Job Function: Technology Product & Platform Management Job Sub Function: Technical Product Management Job Category: People Leader All Job Posting Locations: Raynham, Massachusetts, United States of America, Titusville, New Jersey, United States of America Job Description: The Innovative Medicine SCT Americas Distribution and Global Device Circularity Product Group Leader - is responsible for the overall strategic direction for technology supporting our Distribution capabilities in North America & LATAM as well as our Device Circularity strategy globally. This leader will align product strategy, roadmap, technical capabilities, and delivery in support of current and future business goals. A pre-identified candidate for consideration has been identified. However, all applications will be considered. The role will collaborate with Senior Business and Technology Leaders to identify, prioritize, and ensure consistent product delivery with quality across our Deliver organization. This individual will require a strong mix of leadership skills with business and technical acumen to drive measurable value aligned to business strategy. Driving a culture of innovation with a focus on developing talent will be key to ensure team members are in tune with emerging industry and technology trends. There will be a heavy focus on modernizing the technology used to enable an integrated customer experience in line with our autonomous supply chain strategy. This role will partner across the Supply Chain and Commercial organizations with a deep focus in understanding customer needs and problems as input into developing our technology product roadmap. By implementing user centric industry leading strategies in areas of design and rapid prototyping, we will deliver Minimal Viable Products with speed and agility to meet the needs of the customers and patients we serve. Experience in digital and emerging technology with demonstrated results required. 7+ years of IT product management including process improvement, customer centric design thinking, technical solutioning is required Strong Business Acumen & Communication skills. Demonstrated ability to work with business partners to understand business requirements and define a data and analytics strategy and the associated capabilities. Strong leadership experience in building highly effective, collaborative teams with strong track record of successful delivery. Prior experience managing and leading global technology teams is preferred Johnson & Johnson is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, protected veteran status or other characteristics protected by federal, state or local law. We actively seek qualified candidates who are protected veterans and individuals with disabilities as defined under VEVRAA and Section 503 of the Rehabilitation Act. Johnson & Johnson is committed to providing an interview process that is inclusive of our applicants’ needs. If you are an individual with a disability and would like to request an accommodation, please contact us via https://www.jnj.com/contact-us/careers or contact AskGS to be directed to your accommodation resource. Required Skills: Preferred Skills: Analytisches Denken, Andere weiterentwickeln, Einbeziehender Führungsstil, Entwicklung neuer Programme, Faktenbasierte Entscheidungsfindung, Forschung und Entwicklung, Führung, Kostenmanagement, Leistungsmessung, Mensch-Computer-Interaktion, Produktentwicklung, Produktstrategien, Projektmanagement-Methodik (PMM), Software-Entwicklungsmanagement, Stakeholder-Management, Strategisches Supply-Chain-Management The anticipated base pay range for this position is : $150,000.00 - $258,750.00 Additional Description for Pay Transparency: Subject to the terms of their respective plans, employees are eligible to participate in the Company’s consolidated retirement plan (pension) and savings plan (401(k)). For additional general information on Company benefits, please go to: - https://www.careers.jnj.com/employee-benefits This position is eligible to participate in the Company’s long-term incentive program. Subject to the terms of their respective policies and date of hire, employees are eligible for the following time off benefits: Vacation –120 hours per calendar year Sick time - 40 hours per calendar year; for employees who reside in the State of Colorado –48 hours per calendar year; for employees who reside in the State of Washington –56 hours per calendar year Holiday pay, including Floating Holidays –13 days per calendar year Work, Personal and Family Time - up to 40 hours per calendar year Parental Leave – 480 hours within one year of the birth/adoption/foster care of a child Bereavement Leave – 240 hours for an immediate family member: 40 hours for an extended family member per calendar year Caregiver Leave – 80 hours in a 52-week rolling period10 days Volunteer Leave – 32 hours per calendar year Military Spouse Time-Off – 80 hours per calendar year",
-      "html": null
-    },
-    "source": {
-      "kind": "workday_api",
-      "raw": {
-        "externalPath": "/job/Titusville-New-Jersey-United-States-of-America/Director--IM-SCT-Americas-Deliver-PGL_R-057139-1",
-        "jobReqId": "R-057139",
-        "postedOnRaw": "Vor 3 Tagen ausgeschrieben",
-        "locations": [
-          "Titusville, New Jersey, United States of America",
-          "Raynham, Massachusetts, United States of America"
-        ]
-      }
-    },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-06T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-049355",
@@ -472,8 +512,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-057692",
@@ -514,8 +554,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-056980",
@@ -556,8 +596,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-042721",
@@ -604,8 +644,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-054928",
@@ -646,8 +686,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-056526",
@@ -688,8 +728,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-06T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-057348",
@@ -738,8 +778,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-051206",
@@ -780,8 +820,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-057637",
@@ -822,8 +862,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-06T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-07T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-054425",
@@ -864,8 +904,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-057345",
@@ -918,8 +958,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-054183",
@@ -962,8 +1002,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-048865",
@@ -1006,50 +1046,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
-  },
-  {
-    "id": "workday:R-056506",
-    "company": {
-      "id": "jnj",
-      "name": "Johnson & Johnson",
-      "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
-    },
-    "title": "Sr Manager of Environmental Health & Safety (EHS)",
-    "location": "Raynham, Massachusetts, United States of America",
-    "locations": [
-      "Raynham, Massachusetts, United States of America"
-    ],
-    "workplace": "onsite",
-    "employmentType": "full_time",
-    "reqId": "R-056506",
-    "timeType": "Vollzeit",
-    "workplaceRaw": "Vollständig Im Hotel",
-    "jobFamily": null,
-    "jobCategory": null,
-    "jobType": null,
-    "department": null,
-    "team": null,
-    "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raynham-Massachusetts-United-States-of-America/Sr-Mgr-EHS_R-056506-2",
-    "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raynham-Massachusetts-United-States-of-America/Sr-Mgr-EHS_R-056506-2",
-    "description": {
-      "text": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solutions today to deliver the breakthroughs of tomorrow, and profoundly impact health for humanity. Learn more at https://www.jnj.com Job Function: Environmental Health, Safety (EH&S) and Facilities Services (FS) Job Sub Function: Environmental Health & Safety Job Category: People Leader All Job Posting Locations: Raynham, Massachusetts, United States of America Job Description: Fueled by innovation at the intersection of biology and technology, we’re developing the next generation of smarter, less invasive, more personalized treatments. Your unique talents will help patients on their journey to wellness. Learn more at https://www.jnj.com/medtech Johnson & Johnson announced plans to separate our Orthopaedics business to establish a standalone orthopaedics company, operating as DePuy Synthes. The process of the planned separation is anticipated to be completed within 18 to 24 months, subject to legal requirements, including consultation with works councils and other employee representative bodies, as may be required, regulatory approvals and other customary conditions and approvals. Should you accept this position, it is anticipated that, following conclusion of the transaction, you would be an employee of DePuy Synthes and your employment would be governed by DePuy Synthes employment processes, programs, policies, and benefit plans. In that case, details of any planned changes would be provided to you by DePuy Synthes at an appropriate time and subject to any necessary consultation processes. Depuy Synthes is recruiting for a Sr Manager of Environmental Health & Safety (EHS) to be located in Raynham, MA. This position will also be responsible for nearby facilities EH&S staff and contractors JOB SUMMARY Responsible for site Environmental Health Safety & Sustainability (EHS&S), including ensuring operations are in compliance with federal, state, and local EHS&S regulations. Manages a team of individual contributors and is accountable for conducting effective performance management. Develops tactical, operational, and resource plans for the EHS&S team and supports organizational objectives and business goals. Directs operations for strategic initiatives and serves as a primary point of contact for internal stakeholders, including commercial, R&D, supply chain, and other functional areas. DUTIES & RESPONSIBILITIES In accordance with all applicable federal, state and local laws/regulations and Corporate Johnson & Johnson, procedures and guidelines, this position shall be responsible for the following: Shared responsibility with Plant Manager(s)/Site Leader(s) for EH&S performance at each site, including development and implementation site management action plans to address EHS&S program deficiencies and ensure EHS&S regulatory compliance. Develop EHS&S objectives for each site - auditing, analyzing, documenting, and reporting on their implementation and effectiveness to management via dashboards & reports. Manage site EH&S professionals and consultants at local facility. Set and monitor goals/objectives/assignments, provide adequate coaching/counseling, develop and monitor employee development plans, and provide recommendations as part of the succession planning, appraisal, and salary planning processes. Monitor and evaluate EH&S risks of operations, including change management, ensuring continuous improvement of the EHS&S program to make it leaner and more efficient. Provide upper management with ongoing consultation pertaining to EHS&S regulations and identify any impact on key business objectives. Support and facilitate site EHS&S teams to ensure implementation of the EHS&S program; including collaborating with other functions to manage EHS&S aspects of external manufacturers, suppliers, and contractor programs. Develop and implement EHS&S training strategy for each site, ensuring key risks and regulatory requirements are addressed for appropriate audiences, including new hires. Maintain ISO 14001 certification by ensuring site EHS&S management systems are aligned & maintained consistent with the ISO standard. Responsible for communicating business related issues or opportunities to next management level. Responsible for following all Company guidelines related to Health, Safety, Environmental, and Sustainability practices as applicable. For those who supervise or manage a staff, responsible for ensuring that subordinates follow all Company guidelines related to Health, Safety, Environmental, and Sustainability practices and that all resources needed to do so are available and in good condition. Responsible for ensuring personal and Company compliance with all Federal, State, local and Company regulations, policies, and procedures. Performs other duties assigned as needed. EXPERIENCE AND EDUCATION Bachelor’s degree or equivalent 10+ years of EH&S related experience Direct supervisory and strong stakeholder management experience is required. Medical device manufacturing/R&D (highly desirable) or related industry with strong regulatory oversight. Technical experience in diverse EHS&S areas including but not limited to air, water, hazardous and medical waste, machine safety, ergonomics, industrial hygiene, and chemical handling is highly desirable. Demonstrated project management skills are required and individual must have technical/working knowledge of federal, state and local regulations. CSP, CIH, REM, CHMM or related EH&S certification preferred. Proficient in MS Office software programs including Word, Excel, and PowerPoint preferred. Internet, intranet and database tools (internal and external) as needed to support the EHS&S function preferred. REQUIRED KNOWLEDGE, SKILLS, ABILITIES, CERTIFICATIONS/LICENSES and AFFILIATIONS Ability to define and implement solutions with limited direction from his/her manager. Creativity to anticipate customer needs and develop resourceful solutions to meet needs with limited resources. Strong communication (written & verbal), problem-solving, influence, organizing, and time management skills. Good interpersonal skills and the ability to influence management. Ability to provide support to multiple customers/business units. Ability to anticipate customer needs. Ability to explain complex issues and requirements in an easily understood manner. Classroom instructor skills are required. Ability to produce & maintain project schedules & budgets. Interfacing – associates & local, state & federal inspectors. Experience is required in identifying, evaluating and controlling EHS&S risks in the workplace. Ability to quickly interpret complex regulatory issues and provide recommended course of action. Ability to work in a matrix, team oriented environment. Ability to lead local EHS&S professionals and manage additional multi-site EHS&S resources. ADDITIONAL POSITION REQUIREMENTS Ability to wear personnel protective equipment and other equipment such as lab coat/clean room gown. Must follow applicable local regulations & Company guidelines related to Health, Safety and Environmental practices. RESPONSIBILITY FOR OTHERS & INTERNAL INTERACTIONS Position is responsible for supervision of Raynham and nearby facilities EH&S staff and contractors. Position reports to the Director, EHS&S DePuy Synthes Routine interaction with Enterprise EH&S organization, DePuy Synthes partners/leaders/scientists, Engineering Property Services, Employee Health & Wellbeing, Finance, Procurement, and Human Resources is required. LOCATION & TRAVEL REQUIREMENTS Position must be located at the Raynham site. Approximately 15-20% travel required, including some international travel. Johnson & Johnson is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, age, national origin, disability, protected veteran status or other characteristics protected by federal, state or local law. We actively seek qualified candidates who are protected veterans and individuals with disabilities as defined under VEVRAA and Section 503 of the Rehabilitation Act. Johnson & Johnson is committed to providing an interview process that is inclusive of our applicants’ needs. If you are an individual with a disability and would like to request an accommodation, please contact us via https://www.jnj.com/contact-us/careers or contact AskGS to be directed to your accommodation resource. #LI-Onsite Required Skills: Preferred Skills: The anticipated base pay range for this position is : $122,000.00 - $212,750.00 Additional Description for Pay Transparency: Subject to the terms of their respective plans, employees are eligible to participate in the Company’s consolidated retirement plan (pension) and savings plan (401(k)). This position is eligible to participate in the Company’s long-term incentive program. Subject to the terms of their respective policies and date of hire, employees are eligible for the following time off benefits: Vacation –120 hours per calendar year Sick time - 40 hours per calendar year; for employees who reside in the State of Colorado –48 hours per calendar year; for employees who reside in the State of Washington –56 hours per calendar year Holiday pay, including Floating Holidays –13 days per calendar year Work, Personal and Family Time - up to 40 hours per calendar year Parental Leave – 480 hours within one year of the birth/adoption/foster care of a child Bereavement Leave – 240 hours for an immediate family member: 40 hours for an extended family member per calendar year Caregiver Leave – 80 hours in a 52-week rolling period10 days Volunteer Leave – 32 hours per calendar year Military Spouse Time-Off – 80 hours per calendar year For additional general information on Company benefits, please go to: - https://www.careers.jnj.com/employee-benefits",
-      "html": null
-    },
-    "source": {
-      "kind": "workday_api",
-      "raw": {
-        "externalPath": "/job/Raynham-Massachusetts-United-States-of-America/Sr-Mgr-EHS_R-056506-2",
-        "jobReqId": "R-056506",
-        "postedOnRaw": "Vor 3 Tagen ausgeschrieben",
-        "locations": [
-          "Raynham, Massachusetts, United States of America"
-        ]
-      }
-    },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-057342",
@@ -1090,8 +1088,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-057131",
@@ -1136,8 +1134,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-06T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-057326",
@@ -1178,8 +1176,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:R-055642",
@@ -1244,8 +1242,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:59:58.025Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T07:00:47.564Z"
   },
   {
     "id": "workday:REQ-10069368",
@@ -1286,8 +1284,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-02T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-03T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10056820",
@@ -1328,8 +1326,8 @@
         ]
       }
     },
-    "postedAt": "2026-01-28T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-01-29T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10066516",
@@ -1370,50 +1368,8 @@
         ]
       }
     },
-    "postedAt": "2026-01-26T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
-  },
-  {
-    "id": "workday:REQ-10069789",
-    "company": {
-      "id": "novartis",
-      "name": "Novartis",
-      "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
-    },
-    "title": "Director, US IM Medical Affairs Business Planning & Strategy",
-    "location": "East Hanover",
-    "locations": [
-      "East Hanover"
-    ],
-    "workplace": "hybrid",
-    "employmentType": "full_time",
-    "reqId": "REQ-10069789",
-    "timeType": "Full time",
-    "workplaceRaw": "Hybrid",
-    "jobFamily": null,
-    "jobCategory": null,
-    "jobType": null,
-    "department": null,
-    "team": null,
-    "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/East-Hanover/Director--US-IM-Medical-Affairs-Business-Planning---Strategy_REQ-10069789-1",
-    "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/East-Hanover/Director--US-IM-Medical-Affairs-Business-Planning---Strategy_REQ-10069789-1",
-    "description": {
-      "text": "Job Description Summary #LI-Hybrid This position will be based in East Hanover, NJ and will not have the ability to be located remotely. Relocation may be considered. The positions will require 20% travel as defined by the business (domestic and/or international). Job Description The Director Business Planning and Strategy, IM US will work closely with the CMO and Head Medical Affairs in executing the new Medical Affairs strategy, team operations, and enhanced and simplified engagement within Medical Affairs. The Director Business Planning and Strategy will engage with all levels of the organization on behalf of Medical Affairs, identifying areas of strategic and operational focus to enable business-critical transformational change. He/she will play a critical role in managing ongoing organization meeting/ engagement operations, developing cross-divisional interconnectivity, and enable change management for the medical affairs organization. This role has no direct reports. The Director Business Planning and Strategy, US Innovative Medicines Medical Affairs, will be responsible for meeting and engagement planning and excellence across various strategic pillars. This individual will be the key point of contact for executive engagements in the US and Globally in partnership with the Head of Medical Affairs. Major accountabilities: Create and provide strategic communications support for executive engagement for the Head of Medical Strategy Oversee and manage strategic engagements related to critical business priorities to senior internal and external audiences Provide strategic counsel, daily operational and business planning support to the Head of Medical Affairs and Medical Affairs Organization Lead/facilitate MALT meetings/events, defining focus areas based on strategic priorities Lead strategic communications for defined forums and ad-hoc requests from senior leadership, consolidating input from MALT and key stakeholders Own MALT action tracker, following up on open items, ensuring timely feedback/responses Lead MA townhalls’ preparation and facilitate presentations Lead MA internal communications and associate engagement channels and forums Build excellence in day-to-day meeting operations and outcomes in service of the Head of Market Access and Market Access Organization Minimum Requirements: Work Experience: Minimum of 8+ years in pharmaceutical, biotech, healthcare, or healthcare consulting industry inclusive of at least 2 different types of cross-functional roles/experience Minimum 2+ years in project management and translation of strategy into execution Minimum 2+ years leading complex projects requiring global and local alignment AI/Digital Fluency: Experience leveraging data to drive insights and performance metrics to optimize strategies. Experience using digital tools and analytics for KPI measurement and dashboarding. Minimum 2+ years with significant consulting group preferred Minimum 3+ year commercial experience preferably with a multi-functional experience in a pharmaceutical, biotech, healthcare or consulting environment Experience in project management and translation of strategy into execution Strong ability to simplify complex concepts & strategies and “tell a story” orally and in writing Strong analytical skills and an ability to generate insights and develop relevant action plans Strong influencing skills, and the ability to exercise tact and diplomacy in stressful situations Ability to manage multiple priorities and a heavy workload Curious, with excellent listening skills; able to challenge current thinking Track record of exceptional performance and execution that drives results Ability to lead, manage and motivate teams, with or without authority Experience working collaboratively across the matrix Location: East Hanover, NJ; 10-20% travel is required Education: Bachelor’s degree required; MBA or Health Policy degree preferred Novartis Compensation and Benefit Summary: The salary for this position is expected to range between $176,400.000 and $327,600.00 per year. The final salary offered is determined based on factors like, but not limited to, relevant skills and experience, and upon joining Novartis will be reviewed periodically. Novartis may change the published salary range based on company and market factors. Your compensation will include a performance-based cash incentive and, depending on the level of the role, eligibility to be considered for annual equity awards. US-based eligible employees will receive a comprehensive benefits package that includes health, life and disability benefits, a 401(k) with company contribution and match, and a variety of other benefits. In addition, employees are eligible for a generous time off package including vacation, personal days, holidays and other leaves. To learn more about the culture, rewards and benefits we offer our people click here . EEO Statement: The Novartis Group of Companies are Equal Opportunity Employers. We do not discriminate in recruitment, hiring, training, promotion or other employment practices for reasons of race, color, religion, sex, national origin, age, sexual orientation, gender identity or expression, marital or veteran status, disability, or any other legally protected status. Accessibility and reasonable accommodations The Novartis Group of Companies are committed to working with and providing reasonable accommodation to individuals with disabilities. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the application process, or to perform the essential functions of a position, please send an e-mail to us.reasonableaccommodations@novartis.com or call +1(877)395-2339 and let us know the nature of your request and your contact information. Please include the job requisition number in your message. Salary Range $176,400.00 - $327,600.00 Skills Desired Analytische Fähigkeiten, Business Strategy, Change Management, Data Analytics, Entscheidungsbaum (Prognosemodell), Fähigkeiten zur Beeinflussung, Finanzen, Führung, Geschäftsentwicklung, Geschäftspartner, Go-To-Market Strategy, Künstliche Intelligenz (KI), Managementberatung, Pipeline (Software), Senior Management, Strategische Planung",
-      "html": null
-    },
-    "source": {
-      "kind": "workday_api",
-      "raw": {
-        "externalPath": "/job/East-Hanover/Director--US-IM-Medical-Affairs-Business-Planning---Strategy_REQ-10069789-1",
-        "jobReqId": "REQ-10069789",
-        "postedOnRaw": "Vor 4 Tagen ausgeschrieben",
-        "locations": [
-          "East Hanover"
-        ]
-      }
-    },
-    "postedAt": "2026-02-04T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-01-27T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10069921",
@@ -1454,50 +1410,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-04T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
-  },
-  {
-    "id": "workday:REQ-10061762",
-    "company": {
-      "id": "novartis",
-      "name": "Novartis",
-      "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
-    },
-    "title": "Field Product Specialist _ Cardiovascular and Metabolism _ Nam Dinh/ Thai Binh",
-    "location": "Vietnam",
-    "locations": [
-      "Vietnam"
-    ],
-    "workplace": null,
-    "employmentType": "full_time",
-    "reqId": "REQ-10061762",
-    "timeType": "Full time",
-    "workplaceRaw": null,
-    "jobFamily": null,
-    "jobCategory": null,
-    "jobType": null,
-    "department": null,
-    "team": null,
-    "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Vietnam/Field-Product-Specialist---Cardiovascular-and-Metabolism---Nam-Dinh--Thai-Binh_REQ-10061762-2",
-    "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Vietnam/Field-Product-Specialist---Cardiovascular-and-Metabolism---Nam-Dinh--Thai-Binh_REQ-10061762-2",
-    "description": {
-      "text": "Job Description Summary Location: Nam Dinh/ Thai Binh/ Thanh Hoa. Novartis is unable to offer relocation support for this role: please only apply if this location is accessible for you. About The Role: You will be responsible (directly or indirectly) for achieving sales targets, promoting the products to medical practitioners and allied health care professional as well as bringing specialist knowledge in assigned therapeutic area. This role reports directly into the Team Leader. Job Description Main Responsibilities: Design business plans and implement related activities like customer events, sales & marketing campaigns, sales presentations vital to achieve agreed objectives. Accountable for achieving agreed sales, productivity and performance targets within agreed budgets and timescales. Provide key account/hospital network support, market access support, including referral networks. Have a deep understanding in the respective specialist area and priority products. Enhance the knowledge of products, product strategy, positioning, key messages, programs, company developments, customers, and competitors. Accomplish agreed contact, coverage and frequency targets through various communication channels. Ensure customer satisfaction and best in class customer relationship. Ensure the accurate and timely completion of all reports. Manage enquiries and complaints quickly and professionally and in accordance with company procedures. Contribute positively to the Sales and Marketing team through cooperative relationships and collaborative efforts to achieve team and company objectives. Deliver input into effective use of promotional funds and territory sales forecasting. Follow all adverse events guidelines, and Code of Conduct Guidelines as promoted by Novartis. Essential Requirements: Bachelor's degree in pharmacy. Have a minimum of 2 year of sales experience in the pharmaceutical industry. Demonstrate good interpersonal skills and a strong aptitude for collaboration. Skills Desired",
-      "html": null
-    },
-    "source": {
-      "kind": "workday_api",
-      "raw": {
-        "externalPath": "/job/Vietnam/Field-Product-Specialist---Cardiovascular-and-Metabolism---Nam-Dinh--Thai-Binh_REQ-10061762-2",
-        "jobReqId": "REQ-10061762",
-        "postedOnRaw": "Vor 3 Tagen ausgeschrieben",
-        "locations": [
-          "Vietnam"
-        ]
-      }
-    },
     "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10070092",
@@ -1540,8 +1454,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10070450",
@@ -1582,50 +1496,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-03T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
-  },
-  {
-    "id": "workday:REQ-10071483",
-    "company": {
-      "id": "novartis",
-      "name": "Novartis",
-      "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
-    },
-    "title": "Head, QA Ops and Compliance",
-    "location": "Durham",
-    "locations": [
-      "Durham"
-    ],
-    "workplace": "onsite",
-    "employmentType": "full_time",
-    "reqId": "REQ-10071483",
-    "timeType": "Full time",
-    "workplaceRaw": "Onsite",
-    "jobFamily": null,
-    "jobCategory": null,
-    "jobType": null,
-    "department": null,
-    "team": null,
-    "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Durham/Head--QA-Ops-and-Compliance_REQ-10071483-1",
-    "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Durham/Head--QA-Ops-and-Compliance_REQ-10071483-1",
-    "description": {
-      "text": "Job Description Summary Job Description Summary Provide strategic and hands on leadership for Quality Assurance within the Small Molecule Operations division, ensuring excellence in cGMP compliance, regulatory execution, and quality oversight across all operational activities. This role leads and develops Quality Assurance Managers, partners closely with manufacturing and external suppliers, and ensures that all products, manufactured on site, by external partners, or imported, are released to market in full alignment with Novartis Quality Standards, policies, and global regulatory requirements. The Head, QA Ops and Compliance plays a pivotal role in safeguarding product quality, enabling operational excellence, and supporting the reliable and compliant supply of high quality small molecule therapies to patients. Job Description #LI-Onsite Location: Durham, NC This role is on-site 5 days a week and does not have the ability to work remotely. This role is located in Durham, NC and will eventually move to Morrisville, NC at a later date Key Responsibilities: Provide end-to-end leadership for Quality Operations and Compliance across manufacturing, Quality Control, AS&T, and logistics, ensuring adherence to cGMP, regulatory requirements, and internal quality standards. Serve as the final QA authority for review, approval, and release of batch documentation and patient or commercial product lots manufactured at the site. Ensure strong on-the-floor QA presence, delivering real-time quality oversight, decision-making, and guidance to support compliant and efficient operations. Lead investigations of deviations, OOX/OOS events, complaints, and adverse events, ensuring timely root cause analysis, effective CAPA implementation, and sustainable corrective actions. Implement and maintain site Quality Systems, including SOP governance, training compliance, documentation control, and inspection readiness for internal, external, and regulatory audits. Drive QA Operational Excellence through performance metrics (KPIs/KQIs), continuous improvement initiatives, and proactive identification of quality and process risks. Provide QA leadership for technology transfers, process validation, and new equipment commissioning, including review and approval of validation strategies and OQ/PQ execution. Lead, develop, and retain a high-performing QA team through hiring, coaching, performance management, and resource planning, while supporting budget and capacity planning in alignment with site strategy. Essential Requirements: BS or MS in Life Sciences, Pharmacy, Chemistry, Biotechnology, or related scientific discipline; advanced degree preferred. Minimum 10+ years of experience in pharmaceutical, biotechnology, or cell and gene therapy industry within cGMP regulated environments. Demonstrated experience in Quality Operations and/or Quality Systems & Compliance leadership roles, with direct responsibility for product release, quality systems, and audit readiness. Minimum 6-10 years of direct people leadership, including team development, performance management, and cross-functional collaboration. Strong working knowledge of FDA, EMA, and global regulatory requirements, including experience supporting regulatory inspections and audits. Proven experience leading deviation investigations, CAPA management, and continuous improvement initiatives in an operational QA setting. Experience supporting manufacturing operations, Quality Control, validation, and technology transfer activities. Excellent communication, decision-making, and organizational skills, with the ability to operate effectively in a fast-paced CGT manufacturing environment. Fluency in English (written and verbal). Novartis Compensation and Benefit Summary: The salary for this position is expected to range between $138,600 and $257,400/year. The final salary offered is determined based on factors like, but not limited to, relevant skills and experience, and upon joining Novartis will be reviewed periodically. Novartis may change the published salary range based on company and market factors. Your compensation will include a performance-based cash incentive and, depending on the level of the role, eligibility to be considered for annual equity awards. US-based eligible employees will receive a comprehensive benefits package that includes health, life and disability benefits, a 401(k) with company contribution and match, and a variety of other benefits. In addition, employees are eligible for a generous time off package including vacation, personal days, holidays and other leaves. EEO Statement: The Novartis Group of Companies are Equal Opportunity Employers. We do not discriminate in recruitment, hiring, training, promotion or other employment practices for reasons of race, color, religion, sex, national origin, age, sexual orientation, gender identity or expression, marital or veteran status, disability, or any other legally protected status. Accessibility and reasonable accommodations The Novartis Group of Companies are committed to working with and providing reasonable accommodation to individuals with disabilities. If, because of a medical condition or disability, you need a reasonable accommodation for any part of the application process, or to perform the essential functions of a position, please send an e-mail to us.reasonableaccommodations@novartis.com or call +1(877)395-2339 and let us know the nature of your request and your contact information. Please include the job requisition number in your message. Salary Range $138,600.00 - $257,400.00 Skills Desired Communication Skills, Datenintegrität, Dealing With Ambiguity, Digital saviness, Entscheidungsfindung, Führung, Problem Solving Skills, Regulatory Requirements knowledge, Zusammenarbeit",
-      "html": null
-    },
-    "source": {
-      "kind": "workday_api",
-      "raw": {
-        "externalPath": "/job/Durham/Head--QA-Ops-and-Compliance_REQ-10071483-1",
-        "jobReqId": "REQ-10071483",
-        "postedOnRaw": "Vor 4 Tagen ausgeschrieben",
-        "locations": [
-          "Durham"
-        ]
-      }
-    },
     "postedAt": "2026-02-04T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10068041",
@@ -1666,8 +1538,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10066624",
@@ -1708,8 +1580,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-05T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-06T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10070332",
@@ -1750,8 +1622,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-01T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-02T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10066689",
@@ -1792,8 +1664,8 @@
         ]
       }
     },
-    "postedAt": "2026-01-27T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-01-28T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10065405",
@@ -1834,8 +1706,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-02T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-03T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10070943",
@@ -1876,8 +1748,50 @@
         ]
       }
     },
-    "postedAt": "2026-02-04T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-05T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
+  },
+  {
+    "id": "workday:REQ-10070457",
+    "company": {
+      "id": "novartis",
+      "name": "Novartis",
+      "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+    },
+    "title": "Record to Report Manager",
+    "location": "INSURGENTES",
+    "locations": [
+      "INSURGENTES"
+    ],
+    "workplace": null,
+    "employmentType": "full_time",
+    "reqId": "REQ-10070457",
+    "timeType": "Full time",
+    "workplaceRaw": null,
+    "jobFamily": null,
+    "jobCategory": null,
+    "jobType": null,
+    "department": null,
+    "team": null,
+    "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/INSURGENTES/Record-to-Report-Manager_REQ-10070457-1",
+    "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/INSURGENTES/Record-to-Report-Manager_REQ-10070457-1",
+    "description": {
+      "text": "Job Description Summary Das Unternehmen innerhalb eines Landes mit komplexen Analysen, Berichten, Prognosen usw. zu unterstützen (in der Regel sehr hohe bis hohe Einnahmen) und fachliche Beratung innerhalb eines FRA-Kernprozesses/-bereichs/-technologie Job Description Major Accountabilities ~ Gewährleistung der operativen Umsetzung der strategischen Finanzziele innerhalb eines speziellen Unternehmensbereichs sowie Überwachung der Leistung und Entwicklung eines kleinen Teams von FRA-Spezialisten. ~ Gewährleistung der Integrität, Durchführbarkeit und Interoperabilität der Finanzberichterstattungsprozesse (Ist-Daten, Budgets und neueste Schätzungen) und -systeme, einschließlich Steuer-, Bestands- und Unternehmenskontrollen sowie Zahlungs- und Einkaufsdaten. ~ Leiten und Betreiben der grundlegenden Berichterstattung für Ist Daten und Prognosen von Qualität und mit schnellstmöglichem Abschluss. ~ Bereitstellung von Finanzbuchhaltungsdiensten und -daten in zeitnaher und genauer Weise, einschließlich Anlagevermögen, Cash-Aktivitäten und Veräußerungsaktivitäten; Gewährleistung der Bereitstellung angemessener Informationen für relevante Einzelpersonen und externe Stellen. ~ Leitung von Audit Prozessen und Unterstützung bei der Einhaltung verschiedener steuerbezogener Berichte (z. B.: Mehrwertsteuer, Körperschaftssteuer, Mitarbeitersteuer); alle Daten für interne und externe Behörden. ~ Leitung und Automatisierung der Bereitstellung von Routineinformationen für lokale Benutzer aus SAP und BW und Wahrnehmung von Superuser-Zuständigkeiten für Finanz- und Controlling-Module in SAP. ~ Überwachung der Entwicklung und Pflege der aktuellen Berichtssysteme (SAP, BW, Excel); Integration anderer Anforderungen und der sich ändernden Bedürfnisse der Organisation, so dass die Prozesse zur Berichterstattung über Ist-Daten, Budgets, neueste Schätzungen und mittelfristige Pläne kosteneffektiv und reaktionsschnell erfüllt werden. ~ Erstellung Ad-hoc- und routinemäßiger Informationen zu Buchhaltung/Management sowie Finanzanalysen von hoher Qualität zur Erfüllung der globalen und organisatorischen Anforderungen. ~ Meldung von technischen Beschwerden / unerwünschten Ereignissen / Sonderfallszenarien im Zusammenhang mit Novartis-Produkten innerhalb von 24 Stunden nach Erhalt ~ Verteilung von Vermarktungsmustern (falls zutreffend) Key Performance Indicators ~ Interne Kundenzufriedenheit mit der Qualität, Angemessenheit und Pünktlichkeit der bereitgestellten Finanzanalysen ~ Kundenzufriedenheit bei der Erbringung von Dienstleistungen und prozessspezifische KPIs gemäß vereinbarten SLAs Work Experience ~Operations Management und Ausführung ~Führungsqualitäten ~Funktionale Breite Skills ~Werttreiber verstehen ~Kritisches Denken ~Fähigkeit, wichtige Stakeholder zu beeinflussen ~Effektive Kommunikation ~Prozessoptimierung ~Effektive Teams aufbauen ~Personalentwicklung ~Finanzbuchhaltung ~Finanz- und Managementberichterstattung ~Ressourcenallokation Language Englisch Skills Desired Building Effective Teams, Effective Communications, Fähigkeit, wichtige Stakeholder zu beeinflussen, Finanzbuchhaltung, Finanz- und Managementberichterstattung, Kritisches Denken, Personalentwicklung, Prozessoptimierung, Ressourcenallokation, Werttreiber verstehen",
+      "html": null
+    },
+    "source": {
+      "kind": "workday_api",
+      "raw": {
+        "externalPath": "/job/INSURGENTES/Record-to-Report-Manager_REQ-10070457-1",
+        "jobReqId": "REQ-10070457",
+        "postedOnRaw": "Vor 6 Tagen ausgeschrieben",
+        "locations": [
+          "INSURGENTES"
+        ]
+      }
+    },
+    "postedAt": "2026-02-03T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10070456",
@@ -1918,8 +1832,8 @@
         ]
       }
     },
-    "postedAt": "2026-01-29T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-01-30T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10070451",
@@ -1960,8 +1874,8 @@
         ]
       }
     },
-    "postedAt": "2026-01-29T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-01-30T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10064968",
@@ -2002,8 +1916,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10065292",
@@ -2044,8 +1958,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-01T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-02T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10071502",
@@ -2086,8 +2000,8 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   },
   {
     "id": "workday:REQ-10071368",
@@ -2128,7 +2042,7 @@
         ]
       }
     },
-    "postedAt": "2026-02-08T23:00:00.000Z",
-    "scrapedAt": "2026-02-09T22:57:42.334Z"
+    "postedAt": "2026-02-09T23:00:00.000Z",
+    "scrapedAt": "2026-02-10T06:58:49.460Z"
   }
 ]
