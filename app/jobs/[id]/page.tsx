@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getJobById, excerpt } from "@/lib/jobs";
+import { formatBerlinDate } from "@/lib/jobFilter";
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const job = await getJobById(decodeURIComponent(params.id));
@@ -8,27 +9,19 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
 
   const desc = excerpt(job.description?.text, 180) || `Open role at ${job.company.name}.`;
   return {
-    title: `${job.title}`,
+    title: job.title,
     description: desc,
     alternates: { canonical: `/jobs/${encodeURIComponent(job.id)}` },
-    openGraph: {
-      title: job.title,
-      description: desc,
-      type: "article"
-    }
+    openGraph: { title: job.title, description: desc, type: "article" }
   };
 }
 
 function jsonLd(job: any) {
-  // Minimal schema.org JobPosting
-  const loc = job.location ? { address: job.location } : undefined;
-  const org = { name: job.company?.name };
   return {
     "@context": "https://schema.org",
     "@type": "JobPosting",
     title: job.title,
-    hiringOrganization: org,
-    jobLocation: loc ? { "@type": "Place", address: { "@type": "PostalAddress", addressLocality: job.location } } : undefined,
+    hiringOrganization: { name: job.company?.name },
     employmentType: job.employmentType ?? undefined,
     description: job.description?.html ?? job.description?.text ?? undefined,
     url: job.url,
@@ -36,124 +29,81 @@ function jsonLd(job: any) {
   };
 }
 
-export default async function JobPage({ params }: { params: { id: string } }) {
-  const tz = "Europe/Berlin";
+export default async function JobDetailPage({ params }: { params: { id: string } }) {
   const id = decodeURIComponent(params.id);
   const job = await getJobById(id);
 
   if (!job) {
     return (
-      <main className="container">
-        <div className="prose">
+      <div className="page">
+        <div className="detail">
+          <Link className="linkAnchor" href="/jobs">
+            ← Back
+          </Link>
           <h1>Job not found</h1>
-          <p>
-            The job ID <code>{id}</code> is not in the current dataset.
-          </p>
-          <p>
-            <Link href="/">Back to search</Link>
+          <p className="muted">
+            The job ID <span className="mono">{id}</span> is not in the current dataset.
           </p>
         </div>
-      </main>
+      </div>
     );
   }
 
+  const posted = formatBerlinDate(job.postedAt);
+
   return (
-    <main className="container">
-      <div className="badge" style={{ marginBottom: 14 }}>
-        <Link href="/">← Back</Link>
-        <span>·</span>
-        <span>{job.company.name}</span>
-        <span>·</span>
-        <span>{job.location ?? "Location not listed"}</span>
-        {job.postedAt ? (
-          <>
-            <span>·</span>
-            <span>Posted {new Date(job.postedAt).toLocaleDateString("de-DE", { timeZone: tz })}</span>
-          </>
-        ) : null}
-      </div>
+    <div className="page">
+      <div className="detail">
+        <Link className="linkAnchor" href="/jobs">
+          ← Back
+        </Link>
 
-      <div className="jobLayout">
-        <article className="prose">
-          <h1 style={{ marginTop: 0 }}>{job.title}</h1>
+        <div className="detailHeader">
+          <h1 className="detailTitle">{job.title}</h1>
+          <div className="detailCompany">{job.company?.name ?? "—"}</div>
 
-          <p className="small">
-            Source: <strong>{job.source.kind}</strong>
-            {" · "}
-            Scraped: <strong>{new Date(job.scrapedAt).toLocaleString("de-DE", { timeZone: tz })}</strong>
-          </p>
-
-          <hr className="hr" />
-
-          {job.description?.text ? (
+          <div className="detailMeta">
             <div>
-              <h2>Description</h2>
-              <p style={{ whiteSpace: "pre-wrap" }}>{job.description.text}</p>
+              <b>Location:</b> {job.location ?? "—"}
             </div>
-          ) : (
-            <p>No description found.</p>
-          )}
-
-          <script
-            type="application/ld+json"
-            // eslint-disable-next-line react/no-danger
-            dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(job)) }}
-          />
-        </article>
-
-        <aside className="side">
-          <div className="metaRow" style={{ marginBottom: 12 }}>
-            {job.workplace ? <span className="pill">{job.workplace}</span> : null}
-            {job.employmentType ? <span className="pill">{job.employmentType}</span> : null}
-            {job.timeType ? <span className="pill">{job.timeType}</span> : null}
-            {job.department ? <span className="pill">{job.department}</span> : null}
-            {job.team ? <span className="pill">{job.team}</span> : null}
-          </div>
-
-          <a className="button" href={job.applyUrl ?? job.url} target="_blank" rel="noreferrer">
-            Apply / View original posting →
-          </a>
-
-          <div className="small" style={{ marginTop: 14 }}>
-            {job.reqId ? (
-              <div>
-                <strong>Req ID:</strong> {job.reqId}
-              </div>
-            ) : null}
-            {job.jobFamily ? (
-              <div>
-                <strong>Job family:</strong> {job.jobFamily}
-              </div>
-            ) : null}
-            {job.jobCategory ? (
-              <div>
-                <strong>Job category:</strong> {job.jobCategory}
-              </div>
-            ) : null}
-            {job.jobType ? (
-              <div>
-                <strong>Job type:</strong> {job.jobType}
-              </div>
-            ) : null}
             {Array.isArray(job.locations) && job.locations.length > 1 ? (
               <div>
-                <strong>Locations:</strong> {job.locations.join(" | ")}
+                <b>All locations:</b> {job.locations.join(" | ")}
+              </div>
+            ) : null}
+            <div>
+              <b>Workplace:</b> {job.workplace ?? "unknown"} {job.workplaceRaw ? `(${job.workplaceRaw})` : ""}
+            </div>
+            <div>
+              <b>Employment:</b> {job.employmentType ?? "—"} {job.timeType ? `(${job.timeType})` : ""}
+            </div>
+            <div>
+              <b>Posted:</b> {posted}
+            </div>
+            {job.reqId ? (
+              <div>
+                <b>Req ID:</b> <span className="mono">{job.reqId}</span>
               </div>
             ) : null}
           </div>
 
-          <div className="small" style={{ marginTop: 12 }}>
-            <div>
-              <strong>Original URL:</strong>
-            </div>
-            <div style={{ wordBreak: "break-word" }}>
-              <a href={job.url} target="_blank" rel="noreferrer">
-                {job.url}
-              </a>
-            </div>
+          <div className="detailCtas">
+            <a className="btnPrimary" href={job.applyUrl ?? job.url} target="_blank" rel="noreferrer">
+              Apply
+            </a>
+            <a className="btn" href={job.url} target="_blank" rel="noreferrer">
+              Open posting
+            </a>
           </div>
-        </aside>
+        </div>
+
+        <div className="detailBody">
+          <h2>Description</h2>
+          <div className="description">{job.description?.text ? job.description.text : "—"}</div>
+        </div>
+
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd(job)) }} />
       </div>
-    </main>
+    </div>
   );
 }

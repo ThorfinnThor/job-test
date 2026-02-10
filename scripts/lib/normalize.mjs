@@ -1,10 +1,6 @@
 export function cleanText(s) {
   return String(s ?? "")
-    // remove common invisible chars that break search/highlighting
-    .replace(/[\u200B-\u200D\uFEFF]/g, "")
-    // normalize NBSP
     .replace(/\u00a0/g, " ")
-    // collapse whitespace
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -54,8 +50,7 @@ export function decodeHtmlEntities(str) {
       const key = g1.toLowerCase();
       return Object.prototype.hasOwnProperty.call(named, key) ? named[key] : m;
     })
-    .replace(/\u00A0/g, " ")
-    .replace(/[\u200B-\u200D\uFEFF]/g, "");
+    .replace(/\u00A0/g, " ");
 }
 
 export function stripHtml(html) {
@@ -71,7 +66,6 @@ export function stableId(prefix, uniqueString) {
 export function normalizeEmploymentType(v) {
   const s = cleanText(v).toLowerCase();
   if (!s) return null;
-
   // English
   if (s.includes("full")) return "full_time";
   if (s.includes("part")) return "part_time";
@@ -82,67 +76,39 @@ export function normalizeEmploymentType(v) {
   // German
   if (s.includes("vollzeit") || s.includes("fulltime")) return "full_time";
   if (s.includes("teilzeit") || s.includes("parttime")) return "part_time";
-  if (s.includes("befrist") || s.includes("zeitvertrag")) return "temporary";
-  if (s.includes("praktik") || s.includes("werkstudent") || s.includes("trainee")) return "internship";
+  if (s.includes("befrist") || s.includes("zeitvertrag") || s.includes("fixed term")) return "temporary";
+  if (s.includes("praktik") || s.includes("werkstudent") || s.includes("student") || s.includes("trainee"))
+    return "internship";
   if (s.includes("freiberuf") || s.includes("berater") || s.includes("vertrag")) return "contract";
-
   return null;
 }
 
-/**
- * Normalizes workplace into one of:
- * - "remote"
- * - "hybrid"
- * - "onsite"
- *
- * We intentionally keep the taxonomy small for easy filtering in the UI.
- */
 export function normalizeWorkplace(v) {
-  const s0 = cleanText(v).toLowerCase();
-  if (!s0) return null;
-
-  // --- Workday / German-specific labels seen in your data ---
-  // "Vollständig Ferngesteuert" -> remote
-  if (s0.includes("vollständig ferngesteuert") || s0.includes("vollstaendig ferngesteuert")) return "remote";
-
-  // "Feldbasiert" / "feldbasiert" -> onsite (field-based work is not remote)
-  if (s0.includes("feldbasiert")) return "onsite";
-
-  // Catch-all: "vollständig im ..." often indicates fully on-site (office/site/etc.)
-  // Your dataset had "Vollständig Im Hotel" as a workplaceRaw label — treat as onsite
-  // rather than dropping it.
-  if (s0.startsWith("vollständig im") || s0.startsWith("vollstaendig im")) return "onsite";
-
-  // --- Generic English patterns ---
+  const s = cleanText(v).toLowerCase();
+  if (!s) return null;
+  // remote
   if (
-    s0.includes("remote") ||
-    s0.includes("work from home") ||
-    s0.includes("wfh")
-  ) return "remote";
+    s.includes("remote") ||
+    s.includes("work from home") ||
+    s.includes("wfh") ||
+    s.includes("home office") ||
+    s.includes("mobiles arbeiten") ||
+    s.includes("telearbeit")
+  )
+    return "remote";
 
-  if (s0.includes("hybrid") || s0.includes("flex")) return "hybrid";
+  // hybrid / flex
+  if (s.includes("hybrid") || s.includes("flex") || s.includes("kombin")) return "hybrid";
 
-  if (s0.includes("on-site") || s0.includes("onsite")) return "onsite";
-
-  // --- Generic German patterns ---
+  // onsite
   if (
-    s0.includes("home office") ||
-    s0.includes("mobiles arbeiten") ||
-    s0.includes("telearbeit") ||
-    s0.includes("fernarbeit")
-  ) return "remote";
-
-  if (s0.includes("hybrid") || s0.includes("flex") || s0.includes("kombin")) return "hybrid";
-
-  if (
-    s0.includes("vor ort") ||
-    s0.includes("büro") ||
-    s0.includes("buero") ||
-    s0.includes("standort") ||
-    s0.includes("office") ||
-    s0.includes("site")
-  ) return "onsite";
-
+    s.includes("on-site") ||
+    s.includes("onsite") ||
+    s.includes("vor ort") ||
+    s.includes("office") ||
+    s.includes("site")
+  )
+    return "onsite";
   return null;
 }
 

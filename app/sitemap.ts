@@ -4,11 +4,11 @@ import type { MetadataRoute } from "next";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = process.env.NEXT_PUBLIC_SITE_URL || "https://example.vercel.app";
   const jobs = await getJobs();
-
   const now = new Date().toISOString();
 
   return [
-    { url: `${base}/`, lastModified: now, changeFrequency: "daily", priority: 1.0 },
+    { url: `${base}/`, lastModified: now, changeFrequency: "daily", priority: 0.3 },
+    { url: `${base}/jobs`, lastModified: now, changeFrequency: "daily", priority: 1.0 },
     ...jobs.map((j) => ({
       url: `${base}/jobs/${encodeURIComponent(j.id)}`,
       lastModified: j.scrapedAt ?? now,
