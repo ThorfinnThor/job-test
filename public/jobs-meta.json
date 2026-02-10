@@ -1,7 +1,14 @@
 {
-  "scrapedAt": "2026-02-10T19:50:51.605758Z",
-  "total": 49,
+  "scrapedAt": "2026-02-10T20:35:32.958Z",
+  "total": 42,
   "sources": {
-    "workday_api": 49
+    "immatics": 0,
+    "novartis": 21,
+    "jnj": 21
+  },
+  "filteredOutNonDeEn": {
+    "immatics": 5,
+    "novartis": 236,
+    "jnj": 239
   }
 }
