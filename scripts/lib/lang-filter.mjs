@@ -3,19 +3,23 @@ import { franc } from "franc-min";
 /**
  * Keep ONLY German/English jobs.
  *
- * Main failure mode you have right now:
- * - Workday pages often contain EN boilerplate (EEO/legal) even when the real job is FR/PT/ES etc.
- * - Some postings are mixed (e.g., DE intro + Chinese requirements later).
+ * Requirements:
+ * - Drop jobs where TITLE is not German/English (even if description is EN).
+ * - Drop jobs containing ANY non-Latin scripts (CJK/Arabic/Cyrillic) anywhere in title/description.
  *
- * This version:
- * 1) Hard-rejects if title OR description contains any non-Latin script (CJK/Arabic/Cyrillic).
- * 2) Removes Workday metadata + common EEO boilerplate BEFORE language detection.
- * 3) Detects language primarily from the "core" part of the description (start + middle),
- *    and uses dominant evidence (not "any chunk").
- * 4) Keeps unknown-only cases to avoid false negatives on technical English,
- *    BUT rejects if foreign stopwords dominate.
+ * Workday quirks:
+ * - English EEO/legal boilerplate can appear even for non-EN jobs -> must be stripped.
+ * - "Date Posted / Req ID / Time Type ..." blocks are not useful for language detection.
+ *
+ * Strategy:
+ * 1) Hard reject non-Latin scripts in title or full description.
+ * 2) Title gate: require DE/EN for meaningful titles (allow short acronyms).
+ * 3) Description gate: compute dominant language on *core description* (after stripping boilerplate).
+ *    - If franc says non-DE/EN -> reject.
+ *    - If franc is 'und' -> use stopword dominance; reject if Romance stopwords dominate.
  */
 
+// ------------------ Stopwords ------------------
 const EN_STOP = new Set([
   "the","and","for","with","to","of","in","on","at","from","your","you","we","our","a","an",
   "as","is","are","be","will","this","that","role","responsibilities","requirements","team",
@@ -28,7 +32,7 @@ const DE_STOP = new Set([
   "anforderungen","team","erfahrung","kenntnisse","bewerbung","bewerben"
 ]);
 
-// Foreign stopwords (to prevent Romance leakage)
+// Common foreign stopwords to catch Romance/Germanic leakage when franc returns 'und'
 const ES_STOP = new Set(["el","la","los","las","de","del","y","para","con","en","por","una","un","como","que","se","su"]);
 const FR_STOP = new Set(["le","la","les","des","de","du","et","pour","avec","en","une","un","que","vous","nous","au"]);
 const PT_STOP = new Set(["o","a","os","as","de","do","da","e","para","com","em","por","uma","um","que","você","voce"]);
@@ -42,7 +46,7 @@ function normalizeSample(text) {
     .trim();
 }
 
-// Hard gate: if ANY of these scripts appear anywhere -> NOT DE/EN
+// Hard gate for non-DE/EN scripts
 function containsNonLatinScript(text) {
   return /[\p{Script=Han}\p{Script=Hiragana}\p{Script=Katakana}\p{Script=Arabic}\p{Script=Cyrillic}]/u.test(
     String(text || "")
@@ -52,7 +56,6 @@ function containsNonLatinScript(text) {
 function tokenize(text) {
   const s = normalizeSample(text).toLowerCase();
   if (!s) return [];
-  // keep accents for Romance detection
   return s.split(/[^\p{L}]+/u).filter(Boolean);
 }
 
@@ -63,21 +66,18 @@ function stopwordScore(words, stopset) {
   return hits / words.length;
 }
 
-function francLang(text, minLength = 160) {
-  const sample = normalizeSample(text);
-  if (!sample || sample.length < minLength) return "und";
-  return franc(sample, { minLength });
+function francLang(text, minLength) {
+  const s = normalizeSample(text);
+  if (!s || s.length < minLength) return "und";
+  return franc(s, { minLength });
 }
 
-/**
- * Strip Workday noise + boilerplate that causes false English detection.
- * Key: remove tail EEO/legal blocks and "Date Posted" blocks.
- */
+// ------------------ Boilerplate stripping ------------------
+// Remove Workday metadata and tail boilerplate that can bias towards English.
 function stripWorkdayNoise(raw) {
   let s = String(raw || "");
 
-  // Cut off at common tail markers to avoid EEO boilerplate influencing detection.
-  // (Keep only content BEFORE these markers.)
+  // Cut off at common footer markers (removes most of the Workday footer/metadata area)
   const cutMarkers = [
     /(?:\n|^)\s*Date\s*Posted\b/i,
     /(?:\n|^)\s*Closing\s*Date\b/i,
@@ -92,7 +92,7 @@ function stripWorkdayNoise(raw) {
     }
   }
 
-  // Remove common labels/metadata that appear mid-text.
+  // Remove inline meta labels that often appear inside the page
   const metaPatterns = [
     /\bReq(?:uisition)?\s*ID\b[\s\S]{0,120}/gi,
     /\bJob\s*Requisition\s*ID\b[\s\S]{0,120}/gi,
@@ -105,18 +105,18 @@ function stripWorkdayNoise(raw) {
   ];
   for (const p of metaPatterns) s = s.replace(p, " ");
 
-  // Remove well-known EEO/legal boilerplate blocks (EN-heavy).
+  // Remove common EN EEO/legal boilerplate blocks (often appended)
   const eeoPatterns = [
-    /equal\s+opportunity\s+employer[\s\S]{0,4000}$/i,
-    /all\s+qualified\s+applicants[\s\S]{0,4000}$/i,
-    /we\s+are\s+an\s+equal\s+opportunity[\s\S]{0,4000}$/i,
-    /eeo\s+is\s+the\s+law[\s\S]{0,4000}$/i,
-    /e-?verify[\s\S]{0,4000}$/i,
-    /reasonable\s+accommodations?[\s\S]{0,4000}$/i
+    /equal\s+opportunity\s+employer[\s\S]{0,5000}$/i,
+    /all\s+qualified\s+applicants[\s\S]{0,5000}$/i,
+    /we\s+are\s+an\s+equal\s+opportunity[\s\S]{0,5000}$/i,
+    /eeo\s+is\s+the\s+law[\s\S]{0,5000}$/i,
+    /e-?verify[\s\S]{0,5000}$/i,
+    /reasonable\s+accommodations?[\s\S]{0,5000}$/i
   ];
   for (const p of eeoPatterns) s = s.replace(p, " ");
 
-  // Some companies prepend long culture paragraphs; keep conservative removal.
+  // J&J-style culture intro (can be EN/DE even when job is foreign)
   const jjIntro = [
     /Bei\s+Johnson\s*&\s*Johnson\s+glauben\s+wir[\s\S]{0,1500}(?=\n\n|\n\s*\n|$)/i,
     /At\s+Johnson\s*&\s*Johnson\s+we\s+believe[\s\S]{0,1500}(?=\n\n|\n\s*\n|$)/i
@@ -126,63 +126,70 @@ function stripWorkdayNoise(raw) {
   return normalizeSample(s);
 }
 
-/**
- * Samples used for language detection.
- * IMPORTANT: Also do a hard non-Latin scan over a larger prefix to catch "mixed" postings.
- */
-function buildSamples(title, desc) {
+// ------------------ Title check ------------------
+function titleIsGermanOrEnglish(title) {
   const t = normalizeSample(title);
-  const d = stripWorkdayNoise(desc);
+  if (!t) return true;
 
-  const samples = [];
-  if (t) samples.push({ kind: "title", text: t });
+  // Hard reject non-Latin scripts
+  if (containsNonLatinScript(t)) return false;
 
-  if (!d) return samples;
+  // Allow short acronyms / codes ("QA", "R&D", "HR", "IT")
+  const letters = (t.match(/\p{L}/gu) || []).length;
+  if (letters < 6) return true;
 
-  const n = d.length;
-  const take = (start, len) => d.slice(Math.max(0, start), Math.min(n, start + len));
+  // For meaningful titles, require DE/EN via stopwords or franc.
+  const words = tokenize(t);
+  const en = stopwordScore(words, EN_STOP);
+  const de = stopwordScore(words, DE_STOP);
 
-  // Use start + middle. Avoid end.
-  samples.push({ kind: "start", text: take(0, 1100) });
-  if (n > 1400) samples.push({ kind: "middle", text: take(Math.floor(n / 2) - 350, 700) });
+  if (en >= 0.02 || de >= 0.02) return true;
 
-  return samples;
+  const lang = francLang(t, 12); // titles are short; use low minLength
+  return lang === "eng" || lang === "deu";
 }
 
-function classifyChunk(text) {
-  const s = normalizeSample(text);
-  if (!s) return "unknown";
+// ------------------ Description check ------------------
+function descriptionLooksGermanOrEnglish(descText) {
+  const cleaned = stripWorkdayNoise(descText);
 
-  // Hard reject on any non-Latin script in the chunk
-  if (containsNonLatinScript(s)) return "foreign";
+  // If nothing to analyze, keep (avoid dropping sparse postings)
+  if (!cleaned) return true;
 
-  const words = tokenize(s);
-  if (words.length < 30) return "unknown";
+  // Determine dominant language from core content (start of text).
+  // Using a larger sample helps franc detect e.g. Slovenian reliably.
+  const core = cleaned.slice(0, 5000);
+
+  // If franc confidently says non-DE/EN, reject.
+  const lang = francLang(core, 220);
+  if (lang !== "und" && lang !== "eng" && lang !== "deu") return false;
+
+  // If franc is 'und', use stopword dominance tests.
+  const words = tokenize(core);
+  if (words.length < 40) {
+    // too little signal; keep (reduces false negatives)
+    return true;
+  }
 
   const en = stopwordScore(words, EN_STOP);
   const de = stopwordScore(words, DE_STOP);
+  const deEnMax = Math.max(en, de);
 
   const es = stopwordScore(words, ES_STOP);
   const fr = stopwordScore(words, FR_STOP);
   const pt = stopwordScore(words, PT_STOP);
   const it = stopwordScore(words, IT_STOP);
   const nl = stopwordScore(words, NL_STOP);
-
   const foreignMax = Math.max(es, fr, pt, it, nl);
-  const deEnMax = Math.max(en, de);
 
-  // Strong foreign signal -> foreign
-  if (foreignMax >= 0.020 && foreignMax > deEnMax + 0.006) return "foreign";
+  // Strong foreign dominance -> reject
+  if (foreignMax >= 0.02 && foreignMax > deEnMax + 0.006) return false;
 
-  // Strong DE/EN signal -> de_en
-  if (deEnMax >= 0.018) return "de_en";
+  // If we have any reasonable EN/DE stopword signal -> keep
+  if (deEnMax >= 0.014) return true;
 
-  // Franc as soft secondary
-  const lang = francLang(s, 180);
-  if (lang === "deu" || lang === "eng") return "de_en";
-  if (lang !== "und" && s.length >= 260) return "foreign";
-
-  return "unknown";
+  // Otherwise keep (unknown technical English etc.)
+  return true;
 }
 
 export function filterJobsGermanEnglish(jobs) {
@@ -193,48 +200,25 @@ export function filterJobsGermanEnglish(jobs) {
     const title = job?.title || "";
     const desc = job?.description?.text || "";
 
-    // Hard reject if title contains non-Latin script
-    if (containsNonLatinScript(title)) {
+    // 1) Hard reject any non-Latin script anywhere in title or full description
+    // (Fixes cases where CJK/Cyrillic appears later than a prefix scan.)
+    if (containsNonLatinScript(title) || containsNonLatinScript(desc)) {
       removed.push(job);
       continue;
     }
 
-    // Hard reject if description contains non-Latin script anywhere in a generous prefix.
-    // (Catches mixed DE+CN jobs where CN appears later.)
-    const descPrefix = String(desc || "").slice(0, 6000);
-    if (containsNonLatinScript(descPrefix)) {
+    // 2) Title must be DE/EN (per your rule)
+    if (!titleIsGermanOrEnglish(title)) {
       removed.push(job);
       continue;
     }
 
-    const samples = buildSamples(title, desc);
-
-    let deEn = 0;
-    let foreign = 0;
-    let unknown = 0;
-
-    for (const s of samples) {
-      const cls = classifyChunk(s.text);
-      if (cls === "de_en") deEn += 1;
-      else if (cls === "foreign") foreign += 1;
-      else unknown += 1;
-    }
-
-    // Decision:
-    // - If we have any "foreign" and NO DE/EN evidence -> remove
-    if (foreign > 0 && deEn === 0) {
+    // 3) Description must be dominantly DE/EN
+    if (!descriptionLooksGermanOrEnglish(desc)) {
       removed.push(job);
       continue;
     }
 
-    // - If DE/EN is present -> keep
-    if (deEn > 0) {
-      kept.push(job);
-      continue;
-    }
-
-    // - If everything is unknown, keep (prevents false negatives on technical English),
-    //   BUT only if no foreign scripts (already gated) and no foreign stopword dominance (handled above).
     kept.push(job);
   }
 
