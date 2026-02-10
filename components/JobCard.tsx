@@ -18,7 +18,8 @@ function empLabel(emp: Job["employmentType"]) {
   return "—";
 }
 
-export default function JobCard({ job }: { job: Job }) {
+// Named export for compatibility (some files may import { JobCard })
+export function JobCard({ job }: { job: Job }) {
   const posted = formatBerlinDate(job.postedAt);
 
   return (
@@ -37,3 +38,5 @@ export default function JobCard({ job }: { job: Job }) {
     </Link>
   );
 }
+
+export default JobCard;
