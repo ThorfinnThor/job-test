@@ -5,6 +5,9 @@ import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import type { EmploymentType, Workplace } from "@/lib/types";
 import type { SortKey } from "@/lib/jobFilter";
 
+type WorkplaceSelect = "any" | Exclude<Workplace, null>;
+type EmploymentSelect = "any" | Exclude<EmploymentType, null>;
+
 type CompanyOption = { id: string; name: string };
 
 function updateParams(sp: URLSearchParams, updates: Record<string, string | null>) {
@@ -39,8 +42,23 @@ export default function Filters(props: { companyOptions: CompanyOption[]; locati
 
   const selectedCompanies = useMemo(() => getMulti(new URLSearchParams(sp.toString()), "company"), [sp]);
 
-  const workplace = (sp.get("workplace") ?? "any") as Workplace | "any";
-  const employment = (sp.get("employment") ?? "any") as EmploymentType | "any";
+  // URLSearchParams values are strings; keep <select value> strictly string (never null)
+  // to satisfy React/TS typing.
+  const workplaceParam = sp.get("workplace") ?? "any";
+  const employmentParam = sp.get("employment") ?? "any";
+
+  const workplace: WorkplaceSelect =
+    workplaceParam === "remote" || workplaceParam === "hybrid" || workplaceParam === "onsite" ? workplaceParam : "any";
+
+  const employment: EmploymentSelect =
+    employmentParam === "full_time" ||
+    employmentParam === "part_time" ||
+    employmentParam === "contract" ||
+    employmentParam === "internship" ||
+    employmentParam === "temporary"
+      ? employmentParam
+      : "any";
+
   const location = sp.get("location") ?? "any";
   const posted = sp.get("posted") ?? "any";
   const sort = (sp.get("sort") ?? "newest") as SortKey;
@@ -146,7 +164,11 @@ export default function Filters(props: { companyOptions: CompanyOption[]; locati
 
       <div className="filterGroup">
         <div className="filterLabel">Sort</div>
-        <select className="select" value={sort} onChange={(e) => push(updateParams(new URLSearchParams(sp.toString()), { sort: e.target.value }))}>
+        <select
+          className="select"
+          value={sort}
+          onChange={(e) => push(updateParams(new URLSearchParams(sp.toString()), { sort: e.target.value }))}
+        >
           <option value="newest">Newest</option>
           <option value="oldest">Oldest</option>
           <option value="company_az">Company A–Z</option>
