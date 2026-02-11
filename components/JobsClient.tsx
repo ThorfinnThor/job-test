@@ -43,7 +43,6 @@ export default function JobsClient({ jobs }: { jobs: Job[] }) {
       <aside className="sidebar">
         <Filters
           companyOptions={facets.companyOptions}
-          locationOptions={facets.locationOptions}
           cityOptions={facets.cityOptions}
           countryOptions={facets.countryOptions}
         />

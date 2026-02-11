@@ -148,7 +148,7 @@ export function collectFacetOptions(jobs: Job[]) {
 export function applyFilters(all: Job[], f: FilterState): Job[] {
   const q = f.q.trim();
   const now = new Date();
-  const countryNeedle = f.country === "any" ? "" : f.country.trim();
+  const hasCountry = f.country !== "any";
 
   return all.filter((job) => {
     if (f.companies.length > 0 && !f.companies.includes(job.company?.id)) return false;
@@ -156,7 +156,7 @@ export function applyFilters(all: Job[], f: FilterState): Job[] {
     if (f.employment !== "any" && (job.employmentType ?? null) !== f.employment) return false;
     if (f.location !== "any" && (job.location ?? "") !== f.location) return false;
 
-    if (f.city !== "any" || countryNeedle) {
+    if (f.city !== "any" || hasCountry) {
       const derived = locationCandidates(job).map((loc) => deriveCityCountry(loc));
 
       if (f.city !== "any") {
@@ -164,12 +164,8 @@ export function applyFilters(all: Job[], f: FilterState): Job[] {
         if (!okCity) return false;
       }
 
-      if (countryNeedle) {
-        const okCountry = derived.some((x) => {
-          const c = x.country ?? "";
-          // allow typing partial ("ger" matches "Germany")
-          return c && includesCI(c, countryNeedle);
-        });
+      if (hasCountry) {
+        const okCountry = derived.some((x) => (x.country ?? "") === f.country);
         if (!okCountry) return false;
       }
     }
