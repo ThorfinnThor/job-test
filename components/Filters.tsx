@@ -35,7 +35,12 @@ function setMulti(sp: URLSearchParams, key: string, values: string[]) {
   return next;
 }
 
-export default function Filters(props: { companyOptions: CompanyOption[]; locationOptions: string[] }) {
+export default function Filters(props: {
+  companyOptions: CompanyOption[];
+  locationOptions: string[];
+  cityOptions: string[];
+  countryOptions: string[];
+}) {
   const router = useRouter();
   const pathname = usePathname();
   const sp = useSearchParams();
@@ -60,6 +65,8 @@ export default function Filters(props: { companyOptions: CompanyOption[]; locati
       : "any";
 
   const location = sp.get("location") ?? "any";
+  const city = sp.get("city") ?? "any";
+  const country = sp.get("country") ?? "";
   const posted = sp.get("posted") ?? "any";
   const sort = (sp.get("sort") ?? "newest") as SortKey;
 
@@ -76,7 +83,9 @@ export default function Filters(props: { companyOptions: CompanyOption[]; locati
 
   function clearAll() {
     const next = new URLSearchParams(sp.toString());
-    ["company", "workplace", "employment", "location", "posted", "sort", "q"].forEach((k) => next.delete(k));
+    ["company", "workplace", "employment", "location", "city", "country", "posted", "sort", "q"].forEach((k) =>
+      next.delete(k)
+    );
     push(next);
   }
 
@@ -145,6 +154,38 @@ export default function Filters(props: { companyOptions: CompanyOption[]; locati
             </option>
           ))}
         </select>
+      </div>
+
+      <div className="filterGroup">
+        <div className="filterLabel">City</div>
+        <select
+          className="select"
+          value={city}
+          onChange={(e) => push(updateParams(new URLSearchParams(sp.toString()), { city: e.target.value }))}
+        >
+          <option value="any">Any</option>
+          {props.cityOptions.map((c) => (
+            <option key={c} value={c}>
+              {c}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      <div className="filterGroup">
+        <div className="filterLabel">Country</div>
+        <input
+          className="select"
+          list="countryOptions"
+          placeholder="Any"
+          value={country}
+          onChange={(e) => push(updateParams(new URLSearchParams(sp.toString()), { country: e.target.value }))}
+        />
+        <datalist id="countryOptions">
+          {props.countryOptions.map((c) => (
+            <option key={c} value={c} />
+          ))}
+        </datalist>
       </div>
 
       <div className="filterGroup">

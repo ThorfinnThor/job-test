@@ -29,9 +29,11 @@ export default function JobsClient({ jobs }: { jobs: Job[] }) {
     const workplace = (getParam(params, "workplace") || "any") as any;
     const employment = (getParam(params, "employment") || "any") as any;
     const location = getParam(params, "location") || "any";
+    const city = getParam(params, "city") || "any";
+    const country = getParam(params, "country") || "any";
     const posted = (getParam(params, "posted") || "any") as any;
     const sort = (getParam(params, "sort") || "newest") as SortKey;
-    return { ...DEFAULT_FILTERS, q, companies, workplace, employment, location, posted, sort };
+    return { ...DEFAULT_FILTERS, q, companies, workplace, employment, location, city, country, posted, sort };
   }, [sp]);
 
   const filtered = useMemo(() => sortJobs(applyFilters(jobs, state), state.sort), [jobs, state]);
@@ -39,7 +41,12 @@ export default function JobsClient({ jobs }: { jobs: Job[] }) {
   return (
     <div className="layout">
       <aside className="sidebar">
-        <Filters companyOptions={facets.companyOptions} locationOptions={facets.locationOptions} />
+        <Filters
+          companyOptions={facets.companyOptions}
+          locationOptions={facets.locationOptions}
+          cityOptions={facets.cityOptions}
+          countryOptions={facets.countryOptions}
+        />
       </aside>
 
       <main className="main">

@@ -8,6 +8,8 @@ export type FilterState = {
   workplace: Workplace | "any";
   employment: EmploymentType | "any";
   location: string | "any"; // primary location only
+  city: string | "any";
+  country: string | "any";
   posted: "any" | "1d" | "3d" | "7d" | "30d";
   sort: SortKey;
 };
@@ -18,6 +20,8 @@ export const DEFAULT_FILTERS: FilterState = {
   workplace: "any",
   employment: "any",
   location: "any",
+  city: "any",
+  country: "any",
   posted: "any",
   sort: "newest"
 };
@@ -50,6 +54,49 @@ function includesCI(hay: string, needle: string) {
   return hay.toLowerCase().includes(needle.toLowerCase());
 }
 
+export function deriveCityCountry(rawLocation: string | null): { city: string | null; country: string | null } {
+  const s = (rawLocation ?? "").trim();
+  if (!s) return { city: null, country: null };
+
+  // Avoid treating non-places as cities/countries.
+  const low = s.toLowerCase();
+  if (
+    low.includes("remote") ||
+    low.includes("hybrid") ||
+    low.includes("onsite") ||
+    low.includes("home office") ||
+    low.includes("multiple locations") ||
+    low.includes("mehrere standorte") ||
+    low.includes("alle standorte")
+  ) {
+    return { city: null, country: null };
+  }
+
+  const parts = s
+    .split(",")
+    .map((p) => p.trim())
+    .filter(Boolean);
+
+  if (parts.length === 1) {
+    // Could be a city or a country. We keep it as city to enable a useful filter.
+    return { city: parts[0], country: null };
+  }
+
+  const city = parts[0] || null;
+  const country = parts[parts.length - 1] || null;
+  return { city, country };
+}
+
+function locationCandidates(job: Job): string[] {
+  const out: string[] = [];
+  if (job.location) out.push(job.location);
+  if (Array.isArray(job.locations)) {
+    for (const l of job.locations) if (l) out.push(l);
+  }
+  // de-dupe
+  return Array.from(new Set(out.map((x) => x.trim()).filter(Boolean)));
+}
+
 function jobTextForSearch(job: Job): string {
   const parts = [
     job.title,
@@ -72,10 +119,18 @@ function jobTextForSearch(job: Job): string {
 export function collectFacetOptions(jobs: Job[]) {
   const companies = new Map<string, string>(); // id->name
   const locations = new Set<string>();
+  const cities = new Set<string>();
+  const countries = new Set<string>();
 
   for (const j of jobs) {
     if (j.company?.id && j.company?.name) companies.set(j.company.id, j.company.name);
     if (j.location) locations.add(j.location);
+
+    for (const loc of locationCandidates(j)) {
+      const { city, country } = deriveCityCountry(loc);
+      if (city) cities.add(city);
+      if (country) countries.add(country);
+    }
   }
 
   const companyOptions = Array.from(companies.entries())
@@ -84,18 +139,40 @@ export function collectFacetOptions(jobs: Job[]) {
 
   const locationOptions = Array.from(locations).sort((a, b) => a.localeCompare(b));
 
-  return { companyOptions, locationOptions };
+  const cityOptions = Array.from(cities).sort((a, b) => a.localeCompare(b));
+  const countryOptions = Array.from(countries).sort((a, b) => a.localeCompare(b));
+
+  return { companyOptions, locationOptions, cityOptions, countryOptions };
 }
 
 export function applyFilters(all: Job[], f: FilterState): Job[] {
   const q = f.q.trim();
   const now = new Date();
+  const countryNeedle = f.country === "any" ? "" : f.country.trim();
 
   return all.filter((job) => {
     if (f.companies.length > 0 && !f.companies.includes(job.company?.id)) return false;
     if (f.workplace !== "any" && (job.workplace ?? null) !== f.workplace) return false;
     if (f.employment !== "any" && (job.employmentType ?? null) !== f.employment) return false;
     if (f.location !== "any" && (job.location ?? "") !== f.location) return false;
+
+    if (f.city !== "any" || countryNeedle) {
+      const derived = locationCandidates(job).map((loc) => deriveCityCountry(loc));
+
+      if (f.city !== "any") {
+        const okCity = derived.some((x) => (x.city ?? "") === f.city);
+        if (!okCity) return false;
+      }
+
+      if (countryNeedle) {
+        const okCountry = derived.some((x) => {
+          const c = x.country ?? "";
+          // allow typing partial ("ger" matches "Germany")
+          return c && includesCI(c, countryNeedle);
+        });
+        if (!okCountry) return false;
+      }
+    }
 
     if (f.posted !== "any") {
       const days = daysSincePosted(job.postedAt, now);
