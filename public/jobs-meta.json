@@ -1,20 +1,20 @@
 {
-  "scrapedAt": "2026-02-11T07:05:57.417Z",
-  "total": 483,
+  "scrapedAt": "2026-02-11T17:34:16.456Z",
+  "total": 1000,
   "sources": {
-    "immatics": 1,
-    "roche": 82,
-    "novartis": 106,
-    "pfizer": 91,
-    "astrazeneca": 98,
-    "jnj": 105
+    "immatics": 5,
+    "roche": 182,
+    "novartis": 217,
+    "pfizer": 186,
+    "astrazeneca": 186,
+    "jnj": 224
   },
   "filteredOutNonDeEn": {
-    "immatics": 4,
-    "roche": 178,
-    "novartis": 155,
-    "pfizer": 169,
-    "astrazeneca": 161,
-    "jnj": 155
+    "immatics": 0,
+    "roche": 78,
+    "novartis": 43,
+    "pfizer": 74,
+    "astrazeneca": 74,
+    "jnj": 35
   }
 }
