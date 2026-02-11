@@ -26,8 +26,10 @@ export async function scrapeWorkday({
   tenant,
   site,
   searchText = "",
-  max = 250,
-  fetchDetails = true
+  max = Infinity,
+  fetchDetails = true,
+  pageSize = 20,
+  detailConcurrency = 6
 }) {
   const scrapedAt = new Date().toISOString();
 
@@ -121,6 +123,29 @@ export async function scrapeWorkday({
         return Object.prototype.hasOwnProperty.call(named, key) ? named[key] : m;
       })
       .replace(/\u00A0/g, " ");
+  }
+
+  // ---------------- Concurrency helpers ----------------
+  // Simple concurrency-limited async map (no external deps).
+  async function pMap(items, concurrency, mapper) {
+    const arr = Array.isArray(items) ? items : [];
+    const n = arr.length;
+    if (!n) return [];
+    const limit = Math.max(1, Math.min(Number(concurrency) || 1, n));
+    const out = new Array(n);
+    let i = 0;
+
+    await Promise.all(
+      Array.from({ length: limit }, async () => {
+        while (true) {
+          const idx = i++;
+          if (idx >= n) break;
+          out[idx] = await mapper(arr[idx], idx);
+        }
+      })
+    );
+
+    return out;
   }
 
   // ---------------- Timezone helpers (Europe/Berlin) ----------------
@@ -393,21 +418,42 @@ export async function scrapeWorkday({
   const seen = new Set();
 
   let offset = 0;
-  const limit = 20;
+  let total = null;
+  const limit = pageSize;
 
-  while (jobs.length < max) {
+  while (jobs.length < max && offset < (total ?? Infinity)) {
     const page = await getPage(offset, limit);
     if (!page || !Array.isArray(page.jobPostings) || page.jobPostings.length === 0) break;
 
+    // Some tenants expose a total count; use it to stop cleanly when present.
+    total ??=
+      page.total ??
+      page.totalCount ??
+      page.totalJobCount ??
+      page.totalJobs ??
+      page.totalResults ??
+      null;
+
+    const unique = [];
     for (const jp of page.jobPostings) {
       const postingUrl = jp?.externalPath ? `${base}${jp.externalPath}` : jp?.url || null;
       if (!postingUrl) continue;
       if (seen.has(postingUrl)) continue;
       seen.add(postingUrl);
+      unique.push({ jp, postingUrl });
+    }
 
+    const details = fetchDetails
+      ? await pMap(unique, detailConcurrency, ({ jp }) => fetchDetailForPosting(jp))
+      : null;
+
+    for (let idx = 0; idx < unique.length; idx++) {
+      if (jobs.length >= max) break;
+
+      const { jp, postingUrl } = unique[idx];
       const title = cleanText(jp.title) || "Unknown title";
 
-      const detail = fetchDetails ? await fetchDetailForPosting(jp) : null;
+      const detail = fetchDetails ? details[idx] : null;
       const info = detail?.jobPostingInfo || null;
 
       // Locations
@@ -443,13 +489,29 @@ export async function scrapeWorkday({
       const postedAt = safeIsoDate(postedOnRaw) || parsePostedAt(postedOnRaw) || null;
 
       // Time type / employment type
-      const timeType = firstNonEmpty(info?.timeType, jp?.timeType, info?.timeTypeText, jp?.timeTypeText);
+      const timeType = firstNonEmpty(
+        info?.timeType,
+        jp?.timeType,
+        info?.timeTypeText,
+        jp?.timeTypeText
+      );
       const categoriesText = firstNonEmpty(jp?.categoriesText, info?.categoriesText);
       const employmentType = normalizeEmploymentType(timeType || categoriesText);
 
       // Job family/category/type (often missing in public CXS; keep best-effort)
-      const jobFamily = firstNonEmpty(info?.jobFamily, jp?.jobFamily, info?.jobFamilyGroup, jp?.jobFamilyGroup);
-      const jobCategory = firstNonEmpty(info?.jobCategory, jp?.jobCategory, info?.category, jp?.categoryText, jp?.category);
+      const jobFamily = firstNonEmpty(
+        info?.jobFamily,
+        jp?.jobFamily,
+        info?.jobFamilyGroup,
+        jp?.jobFamilyGroup
+      );
+      const jobCategory = firstNonEmpty(
+        info?.jobCategory,
+        jp?.jobCategory,
+        info?.category,
+        jp?.categoryText,
+        jp?.category
+      );
       const jobType = firstNonEmpty(info?.jobType, jp?.jobType, info?.workerType, jp?.workerType);
 
       // Workplace signals
@@ -497,5 +559,5 @@ export async function scrapeWorkday({
     if (page.jobPostings.length < limit) break;
   }
 
-  return jobs;
+  return Number.isFinite(max) ? jobs.slice(0, max) : jobs;
 }
