@@ -23,7 +23,7 @@
     { "id": "typescript", "label": "TypeScript", "group": "programming", "patterns": ["\\btypescript\\b", "\\bts\\b"] },
     { "id": "go", "label": "Go", "group": "programming", "patterns": ["(?<![a-z0-9])go(?![a-z0-9])", "\\bgolang\\b"] },
     { "id": "rust", "label": "Rust", "group": "programming", "patterns": ["\\brust\\b"] },
-    { "id": "csharp", "label": "C#", "group": "programming", "patterns": ["\\bc#\\b", "\\bcsharp\\b", "\\b\.net\\b"] },
+    { "id": "csharp", "label": "C#", "group": "programming", "patterns": ["\\bc#\\b", "\\bcsharp\\b", "\\b\\.net\\b"] },
     { "id": "cpp", "label": "C++", "group": "programming", "patterns": ["c\\+\\+"] },
     { "id": "scala", "label": "Scala", "group": "programming", "patterns": ["\\bscala\\b"] },
     { "id": "julia", "label": "Julia", "group": "programming", "patterns": ["\\bjulia\\b"] },
