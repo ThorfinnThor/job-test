@@ -88,8 +88,10 @@ export default function Filters(props: {
     for (const s of props.skillOptions) {
       const meta = SKILL_BY_ID.get(s.id);
       const g = meta?.group ?? "other";
-      if (!byGroup.has(g)) byGroup.set(g, []);
-      byGroup.get(g).push(s);
+      const bucket = byGroup.get(g) ?? [];
+      if (!byGroup.has(g)) byGroup.set(g, bucket);
+      bucket.push(s);
+
     }
     // sort within group by count desc
     for (const arr of byGroup.values()) {
