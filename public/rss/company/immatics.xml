@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Job Scout — Immatics</title>
+    <description>Latest scraped jobs for Immatics.</description>
+    <link>https://example.vercel.app/jobs?company=immatics</link>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Feb 2026 21:12:02 GMT</lastBuildDate>
+    
+    <item>
+      <title>Immatics — (Senior) Manager Clinical Sciences</title>
+      <link>https://immatics.wd3.myworkdayjobs.com/wday/cxs/immatics/Immatics_External/job/Munich/XMLNAME--Senior--Manager-Clinical-Sciences_JR100609</link>
+      <guid isPermaLink="false">workday:JR100609</guid>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Immatics combines the discovery of true targets for cancer immunotherapies with the development of the right T cell receptors with the goal of enabling a robust and specific T cell response against these targets. This deep know-how is the foundation for our pipeline of Adoptive Cell Therapies and TCR Bispecifics as we…
+
+Location: Munich | Stack: biostatistics, clinical_ops, clinical_trials, communication, gcp, gcp_clinical, gxp, medical_writing, statistics</description>
+    </item>
+
+    <item>
+      <title>Immatics — Medical Monitor*</title>
+      <link>https://immatics.wd3.myworkdayjobs.com/wday/cxs/immatics/Immatics_External/job/Remote-Work-Germany/Medical-Monitor-_JR100625</link>
+      <guid isPermaLink="false">workday:JR100625</guid>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <description>ABOUT US Immatics is committed to making a meaningful impact on the lives of patients with cancer. We are the global leader in precision targeting of PRAME, a target expressed in more than 50 cancers. Our cutting-edge science and robust clinical pipeline form the broadest PRAME franchise with the most PRAME indication…
+
+Location: Remote Work (Germany) | Stack: clinical_trials, communication, deviations, pv</description>
+    </item>
+
+    <item>
+      <title>Immatics — (Senior) Clinical Statistical Programmer – SAS*</title>
+      <link>https://immatics.wd3.myworkdayjobs.com/wday/cxs/immatics/Immatics_External/job/Remote-Work-Germany/XMLNAME--Senior--Clinical-Statistical-Programmer---SAS-_JR100596-1</link>
+      <guid isPermaLink="false">workday:JR100596</guid>
+      <pubDate>Tue, 27 Jan 2026 23:00:00 GMT</pubDate>
+      <description>ABOUT US Immatics is committed to making a meaningful impact on the lives of patients with cancer. We are the global leader in precision targeting of PRAME, a target expressed in more than 50 cancers. Our cutting-edge science and robust clinical pipeline form the broadest PRAME franchise with the most PRAME indication…
+
+Location: Remote Work (Germany) | Stack: biostatistics, data_science, gcp, gcp_clinical, gxp, ich, r, statistics, validation</description>
+    </item>
+
+    <item>
+      <title>Immatics — Senior Manager Clinical QA - Auditing Focus*</title>
+      <link>https://immatics.wd3.myworkdayjobs.com/wday/cxs/immatics/Immatics_External/job/Tuebingen-Germany/Senior-Manager-Clinical-Quality-Assurance-_JR100525-1</link>
+      <guid isPermaLink="false">workday:JR100525</guid>
+      <pubDate>Tue, 27 Jan 2026 23:00:00 GMT</pubDate>
+      <description>ABOUT US Immatics is committed to making a meaningful impact on the lives of patients with cancer. We are the global leader in precision targeting of PRAME, a target expressed in more than 50 cancers. Our cutting-edge science and robust clinical pipeline form the broadest PRAME franchise with the most PRAME indication…
+
+Location: Tuebingen (Germany) | Stack: capA, clinical_trials, communication, deviations, gcp, gcp_clinical, gxp, ich</description>
+    </item>
+  </channel>
+</rss>

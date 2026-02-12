@@ -1,0 +1,3553 @@
+{
+  "generatedAt": "2026-02-12T21:12:02.327Z",
+  "previousScrapedAt": "2026-02-12T20:52:58.655Z",
+  "currentScrapedAt": "2026-02-12T21:12:02.043Z",
+  "counts": {
+    "new": 10,
+    "updated": 0,
+    "removed": 175
+  },
+  "new": [
+    {
+      "id": "workday:R-245687",
+      "company": {
+        "id": "astrazeneca",
+        "name": "AstraZeneca",
+        "careersUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+      },
+      "title": "AI Lead: Commercial, Launch & Medical Excellence",
+      "location": "US - Boston - MA",
+      "url": "https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/AI-Lead--Commercial--Launch---Medical-Excellence_R-245687",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Boston---MA/AI-Lead--Commercial--Launch---Medical-Excellence_R-245687",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:07:42.820Z",
+      "skills": [
+        "agile",
+        "data_science",
+        "nlp",
+        "pv",
+        "sop",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-245694",
+      "company": {
+        "id": "astrazeneca",
+        "name": "AstraZeneca",
+        "careersUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+      },
+      "title": "AI Lead: Manufacturing & Supply Chain",
+      "location": "US - Boston - MA",
+      "url": "https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/AI-Lead--Manufacturing---Supply-Chain_R-245694",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Boston---MA/AI-Lead--Manufacturing---Supply-Chain_R-245694",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:07:42.820Z",
+      "skills": [
+        "capA",
+        "cv",
+        "deviations",
+        "eln",
+        "gmp",
+        "gxp",
+        "limes",
+        "nlp",
+        "sop",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-054974",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Associate Clinical Account Specialist - Medellín, Colombia",
+      "location": "Medellin, Colombia",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Medellin-Colombia/Associate-Clinical-Account-Specialist---Medelln--Colombia_R-054974",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Medellin-Colombia/Associate-Clinical-Account-Specialist---Medelln--Colombia_R-054974",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:11:11.105Z",
+      "skills": [
+        "data_engineering",
+        "microscopy",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-057582",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Associate Process Engineer",
+      "location": "Anasco, Puerto Rico, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Anasco-Puerto-Rico-United-States-of-America/Associate-Process-Engineer_R-057582-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Anasco-Puerto-Rico-United-States-of-America/Associate-Process-Engineer_R-057582-1",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:11:11.105Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "gmp",
+        "gxp",
+        "project_mgmt",
+        "r",
+        "statistics",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-058686",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Customer Success Manager",
+      "location": "Prague, Czechia",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Prague-Czechia/Customer-Success-Manager_R-058686",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Prague-Czechia/Customer-Success-Manager_R-058686",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:11:11.105Z",
+      "skills": [
+        "data_engineering",
+        "excel",
+        "r",
+        "tableau",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-057958",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Customer Success Manager",
+      "location": "Tampa, Florida, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Tampa-Florida-United-States-of-America/Customer-Success-Manager_R-057958-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Tampa-Florida-United-States-of-America/Customer-Success-Manager_R-057958-1",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:11:11.105Z",
+      "skills": [
+        "excel",
+        "go",
+        "r",
+        "tableau",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-245989",
+      "company": {
+        "id": "astrazeneca",
+        "name": "AstraZeneca",
+        "careersUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+      },
+      "title": "Field Medical Manager Rare Diseases (CDMX)",
+      "location": "Mexico - Cuautitlán",
+      "url": "https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Mexico---Cuautitln/Field-Medical-Manager-Rare-Diseases--CDMX-_R-245989-1",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/Mexico---Cuautitln/Field-Medical-Manager-Rare-Diseases--CDMX-_R-245989-1",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:07:42.820Z",
+      "skills": [
+        "agile",
+        "clinical_trials",
+        "project_mgmt",
+        "stakeholder",
+        "statistics"
+      ]
+    },
+    {
+      "id": "workday:R-057601",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Software Engineer, GUI",
+      "location": "Santa Clara, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Santa-Clara-California-United-States-of-America/Software-Engineer--GUI_R-057601",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Santa-Clara-California-United-States-of-America/Software-Engineer--GUI_R-057601",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:11:11.105Z",
+      "skills": [
+        "data_engineering",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9wZml6ZXIud2QxLm15d29ya2RheWpvYnMuY29tL3dkYXkvY3hzL3BmaXplci9QZml6ZXJDYXJlZXJzL2pvYi9CZWxnaXVtLS0tUHV1cnMvUHJvamVjdC1FbmdpbmVlci1CdWlsZGluZy1FbGVjdHJpY2l0eS0tLVNlY3VyaXR5XzQ5Mzc1MTctMQ",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Project Engineer Building Electricity & Security",
+      "location": "Belgium - Puurs",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Belgium---Puurs/Project-Engineer-Building-Electricity---Security_4937517-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Belgium---Puurs/Project-Engineer-Building-Electricity---Security_4937517-1",
+      "postedAt": "2026-01-20T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:06:41.800Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9wZml6ZXIud2QxLm15d29ya2RheWpvYnMuY29tL3dkYXkvY3hzL3BmaXplci9QZml6ZXJDYXJlZXJzL2pvYi9Vbml0ZWQtU3RhdGVzLS0tTmV3LVlvcmstLS1QZWFybC1SaXZlci9Sb2JvdGljcy0tLUF1dG9tYXRpb24tVGVjaG5pY2FsLUFzc29jaWF0ZS0tQXNzb2NpYXRlLXMtZGVncmVlLV80OTUwMDcyLTE",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Robotics & Automation Technical Associate (Associate's degree)",
+      "location": "United States - New York - Pearl River",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/United-States---New-York---Pearl-River/Robotics---Automation-Technical-Associate--Associate-s-degree-_4950072-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/United-States---New-York---Pearl-River/Robotics---Automation-Technical-Associate--Associate-s-degree-_4950072-1",
+      "postedAt": "2026-01-19T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T21:06:41.800Z",
+      "skills": []
+    }
+  ],
+  "updated": [],
+  "removed": [
+    {
+      "id": "workday:R-239207",
+      "company": {
+        "id": "astrazeneca",
+        "name": "AstraZeneca",
+        "careersUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+      },
+      "title": "Director, Global Media Relations",
+      "location": "US - Gaithersburg - MD",
+      "url": "https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Director--Global-Media-Relations_R-239207",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/US---Gaithersburg---MD/Director--Global-Media-Relations_R-239207",
+      "postedAt": "2026-02-11T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:48:26.103Z",
+      "skills": [
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:R-242099",
+      "company": {
+        "id": "astrazeneca",
+        "name": "AstraZeneca",
+        "careersUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers"
+      },
+      "title": "Senior Product Specialist Oncology",
+      "location": "Central-Riyadh",
+      "url": "https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Central-Riyadh/Senior-Product-Specialist-Oncology_R-242099-1",
+      "applyUrl": "https://astrazeneca.wd3.myworkdayjobs.com/Careers/job/Central-Riyadh/Senior-Product-Specialist-Oncology_R-242099-1",
+      "postedAt": "2026-02-10T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:48:26.103Z",
+      "skills": [
+        "agile",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:REQ-10071205",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Associate Clinical Development Director",
+      "location": "London (The Westworks)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/London-The-Westworks/Associate-Clinical-Development-Director_REQ-10071205-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/London-The-Westworks/Associate-Clinical-Development-Director_REQ-10071205-1",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "clinical_trials",
+        "communication",
+        "gcp",
+        "gcp_clinical",
+        "gxp",
+        "ich",
+        "llm",
+        "sop",
+        "statistics"
+      ]
+    },
+    {
+      "id": "workday:REQ-10070399",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Associate Clinical Development Medical Director",
+      "location": "Barcelona Gran Vía",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Barcelona-Gran-Va/Associate-Clinical-Development-Medical-Director_REQ-10070399-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Barcelona-Gran-Va/Associate-Clinical-Development-Medical-Director_REQ-10070399-1",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "clinical_trials"
+      ]
+    },
+    {
+      "id": "workday:REQ-10065816",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Associate Director, Web Analytics",
+      "location": "Dublin (NOCC)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Dublin-NOCC/Associate-Director--Web-Analytics_REQ-10065816",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Dublin-NOCC/Associate-Director--Web-Analytics_REQ-10065816",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "gcp",
+        "gcp_clinical",
+        "gxp",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:REQ-10070493",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Associate Expert Science & Technology",
+      "location": "Hyderabad (Office)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Hyderabad-Office/Associate-Expert-Science---Technology_REQ-10070493",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Associate-Expert-Science---Technology_REQ-10070493",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "data_engineering",
+        "glp",
+        "gxp",
+        "ich",
+        "sop",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:REQ-10069410",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "CRM Medical Lead - Riyadh",
+      "location": "Riyadh",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Riyadh/CRM-Medical-Affairs-Lead---Riyadh_REQ-10069410",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Riyadh/CRM-Medical-Affairs-Lead---Riyadh_REQ-10069410",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "clinical_trials",
+        "pv",
+        "reg_affairs",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:REQ-10071487",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Director, Market Access Engagement (Systems)",
+      "location": "Field Non-Sales (USA)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Field-Non-Sales-USA/Director--Market-Access-Engagement--Systems-_REQ-10071487",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Field-Non-Sales-USA/Director--Market-Access-Engagement--Systems-_REQ-10071487",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "communication",
+        "go"
+      ]
+    },
+    {
+      "id": "workday:REQ-10069085",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "G2G Young Professional",
+      "location": "Warsaw",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Warsaw/G2G-Young-Professional_REQ-10069085",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Warsaw/G2G-Young-Professional_REQ-10069085",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "excel",
+        "go"
+      ]
+    },
+    {
+      "id": "workday:REQ-10071199",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Medical Representative / Disease Area Specialist",
+      "location": "Israel",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Israel/Disease-Area-Specialist_REQ-10071199",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Israel/Disease-Area-Specialist_REQ-10071199",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:REQ-10071484",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Procurement Manager",
+      "location": "Prague",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Prague/Procurement-Manager_REQ-10071484",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Prague/Procurement-Manager_REQ-10071484",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": []
+    },
+    {
+      "id": "workday:REQ-10066817",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Senior Expert - Extractables and Leachables (m/f/d)",
+      "location": "Schaftenau",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Schaftenau/Senior-Expert---Extractables-and-Leachables--m-f-d-_REQ-10066817-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Schaftenau/Senior-Expert---Extractables-and-Leachables--m-f-d-_REQ-10066817-1",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "cv",
+        "ind",
+        "project_mgmt"
+      ]
+    },
+    {
+      "id": "workday:REQ-10069903",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Senior Manager - AI & Innovation",
+      "location": "Hyderabad (Office)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Hyderabad-Office/S-Manager---AI---Innovation_REQ-10069903-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/S-Manager---AI---Innovation_REQ-10069903-1",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "agile",
+        "gcp",
+        "gcp_clinical",
+        "github_actions",
+        "gxp",
+        "java",
+        "kubernetes",
+        "llm",
+        "nlp",
+        "python",
+        "r",
+        "scala"
+      ]
+    },
+    {
+      "id": "workday:REQ-10061764",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Senior Manager, Internal Audit",
+      "location": "Mapletree Business City (MBC)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Mapletree-Business-City-MBC/Senior-Manager--Internal-Audit_REQ-10061764",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Mapletree-Business-City-MBC/Senior-Manager--Internal-Audit_REQ-10061764",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "project_mgmt",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:REQ-10048542",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Sr. Spec. DDIT OPS SC Lead Software Eng.",
+      "location": "Hyderabad (Office)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Hyderabad-Office/Sr-Spec-DDIT-OPS-SC-Lead-Software-Eng_REQ-10048542-2",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Sr-Spec-DDIT-OPS-SC-Lead-Software-Eng_REQ-10048542-2",
+      "postedAt": "2026-02-09T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "agile",
+        "communication",
+        "excel",
+        "go",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0NoaXlvZGEtVG9reW8tSmFwYW4vWE1MTkFNRS0tQ29tbXVuaWNhdGlvbnMtLVBvcnRmb2xpby1Db21tdW5pY2F0aW9uLU1hbmFnZXItLUNvbW11bmljYXRpb24tLS1QdWJsaWMtQWZmYWlycy0tSU0tX1ItMDUyOTM4",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "[Communications] Portfolio Communication Manager, Communication & Public Affairs [IM]",
+      "location": "Chiyoda, Tokyo, Japan",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Chiyoda-Tokyo-Japan/XMLNAME--Communications--Portfolio-Communication-Manager--Communication---Public-Affairs--IM-_R-052938",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Chiyoda-Tokyo-Japan/XMLNAME--Communications--Portfolio-Communication-Manager--Communication---Public-Affairs--IM-_R-052938",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL09zYWthLUphcGFuL1hNTE5BTUUtLUlubm92YXRpdmUtTWVkaWNpbmUtLVItRC0tTGVhZC1Mb2NhbC1UcmlhbC1NYW5hZ2VyLS1JbW11bm9sb2d5LUNsaW5pY2FsLU9wZXJhdGlvbi0tR0NPLUphcGFuX1ItMDU3NDU5",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "[Innovative Medicine] R&D, Lead Local Trial Manager/Senior Local Trial Manager, Immunology Clinical Operation, GCO Japan",
+      "location": null,
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Osaka-Japan/XMLNAME--Innovative-Medicine--R-D--Lead-Local-Trial-Manager--Immunology-Clinical-Operation--GCO-Japan_R-057459",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Osaka-Japan/XMLNAME--Innovative-Medicine--R-D--Lead-Local-Trial-Manager--Immunology-Clinical-Operation--GCO-Japan_R-057459",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "r"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1Nlb3VsLUtvcmVhLVJlcHVibGljLW9mL1hNTE5BTUUtLU1lZFRlY2gtLVNhbGVzLVN1cGVydmlzb3ItLS1CaW8tU3VyZ2VyeV9SLTA0ODUzNA",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "[MedTech] Sales Supervisor - Bio Surgery",
+      "location": "Seoul, Korea, Republic of",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Seoul-Korea-Republic-of/XMLNAME--MedTech--Sales-Supervisor---Bio-Surgery_R-048534",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Seoul-Korea-Republic-of/XMLNAME--MedTech--Sales-Supervisor---Bio-Surgery_R-048534",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0xpdHRsZS1Sb2NrLUFya2Fuc2FzLVVuaXRlZC1TdGF0ZXMvQWNjb3VudC1FeGVjdXRpdmUtSS0tLUFkdmFuY2VkLUhlbW9zdGFzaXMtYW5kLUhlYWxpbmctLUFISC0tLS1MaXR0bGUtUm9jay0tQVItLS1Kb2huc29uLS0tSm9obnNvbi1NZWRUZWNoLS0tU3VyZ2VyeV9SLTA1NjgwOC0x",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Account Executive I - Advanced Hemostasis and Healing (AHH) - Little Rock, AR - Johnson & Johnson MedTech - Surgery",
+      "location": "Little Rock, Arkansas, United States",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Little-Rock-Arkansas-United-States/Account-Executive-I---Advanced-Hemostasis-and-Healing--AHH----Little-Rock--AR---Johnson---Johnson-MedTech---Surgery_R-056808-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Little-Rock-Arkansas-United-States/Account-Executive-I---Advanced-Hemostasis-and-Healing--AHH----Little-Rock--AR---Johnson---Johnson-MedTech---Surgery_R-056808-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1BhcmFuYXF1ZS1OYXRpb25hbC1DYXBpdGFsLVJlZ2lvbi1NYW5pbGEtUGhpbGlwcGluZXMvQW5hbHlzdC1QYXlyb2xsX1ItMDUyMjM4LTE",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Analyst Payroll",
+      "location": "Paranaque, National Capital Region (Manila), Philippines",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Paranaque-National-Capital-Region-Manila-Philippines/Analyst-Payroll_R-052238-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Paranaque-National-Capital-Region-Manila-Philippines/Analyst-Payroll_R-052238-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0RvcnRtdW5kLURldXRzY2hsYW5kL0Fzc29jaWF0ZS1DbGluaWNhbC1Db25zdWx0YW50LS1tLXctZC0tUmVnaW9uLU1uc3Rlcl9SLTA0OTcyNA",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Associate Clinical Consultant (m/w/d) Region Münster",
+      "location": "Dortmund, Deutschland",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Dortmund-Deutschland/Associate-Clinical-Consultant--m-w-d--Region-Mnster_R-049724",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Dortmund-Deutschland/Associate-Clinical-Consultant--m-w-d--Region-Mnster_R-049724",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0ZyYW5rZnVydC1hbS1NYWluLUhlc3NlLUdlcm1hbnkvQXNzb2NpYXRlLURpcmVjdG9yLS1tLWYtZC0tUGh5c2ljaWFuLVByb2dyYW1zLS0tQ2VudHJhbC1HZXJtYW55X1ItMDU3NjUw",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Associate Director (m/f/d) Physician Programs - Central Germany",
+      "location": "Frankfurt am Main, Hesse, Germany",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Frankfurt-am-Main-Hesse-Germany/Associate-Director--m-f-d--Physician-Programs---Central-Germany_R-057650",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Frankfurt-am-Main-Hesse-Germany/Associate-Director--m-f-d--Physician-Programs---Central-Germany_R-057650",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0Jlcmxpbi1HZXJtYW55L0Fzc29jaWF0ZS1EaXJlY3Rvci0tbS1mLWQtLVBoeXNpY2lhbi1Qcm9ncmFtcy0tLUdlcm1hbnktRWFzdF9SLTA1NzY0OA",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Associate Director (m/f/d) Physician Programs - Germany East",
+      "location": "Berlin, Germany",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Berlin-Germany/Associate-Director--m-f-d--Physician-Programs---Germany-East_R-057648",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Berlin-Germany/Associate-Director--m-f-d--Physician-Programs---Germany-East_R-057648",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL011bmljaC1CYXZhcmlhLUdlcm1hbnkvQXNzb2NpYXRlLURpcmVjdG9yLS1tLWYtZC0tUGh5c2ljaWFuLVByb2dyYW1zLS0tR2VybWFueS1Tb3V0aF9SLTA1NzY0OQ",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Associate Director (m/f/d) Physician Programs - Germany South",
+      "location": "Munich, Bavaria, Germany",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Munich-Bavaria-Germany/Associate-Director--m-f-d--Physician-Programs---Germany-South_R-057649",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Munich-Bavaria-Germany/Associate-Director--m-f-d--Physician-Programs---Germany-South_R-057649",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-056602",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "ATR Accountant",
+      "location": "Suzhou, Jiangsu, China",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Suzhou-Jiangsu-China/ATR-Accountant_R-056602",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Suzhou-Jiangsu-China/ATR-Accountant_R-056602",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-056741",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Business Development Manager Joints - Velys, Central Poland",
+      "location": "Warsaw, Masovian, Poland",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Warsaw-Masovian-Poland/Business-Development-Manager-Joints---Velys--Central-Poland_R-056741",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Warsaw-Masovian-Poland/Business-Development-Manager-Joints---Velys--Central-Poland_R-056741",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "go",
+        "r",
+        "reg_affairs",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:R-056379",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Business Unit Director",
+      "location": "Norderstedt, Schleswig-Holstein, Germany",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Norderstedt-Schleswig-Holstein-Germany/Business-Unit-Director_R-056379",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Norderstedt-Schleswig-Holstein-Germany/Business-Unit-Director_R-056379",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "agile",
+        "data_engineering",
+        "excel",
+        "fda",
+        "gmp",
+        "gxp",
+        "project_mgmt",
+        "r",
+        "statistics"
+      ]
+    },
+    {
+      "id": "workday:R-056072",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Cleaning Science Engineer",
+      "location": "Geel, Antwerp, Belgium",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Geel-Antwerp-Belgium/Cleaning-Science-Engineer_R-056072",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Geel-Antwerp-Belgium/Cleaning-Science-Engineer_R-056072",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "project_mgmt",
+        "r",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0plZGRhaC1NYWtrYWgtU2F1ZGktQXJhYmlhL0NsaW5pY2FsLVNwZWNpYWxpc3QtLS1DYXJkaW92YXNjdWxhci0tLUpvaG5zb24tLS1Kb2huc29uLU1lZFRlY2gtLS1KZWRkYWgtLUtTQV9SLTA1NjI5MA",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Clinical Specialist - Cardiovascular | Johnson & Johnson MedTech | Jeddah, KSA",
+      "location": "Jeddah, Makkah, Saudi Arabia",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Jeddah-Makkah-Saudi-Arabia/Clinical-Specialist---Cardiovascular---Johnson---Johnson-MedTech---Jeddah--KSA_R-056290",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Jeddah-Makkah-Saudi-Arabia/Clinical-Specialist---Cardiovascular---Johnson---Johnson-MedTech---Jeddah--KSA_R-056290",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-057206",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Director PMO",
+      "location": "Limerick, Ireland",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Limerick-Ireland/Director-PMO_R-057206",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Limerick-Ireland/Director-PMO_R-057206",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "agile",
+        "data_engineering",
+        "fda",
+        "iso13485",
+        "project_mgmt",
+        "r",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-057525",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Director, Global Commercial Strategy, Precision Medicine",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/Director--Global-Commercial-Strategy--Precision-Medicine_R-057525",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Director--Global-Commercial-Strategy--Precision-Medicine_R-057525",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "data_science",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-053632",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Director, Sales Excellence",
+      "location": "Titusville, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Director--Sales-Excellence_R-053632-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/Director--Sales-Excellence_R-053632-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "go",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL01hbmdhbG9yZS1LYXJuYXRha2EtSW5kaWEvRGlzdHJpY3QtTWFuYWdlci0tLUltbXVub2xvZ3ktLS1NYW5nYWxvcmUtSFFfUi0wNTQ1NjA",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "District Manager - Immunology - Mangalore HQ",
+      "location": "Mangalore, Karnataka, India",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Mangalore-Karnataka-India/District-Manager---Immunology---Mangalore-HQ_R-054560",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Mangalore-Karnataka-India/District-Manager---Immunology---Mangalore-HQ_R-054560",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0d1cmdhb24tSGFyeWFuYS1JbmRpYS9EaXN0cmljdC1NYW5hZ2VyLS0tTmV1cm9zY2llbmNlLS0tRGVsaGktSFFfUi0wNTY2OTg",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "District Manager - Neuroscience - Delhi HQ",
+      "location": "Gurgaon, Haryana, India",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Gurgaon-Haryana-India/District-Manager---Neuroscience---Delhi-HQ_R-056698",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Gurgaon-Haryana-India/District-Manager---Neuroscience---Delhi-HQ_R-056698",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-048430",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Field Service Engineer, Barcelona",
+      "location": "Barcelona, Spain",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Barcelona-Spain/Field-Service-Engineer--Madrid_R-048430",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Barcelona-Spain/Field-Service-Engineer--Madrid_R-048430",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1p1Zy1Td2l0emVybGFuZC9HbG9iYWwtRGF0YS1hbmQtQW5hbHl0aWNzLURlcGxveS1MZWFkX1ItMDQ5MzU1LTE",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Global Data and Analytics Deploy Lead",
+      "location": null,
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Zug-Switzerland/Global-Data-and-Analytics-Deploy-Lead_R-049355-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Zug-Switzerland/Global-Data-and-Analytics-Deploy-Lead_R-049355-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1RpdHVzdmlsbGUtTmV3LUplcnNleS1Vbml0ZWQtU3RhdGVzLW9mLUFtZXJpY2EvR2xvYmFsLURhdGEtYW5kLUFuYWx5dGljcy1EZXBsb3ktTGVhZF9SLTA1NzY5Mg",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Global Data and Analytics Deploy Lead",
+      "location": "Titusville, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Global-Data-and-Analytics-Deploy-Lead_R-057692",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Global-Data-and-Analytics-Deploy-Lead_R-057692",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-056980",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "GS Finance Acquisition and Divestiture",
+      "location": "Bogotá, Distrito Capital, Colombia",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Bogot-Distrito-Capital-Colombia/GS-Finance-Acquisition-and-Divestiture_R-056980",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Bogot-Distrito-Capital-Colombia/GS-Finance-Acquisition-and-Divestiture_R-056980",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "project_mgmt",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-042721",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Head of Translational Safety",
+      "location": "Titusville, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Head-of-Translational-Safety_R-042721-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/Head-of-Translational-Safety_R-042721-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "r",
+        "typescript"
+      ]
+    },
+    {
+      "id": "workday:R-054928",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Health Economics and Market Access Head",
+      "location": "São Paulo, Brazil",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/So-Paulo-Brazil/Senior-Manager--Health-Economics-and-Market-Access_R-054928",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/So-Paulo-Brazil/Senior-Manager--Health-Economics-and-Market-Access_R-054928",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "excel",
+        "r",
+        "sop"
+      ]
+    },
+    {
+      "id": "workday:R-055951",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "HTI Expert Lab Technician",
+      "location": "Irvine, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Irvine-California-United-States-of-America/HTI-Expert-Lab-Technician_R-055951",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Irvine-California-United-States-of-America/HTI-Expert-Lab-Technician_R-055951",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-055955",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "HTI Lead Lab Technician",
+      "location": "Irvine, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Irvine-California-United-States-of-America/HTI-Lead-Lab-Technician_R-055955-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Irvine-California-United-States-of-America/HTI-Lead-Lab-Technician_R-055955-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-056995",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Logistic Staff (m/w/d)",
+      "location": "Umkirch, Germany",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Umkirch-Germany/Logistic-Staff--m-w-d-_R-056995",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Umkirch-Germany/Logistic-Staff--m-w-d-_R-056995",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "r",
+        "typescript"
+      ]
+    },
+    {
+      "id": "workday:R-056985",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Logistic Staff (m/w/d), Teilzeit",
+      "location": "Umkirch, Germany",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Umkirch-Germany/Logistic-Staff--m-w-d---Teilzeit_R-056985",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Umkirch-Germany/Logistic-Staff--m-w-d---Teilzeit_R-056985",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "r",
+        "typescript"
+      ]
+    },
+    {
+      "id": "workday:R-054279",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Manager, Technical Product Owner",
+      "location": "Bangalore, Karnataka, India",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Bangalore-Karnataka-India/Manager--Technical-Product-Owner_R-054279",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Bangalore-Karnataka-India/Manager--Technical-Product-Owner_R-054279",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "agile",
+        "bi",
+        "data_engineering",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-055169",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Manufacturing Execution System (MES) Project Lead",
+      "location": "Beerse, Antwerp, Belgium",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Beerse-Antwerp-Belgium/Manufacturing-Execution-System--MES--Project-Lead_R-055169",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Beerse-Antwerp-Belgium/Manufacturing-Execution-System--MES--Project-Lead_R-055169",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "gmp",
+        "gxp",
+        "limes",
+        "project_mgmt",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-055282",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Market Development Manager - Kansas City, MO - Johnson & Johnson MedTech - Orthopaedics",
+      "location": "Kansas City, Missouri, United States",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Kansas-City-Missouri-United-States/Market-Development-Manager---Kansas-City--MO----Johnson---Johnson-MedTech---Orthopaedics_R-055282-2",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Kansas-City-Missouri-United-States/Market-Development-Manager---Kansas-City--MO----Johnson---Johnson-MedTech---Orthopaedics_R-055282-2",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "r",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0tpYmJ1dHotU2hlZmF5aW0tQ2VudGVyLURpc3RyaWN0LUlzcmFlbC9NYXJrZXRpbmctTWFuYWdlcl9SLTA1NjMyMA",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Marketing Manager",
+      "location": "Kibbutz Shefayim, Center District, Israel",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Kibbutz-Shefayim-Center-District-Israel/Marketing-Manager_R-056320",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Kibbutz-Shefayim-Center-District-Israel/Marketing-Manager_R-056320",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0hhbWJ1cmctR2VybWFueS9NYXJrZXRpbmctUHJvamVjdC1NYW5hZ2VyX1ItMDU2MzU1",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Marketing Project Specialist Surgery (m/f/d)",
+      "location": "Hamburg, Germany",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Hamburg-Germany/Marketing-Project-Manager_R-056355",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Hamburg-Germany/Marketing-Project-Manager_R-056355",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0xlaWRlbi1Tb3V0aC1Ib2xsYW5kLU5ldGhlcmxhbmRzL01hdGVyaWFscy1SZXF1aXJlbWVudHMtUGxhbm5lci0tLU1SUC1fUi0wNTEyMDYtMQ",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Materials Requirements Planner (MRP)",
+      "location": "Leiden, South Holland, Netherlands",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Leiden-South-Holland-Netherlands/Materials-Requirements-Planner---MRP-_R-051206-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Leiden-South-Holland-Netherlands/Materials-Requirements-Planner---MRP-_R-051206-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-047694",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Oncology Sales Specialist - Solid Tumor, Lung - Southeastern Massachusetts - Johnson & Johnson Innovative Medicine",
+      "location": "Boston, Massachusetts, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Boston-Massachusetts-United-States-of-America/Oncology-Sales-Specialist---Solid-Tumor--Lung---Southeastern-Massachusetts----Johnson---Johnson-Innovative-Medicine_R-047694-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Boston-Massachusetts-United-States-of-America/Oncology-Sales-Specialist---Solid-Tumor--Lung---Southeastern-Massachusetts----Johnson---Johnson-Innovative-Medicine_R-047694-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1NoYW5naGFpLUNoaW5hL1ByaW5jaXBhbC1TY2llbnRpc3RfUi0wNTE0NzA",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Principal Scientist",
+      "location": "Shanghai, China",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Shanghai-China/Principal-Scientist_R-051470",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Shanghai-China/Principal-Scientist_R-051470",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-057467",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Principal Scientist - Scientific Integrator",
+      "location": "Beerse, Antwerp, Belgium",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Beerse-Antwerp-Belgium/Principal-Scientist---Scientific-Integrator_R-057467",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Beerse-Antwerp-Belgium/Principal-Scientist---Scientific-Integrator_R-057467",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "r",
+        "reg_affairs"
+      ]
+    },
+    {
+      "id": "workday:R-057473",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Product Manager Uro-Oncology",
+      "location": "Prague, Czechia",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Prague-Czechia/Product-Manager-Uro-Oncology_R-057473",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Prague-Czechia/Product-Manager-Uro-Oncology_R-057473",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "go",
+        "project_mgmt",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-057751",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Professional Education Manager Abiomed, Eastern Europe",
+      "location": "Warsaw, Masovian, Poland",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Warsaw-Masovian-Poland/Professional-Education-Manager-Abiomed--Eastern-Europe_R-057751",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Warsaw-Masovian-Poland/Professional-Education-Manager-Abiomed--Eastern-Europe_R-057751",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "excel",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-050575",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "QCS Engineering Manager",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/QCS-Engineering-Manager_R-050575-2",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/QCS-Engineering-Manager_R-050575-2",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "agile",
+        "gxp",
+        "limes",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-052687",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Quality Assurance CSV Engineer",
+      "location": "Beerse, Antwerp, Belgium",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Beerse-Antwerp-Belgium/Quality-Assurance-CSV-Engineer_R-052687-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Beerse-Antwerp-Belgium/Quality-Assurance-CSV-Engineer_R-052687-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "iso9001",
+        "r",
+        "sop",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0t5aXYtS3lpdnNrYS1vYmxhc3QtVWtyYWluZS9SZWd1bGF0b3J5LUxlYWRfUi0wNDc4MTY",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Regulatory Lead",
+      "location": "Kyiv, Kyivska oblast, Ukraine",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Kyiv-Kyivska-oblast-Ukraine/Regulatory-Lead_R-047816",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Kyiv-Kyivska-oblast-Ukraine/Regulatory-Lead_R-047816",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-057707",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Release Data & Analytics Deploy Lead",
+      "location": "Titusville, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Release-Data---Analytics-Deploy-Lead_R-057707",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/Release-Data---Analytics-Deploy-Lead_R-057707",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "gdpr",
+        "go",
+        "gxp",
+        "r",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1p1Zy1Td2l0emVybGFuZC9SZWxlYXNlLURhdGEtLS1BbmFseXRpY3MtRGVwbG95LUxlYWRfUi0wNDkzNzE",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Release Data & Analytics Deploy Lead",
+      "location": null,
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Zug-Switzerland/Release-Data---Analytics-Deploy-Lead_R-049371",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Zug-Switzerland/Release-Data---Analytics-Deploy-Lead_R-049371",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-052743",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Release Data Lead",
+      "location": "Zug, Switzerland",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Zug-Switzerland/Release-Data-Lead_R-052743",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/Release-Data-Lead_R-052743",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "gdpr",
+        "go",
+        "gxp",
+        "r",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-057765",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Release Data Lead",
+      "location": "Titusville, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Release-Data-Lead_R-057765-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/Release-Data-Lead_R-057765-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "gdpr",
+        "go",
+        "gxp",
+        "r",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-057535",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Sales Associate - Sarasota, FL - Johnson & Johnson MedTech - Orthopaedics",
+      "location": "Sarasota, Florida, United States",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Sarasota-Florida-United-States/Sales-Associate---Sarasota--FL---Johnson---Johnson-MedTech---Orthopaedics_R-057535-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Sarasota-Florida-United-States/Sales-Associate---Sarasota--FL---Johnson---Johnson-MedTech---Orthopaedics_R-057535-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0plZGRhaC1NYWtrYWgtU2F1ZGktQXJhYmlhL1Nlbmlvci1DbGluaWNhbC1TcGVjaWFsaXN0LS0tQ2FyZGlvdmFzY3VsYXItLS1Kb2huc29uLS0tSm9obnNvbi1NZWRUZWNoLS0tSmVkZGFoLS1LU0FfUi0wNTYyODY",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Clinical Specialist - Cardiovascular | Johnson & Johnson MedTech | Jeddah, KSA",
+      "location": "Jeddah, Makkah, Saudi Arabia",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Jeddah-Makkah-Saudi-Arabia/Senior-Clinical-Specialist---Cardiovascular---Johnson---Johnson-MedTech---Jeddah--KSA_R-056286",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Jeddah-Makkah-Saudi-Arabia/Senior-Clinical-Specialist---Cardiovascular---Johnson---Johnson-MedTech---Jeddah--KSA_R-056286",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-056909",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Commercial Compliance Manager, CEEMA Cluster",
+      "location": "Warsaw, Masovian, Poland",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Warsaw-Masovian-Poland/Senior-Commercial-Compliance-Manager--CEEMA-Cluster_R-056909",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Warsaw-Masovian-Poland/Senior-Commercial-Compliance-Manager--CEEMA-Cluster_R-056909",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1N1emhvdS1KaWFuZ3N1LUNoaW5hL1Nlbmlvci1GYWNpbGl0eS1FbmdpbmVlcl9SLTA1Njg2NQ",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Facility Engineer",
+      "location": "Suzhou, Jiangsu, China",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Suzhou-Jiangsu-China/Senior-Facility-Engineer_R-056865",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Suzhou-Jiangsu-China/Senior-Facility-Engineer_R-056865",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-057443",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Finance Analyst, Orthopaedics",
+      "location": "Zuchwil, Switzerland",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Zuchwil-Switzerland/Senior-Finance-Analyst--Orthopaedics_R-057443-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Zuchwil-Switzerland/Senior-Finance-Analyst--Orthopaedics_R-057443-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "bi",
+        "data_engineering",
+        "excel",
+        "powerbi",
+        "r",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL0dlbnQtRWFzdC1GbGFuZGVycy1CZWxnaXVtL1Nlbmlvci1mYWNpbGl0aWVzLWVuZ2luZWVyLS0tbWVjaGFuaWNhbC1tYWludGVuYW5jZV9SLTAzNDI5Ni0x",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Mechanical Engineer",
+      "location": "Gent, East Flanders, Belgium",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Gent-East-Flanders-Belgium/Senior-facilities-engineer---mechanical-maintenance_R-034296-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Gent-East-Flanders-Belgium/Senior-facilities-engineer---mechanical-maintenance_R-034296-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL05vcnRoLVJ5ZGUtTmV3LVNvdXRoLVdhbGVzLUF1c3RyYWxpYS9TZW5pb3ItU2l0ZS1NYW5hZ2VyX1ItMDU2ODc2",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Site Manager",
+      "location": "North Ryde, New South Wales, Australia",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/North-Ryde-New-South-Wales-Australia/Senior-Site-Manager_R-056876",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/North-Ryde-New-South-Wales-Australia/Senior-Site-Manager_R-056876",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-057268",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Sr Manager Market & Competitor Analytics",
+      "location": "Pune, Maharashtra, India",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Pune-Maharashtra-India/Sr-Manager-Market---Competitor-Analytics_R-057268",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Pune-Maharashtra-India/Sr-Manager-Market---Competitor-Analytics_R-057268",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "data_science",
+        "excel",
+        "powerbi",
+        "project_mgmt",
+        "r",
+        "tableau"
+      ]
+    },
+    {
+      "id": "workday:R-052749",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Sr. manager Capability Excellence",
+      "location": "Zug, Switzerland",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Zug-Switzerland/Sr-manager-Capability-Excellence_R-052749",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Zug-Switzerland/Sr-manager-Capability-Excellence_R-052749",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "bi",
+        "data_engineering",
+        "gdpr",
+        "gxp",
+        "r",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-057755",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Sr. manager Capability Excellence",
+      "location": "Titusville, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Sr-manager-Capability-Excellence_R-057755",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/Sr-manager-Capability-Excellence_R-057755",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "bi",
+        "data_engineering",
+        "gdpr",
+        "gxp",
+        "r",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-055642",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Supply Chain and E&PS Internship/Co-Op",
+      "location": "Athens, Georgia, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Athens-Georgia-United-States-of-America/Supply-Chain-and-E-PS-Internship-Co-Op_R-055642",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Athens-Georgia-United-States-of-America/Supply-Chain-and-E-PS-Internship-Co-Op_R-055642",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "data_science",
+        "go",
+        "project_mgmt",
+        "r",
+        "statistics"
+      ]
+    },
+    {
+      "id": "workday:R-057644",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Territory Manager - Biosurgery",
+      "location": "Riyadh, Saudi Arabia",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Riyadh-Saudi-Arabia/Lead-Rep-Clin-Sales--Surg_R-057644",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Riyadh-Saudi-Arabia/Lead-Rep-Clin-Sales--Surg_R-057644",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "r",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:R-037453",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "TS Manager BTP Security Lead",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/TS-Manager-BTP-Security-Lead_R-037453-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/TS-Manager-BTP-Security-Lead_R-037453-1",
+      "postedAt": "2026-02-08T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "agile",
+        "communication",
+        "data_engineering",
+        "go",
+        "project_mgmt",
+        "r",
+        "typescript"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1NhbnRhLUNsYXJhLUNhbGlmb3JuaWEtVW5pdGVkLVN0YXRlcy1vZi1BbWVyaWNhL01hbmFnZXItLUhXLVJlbGlhYmlsaXR5LVRlc3RpbmdfUi0wNTQ1NjItMQ",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Manager, HW Reliability Testing",
+      "location": "Santa Clara, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Santa-Clara-California-United-States-of-America/Manager--HW-Reliability-Testing_R-054562-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Santa-Clara-California-United-States-of-America/Manager--HW-Reliability-Testing_R-054562-1",
+      "postedAt": "2026-02-07T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-027421",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "R&D Project Manager",
+      "location": "Yokneam, Haifa District, Israel",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Yokneam-Haifa-District-Israel/R-D-Project-Manager_R-027421-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Yokneam-Haifa-District-Israel/R-D-Project-Manager_R-027421-1",
+      "postedAt": "2026-02-07T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "fda",
+        "project_mgmt",
+        "r",
+        "reg_affairs"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1lva25lYW0tSGFpZmEtRGlzdHJpY3QtSXNyYWVsL1RlY2huaWNhbC1TZXJ2aWNlLVByb2R1Y3QtTGVhZGVyX1ItMDU3MjUy",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Technical Service Product Leader",
+      "location": "Yokneam, Haifa District, Israel",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Yokneam-Haifa-District-Israel/Technical-Service-Product-Leader_R-057252",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Yokneam-Haifa-District-Israel/Technical-Service-Product-Leader_R-057252",
+      "postedAt": "2026-02-07T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL1NhbnRhLUNsYXJhLUNhbGlmb3JuaWEtVW5pdGVkLVN0YXRlcy1vZi1BbWVyaWNhL1JvYm90aWNzLWFuZC1Db250cm9scy1FbmdpbmVlcl9SLTA1NzYzNw",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Robotics and Controls Engineer",
+      "location": "Santa Clara, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Santa-Clara-California-United-States-of-America/Robotics-and-Controls-Engineer_R-057637",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Santa-Clara-California-United-States-of-America/Robotics-and-Controls-Engineer_R-057637",
+      "postedAt": "2026-02-06T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-053340",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Analyst, Distribution Planning – MedTech NA",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/Analyst--Distribution-Planning---MedTech-NA_R-053340-2",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Analyst--Distribution-Planning---MedTech-NA_R-053340-2",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "excel",
+        "go",
+        "powerbi"
+      ]
+    },
+    {
+      "id": "workday:R-054053",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Associate Clinical Account Specialist - Santa Rosa, CA - Johnson & Johnson MedTech, Electrophysiology",
+      "location": "Santa Rosa, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Santa-Rosa-California-United-States-of-America/Associate-Clinical-Account-Specialist---Santa-Rosa--CA---Johnson---Johnson-MedTech--Electrophysiology_R-054053-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Santa-Rosa-California-United-States-of-America/Associate-Clinical-Account-Specialist---Santa-Rosa--CA---Johnson---Johnson-MedTech--Electrophysiology_R-054053-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "data_science",
+        "microscopy",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-053078",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Associate Clinical Account Specialist (Rapid City, SD) - Johnson & Johnson MedTech, Electrophysiology",
+      "location": "Rapid City, South Dakota, United States",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Rapid-City-South-Dakota-United-States/Associate-Clinical-Account-Specialist--Rapid-City--SD----Johnson---Johnson-MedTech--Electrophysiology_R-053078-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Rapid-City-South-Dakota-United-States/Associate-Clinical-Account-Specialist--Rapid-City--SD----Johnson---Johnson-MedTech--Electrophysiology_R-053078-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "data_science",
+        "microscopy",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:aHR0cHM6Ly9qai53ZDUubXl3b3JrZGF5am9icy5jb20vd2RheS9jeHMvamovSkovam9iL01leGljby1DaXR5LU1leGljby9CdXNpbmVzcy1Vbml0LU1hbmFnZXItLS1Jbm5vdmF0aXZlLU1lZGljaW5lX1ItMDQ2MzUy",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Business Unit Manager - Innovative Medicine",
+      "location": "Mexico City, Mexico",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Mexico-City-Mexico/Business-Unit-Manager---Innovative-Medicine_R-046352",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Mexico-City-Mexico/Business-Unit-Manager---Innovative-Medicine_R-046352",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": []
+    },
+    {
+      "id": "workday:R-038118",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Digital Strategy and Integration Lead",
+      "location": "Jacksonville, Florida, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Jacksonville-Florida-United-States-of-America/Digital-Strategy-and-Integration-Lead_R-038118-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/Digital-Strategy-and-Integration-Lead_R-038118-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "project_mgmt",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-056681",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "District Manager, Neuroscience Schizophrenia – Texas Plains District",
+      "location": "Texas (Any City)",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Texas-Any-City/District-Manager--Neuroscience-Schizophrenia---Texas-Plains-District_R-056681-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Texas-Any-City/District-Manager--Neuroscience-Schizophrenia---Texas-Plains-District_R-056681-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "r",
+        "reg_affairs"
+      ]
+    },
+    {
+      "id": "workday:R-055740",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "ECM Chargeback Intern",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/ECM-Chargeback-Intern_R-055740-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/ECM-Chargeback-Intern_R-055740-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "excel",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-055726",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Intern ECM Gov Contracting- NSGP",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/Intern-ECM-Gov-Contracting--NSGP_R-055726",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Intern-ECM-Gov-Contracting--NSGP_R-055726",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "excel",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-055723",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Intern ECM Gov Contracting- Projects",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/Intern-ECM-Gov-Contracting--Projects_R-055723",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Intern-ECM-Gov-Contracting--Projects_R-055723",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "excel",
+        "go",
+        "project_mgmt",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-055729",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Intern, ECM Contract Operations",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/Intern--ECM-Contract-Operations_R-055729",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Intern--ECM-Contract-Operations_R-055729",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "excel",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-055734",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Intern, ECM Enterprises Payment",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/Intern--ECM-Enterprises-Payment_R-055734",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Intern--ECM-Enterprises-Payment_R-055734",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "excel",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-057306",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Key Account Specialist, Rheumatology - New Orleans - Johnson & Johnson Innovative Medicine",
+      "location": "New Orleans, Louisiana, United States",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/New-Orleans-Louisiana-United-States/Key-Account-Specialist--Rheumatology---New-Orleans---Johnson---Johnson-Innovative-Medicine_R-057306-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/New-Orleans-Louisiana-United-States/Key-Account-Specialist--Rheumatology---New-Orleans---Johnson---Johnson-Innovative-Medicine_R-057306-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-046587",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Lead Database Security",
+      "location": "São José dos Campos, São Paulo, Brazil",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/So-Jos-dos-Campos-So-Paulo-Brazil/Lead-Database-Security_R-046587",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/So-Jos-dos-Campos-So-Paulo-Brazil/Lead-Database-Security_R-046587",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "docker",
+        "gdpr",
+        "github_actions",
+        "r",
+        "soc",
+        "sql",
+        "threat_model"
+      ]
+    },
+    {
+      "id": "workday:R-054178",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Manager, Commercial Education – Curriculum Design & Strategy",
+      "location": "Cincinnati, Ohio, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Cincinnati-Ohio-United-States-of-America/Manager--Commercial-Education---Curriculum-Design---Strategy_R-054178-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cincinnati-Ohio-United-States-of-America/Manager--Commercial-Education---Curriculum-Design---Strategy_R-054178-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "project_mgmt",
+        "r",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:R-055396",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Neuroscience Sales Specialist - San Jose, CA - Johnson & Johnson Innovative Medicine",
+      "location": "San Jose, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/San-Jose-California-United-States-of-America/Neuroscience-Sales-Specialist---San-Jose--CA---Johnson---Johnson-Innovative-Medicine_R-055396-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/San-Jose-California-United-States-of-America/Neuroscience-Sales-Specialist---San-Jose--CA---Johnson---Johnson-Innovative-Medicine_R-055396-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "go"
+      ]
+    },
+    {
+      "id": "workday:R-056424",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Operational Excellence Engineering Co-Op - Fall 2026",
+      "location": "Danvers, Massachusetts, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Danvers-Massachusetts-United-States-of-America/Operational-Excellence-Engineering-Co-Op_R-056424-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Operational-Excellence-Engineering-Co-Op_R-056424-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "agile",
+        "data_engineering",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-042617",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Physician Program Director, Coastal Carolina",
+      "location": "Danvers, Massachusetts, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Danvers-Massachusetts-United-States-of-America/Physician-Program-Director--West-North-Carolina_R-042617-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/Physician-Program-Director--West-North-Carolina_R-042617-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "excel",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-055232",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Production Planning & Logistics Co-Op",
+      "location": "Guaynabo, Puerto Rico, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Guaynabo-Puerto-Rico-United-States-of-America/Production-Planning---Logistics-Co-Op_R-055232",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Guaynabo-Puerto-Rico-United-States-of-America/Production-Planning---Logistics-Co-Op_R-055232",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "bi",
+        "data_engineering",
+        "excel",
+        "powerbi",
+        "r",
+        "statistics"
+      ]
+    },
+    {
+      "id": "workday:R-055973",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "R&D Intern",
+      "location": "Raritan, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Raritan-New-Jersey-United-States-of-America/R-D-Intern_R-055973",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/R-D-Intern_R-055973",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-056814",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Regional MSL Director, West - Lumateperone",
+      "location": "Los Angeles, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Los-Angeles-California-United-States-of-America/Regional-MSL-Director--West---Lumateperone_R-056814-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Los-Angeles-California-United-States-of-America/Regional-MSL-Director--West---Lumateperone_R-056814-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "go"
+      ]
+    },
+    {
+      "id": "workday:R-055450",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Neuroscience Sales Specialist - Denver North - Johnson & Johnson Innovative Medicine",
+      "location": "Denver, Colorado, United States",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Denver-Colorado-United-States/Senior-Neuroscience-Sales-Specialist---Denver-North---Johnson---Johnson-Innovative-Medicine_R-055450-2",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Denver-Colorado-United-States/Senior-Neuroscience-Sales-Specialist---Denver-North---Johnson---Johnson-Innovative-Medicine_R-055450-2",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "cv",
+        "go"
+      ]
+    },
+    {
+      "id": "workday:R-057036",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Quality Operations Lead",
+      "location": "Cornelia, Georgia, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Cornelia-Georgia-United-States-of-America/Senior-Quality-Operations-Lead_R-057036-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Cornelia-Georgia-United-States-of-America/Senior-Quality-Operations-Lead_R-057036-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "capA",
+        "data_engineering",
+        "fda",
+        "r",
+        "statistics",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:R-049469",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Senior Site Manager (Clinical Research Associate)",
+      "location": "Toronto, Ontario, Canada",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Toronto-Ontario-Canada/Senior-Site-Manager--Clinical-Research-Associate-_R-049469",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Toronto-Ontario-Canada/Senior-Site-Manager--Clinical-Research-Associate-_R-049469",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "clinical_ops",
+        "clinical_trials",
+        "cra",
+        "data_engineering",
+        "gcp",
+        "gcp_clinical",
+        "gxp",
+        "ich",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:R-050331",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Technical Lead, Product Artwork",
+      "location": "Titusville, New Jersey, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/Titusville-New-Jersey-United-States-of-America/Technical-Lead--Product-Artwork_R-050331-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/Titusville-New-Jersey-United-States-of-America/Technical-Lead--Product-Artwork_R-050331-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "communication",
+        "data_engineering",
+        "gmp",
+        "gxp",
+        "r",
+        "reg_affairs",
+        "sop",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:R-056843",
+      "company": {
+        "id": "jnj",
+        "name": "Johnson & Johnson",
+        "careersUrl": "https://jj.wd5.myworkdayjobs.com/JJ"
+      },
+      "title": "Translational ADME Intern 2026",
+      "location": "San Diego, California, United States of America",
+      "url": "https://jj.wd5.myworkdayjobs.com/wday/cxs/jj/JJ/job/San-Diego-California-United-States-of-America/Translational-ADME-Intern-2026_R-056843-1",
+      "applyUrl": "https://jj.wd5.myworkdayjobs.com/JJ/job/San-Diego-California-United-States-of-America/Translational-ADME-Intern-2026_R-056843-1",
+      "postedAt": "2026-02-05T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:51:51.121Z",
+      "skills": [
+        "data_engineering",
+        "excel",
+        "go",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:REQ-10065405",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Medical Safety Processes and Projects Manager",
+      "location": "Hyderabad (Office)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Hyderabad-Office/Medical-Safety-Processes-and-Projects-Manager_REQ-10065405",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Medical-Safety-Processes-and-Projects-Manager_REQ-10065405",
+      "postedAt": "2026-02-02T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "project_mgmt",
+        "pv",
+        "reg_affairs",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:REQ-10071094",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Medical Science Liaison (MSL) Onc Prostate Radioligand Therapies South Texas Remote",
+      "location": "Field Non-Sales (USA)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Field-Non-Sales-USA/Medical-Science-Liaison--MSL--Onc-Prostate-Radioligand-Therapies-South-Texas-Remote_REQ-10071094-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Field-Non-Sales-USA/Medical-Science-Liaison--MSL--Onc-Prostate-Radioligand-Therapies-South-Texas-Remote_REQ-10071094-1",
+      "postedAt": "2026-02-02T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "clinical_ops",
+        "clinical_trials",
+        "fda"
+      ]
+    },
+    {
+      "id": "workday:REQ-10065856",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Product Specialist",
+      "location": "Rajasthan",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Rajasthan/Product-Specialist_REQ-10065856-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Rajasthan/Product-Specialist_REQ-10065856-1",
+      "postedAt": "2026-02-02T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:REQ-10067210",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Senior Product Specialist",
+      "location": "Telangana",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Telangana/Senior-Product-Specialist_REQ-10067210",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Telangana/Senior-Product-Specialist_REQ-10067210",
+      "postedAt": "2026-02-02T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:REQ-10066960",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Director, Business Excellence Lead - Renal",
+      "location": "East Hanover",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/East-Hanover/Director--Business-Excellence-Lead---Renal_REQ-10066960-2",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/East-Hanover/Director--Business-Excellence-Lead---Renal_REQ-10066960-2",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "go",
+        "project_mgmt",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:REQ-10070294",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Elektriker (m/w/d)",
+      "location": "Schaftenau",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Schaftenau/Elektriker--m-w-d-_REQ-10070294-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Schaftenau/Elektriker--m-w-d-_REQ-10070294-1",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "data_engineering",
+        "gmp",
+        "gxp",
+        "r",
+        "typescript"
+      ]
+    },
+    {
+      "id": "workday:REQ-10070332",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Mechaniker für Abfüllung und Visuelle Inspektion (m/f/d)",
+      "location": "Schaftenau",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Schaftenau/Mechaniker-fr-Abfllung-und-Visuelle-Inspektion--m-f-d-_REQ-10070332-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Schaftenau/Mechaniker-fr-Abfllung-und-Visuelle-Inspektion--m-f-d-_REQ-10070332-1",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "data_engineering",
+        "gmp",
+        "gxp",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:REQ-10070105",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Neuroscience Territory Account Specialist – Detroit, S",
+      "location": "Field Sales (USA)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Field-Sales-USA/Neuroscience-Territory-Account-Specialist---Detroit--S_REQ-10070105-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Field-Sales-USA/Neuroscience-Territory-Account-Specialist---Detroit--S_REQ-10070105-1",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:REQ-10070107",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Neuroscience Territory Account Specialist – Grand Rapids, MI",
+      "location": "Field Sales (USA)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Field-Sales-USA/Neuroscience-Territory-Account-Specialist---Grand-Rapids--MI_REQ-10070107-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Field-Sales-USA/Neuroscience-Territory-Account-Specialist---Grand-Rapids--MI_REQ-10070107-1",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:REQ-10069826",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Process Expert BIO/VE",
+      "location": "Puurs",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Puurs/Process-Expert-BIO-VE_REQ-10069826-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Puurs/Process-Expert-BIO-VE_REQ-10069826-1",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "capA",
+        "deviations",
+        "gmp",
+        "gxp",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:REQ-10064957",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "S2P SLM Cybersecurity Expert",
+      "location": "Prague",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Prague/S2P-SLM-Cybersecurity-Expert_REQ-10064957",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Prague/S2P-SLM-Cybersecurity-Expert_REQ-10064957",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "gdpr",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:REQ-10070953",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Schlosser, Techniker, Mechatroniker (m/w/d)",
+      "location": "Schaftenau",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Schaftenau/Schlosser--Techniker--Mechatroniker--m-w-d-_REQ-10070953-2",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Schaftenau/Schlosser--Techniker--Mechatroniker--m-w-d-_REQ-10070953-2",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "data_engineering",
+        "gmp",
+        "gxp",
+        "r",
+        "typescript"
+      ]
+    },
+    {
+      "id": "workday:REQ-10065292",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Scientist in Drug Product Development, Senior Expert Science & Technology(m/f/d)",
+      "location": "Schaftenau",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Schaftenau/Scientist-in-Drug-Product-Development--Senior-Expert-Science---Technology-m-f-d-_REQ-10065292-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Schaftenau/Scientist-in-Drug-Product-Development--Senior-Expert-Science---Technology-m-f-d-_REQ-10065292-1",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "cv",
+        "data_engineering",
+        "data_science",
+        "gmp",
+        "gxp",
+        "project_mgmt",
+        "sop",
+        "statistics",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:REQ-10041453",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Senior Program Head",
+      "location": "East Hanover",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/East-Hanover/Senior-Program-Head_REQ-10041453-1",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/East-Hanover/Senior-Program-Head_REQ-10041453-1",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "communication",
+        "r",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:REQ-10070220",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Supply Chain Specialist",
+      "location": "Indianapolis",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Indianapolis/Supply-Chain-Specialist_REQ-10070220",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Indianapolis/Supply-Chain-Specialist_REQ-10070220",
+      "postedAt": "2026-02-01T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "gmp",
+        "gxp",
+        "sop"
+      ]
+    },
+    {
+      "id": "workday:4949958",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "PX Talent Manager",
+      "location": "China - Beijing - Beijing",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Beijing---Beijing/PX-Talent-Manager_4949958-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Beijing---Beijing/PX-Talent-Manager_4949958-1",
+      "postedAt": "2026-01-19T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "project_mgmt"
+      ]
+    },
+    {
+      "id": "workday:4950072",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Robotics & Automation Technical Associate (Associate's degree)",
+      "location": "United States - New York - Pearl River",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/United-States---New-York---Pearl-River/Robotics---Automation-Technical-Associate--Associate-s-degree-_4950072-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/United-States---New-York---Pearl-River/Robotics---Automation-Technical-Associate--Associate-s-degree-_4950072-1",
+      "postedAt": "2026-01-19T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "clinical_trials",
+        "communication",
+        "eln",
+        "gxp",
+        "limes",
+        "pv",
+        "sop"
+      ]
+    },
+    {
+      "id": "workday:4931294",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "[MA] Associate Mgr/Mgr, Lung Cancer, ONC, MAS",
+      "location": "Japan - Tokyo",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Japan---Tokyo/XMLNAME--MA--Associate-Mgr-Mgr--Lung-Cancer--ONC--MAS_4931294",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Japan---Tokyo/XMLNAME--MA--Associate-Mgr-Mgr--Lung-Cancer--ONC--MAS_4931294",
+      "postedAt": "2026-01-18T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": []
+    },
+    {
+      "id": "workday:4950083",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Health Representative/Senior Health Representative/Account Executive, Hematology & Rare Disease",
+      "location": "Hong Kong - Quarry Bay",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Hong-Kong---Quarry-Bay/Health-Representative-Senior-Health-Representative-Account-Executive--Hematology---Rare-Disease_4950083",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Hong-Kong---Quarry-Bay/Health-Representative-Senior-Health-Representative-Account-Executive--Hematology---Rare-Disease_4950083",
+      "postedAt": "2026-01-15T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": []
+    },
+    {
+      "id": "workday:4950081",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Manager Data Science, Business Analytics & Insights – [Japan]",
+      "location": "Japan - Tokyo",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Japan---Tokyo/Manager-Data-Science--Business-Analytics---Insights----Japan-_4950081-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Japan---Tokyo/Manager-Data-Science--Business-Analytics---Insights----Japan-_4950081-1",
+      "postedAt": "2026-01-15T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "bi",
+        "communication",
+        "data_science"
+      ]
+    },
+    {
+      "id": "workday:4945635",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "RIO Execution Hub Manager",
+      "location": "Philippines - Makati City",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Philippines---Makati-City/RIO-Execution-Hub-Manager_4945635",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Philippines---Makati-City/RIO-Execution-Hub-Manager_4945635",
+      "postedAt": "2026-01-14T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "clinical_trials",
+        "communication",
+        "cta",
+        "reg_affairs"
+      ]
+    },
+    {
+      "id": "workday:4941372",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Manager, Statistical Data Sciences Lead",
+      "location": "Greece - Thessaloniki Pylaia",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Greece---Thessaloniki-Pylaia/Manager--Statistical-Data-Sciences-Lead_4941372",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Greece---Thessaloniki-Pylaia/Manager--Statistical-Data-Sciences-Lead_4941372",
+      "postedAt": "2026-01-13T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "clinical_trials",
+        "communication",
+        "cv",
+        "data_science",
+        "ich",
+        "project_mgmt",
+        "python",
+        "r",
+        "statistics"
+      ]
+    },
+    {
+      "id": "workday:4948138",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Sr. Associate, Tester",
+      "location": "Greece-Thessaloniki Chortiatis",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Greece-Thessaloniki-Chortiatis/Sr-Associate--Tester_4948138",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Greece-Thessaloniki-Chortiatis/Sr-Associate--Tester_4948138",
+      "postedAt": "2026-01-13T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "communication",
+        "cv",
+        "java",
+        "testing"
+      ]
+    },
+    {
+      "id": "workday:4936457",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Training Manager - Taiwan",
+      "location": "Taiwan - Taipei",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Taiwan---Taipei/Training-Manager---Taiwan_4936457",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Taiwan---Taipei/Training-Manager---Taiwan_4936457",
+      "postedAt": "2026-01-13T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": []
+    },
+    {
+      "id": "workday:4949328",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "（Sr.) Customer Strategy Manager",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/XMLNAME--Sr--Customer-Strategy-Manager_4949328",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/XMLNAME--Sr--Customer-Strategy-Manager_4949328",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": []
+    },
+    {
+      "id": "workday:4942317",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "[MA] Hemophilia, Medical Affairs, Medical Manager(office medical)",
+      "location": "Japan - Tokyo",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Japan---Tokyo/XMLNAME--MA--Hemophilia--Medical-Affairs--Medical-Manager-office-medical-_4942317-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Japan---Tokyo/XMLNAME--MA--Hemophilia--Medical-Affairs--Medical-Manager-office-medical-_4942317-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4944406",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "[MA] Vaccine Medical Affairs Lead",
+      "location": "Japan - Tokyo",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Japan---Tokyo/Vaccine-Medical-Affairs-Lead_4944406-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Japan---Tokyo/Vaccine-Medical-Affairs-Lead_4944406-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "gcp",
+        "gcp_clinical",
+        "gxp",
+        "project_mgmt",
+        "pv",
+        "reg_affairs",
+        "rna",
+        "statistics"
+      ]
+    },
+    {
+      "id": "workday:4942266",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "[ONC] Hematology Oncology Commerical Lead",
+      "location": "Japan - Tokyo",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Japan---Tokyo/Hematology-Oncology-Commerical-Lead_4942266-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Japan---Tokyo/Hematology-Oncology-Commerical-Lead_4942266-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "sop",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4938167",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "[Pfizer] Legal senior manager",
+      "location": "Japan - Tokyo",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Japan---Tokyo/Legal-senior-manager_4938167-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Japan---Tokyo/Legal-senior-manager_4938167-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "communication",
+        "project_mgmt",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4943554",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "[Pfizer] OC Content Creator",
+      "location": "Japan - Tokyo",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Japan---Tokyo/OC-Content-Creator_4943554-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Japan---Tokyo/OC-Content-Creator_4943554-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "agile",
+        "project_mgmt"
+      ]
+    },
+    {
+      "id": "workday:4946071",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "[Pfizer] Senior Manager, AI Infrastructure and Operations",
+      "location": "Japan - Tokyo",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Japan---Tokyo/XMLNAME--Pfizer--Senior-Manager--AI-Infrastructure-and-Operations_4946071-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Japan---Tokyo/XMLNAME--Pfizer--Senior-Manager--AI-Infrastructure-and-Operations_4946071-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "agile",
+        "aws",
+        "azure",
+        "docker",
+        "fda",
+        "gcp",
+        "gcp_clinical",
+        "gdpr",
+        "github_actions",
+        "go",
+        "gxp",
+        "iam",
+        "kubernetes",
+        "lambda",
+        "python",
+        "s3",
+        "tensorflow",
+        "terraform"
+      ]
+    },
+    {
+      "id": "workday:REQ-10068294",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Associate Director, Global Publications & Foundational Content",
+      "location": "Hyderabad (Office)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Hyderabad-Office/Associate-Director--Global-Publications---Foundational-Content_REQ-10068294",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Hyderabad-Office/Associate-Director--Global-Publications---Foundational-Content_REQ-10068294",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "gcp_clinical",
+        "project_mgmt"
+      ]
+    },
+    {
+      "id": "workday:4947938",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "CFC Operation Manager",
+      "location": "Viet Nam - Ho Chi Minh",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Viet-Nam---Ho-Chi-Minh/CFC-Operation-Manager_4947938",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Viet-Nam---Ho-Chi-Minh/CFC-Operation-Manager_4947938",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "agile",
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:4949221",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "China Customer Service Lead",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/China-Customer-Service-Lead_4949221",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/China-Customer-Service-Lead_4949221",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "deviations",
+        "gmp",
+        "gxp",
+        "reg_affairs",
+        "sop"
+      ]
+    },
+    {
+      "id": "workday:4945559",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Clinical Quality Manager",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/Clinical-Quality-Manager_4945559",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/Clinical-Quality-Manager_4945559",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "gcp",
+        "gcp_clinical",
+        "gxp",
+        "project_mgmt",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4949274",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Commercial Trainee",
+      "location": "Hong Kong - Quarry Bay",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Hong-Kong---Quarry-Bay/Commercial-Trainee_4949274",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Hong-Kong---Quarry-Bay/Commercial-Trainee_4949274",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "agile",
+        "go"
+      ]
+    },
+    {
+      "id": "workday:4948214",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Compound Management Application & Data Support Lab Head",
+      "location": "United States - Connecticut - Groton",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/United-States---Connecticut---Groton/Compound-Management-Application---Data-Support-Lab-Head_4948214-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/United-States---Connecticut---Groton/Compound-Management-Application---Data-Support-Lab-Head_4948214-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "agile",
+        "azure",
+        "clinical_trials",
+        "communication",
+        "cpp",
+        "data_science",
+        "excel",
+        "java",
+        "javascript",
+        "limes",
+        "project_mgmt",
+        "pv",
+        "python",
+        "sql"
+      ]
+    },
+    {
+      "id": "workday:4949323",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "E-Commerce Operation Lead",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/E-Commerce-Operation-Lead_4949323",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/E-Commerce-Operation-Lead_4949323",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "project_mgmt",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:REQ-10067046",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Engineering Experts",
+      "location": "Targu Mures",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Targu-Mures/Engineering-Experts_REQ-10067046",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Targu-Mures/Engineering-Experts_REQ-10067046",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "aws",
+        "capA",
+        "clinical_ops",
+        "gmp",
+        "gxp",
+        "project_mgmt"
+      ]
+    },
+    {
+      "id": "workday:4939226",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Evergreen-Business Lead",
+      "location": "China - Beijing - Beijing",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Beijing---Beijing/Evergreen-Business-Lead_4939226",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Beijing---Beijing/Evergreen-Business-Lead_4939226",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "reg_affairs",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4949339",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "General Manager, Metabolism BU",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/General-Manager--Metabolism-BU_4949339-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/General-Manager--Metabolism-BU_4949339-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "agile",
+        "communication",
+        "r",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4944564",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Head of International Policy & Communications (IPC), China",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/Head-of-International-Policy---Communications--IPC---China_4944564",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/Head-of-International-Policy---Communications--IPC---China_4944564",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4938951",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Health Representative",
+      "location": "Malaysia - Penang",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Malaysia---Penang/Health-Representative_4938951",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Malaysia---Penang/Health-Representative_4938951",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "project_mgmt"
+      ]
+    },
+    {
+      "id": "workday:4944945",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Health Representative - District Manager (Oncology - South region)",
+      "location": "Viet Nam - Ho Chi Minh",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Viet-Nam---Ho-Chi-Minh/Health-Representative---District-Manager--Oncology---South-_4944945",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Viet-Nam---Ho-Chi-Minh/Health-Representative---District-Manager--Oncology---South-_4944945",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "communication",
+        "stakeholder",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:4945051",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Health Representative - Oncology (เขตอีสานล่าง)",
+      "location": "Thailand - Remote",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Thailand---Remote/Health-Representative---Oncology---_4945051",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Thailand---Remote/Health-Representative---Oncology---_4945051",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": []
+    },
+    {
+      "id": "workday:4946054",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Hemo Marketing Portfolio Lead",
+      "location": "China - Beijing - Beijing",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Beijing---Beijing/Hemo-Marketing-Portfolio-Lead_4946054-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Beijing---Beijing/Hemo-Marketing-Portfolio-Lead_4946054-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "project_mgmt"
+      ]
+    },
+    {
+      "id": "workday:4949744",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Hub Labeling Associate",
+      "location": "Taiwan - Taipei",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Taiwan---Taipei/Hub-Labeling-Associate_4949744",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Taiwan---Taipei/Hub-Labeling-Associate_4949744",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "excel",
+        "reg_affairs",
+        "sop"
+      ]
+    },
+    {
+      "id": "workday:4949609",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "In Vivo Vaccine Research Scientist",
+      "location": "United States - New York - Pearl River",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/United-States---New-York---Pearl-River/In-Vivo-Vaccine-Research-Scientist_4949609-2",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/United-States---New-York---Pearl-River/In-Vivo-Vaccine-Research-Scientist_4949609-2",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "clinical_trials",
+        "communication",
+        "glp",
+        "gxp",
+        "pv"
+      ]
+    },
+    {
+      "id": "workday:4949634",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Investigator Initiation Package Sr Associate",
+      "location": "Philippines - Makati City",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Philippines---Makati-City/Investigator-Initiation-Package-Sr-Associate_4949634",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Philippines---Makati-City/Investigator-Initiation-Package-Sr-Associate_4949634",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "clinical_trials",
+        "project_mgmt",
+        "reg_affairs",
+        "sop"
+      ]
+    },
+    {
+      "id": "workday:REQ-10067048",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Manufacturing Experts",
+      "location": "Targu Mures",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Targu-Mures/Manufacturing-Experts_REQ-10067048",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Targu-Mures/Manufacturing-Experts_REQ-10067048",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "capA",
+        "gmp",
+        "gxp"
+      ]
+    },
+    {
+      "id": "workday:REQ-10067047",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Manufacturing Science & Technology experts",
+      "location": "Targu Mures",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Targu-Mures/MS-T-experts_REQ-10067047",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Targu-Mures/MS-T-experts_REQ-10067047",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "capA",
+        "gmp",
+        "gxp",
+        "project_mgmt",
+        "sop",
+        "statistics",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:4946163",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Marketing Lead_Headache",
+      "location": "China - Beijing - Beijing",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Beijing---Beijing/Marketing-Lead-Headache_4946163",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Beijing---Beijing/Marketing-Lead-Headache_4946163",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": []
+    },
+    {
+      "id": "workday:4949686",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Marketing manager-Metabolism BU",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/Marketing-manager-Metabolism-BU_4949686",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/Marketing-manager-Metabolism-BU_4949686",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": []
+    },
+    {
+      "id": "workday:4949341",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Metabolism BU Marketing Lead",
+      "location": "China - Beijing - Beijing",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Beijing---Beijing/Metabolism-BU-Marketing-Lead_4949341-2",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Beijing---Beijing/Metabolism-BU-Marketing-Lead_4949341-2",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "bi"
+      ]
+    },
+    {
+      "id": "workday:4920391",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Pflichtpraktikant (m/w/d) im Bereich Finance",
+      "location": "Germany - Freiburg",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Germany---Freiburg/Pflichtpraktikant--m-w-d--im-Bereich-Finance_4920391-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Germany---Freiburg/Pflichtpraktikant--m-w-d--im-Bereich-Finance_4920391-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "agile",
+        "excel",
+        "ich",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:4943461",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Pharmazeut:in im Praktikum (m/w/d) im Bereich Onkologie und Medical Information (Mai 26)",
+      "location": "Germany - Berlin",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Germany---Berlin/Pharmazeut-in-im-Praktikum--m-w-d--im-Bereich-Onkologie-und-Medical-Information--Mai-26-_4943461-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Germany---Berlin/Pharmazeut-in-im-Praktikum--m-w-d--im-Bereich-Onkologie-und-Medical-Information--Mai-26-_4943461-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "r"
+      ]
+    },
+    {
+      "id": "workday:4949687",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "PMO-Metabolism BU",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/PMO-Metabolism-BU_4949687",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/PMO-Metabolism-BU_4949687",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "project_mgmt"
+      ]
+    },
+    {
+      "id": "workday:REQ-10067434",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Process Technician - Supply Management",
+      "location": "Basel (City)",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/Basel-City/Process-Technician---Supply-Management_REQ-10067434",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/Basel-City/Process-Technician---Supply-Management_REQ-10067434",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "gmp",
+        "gxp",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:4949324",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Retail Customer Marketing Lead",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/Retail-Customer-Marketing-Lead_4949324",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/Retail-Customer-Marketing-Lead_4949324",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": []
+    },
+    {
+      "id": "workday:4948989",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Safety Surveillance Associate",
+      "location": "Philippines - Makati City",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Philippines---Makati-City/Safety-Surveillance-Associate_4948989",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Philippines---Makati-City/Safety-Surveillance-Associate_4948989",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "clinical_trials",
+        "communication",
+        "medical_writing",
+        "pv",
+        "sop"
+      ]
+    },
+    {
+      "id": "workday:4949313",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Senior Health Representative (Oncology - North region)",
+      "location": "Viet Nam - Hanoi",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Viet-Nam---Hanoi/Senior-Health-Representative--Oncology---North-region-_4949313",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Viet-Nam---Hanoi/Senior-Health-Representative--Oncology---North-region-_4949313",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "communication",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4949838",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Senior Health Representative (Oncology)",
+      "location": "Singapore - Mapletree Business City",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Singapore---Mapletree-Business-City/Senior-Health-Representative--Oncology-_4949838",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Singapore---Mapletree-Business-City/Senior-Health-Representative--Oncology-_4949838",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "communication",
+        "stakeholder"
+      ]
+    },
+    {
+      "id": "workday:4948488",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Senior Manager, Finance Solutions",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/Senior-Manager--Finance-Solutions_4948488",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/Senior-Manager--Finance-Solutions_4948488",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:4949539",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Senior Manager, Hub Labeling",
+      "location": "Australia - New South Wales - Sydney",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/Australia---New-South-Wales---Sydney/Senior-Manager--Hub-Labeling_4949539",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Australia---New-South-Wales---Sydney/Senior-Manager--Hub-Labeling_4949539",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "excel",
+        "project_mgmt",
+        "r",
+        "reg_affairs"
+      ]
+    },
+    {
+      "id": "workday:4940684",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Senior Principal Scientist, Pre-Formulation and Materials Science",
+      "location": "United States - California - La Jolla",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/United-States---California---La-Jolla/Senior-Principal-Scientist--Pre-Formulation-and-Materials-Science_4940684-1",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/United-States---California---La-Jolla/Senior-Principal-Scientist--Pre-Formulation-and-Materials-Science_4940684-1",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "pv"
+      ]
+    },
+    {
+      "id": "workday:4940923",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Senior Scientist, Early Formulation Science and Drug Delivery, Drug Product Design",
+      "location": "United States - California - La Jolla",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/United-States---California---La-Jolla/Senior-Scientist--Early-Formulation-Science-and-Drug-Delivery--Drug-Product-Design_4940923-2",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/United-States---California---La-Jolla/Senior-Scientist--Early-Formulation-Science-and-Drug-Delivery--Drug-Product-Design_4940923-2",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "clinical_trials",
+        "communication",
+        "pv"
+      ]
+    },
+    {
+      "id": "workday:4946546",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Sr. GE Market Access & Commercial Partnership Strategy Manager",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/Sr-GE-Market-Access---Commercial-Partnership-Strategy-Manager_4946546",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/Sr-GE-Market-Access---Commercial-Partnership-Strategy-Manager_4946546",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "communication"
+      ]
+    },
+    {
+      "id": "workday:4944790",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Sr. Manager, Clinician",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/Sr-Manager--Clinician_4944790",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/Sr-Manager--Clinician_4944790",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "clinical_trials"
+      ]
+    },
+    {
+      "id": "workday:4947931",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "Sr. PX Manager, R&D",
+      "location": "China - Hubei - Wuhan",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Hubei---Wuhan/Sr-PX-Manager--R-D_4947931",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Hubei---Wuhan/Sr-PX-Manager--R-D_4947931",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "agile",
+        "project_mgmt",
+        "r"
+      ]
+    },
+    {
+      "id": "workday:REQ-10059498",
+      "company": {
+        "id": "novartis",
+        "name": "Novartis",
+        "careersUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers"
+      },
+      "title": "Supply Chain Specialist - Government Operations",
+      "location": "INSURGENTES",
+      "url": "https://novartis.wd3.myworkdayjobs.com/wday/cxs/novartis/Novartis_Careers/job/INSURGENTES/Government-Operations-Leader_REQ-10059498",
+      "applyUrl": "https://novartis.wd3.myworkdayjobs.com/Novartis_Careers/job/INSURGENTES/Government-Operations-Leader_REQ-10059498",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:45:18.867Z",
+      "skills": [
+        "gmp",
+        "gxp",
+        "project_mgmt",
+        "validation"
+      ]
+    },
+    {
+      "id": "workday:4933878",
+      "company": {
+        "id": "pfizer",
+        "name": "Pfizer",
+        "careersUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers"
+      },
+      "title": "TA & Skills Training Manager",
+      "location": "China - Shanghai - Shanghai",
+      "url": "https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/job/China---Shanghai---Shanghai/TA---Skills-Training-Manager_4933878",
+      "applyUrl": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/China---Shanghai---Shanghai/TA---Skills-Training-Manager_4933878",
+      "postedAt": "2026-01-12T23:00:00.000Z",
+      "scrapedAt": "2026-02-12T20:47:02.063Z",
+      "skills": [
+        "project_mgmt",
+        "stakeholder"
+      ]
+    }
+  ]
+}
