@@ -108,7 +108,7 @@ export default function Filters(props: {
       .filter((k) => !SKILL_GROUPS.some((g) => g.id === k))
       .sort((a, b) => a.localeCompare(b));
     for (const g of extra) {
-      ordered.push({ groupId: g, label: groupLabel(g), items: byGroup.get(g) });
+      ordered.push({ groupId: g, label: groupLabel(g), items: byGroup.get(g) ?? [] });
     }
     return ordered;
   }, [props.skillOptions]);
