@@ -50,6 +50,17 @@ function rssXml({ title, description, link, items }) {
 }
 
 export async function writeRssFeeds(jobs) {
+  // Backwards-compatible: allow callers to pass { jobs, meta }.
+  if (!Array.isArray(jobs) && jobs && Array.isArray(jobs.jobs)) {
+    jobs = jobs.jobs;
+  }
+
+  // Be defensive: RSS is a nice-to-have. Don't crash the whole scrape.
+  if (!Array.isArray(jobs)) {
+    console.warn("[rss] writeRssFeeds: expected an array of jobs, got:", typeof jobs);
+    return;
+  }
+
   const base = baseUrl();
   const sorted = [...jobs].sort((a, b) => (b.postedAt || b.scrapedAt).localeCompare(a.postedAt || a.scrapedAt));
 

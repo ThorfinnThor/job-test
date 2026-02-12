@@ -110,7 +110,7 @@ async function main() {
   await writeFile("public/changes.json", JSON.stringify(changes, null, 2));
 
   // RSS feeds
-  await writeRssFeeds({ jobs, meta });
+  await writeRssFeeds(jobs);
 
   console.log(`Done. Wrote ${jobs.length} total jobs.`);
 }
