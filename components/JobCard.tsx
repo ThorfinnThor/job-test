@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Job } from "@/lib/types";
 import { formatBerlinDate } from "@/lib/jobFilter";
+import { labelForSkill } from "@/lib/skills";
 
 function pillClass(kind: string | null) {
   if (kind === "remote") return "pill pillRemote";
@@ -21,6 +22,7 @@ function empLabel(emp: Job["employmentType"]) {
 // Named export for compatibility (some files may import { JobCard })
 export function JobCard({ job }: { job: Job }) {
   const posted = formatBerlinDate(job.postedAt);
+  const topSkills = Array.isArray(job.skills) ? job.skills.slice(0, 6) : [];
 
   return (
     <Link href={`/jobs/${encodeURIComponent(job.id)}`} className="card">
@@ -35,6 +37,16 @@ export function JobCard({ job }: { job: Job }) {
         <div className="pill pillNeutral">{empLabel(job.employmentType)}</div>
         <div className="metaItem">Posted: {posted}</div>
       </div>
+
+      {topSkills.length ? (
+        <div className="metaRow">
+          {topSkills.map((s) => (
+            <div key={s} className="pill pillNeutral">
+              {labelForSkill(s)}
+            </div>
+          ))}
+        </div>
+      ) : null}
     </Link>
   );
 }

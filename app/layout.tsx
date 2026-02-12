@@ -47,6 +47,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <a className="navLink" href="/jobs">
                 Jobs
               </a>
+              <a className="navLink" href="/changes">
+                Changes
+              </a>
+              <a className="navLink" href="/rss.xml" target="_blank" rel="noreferrer">
+                RSS
+              </a>
               <a className="navLink" href="/jobs.json" target="_blank" rel="noreferrer">
                 JSON
               </a>

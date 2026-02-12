@@ -2,13 +2,11 @@
 
 import { useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
-import type { EmploymentType, Workplace } from "@/lib/types";
 import type { SortKey } from "@/lib/jobFilter";
-
-type WorkplaceSelect = "any" | Exclude<Workplace, null>;
-type EmploymentSelect = "any" | Exclude<EmploymentType, null>;
+import { SKILL_GROUPS, SKILL_BY_ID, groupLabel, labelForSkill } from "@/lib/skills";
 
 type CompanyOption = { id: string; name: string };
+type SkillCountOption = { id: string; count: number };
 
 function updateParams(sp: URLSearchParams, updates: Record<string, string | null>) {
   const next = new URLSearchParams(sp.toString());
@@ -37,34 +35,15 @@ function setMulti(sp: URLSearchParams, key: string, values: string[]) {
 
 export default function Filters(props: {
   companyOptions: CompanyOption[];
-  cityOptions: string[];
-  countryOptions: string[];
+  skillOptions: SkillCountOption[];
 }) {
   const router = useRouter();
   const pathname = usePathname();
   const sp = useSearchParams();
 
   const selectedCompanies = useMemo(() => getMulti(new URLSearchParams(sp.toString()), "company"), [sp]);
+  const selectedStack = useMemo(() => getMulti(new URLSearchParams(sp.toString()), "stack"), [sp]);
 
-  // URLSearchParams values are strings; keep <select value> strictly string (never null)
-  // to satisfy React/TS typing.
-  const workplaceParam = sp.get("workplace") ?? "any";
-  const employmentParam = sp.get("employment") ?? "any";
-
-  const workplace: WorkplaceSelect =
-    workplaceParam === "remote" || workplaceParam === "hybrid" || workplaceParam === "onsite" ? workplaceParam : "any";
-
-  const employment: EmploymentSelect =
-    employmentParam === "full_time" ||
-    employmentParam === "part_time" ||
-    employmentParam === "contract" ||
-    employmentParam === "internship" ||
-    employmentParam === "temporary"
-      ? employmentParam
-      : "any";
-
-  const city = sp.get("city") ?? "any";
-  const country = sp.get("country") ?? "any";
   const posted = sp.get("posted") ?? "any";
   const sort = (sp.get("sort") ?? "newest") as SortKey;
 
@@ -79,14 +58,58 @@ export default function Filters(props: {
     push(setMulti(new URLSearchParams(sp.toString()), "company", Array.from(curr)));
   }
 
+  function toggleStack(id: string) {
+    const curr = new Set(selectedStack);
+    if (curr.has(id)) curr.delete(id);
+    else curr.add(id);
+    push(setMulti(new URLSearchParams(sp.toString()), "stack", Array.from(curr)));
+  }
+
   function clearAll() {
     const next = new URLSearchParams(sp.toString());
-    // Keep "location" here to clear any old URLs/bookmarks that still set it.
-    ["company", "workplace", "employment", "location", "city", "country", "posted", "sort", "q"].forEach((k) =>
-      next.delete(k)
-    );
+    [
+      "company",
+      "stack",
+      "posted",
+      "sort",
+      "q",
+      // legacy params kept for backwards compatibility; clear them too
+      "workplace",
+      "employment",
+      "location",
+      "city",
+      "country"
+    ].forEach((k) => next.delete(k));
     push(next);
   }
+
+  const groupedSkills = useMemo(() => {
+    const byGroup = new Map<string, SkillCountOption[]>();
+    for (const s of props.skillOptions) {
+      const meta = SKILL_BY_ID.get(s.id);
+      const g = meta?.group ?? "other";
+      if (!byGroup.has(g)) byGroup.set(g, []);
+      byGroup.get(g).push(s);
+    }
+    // sort within group by count desc
+    for (const arr of byGroup.values()) {
+      arr.sort((a, b) => b.count - a.count || a.id.localeCompare(b.id));
+    }
+
+    // group ordering: known groups first, then others
+    const ordered: { groupId: string; label: string; items: SkillCountOption[] }[] = [];
+    for (const g of SKILL_GROUPS) {
+      const items = byGroup.get(g.id);
+      if (items && items.length) ordered.push({ groupId: g.id, label: g.label, items });
+    }
+    const extra = Array.from(byGroup.keys())
+      .filter((k) => !SKILL_GROUPS.some((g) => g.id === k))
+      .sort((a, b) => a.localeCompare(b));
+    for (const g of extra) {
+      ordered.push({ groupId: g, label: groupLabel(g), items: byGroup.get(g) });
+    }
+    return ordered;
+  }, [props.skillOptions]);
 
   return (
     <div className="filters">
@@ -110,65 +133,22 @@ export default function Filters(props: {
       </div>
 
       <div className="filterGroup">
-        <div className="filterLabel">Workplace</div>
-        <select
-          className="select"
-          value={workplace}
-          onChange={(e) => push(updateParams(new URLSearchParams(sp.toString()), { workplace: e.target.value }))}
-        >
-          <option value="any">Any</option>
-          <option value="remote">Remote</option>
-          <option value="hybrid">Hybrid</option>
-          <option value="onsite">Onsite</option>
-        </select>
-      </div>
-
-      <div className="filterGroup">
-        <div className="filterLabel">Employment</div>
-        <select
-          className="select"
-          value={employment}
-          onChange={(e) => push(updateParams(new URLSearchParams(sp.toString()), { employment: e.target.value }))}
-        >
-          <option value="any">Any</option>
-          <option value="full_time">Full-time</option>
-          <option value="part_time">Part-time</option>
-          <option value="contract">Contract</option>
-          <option value="internship">Internship</option>
-          <option value="temporary">Temporary</option>
-        </select>
-      </div>
-
-      <div className="filterGroup">
-        <div className="filterLabel">City</div>
-        <select
-          className="select"
-          value={city}
-          onChange={(e) => push(updateParams(new URLSearchParams(sp.toString()), { city: e.target.value }))}
-        >
-          <option value="any">Any</option>
-          {props.cityOptions.map((c) => (
-            <option key={c} value={c}>
-              {c}
-            </option>
+        <div className="filterLabel">Stack</div>
+        <div className="checkList">
+          {groupedSkills.map((g) => (
+            <div key={g.groupId} className="stackGroup">
+              <div className="stackGroupLabel">{g.label}</div>
+              {g.items.map((s) => (
+                <label key={s.id} className="checkItem">
+                  <input type="checkbox" checked={selectedStack.includes(s.id)} onChange={() => toggleStack(s.id)} />
+                  <span>
+                    {labelForSkill(s.id)} <span className="muted">({s.count})</span>
+                  </span>
+                </label>
+              ))}
+            </div>
           ))}
-        </select>
-      </div>
-
-      <div className="filterGroup">
-        <div className="filterLabel">Country</div>
-        <select
-          className="select"
-          value={country}
-          onChange={(e) => push(updateParams(new URLSearchParams(sp.toString()), { country: e.target.value }))}
-        >
-          <option value="any">Any</option>
-          {props.countryOptions.map((c) => (
-            <option key={c} value={c}>
-              {c}
-            </option>
-          ))}
-        </select>
+        </div>
       </div>
 
       <div className="filterGroup">

@@ -17,6 +17,15 @@ function parseCompanies(sp: URLSearchParams): string[] {
   return v.split(",").map((x) => x.trim()).filter(Boolean);
 }
 
+function parseStack(sp: URLSearchParams): string[] {
+  const v = sp.get("stack");
+  if (!v) return [];
+  return v
+    .split(",")
+    .map((x) => x.trim())
+    .filter(Boolean);
+}
+
 export default function JobsClient({ jobs }: { jobs: Job[] }) {
   const sp = useSearchParams();
 
@@ -26,14 +35,10 @@ export default function JobsClient({ jobs }: { jobs: Job[] }) {
     const params = new URLSearchParams(sp.toString());
     const q = getParam(params, "q");
     const companies = parseCompanies(params);
-    const workplace = (getParam(params, "workplace") || "any") as any;
-    const employment = (getParam(params, "employment") || "any") as any;
-    const location = getParam(params, "location") || "any";
-    const city = getParam(params, "city") || "any";
-    const country = getParam(params, "country") || "any";
+    const stack = parseStack(params);
     const posted = (getParam(params, "posted") || "any") as any;
     const sort = (getParam(params, "sort") || "newest") as SortKey;
-    return { ...DEFAULT_FILTERS, q, companies, workplace, employment, location, city, country, posted, sort };
+    return { ...DEFAULT_FILTERS, q, companies, stack, posted, sort };
   }, [sp]);
 
   const filtered = useMemo(() => sortJobs(applyFilters(jobs, state), state.sort), [jobs, state]);
@@ -41,11 +46,7 @@ export default function JobsClient({ jobs }: { jobs: Job[] }) {
   return (
     <div className="layout">
       <aside className="sidebar">
-        <Filters
-          companyOptions={facets.companyOptions}
-          cityOptions={facets.cityOptions}
-          countryOptions={facets.countryOptions}
-        />
+        <Filters companyOptions={facets.companyOptions} skillOptions={facets.skillOptions} />
       </aside>
 
       <main className="main">

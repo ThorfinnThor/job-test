@@ -35,6 +35,9 @@ export type Job = {
     html: string | null;
   };
 
+  /** Extracted skill/stack tags based on title + description text. */
+  skills?: string[];
+
   source: {
     kind: "biontech_html" | "workday_api" | "gsk_playwright" | "html" | "playwright" | "unknown";
     raw?: any;
@@ -42,6 +45,34 @@ export type Job = {
 
   postedAt: string | null;
   scrapedAt: string;
+};
+
+export type JobSummary = {
+  id: string;
+  company: Job["company"];
+  title: string;
+  location: string | null;
+  url: string;
+  applyUrl: string | null;
+  postedAt: string | null;
+  scrapedAt: string;
+  skills: string[];
+};
+
+export type JobUpdate = {
+  before: JobSummary;
+  after: JobSummary;
+  fields: string[];
+};
+
+export type ChangesFile = {
+  generatedAt: string;
+  previousScrapedAt: string | null;
+  currentScrapedAt: string | null;
+  counts: { new: number; updated: number; removed: number };
+  new: JobSummary[];
+  updated: JobUpdate[];
+  removed: JobSummary[];
 };
 
 export type JobsMeta = {

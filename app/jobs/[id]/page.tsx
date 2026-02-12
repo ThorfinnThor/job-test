@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import { getJobById, excerpt } from "@/lib/jobs";
 import { formatBerlinDate } from "@/lib/jobFilter";
+import { labelForSkill } from "@/lib/skills";
 
 export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const job = await getJobById(decodeURIComponent(params.id));
@@ -50,6 +51,7 @@ export default async function JobDetailPage({ params }: { params: { id: string }
   }
 
   const posted = formatBerlinDate(job.postedAt);
+  const skills = Array.isArray(job.skills) ? job.skills : [];
 
   return (
     <div className="page">
@@ -77,6 +79,11 @@ export default async function JobDetailPage({ params }: { params: { id: string }
             <div>
               <b>Employment:</b> {job.employmentType ?? "—"} {job.timeType ? `(${job.timeType})` : ""}
             </div>
+            {Array.isArray(job.skills) && job.skills.length ? (
+              <div>
+                <b>Stack:</b> {job.skills.map((s) => labelForSkill(s)).join(" · ")}
+              </div>
+            ) : null}
             <div>
               <b>Posted:</b> {posted}
             </div>

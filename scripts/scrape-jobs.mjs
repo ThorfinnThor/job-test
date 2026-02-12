@@ -1,9 +1,13 @@
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
 import { sites } from "./sites.mjs";
 import { toCsv } from "./lib/csv.mjs";
 import { cleanText } from "./lib/normalize.mjs";
 import { createLimiter } from "./lib/limit.mjs";
 import { filterJobsGermanEnglish } from "./lib/lang-filter.mjs";
+import { attachSkills } from "./lib/skills.mjs";
+import { computeChanges } from "./lib/changes.mjs";
+import { writeRssFeeds } from "./lib/rss.mjs";
 
 import { scrapeBiontech } from "./adapters/biontech.mjs";
 import { scrapeWorkday } from "./adapters/workday.mjs";
@@ -37,6 +41,21 @@ async function scrapeOneSite(site) {
 }
 
 async function main() {
+  // Load previously committed dataset (if present) for change tracking.
+  const PUBLIC_DIR = path.join(process.cwd(), "public");
+  let previousJobs = [];
+  let previousMeta = null;
+  try {
+    previousJobs = JSON.parse(await readFile(path.join(PUBLIC_DIR, "jobs.json"), "utf8"));
+  } catch {
+    previousJobs = [];
+  }
+  try {
+    previousMeta = JSON.parse(await readFile(path.join(PUBLIC_DIR, "jobs-meta.json"), "utf8"));
+  } catch {
+    previousMeta = null;
+  }
+
   const all = [];
   const sourceCounts = {};
   const filteredOutNonDeEn = {};
@@ -63,7 +82,10 @@ async function main() {
     }
   }
 
-  const jobs = uniqById(all).sort((a, b) => {
+  // Attach skills (stack) to each job for later filtering and RSS.
+  const withSkills = await Promise.all(uniqById(all).map((j) => attachSkills(j)));
+
+  const jobs = withSkills.sort((a, b) => {
     return a.company.name.localeCompare(b.company.name) || a.title.localeCompare(b.title);
   });
 
@@ -77,6 +99,18 @@ async function main() {
   await writeFile("public/jobs.json", JSON.stringify(jobs, null, 2));
   await writeFile("public/jobs.csv", toCsv(jobs));
   await writeFile("public/jobs-meta.json", JSON.stringify(meta, null, 2));
+
+  // Change tracking (new/updated/removed)
+  const changes = computeChanges({
+    previousJobs,
+    currentJobs: jobs,
+    previousScrapedAt: previousMeta?.scrapedAt ?? null,
+    currentScrapedAt: meta.scrapedAt
+  });
+  await writeFile("public/changes.json", JSON.stringify(changes, null, 2));
+
+  // RSS feeds
+  await writeRssFeeds({ jobs, meta });
 
   console.log(`Done. Wrote ${jobs.length} total jobs.`);
 }
