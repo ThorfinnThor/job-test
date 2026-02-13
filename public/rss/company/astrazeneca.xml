@@ -5,13 +5,23 @@
     <description>Latest scraped jobs for AstraZeneca.</description>
     <link>https://example.vercel.app/jobs?company=astrazeneca</link>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Feb 2026 21:12:02 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Feb 2026 07:01:50 GMT</lastBuildDate>
     
+    <item>
+      <title>AstraZeneca — (Senior) Human Resources Specialist</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Taiwan/Human-Resources-Specialist_R-246002</link>
+      <guid isPermaLink="false">workday:R-246002</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Key Responsibilities 1. HR Payroll • Execute monthly payroll operations, including data collection, validation, system input and timeline tracking. • Coordinate with external payroll, tax and insurance vendors to ensure smooth and accurate operational delivery. • Perform payroll, insurance and related HR processes in…
+
+Location: Taiwan | Stack: go, validation</description>
+    </item>
+
     <item>
       <title>AstraZeneca — AI Lead, Commercial, Launch &amp; Medical Excellence</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/AI-Lead--Commercial--Launch---Medical-Excellence_R-245924</link>
       <guid isPermaLink="false">workday:R-245924</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Alexion is seeking a visionary AI lead to define and drive the AI strategy across our global Commercial, Launch, Market Access, Patient Engagement, and Medical Affairs organizations. In this highly strategic and influential role, you will partner with business, medical, and field teams to transform complex commercial…
 
 Location: US - Boston - MA | Stack: agile, data_science, nlp, pv, sop, stakeholder, validation</description>
@@ -21,7 +31,7 @@ Location: US - Boston - MA | Stack: agile, data_science, nlp, pv, sop, stakehold
       <title>AstraZeneca — AI Lead, Discovery and Development</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/AI-Lead--Discovery-and-Development_R-245926-2</link>
       <guid isPermaLink="false">workday:R-245926</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Alexion is seeking a visionary AI lead to shape and execute the AI strategy across our R&amp;D organization, spanning early research, preclinical work, and clinical development. This role will partner closely with R&amp;D teams to translate scientific challenges into actionable AI opportunities, accelerate pipeline productivi…
 
 Location: US - Boston - MA | Stack: agile, data_science, gdpr, gxp, nlp, r, stakeholder, validation</description>
@@ -31,7 +41,7 @@ Location: US - Boston - MA | Stack: agile, data_science, gdpr, gxp, nlp, r, stak
       <title>AstraZeneca — AI Lead, Manufacturing &amp; Supply Chain</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/AI-Lead--Manufacturing---Supply-Chain_R-245908-2</link>
       <guid isPermaLink="false">workday:R-245908</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>This is what you will do: Alexion is seeking a visionary AI lead to shape and execute the AI strategy across our manufacturing, quality, and supply chain operations. In this pivotal role, you will partner with global operations teams to turn complex production and quality challenges into intelligent, AI‑powered soluti…
 
 Location: US - Boston - MA | Stack: capA, cv, deviations, eln, gmp, gxp, limes, nlp, sop, stakeholder, validation</description>
@@ -41,7 +51,7 @@ Location: US - Boston - MA | Stack: capA, cv, deviations, eln, gmp, gxp, limes, 
       <title>AstraZeneca — AI Lead: Commercial, Launch &amp; Medical Excellence</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/AI-Lead--Commercial--Launch---Medical-Excellence_R-245687</link>
       <guid isPermaLink="false">workday:R-245687</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: AI Lead: Commercial, Launch &amp; Medical Excellence Location: Boston Seaport, USA At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions and…
 
 Location: US - Boston - MA | Stack: agile, data_science, nlp, pv, sop, stakeholder, validation</description>
@@ -51,7 +61,7 @@ Location: US - Boston - MA | Stack: agile, data_science, nlp, pv, sop, stakehold
       <title>AstraZeneca — AI Lead: Drug Discovery and Development</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/AI-Lead--Drug-Discovery-and-Development_R-245578</link>
       <guid isPermaLink="false">workday:R-245578</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: AI Lead: Drug Discovery and Development Location: Boston Seaport, USA At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions and even the…
 
 Location: US - Boston - MA | Stack: agile, data_science, gdpr, gxp, nlp, r, validation</description>
@@ -61,17 +71,27 @@ Location: US - Boston - MA | Stack: agile, data_science, gdpr, gxp, nlp, r, vali
       <title>AstraZeneca — AI Lead: Manufacturing &amp; Supply Chain</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/AI-Lead--Manufacturing---Supply-Chain_R-245694</link>
       <guid isPermaLink="false">workday:R-245694</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: AI Lead: Manufacturing &amp; Supply Chain Location: Boston Seaport, USA At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions and even the gl…
 
 Location: US - Boston - MA | Stack: capA, cv, deviations, eln, gmp, gxp, limes, nlp, sop, stakeholder, validation</description>
     </item>
 
     <item>
+      <title>AstraZeneca — Area Manager_GPT (North)</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Taiwan/Area-Manager-GPT--North-_R-246001</link>
+      <guid isPermaLink="false">workday:R-246001</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Typical Accountabilities Lead District Team to meet or exceed established sales forecasts and call execution goals. Work with individual sales reps to establish appropriate and challenging goals for each territory. Proactively anticipate and addresses obstacles that may impede results. Assess individual and team progr…
+
+Location: Taiwan | Stack: communication</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Associate Director Study Data Manager</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Associate-Director-Study-Data-Manager_R-245930</link>
       <guid isPermaLink="false">workday:R-245930</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Associate Director Study Data Manager Location: Warsaw, Poland Hybrid model of work: 3 days in office, 2 remote Responsible to coordinate the Clinical Data Management (CDM) deliverables on assigned clinical studies and may be an expert on CDM processes, standards, and technology. Member of the Global Study Team (GST)…
 
 Location: Poland - Warsaw | Stack: communication, project_mgmt, validation</description>
@@ -81,7 +101,7 @@ Location: Poland - Warsaw | Stack: communication, project_mgmt, validation</desc
       <title>AstraZeneca — Associate Director Study Data Manager</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Bangalore/Associate-Director-Study-Data-Manager_R-244066</link>
       <guid isPermaLink="false">workday:R-244066</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Associate Director Study Data Manager Introduction to role: Are you ready to lead study-level data management that accelerates breakthrough medicines to patients? In this role, you will take ownership of the integrity, timeliness and inspection readiness of clinical data across assigned studies, making sure…
 
 Location: India - Bangalore | Stack: data_science, project_mgmt</description>
@@ -91,17 +111,27 @@ Location: India - Bangalore | Stack: data_science, project_mgmt</description>
       <title>AstraZeneca — Associate Director, Diagnostic Partnerships, Oncology Business Unit</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UK---Cambridge/Associate-Director--Diagnostic-Partnerships--Oncology-Business-Unit_R-235051</link>
       <guid isPermaLink="false">workday:R-235051</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Associate Director, Diagnostic Partnerships, Oncology Business Unit Introduction to role Are you ready to make a significant impact in the world of oncology diagnostics? As the Associate Director, Diagnostic Partnerships within the Oncology Business Unit, you will play a pivotal role in delivering the Global Diagnosti…
 
 Location: UK - Cambridge | Stack: r, stakeholder</description>
     </item>
 
     <item>
+      <title>AstraZeneca — Associate Director, FAIR Data Operations</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Waltham---MA/Associate-Director--FAIR-Data-Operations_R-244629</link>
+      <guid isPermaLink="false">workday:R-244629</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>The Oncology Data Science – Data, Analytics, and AI Platforms (ODSP) team comprises multiple groups across the Cambridge UK, Boston MA, Gaithersburg MD, and Munich DE sites. ODSP develops technology, software, and data infrastructure to advance our Oncology data science. Our vision is to evolve data science into a dri…
+
+Location: US - Waltham - MA | Stack: agile, airflow, aws, azure, bi, bioinformatics, biostatistics, clinical_ops, clinical_trials, data_engineering, data_science, gcp, gcp_clinical, gdpr, genomics, gxp, limes, linux, microscopy, ngs, powerbi, proteomics, python, r, stakeholder, statistics</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Associate Director, Global Health Economics &amp; Outcomes Research Innovation</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Associate-Director--Global-Health-Economics---Outcomes-Research-Innovation_R-245964</link>
       <guid isPermaLink="false">workday:R-245964</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>This is what you will do: The Associate Director, Global Health Economics and Outcomes Research Innovation (GHEOR) is a strategic pharmaceutical/biotech leader who bridges product development with health economics, evidence generation and outcomes assessments and novel capabilities (including generative and agentic AI…
 
 Location: Spain - Barcelona | Stack: data_science</description>
@@ -111,7 +141,7 @@ Location: Spain - Barcelona | Stack: data_science</description>
       <title>AstraZeneca — Associate Director, Strategic Projects and Organisational Enablement</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Associate-Director--Strategic-Projects-and-Organisational-Enablement_R-245940</link>
       <guid isPermaLink="false">workday:R-245940</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Associate Director, Strategic Projects and Organisational Enablement Chief Medical Office, Oncology R&amp;D Location : Barcelona - Spain (3 days working from the office and 2 days working from home) Position Overview The Chief Medical Office (CMO) guides the enterprise to meet the needs of patients today and tomorrow. The…
 
 Location: Spain - Barcelona | Stack: clinical_trials, communication, project_mgmt, r, stakeholder</description>
@@ -121,7 +151,7 @@ Location: Spain - Barcelona | Stack: clinical_trials, communication, project_mgm
       <title>AstraZeneca — Business Analyst - Operations (GFS Americas)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Costa-Rica---San-Jose/Business-Analyst---Operations--GFS-Americas-_R-245960</link>
       <guid isPermaLink="false">workday:R-245960</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>AstraZeneca is a global, innovation-driven biopharmaceutical business that focuses on the discovery, development and commercialization of prescription medicines for some of the world&apos;s most serious diseases. But we&apos;re more than one of the world&apos;s leading pharmaceutical companies. At AstraZeneca, we&apos;re proud to have a…
 
 Location: Costa Rica - San Jose | Stack: communication, excel</description>
@@ -131,7 +161,7 @@ Location: Costa Rica - San Jose | Stack: communication, excel</description>
       <title>AstraZeneca — Business Analytics and Insight Manager, Thailand</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Thailand---Bangkok/Business-Analytics-and-Insight-Manager--Thailand_R-245890-1</link>
       <guid isPermaLink="false">workday:R-245890</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you ready to turn integrated commercial data into decisions that move medicines to more patients across Thailand? In this pivotal role, you will lead a skilled team to uncover insights that sharpen field execution, refine brand strategy, and strengthen customer engagement. Your work will directly inform how we pri…
 
 Location: Thailand - Bangkok | Stack: bi, data_engineering, powerbi, stakeholder, tableau</description>
@@ -141,7 +171,7 @@ Location: Thailand - Bangkok | Stack: bi, data_engineering, powerbi, stakeholder
       <title>AstraZeneca — Business Development Manager</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Brazil---Cotia/Business-Development-Manager_R-245758</link>
       <guid isPermaLink="false">workday:R-245758</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>The Business Development Manager will understand the market, map external opportunities, drive strategic engagement, and implement growth initiatives to expand AstraZeneca Brazil’s pharmaceutical portfolio across all therapeutic areas (Oncology, Cardiovascular, Renal &amp; Metabolism, Respiratory &amp; Immunology, Vaccines &amp;…
 
 Location: Brazil - Cotia | Stack: project_mgmt</description>
@@ -151,7 +181,7 @@ Location: Brazil - Cotia | Stack: project_mgmt</description>
       <title>AstraZeneca — Business Development Sr Manager</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Brazil---Cotia/Business-Development-Sr-Manager_R-244924-1</link>
       <guid isPermaLink="false">workday:R-244924</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>This role is responsible for understanding the market, mapping opportunities, driving strategic engagement, and implementing new business development initiatives, with a primary focus on the Brazilian public market. In addition, the position will contribute to strategic projects within the Strategic Affairs area, not…
 
 Location: Brazil - Cotia</description>
@@ -161,7 +191,7 @@ Location: Brazil - Cotia</description>
       <title>AstraZeneca — Business UAT Lead</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Durham---NC/Business-UAT-Lead_R-243417-1</link>
       <guid isPermaLink="false">workday:R-243417</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Hybrid Role: 3 Days office and 2 Remote Typical Accountabilities: UAT Strategy and Planning: Define and execute the UAT approach, ensuring the Project Lead and key stakeholders understand objectives, scope, acceptance criteria, test levels/cycles, risks, time/effort/cost estimates, resource needs, and incident managem…
 
 Location: US - Durham - NC | Stack: go, gxp, project_mgmt, stakeholder, validation</description>
@@ -171,7 +201,7 @@ Location: US - Durham - NC | Stack: go, gxp, project_mgmt, stakeholder, validati
       <title>AstraZeneca — Buyer</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Canada--Hamilton--Longwood-Road-South/Buyer_R-244250</link>
       <guid isPermaLink="false">workday:R-244250</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>The Role : As a Buyer at Fusion, you will source materials at the best value for the company, maintaining strong relationship with the suppliers and working collaboratively with cross functional teams to deliver overall company objectives. This is an exciting opportunity to contribute to the growth of a dynamic organi…
 
 Location: Canada – Hamilton – Longwood Road South | Stack: fda, gmp, gxp</description>
@@ -181,7 +211,7 @@ Location: Canada – Hamilton – Longwood Road South | Stack: fda, gmp, gxp</de
       <title>AstraZeneca — Clinical Regulatory Writer, Associate Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/Associate-Director--Clinical-Regulatory-Writing_R-233326-1</link>
       <guid isPermaLink="false">workday:R-233326</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Clinical Regulatory Writer, Associate Director Location: Boston, MA - Hybrid (3 days onsite) Introduction to role: Are you ready to be part of the solution, turning drug development strategies into reality? As an Associate Director in Clinical Regulatory Writing, you&apos;ll play a pivotal role in translating li…
 
 Location: US - Boston - MA | Stack: medical_writing</description>
@@ -191,7 +221,7 @@ Location: US - Boston - MA | Stack: medical_writing</description>
       <title>AstraZeneca — Clinical Regulatory Writer, Associate Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Clinical-Regulatory-Writer--Associate-Director_R-245961-1</link>
       <guid isPermaLink="false">workday:R-245961</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Clinical Regulatory Writer, Associate Director Location: Gaithesrburg, MD- Hybrid (3 days onsite) Introduction to role: Are you ready to be part of the solution, turning drug development strategies into reality? As an Associate Director in Clinical Regulatory Writing, you&apos;ll play a pivotal role in translati…
 
 Location: US - Gaithersburg - MD | Stack: medical_writing</description>
@@ -201,17 +231,27 @@ Location: US - Gaithersburg - MD | Stack: medical_writing</description>
       <title>AstraZeneca — Consultant - Project Support Officer</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Chennai/Consultant---Project-Support-Officer_R-245863-1</link>
       <guid isPermaLink="false">workday:R-245863</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Consultant - Project Support Officer Career Level: C3 Introduction to role: Are you ready to turn principled delivery operations into measurable impact for patients and for the teams building the future of digital healthcare? In this role, you will sit at the center of sophisticated, multi-supplier initiati…
 
 Location: India - Chennai | Stack: agile, bi, excel, powerbi, project_mgmt, stakeholder</description>
     </item>
 
     <item>
+      <title>AstraZeneca — Content Excellence AI Adoption and Enablement Manager</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Canada---Mississauga/Content-Excellence-AI-Adoption-and-Enablement-Manager_R-245661</link>
+      <guid isPermaLink="false">workday:R-245661</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Job Title: Content Excellence AI Adoption and Enablement Manager Location: Mississauga, Ontario At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, function…
+
+Location: Canada - Mississauga | Stack: communication, data_science, stakeholder</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Director - Lead Product Engineering</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Bangalore/Director---Lead-Product-Engineering_R-245892-1</link>
       <guid isPermaLink="false">workday:R-245892</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Director - Lead Product Engineering GCL : F Introduction to role: Are you prepared to lead engineering for platforms that power our business and healthcare applications? You will turn strategy into secure, scalable products that make a tangible difference. Do you grow with shaping roadmaps, building high-pe…
 
 Location: India - Bangalore | Stack: agile, aws, azure, gcp, gcp_clinical, github_actions, gxp, threat_model</description>
@@ -221,7 +261,7 @@ Location: India - Bangalore | Stack: agile, aws, azure, gcp, gcp_clinical, githu
       <title>AstraZeneca — Director Medical Science Capabilities</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Wilmington---DE/Director-Medical-Science-Capabilities_R-245978</link>
       <guid isPermaLink="false">workday:R-245978</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you ready to raise the scientific bar for medical field teams and accelerate how evidence reaches patients? Do you see yourself turning real-world insights into scaled capabilities that equip MSLs and medical leaders to deliver deeper, more meaningful scientific engagement? In this role, you will lead the strategy…
 
 Location: US - Wilmington - DE | Stack: stakeholder</description>
@@ -231,7 +271,7 @@ Location: US - Wilmington - DE | Stack: stakeholder</description>
       <title>AstraZeneca — Director, AI and Process Automation</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Director--AI-and-Process-Automation_R-245913</link>
       <guid isPermaLink="false">workday:R-245913</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Location : Barcelona - Spain (3 days working from the office and 2 days working from home) Introduction to the role Cell Therapy Clinical Operations (CTCO) drives the delivery of cell therapy trials across Oncology, BioPharma, and Rare Diseases , partnering across R&amp;D, Medical, and Commercial to bring breakthrough the…
 
 Location: Spain - Barcelona | Stack: agile, clinical_ops, data_science, gcp, gcp_clinical, gxp, ich, r</description>
@@ -241,7 +281,7 @@ Location: Spain - Barcelona | Stack: agile, clinical_ops, data_science, gcp, gcp
       <title>AstraZeneca — Director, AI Program Acceleration Cell Therapy Clinical Operations</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Director--AI-Program-Acceleration-Cell-Therapy-Clinical-Operations_R-245921</link>
       <guid isPermaLink="false">workday:R-245921</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Location : Barcelona - Spain (3 days working from the office and 2 days working from home) Introduction to the role Cell Therapy Clinical Operations (CTCO) drives the delivery of cell therapy trials across Oncology, BioPharma, and Rare Diseases , partnering across R&amp;D, Medical, and Commercial to bring breakthrough the…
 
 Location: Spain - Barcelona | Stack: clinical_ops, clinical_trials, communication, data_science, excel, project_mgmt, r</description>
@@ -251,7 +291,7 @@ Location: Spain - Barcelona | Stack: clinical_ops, clinical_trials, communicatio
       <title>AstraZeneca — Director, Global Digital Excellence</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Director--Global-Digital-Excellence_R-245943</link>
       <guid isPermaLink="false">workday:R-245943</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Director, Global Digital Excellence, full-time , Global Hub Barcelona Introduction: Join us at AstraZeneca’s Biopharmaceuticals Business Unit (BBU) where we turn ideas into life-changing medicines . We’re passionate about the potential of science to address the unmet needs of patients around the world. We commit to th…
 
 Location: Spain - Barcelona | Stack: agile, r, stakeholder</description>
@@ -261,7 +301,7 @@ Location: Spain - Barcelona | Stack: agile, r, stakeholder</description>
       <title>AstraZeneca — District Sales Manager- Respiratory Specialty - Jacksonville, FL District</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Savannah---GA/District-Sales-Manager--Respiratory-Specialty---Jacksonville--FL-District_R-245959-1</link>
       <guid isPermaLink="false">workday:R-245959</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - Savannah - GA | Stack: agile, excel, r</description>
@@ -271,7 +311,7 @@ Location: US - Savannah - GA | Stack: agile, excel, r</description>
       <title>AstraZeneca — Engineering Technician – Night Shifts</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UK---Macclesfield/Engineering-Technician---Night-Shifts_R-245949</link>
       <guid isPermaLink="false">workday:R-245949</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Engineering Technician – Night Shifts Location: Macclesfield, UK Competitive salary and benefits Do you have a passion and expertise in Engineering? Would you like to apply this in a company that follows the science, and turns ideas into life changing medicines...... Then AstraZeneca might be the place! At AstraZeneca…
 
 Location: UK - Macclesfield | Stack: gmp, gxp</description>
@@ -281,7 +321,7 @@ Location: UK - Macclesfield | Stack: gmp, gxp</description>
       <title>AstraZeneca — Enterprise Process: Senior Manager – Account to Report - 12 Month Secondment</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Ireland---Dublin-College-Park/Enterprise-Process--Senior-Manager---Account-to-Report---12-Month-Secondment_R-244731-1</link>
       <guid isPermaLink="false">workday:R-244731</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Enterprise Process: Senior Manager – Account to Report - 12 Month Secondment Dublin The Axial Programme (Global S/4HANA implementation) We are one purpose-led global organisation. The enablers and innovators, ensuring that we can fulfil our mission to push the boundaries of science and discover and develop life-changi…
 
 Location: Ireland - Dublin College Park | Stack: communication, microscopy, sop</description>
@@ -291,27 +331,17 @@ Location: Ireland - Dublin College Park | Stack: communication, microscopy, sop<
       <title>AstraZeneca — EU CTR Part 2 Coordination Associate Director (12 months secondment/fixed term contract)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/EU-CTR-Part-2-Coordination-Associate-Director--12-months-secondment-fixed-term-contract-_R-245939</link>
       <guid isPermaLink="false">workday:R-245939</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>EU CTR Part 2 Coordination Associate Director Location: Warsaw, hybrid work The EU CTR Part 2 Coordination Associate Director (P2C AD) is responsible for coordination of the EU CTR Part 2 submissions together with global regulatory, global study team and local study teams from the participating countries in compliance…
 
 Location: Poland - Warsaw | Stack: clinical_trials, communication, gcp, gcp_clinical, gmp, gxp, ich</description>
     </item>
 
     <item>
-      <title>AstraZeneca — Executive Assistant</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India--Mumbai-Commerz/Executive-Assistant_R-245896-1</link>
-      <guid isPermaLink="false">workday:R-245896</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
-      <description>About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companies. Executive…
-
-Location: India – Mumbai Commerz | Stack: communication, stakeholder</description>
-    </item>
-
-    <item>
       <title>AstraZeneca — Field Medical Manager Rare Diseases (CDMX)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Mexico---Cuautitln/Field-Medical-Manager-Rare-Diseases--CDMX-_R-245989-1</link>
       <guid isPermaLink="false">workday:R-245989</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Location: CDMX We’re inspired by the things that seem impossible. At AstraZeneca, we see the impact of our collective ideas and expertise, and the power of science to deliver them. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we can t…
 
 Location: Mexico - Cuautitlán | Stack: agile, clinical_trials, project_mgmt, stakeholder, statistics</description>
@@ -321,7 +351,7 @@ Location: Mexico - Cuautitlán | Stack: agile, clinical_trials, project_mgmt, st
       <title>AstraZeneca — Finance Business Analyst - EMEA OPS Controlling</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Finance-Business-Analyst---EMEA-OPS-Controlling_R-242033</link>
       <guid isPermaLink="false">workday:R-242033</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Finance Business Analyst - EMEA OPS Controlling Location: Warsaw Hybrid model: 3 days from office per week ABOUT ASTRAZENECA AstraZeneca Poland is a key global site that is dynamically growing in all departments – from commercial, R&amp;D, IT, Global Trial Safety Review, Global Procurement Services, HR and Global Finance…
 
 Location: Poland - Warsaw | Stack: clinical_trials, excel, r, stakeholder</description>
@@ -331,7 +361,7 @@ Location: Poland - Warsaw | Stack: clinical_trials, excel, r, stakeholder</descr
       <title>AstraZeneca — Finance Business Analyst - Product Costing (18 months secondment/ FTC)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Finance-Business-Analyst---Product-Costing--18-months-secondment--FTC-_R-243373</link>
       <guid isPermaLink="false">workday:R-243373</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Finance Business Analyst - Product Costing (18 months secondment/FTC) Location: Warsaw Hybrid Model: 3 days per week from office ABOUT ASTRAZENECA AstraZeneca Poland is a key global site that is dynamically growing in all departments – from commercial, R&amp;D, IT, Global Trial Safety Review, Global Procurement Services,…
 
 Location: Poland - Warsaw | Stack: clinical_trials, r</description>
@@ -341,7 +371,7 @@ Location: Poland - Warsaw | Stack: clinical_trials, r</description>
       <title>AstraZeneca — Global Development Medical Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Global-Development-Medical-Director_R-244550</link>
       <guid isPermaLink="false">workday:R-244550</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>As a Global Development Medica l Director with a focus on Cardiovascular/Renal or Metabolic dysfunction (including Diabetes, Obesity and NASH/MASH) , you play a pivotal role in channeling our scientific capabilities to make a positive impact on changing patients’ lives. The Global Development Medical Director in Late…
 
 Location: US - Gaithersburg - MD | Stack: clinical_trials, gcp, gcp_clinical, gxp, statistics</description>
@@ -351,7 +381,7 @@ Location: US - Gaithersburg - MD | Stack: clinical_trials, gcp, gcp_clinical, gx
       <title>AstraZeneca — Global Study Manager Haematology</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Global-Study-Manager_R-245900</link>
       <guid isPermaLink="false">workday:R-245900</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Location: Barcelona, Spain (on-site 3 days/week working from the office) As a Global Study Manager (GSM), you will be an integral part of the extended global study team, supporting the delivery of clinical studies in Haematology Clinical Operations. From the development of the Clinical Study Protocol (CSP) through to…
 
 Location: Spain - Barcelona | Stack: clinical_ops, clinical_trials, gcp, gcp_clinical, glp, gmp, gxp, ich, project_mgmt, sop</description>
@@ -361,27 +391,67 @@ Location: Spain - Barcelona | Stack: clinical_ops, clinical_trials, gcp, gcp_cli
       <title>AstraZeneca — Global Supply and Strategy Director (GSSD)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Global-Supply-and-Strategy-Director--GSSD-_R-239488</link>
       <guid isPermaLink="false">workday:R-239488</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Global Supply and Strategy Director (GSSD) Location: Gaithersburg, US Hybrid Model: 3 days per week from office AstraZeneca is on a path to deliver at least fifteen new medicines before the end of the decade. As a global business, we are playing our part in tackling the biggest challenges of our time, from…
 
 Location: US - Gaithersburg - MD | Stack: stakeholder</description>
     </item>
 
     <item>
+      <title>AstraZeneca — HCP Marketing Director - ATTR</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Wilmington---DE/HCP-Marketing-Director---ATTR_R-246003</link>
+      <guid isPermaLink="false">workday:R-246003</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Location: Wilmington, DE (Onsite/Hybrid) At AstraZeneca, we turn ideas into life‑changing medicines. We think boldly, work collaboratively, and harness the power of science to transform patient outcomes. Join us as HCP Marketing Director – ATTR , where you will help shape the future of the CVRM therapeutic area and dr…
+
+Location: US - Wilmington - DE</description>
+    </item>
+
+    <item>
+      <title>AstraZeneca — HCP Marketing Director, Scientific Communications and Advocacy - ATTR</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Wilmington---DE/HCP-Marketing-Director--Scientific-Communications-and-Advocacy---ATTR_R-245999</link>
+      <guid isPermaLink="false">workday:R-245999</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Location: Wilmington, DE (Onsite/Hybrid) At AstraZeneca, we turn ideas into life-changing medicines. We think boldly, collaborate deeply, and harness the power of science to address unmet patient needs. Join us as the Marketing Director – Scientific Communication &amp; Advocacy and help lead the scientific strategy that s…
+
+Location: US - Wilmington - DE</description>
+    </item>
+
+    <item>
+      <title>AstraZeneca — HCP Marketing Manager, ATTR</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Wilmington---DE/HCP-Marketing-Manager--ATTR_R-245997</link>
+      <guid isPermaLink="false">workday:R-245997</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Office Location: Wilmington, DE (ONSITE/HYBRID) At AstraZeneca, we turn ideas into life‑changing medicines. We think big, work collaboratively, and focus on science that can truly transform patient outcomes. Join us as a Marketing Manager supporting our ATTR portfolio where your work directly shapes how we engage HCPs…
+
+Location: US - Wilmington - DE | Stack: agile</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Head, Digital Health consulting (Clinical Development) Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Senior-Digital-Health-Consultant--Pharmaceutical-R-D----Evinova_R-239612</link>
       <guid isPermaLink="false">workday:R-239612</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Head, Digital Health consulting (Clinical Development) Evinova Introduction to role Are you ready to make a difference in the world of digital health? As a Head, Digital Health consulting at Evinova, you&apos;ll partner with Pharmaceutical R&amp;D customers to shape, evaluate, and implement digital health solutions that accele…
 
 Location: US - Gaithersburg - MD | Stack: clinical_ops, data_science, r, validation</description>
     </item>
 
     <item>
+      <title>AstraZeneca — Innovation &amp; Business Excellence Director CE</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Czech-Republic---Prague/Innovation---Business-Excellence-Director-CE_R-245990</link>
+      <guid isPermaLink="false">workday:R-245990</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>As the Innovation &amp; Business Excellence (IBEX) Director for Central Europe , you will be a key strategic leader driving AstraZeneca&apos;s commercial excellence and innovation initiatives across the region. This executive role demands forefront leadership to shape and execute transformative strategies that leverage data-dr…
+
+Location: Czech Republic - Prague | Stack: bi, data_science, stakeholder</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Key Account Manager Rare Diseases - Craiova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager--Rare-Diseases-----Craiova_R-245899</link>
       <guid isPermaLink="false">workday:R-245899</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager – Rare Diseases – Craiova AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmac…
 
 Location: Romania - Bucharest | Stack: communication</description>
@@ -391,7 +461,7 @@ Location: Romania - Bucharest | Stack: communication</description>
       <title>AstraZeneca — Key Account Partner (Oncology) - Center Region</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Portugal---Lisbon/Key-Account-Partner--Oncology----Center-Region_R-245967</link>
       <guid isPermaLink="false">workday:R-245967</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Key Account Partner (Oncology) Area to cover: Center of Portugal Introduction to the role: Join AstraZeneca to shape local oncology care by partnering across the healthcare ecosystem to drive earlier diagnosis and better treatment outcomes. You will connect deep clinical knowledge with account strategy, co‑…
 
 Location: Portugal - Lisbon | Stack: stakeholder</description>
@@ -401,7 +471,7 @@ Location: Portugal - Lisbon | Stack: stakeholder</description>
       <title>AstraZeneca — Key Account Partner (Oncology) - North Region</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Portugal---Lisbon/Key-Account-Partner--Oncology----North-Region_R-245966</link>
       <guid isPermaLink="false">workday:R-245966</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Key Account Partner (Oncology) Area to cover: North of Portugal Introduction to the role: Join AstraZeneca to shape local oncology care by partnering across the healthcare ecosystem to drive earlier diagnosis and better treatment outcomes. You will connect deep clinical knowledge with account strategy, co‑c…
 
 Location: Portugal - Lisbon | Stack: stakeholder</description>
@@ -411,27 +481,57 @@ Location: Portugal - Lisbon | Stack: stakeholder</description>
       <title>AstraZeneca — Key Account Partner (Oncology) - South Region</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Portugal---Lisbon/Key-Account-Partner--Oncology----South-Region_R-245968</link>
       <guid isPermaLink="false">workday:R-245968</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Key Account Partner (Oncology) Area to cover: South of Portugal Introduction to the role: Join AstraZeneca to shape local oncology care by partnering across the healthcare ecosystem to drive earlier diagnosis and better treatment outcomes. You will connect deep clinical knowledge with account strategy, co‑c…
 
 Location: Portugal - Lisbon | Stack: stakeholder</description>
     </item>
 
     <item>
+      <title>AstraZeneca — Lead Consultant - Salesforce Marketing Cloud</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Chennai/Lead-Consultant---Salesforce-Marketing-Cloud_R-245865-1</link>
+      <guid isPermaLink="false">workday:R-245865</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Job Title: Lead Consultant - Salesforce Marketing Cloud Career Level :E Introduction to role: Are you ready to turn Salesforce Marketing Cloud and Data Cloud into engines that deepen patient engagement and accelerate breakthrough medicines? Can you picture leading a high-impact roadmap that converts sophisticated data…
+
+Location: India - Chennai | Stack: cv, gdpr, javascript, spark, sql</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Manager - Production (Nights)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Frederick---MD/Manager---Production--Nights-_R-243086-1</link>
       <guid isPermaLink="false">workday:R-243086</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Our Frederick Manufacturing Center (FMC) creates life-changing medicines for people around the world and has been recognized by our local community as being a Top 50’ Business in Frederick and awarded Frederick County’s ‘Best Place to Work’. This distinctive biologic manufacturing facility, with over 800 employees, ma…
 
 Location: US - Frederick - MD | Stack: communication</description>
     </item>
 
     <item>
+      <title>AstraZeneca — Medical Director, Small Cell Lung Cancer</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Medical-Director--Small-Cell-Lung-Cancer_R-244945</link>
+      <guid isPermaLink="false">workday:R-244945</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Medical Director, Oncology Medical Affairs - US Do you have expertise in, and passion for, Medical Affairs in Oncology? Would you like to apply your expertise to impact patient outcomes in the Medical Director, US Oncology Medical Affairs role at a company that follows the science and turns ideas into life-changing me…
+
+Location: US - Gaithersburg - MD | Stack: clinical_trials, project_mgmt, stakeholder</description>
+    </item>
+
+    <item>
+      <title>AstraZeneca — Medical Evidence Delivery Manager</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Taiwan/Medical-Evidence-Delivery-Manager_R-245998</link>
+      <guid isPermaLink="false">workday:R-245998</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>Job Description Country expert for evidence strategy, RWE methods, and study delivery. Senior authority on study design, statistical input, protocol/CRF/SAP review, and data interpretation. Designs and delivers training on RWE, study operations, compliance, and publication standards. Establishes policies, procedures,…
+
+Location: Taiwan | Stack: biostatistics, capA, clinical_ops, project_mgmt, pv, statistics</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Medical Science Liaison Specialist - CVRM - HN</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Vietnam---Hanoi/Medical-Science-Liaison-Specialist---CVRM---HN_R-245909-1</link>
       <guid isPermaLink="false">workday:R-245909</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Medical Science Liaison Specialist - CVRM - HN The ideal candidate is a passionate, self-motivated, and detail-oriented team player who is committed to the success of our customers. Then AstraZeneca might be the one for you! About AstraZeneca and AstraZeneca Vietnam AstraZeneca AstraZeneca (LSE/STO/Nasdaq: AZN) is a g…
 
 Location: Vietnam - Hanoi | Stack: clinical_trials, go, r</description>
@@ -441,7 +541,7 @@ Location: Vietnam - Hanoi | Stack: clinical_trials, go, r</description>
       <title>AstraZeneca — Medical Specialist - Oncology (Cebu &amp; Davao)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Philippines---Manila/Medical-Specialist---Oncology--Cebu---Davao-_R-244647</link>
       <guid isPermaLink="false">workday:R-244647</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Medical Specialist - Oncology (Cebu &amp; Davao) Do you have expertise in, and passion for pharmaceutical sales? Would you like to apply your expertise to impact an organisation that follows the science and turns ideas into life changing medicines? Then AstraZeneca might be the one for you! ABOUT ASTRAZENECA AstraZeneca i…
 
 Location: Philippines - Manila | Stack: stakeholder</description>
@@ -451,7 +551,7 @@ Location: Philippines - Manila | Stack: stakeholder</description>
       <title>AstraZeneca — Medical Therapeutic Area Lead for CVRM Portfolios</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Thailand---Bangkok/Medical-Therapeutic-Area-Lead-for-CVRM-Portfolios_R-245895</link>
       <guid isPermaLink="false">workday:R-245895</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you ready to lead medical strategy and field excellence across Cardiovascular, Renal and Metabolism portfolios to drive evidence-based change for patients? Do you want to harness cross-functional influence and bold external partnerships to shape national medical practice and accelerate impact across brands? In thi…
 
 Location: Thailand - Bangkok | Stack: spark</description>
@@ -461,17 +561,27 @@ Location: Thailand - Bangkok | Stack: spark</description>
       <title>AstraZeneca — Oncology Sales Specialist</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Malaysia---Petaling-Jaya/Oncology-Sales-Specialist_R-245881</link>
       <guid isPermaLink="false">workday:R-245881</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Do you have expertise in, and passion in engaging KOLs for our key products in Oncology therapy area? Would you like to apply your expertise to impact in a company that follows the science and turns ideas into life changing medicines? Then AstraZeneca might be the one for you! About AstraZeneca AstraZeneca is a global…
 
 Location: Malaysia - Petaling Jaya</description>
     </item>
 
     <item>
+      <title>AstraZeneca — Pharmaceutical Sales Specialist, CVRM Primary Care - Athens, GA</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Athens---GA/Pharmaceutical-Sales-Specialist--CVRM-Primary-Care---Athens--GA_R-245992-1</link>
+      <guid isPermaLink="false">workday:R-245992</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>At AstraZeneca we turn ideas into life changing medicines. Working here means being thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the cou…
+
+Location: US - Athens - GA | Stack: communication, cv</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Pharmaceutical Sales Specialist, CVRM Primary Care - Boise, ID</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boise---ID/Pharmaceutical-Sales-Specialist--CVRM-Primary-Care---Boise--ID_R-245956</link>
       <guid isPermaLink="false">workday:R-245956</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - Boise - ID</description>
@@ -481,7 +591,7 @@ Location: US - Boise - ID</description>
       <title>AstraZeneca — Pharmaceutical Sales Specialist, CVRM Primary Care - Dothan, AL</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Dothan---AL/Pharmaceutical-Sales-Specialist--CVRM-Primary-Care---Dothan--AL_R-245969</link>
       <guid isPermaLink="false">workday:R-245969</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - Dothan - AL</description>
@@ -491,7 +601,7 @@ Location: US - Dothan - AL</description>
       <title>AstraZeneca — Pharmaceutical Sales Specialist, CVRM Primary Care - Flagstaff, AZ</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Phoenix---AZ/Pharmaceutical-Sales-Specialist--CVRM-Primary-Care---Flagstaff--AZ_R-239331</link>
       <guid isPermaLink="false">workday:R-239331</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - Phoenix - AZ</description>
@@ -501,7 +611,7 @@ Location: US - Phoenix - AZ</description>
       <title>AstraZeneca — Pharmaceutical Sales Specialist, CVRM Primary Care - San Francisco, CA</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---San-Francisco---CA/Pharmaceutical-Sales-Specialist--CVRM-Primary-Care---San-Francisco--CA_R-245958</link>
       <guid isPermaLink="false">workday:R-245958</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - San Francisco - CA</description>
@@ -511,7 +621,7 @@ Location: US - San Francisco - CA</description>
       <title>AstraZeneca — Product Manager – CVRM– (Budapest)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Hungary---Budapest/Product-Manager---CVRM---Budapest-_R-245856</link>
       <guid isPermaLink="false">workday:R-245856</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Product Manager – CVRM– (Budapest) Diverse Minds. Bold Disruptors. Meaningful Impact AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more t…
 
 Location: Hungary - Budapest | Stack: communication, project_mgmt, stakeholder</description>
@@ -521,7 +631,7 @@ Location: Hungary - Budapest | Stack: communication, project_mgmt, stakeholder</
       <title>AstraZeneca — Regulatory Affairs Strategy Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/Regulatory-Affairs-Strategy-Director_R-245946</link>
       <guid isPermaLink="false">workday:R-245946</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Director, Regulatory Affairs Strategy Job Description Are you passionate about science and experienced within regulatory affairs and drug development? Do you possess strategic and operational leadership skills? Then, join us at Cardiovascular, Renal or Metabolism (CVRM) regulatory affairs to get involved in the global…
 
 Location: US - Boston - MA | Stack: reg_affairs</description>
@@ -531,7 +641,7 @@ Location: US - Boston - MA | Stack: reg_affairs</description>
       <title>AstraZeneca — Regulatory Affairs Strategy Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Regulatory-Affairs-Strategy-Director_R-245944-1</link>
       <guid isPermaLink="false">workday:R-245944</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Director, Regulatory Affairs Strategy Job Description Are you passionate about science and experienced within regulatory affairs and drug development? Do you possess strategic and operational leadership skills? Then, join us at Cardiovascular, Renal or Metabolism (CVRM) regulatory affairs to get involved in the global…
 
 Location: US - Gaithersburg - MD | Stack: reg_affairs</description>
@@ -541,7 +651,7 @@ Location: US - Gaithersburg - MD | Stack: reg_affairs</description>
       <title>AstraZeneca — Scientist (Renal Bioscience, Early CVRM)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UK---Cambridge/Scientist--Renal-Bioscience--Early-CVRM-_R-245825-1</link>
       <guid isPermaLink="false">workday:R-245825</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Scientist (Renal Bioscience, Early CVRM) – Full time, Onsite Location: Cambridge, UK Introduction to the Role: In Renal Bioscience, we discover novel medicines for kidney disease. We seek a well-organized, highly productive bench scientist who can independently design and execute experiments and effectively…
 
 Location: UK - Cambridge | Stack: cell_culture, data_science, eln, microscopy, statistics, validation</description>
@@ -551,7 +661,7 @@ Location: UK - Cambridge | Stack: cell_culture, data_science, eln, microscopy, s
       <title>AstraZeneca — Senior Fullstack Software Engineer (Focus on Backend)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Senior-Fullstack-Software-Engineer--Focus-on-Backend-_R-228181</link>
       <guid isPermaLink="false">workday:R-228181</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Senior Fullstack Software Engineer (Focus on Backend) Location: Gaithersburg, MD At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions an…
 
 Location: US - Gaithersburg - MD | Stack: agile, aws, azure, clinical_trials, docker, github_actions, java, javascript, kubernetes, node, react, testing, typescript</description>
@@ -561,17 +671,27 @@ Location: US - Gaithersburg - MD | Stack: agile, aws, azure, clinical_trials, do
       <title>AstraZeneca — Senior Manager, Business Partnering Communications, Finance</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Portugal---Lisboa/Senior-Manager--Business-Partnering-Communications--Finance_R-245925-1</link>
       <guid isPermaLink="false">workday:R-245925</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you ready to turn complex financial strategy into narratives that move a global enterprise and, ultimately, help deliver better outcomes for patients? This role sits at the heart of how we align our Finance Vision with business priorities, using communications as a strategic lever to inform decisions and accelerat…
 
 Location: Portugal - Lisboa | Stack: project_mgmt, stakeholder</description>
     </item>
 
     <item>
+      <title>AstraZeneca — Senior Manager, Strategic Pricing</title>
+      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Canada---Mississauga/Senior-Manager--Strategic-Pricing_R-245774</link>
+      <guid isPermaLink="false">workday:R-245774</guid>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
+      <description>At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, daring thinking, and innovation – ultimately providing employees with the opportunity to work across teams, functions and even the globe. Recognizing the importance of individualized flexibility, our ways of workin…
+
+Location: Canada - Mississauga | Stack: excel</description>
+    </item>
+
+    <item>
       <title>AstraZeneca — Senior Manager, US Medical Review</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/Senior-Manager--US-Medical-Review_R-245974</link>
       <guid isPermaLink="false">workday:R-245974</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you ready to elevate scientific rigor in US promotional and medical review so healthcare professionals receive accurate, balanced, and compliant information that ultimately improves patient outcomes? This role puts you at the center of how we communicate evidence and safety, shaping the quality and credibility of…
 
 Location: US - Boston - MA | Stack: fda, pv, sop</description>
@@ -581,7 +701,7 @@ Location: US - Boston - MA | Stack: fda, pv, sop</description>
       <title>AstraZeneca — Senior Specialist, Marketing Company Operations Quality</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Singapore/Senior-Specialist--Marketing-Company-Operations-Quality_R-245883</link>
       <guid isPermaLink="false">workday:R-245883</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>SENIOR SPECIALIST, MARKETING COMPANY OPERATIONS QUALITY At AstraZeneca, we believe in the potential of our people and we’ll develop you beyond what you thought possible. We make the most of your skills and passion by actively supporting you to see what you can achieve no matter where you start with us. ABOUT ASTRAZENE…
 
 Location: Singapore | Stack: gmp, gxp, r</description>
@@ -591,7 +711,7 @@ Location: Singapore | Stack: gmp, gxp, r</description>
       <title>AstraZeneca — Senior Statistician II</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Senior-Statistician-II_R-245977</link>
       <guid isPermaLink="false">workday:R-245977</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Senior Statistician II Location: Gaithersburg The Senior Statistician II has sufficient experience working as a statistician in the pharmaceutical industry to be working independently on activities relating to design, delivery and interpretation, regulatory submissions and/or commercialisation. This individual is able…
 
 Location: US - Gaithersburg - MD | Stack: communication, go, r, statistics</description>
@@ -601,7 +721,7 @@ Location: US - Gaithersburg - MD | Stack: communication, go, r, statistics</desc
       <title>AstraZeneca — Sr Scientist – Early Process Development &amp; Manufacturing</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Belgium---Mont-Saint-Guibert/Sr-Scientist---Early-Process-Development---Manufacturing_R-242566</link>
       <guid isPermaLink="false">workday:R-242566</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Sr Scientist – Early Process Development &amp; Manufacturing (lentiviral vectors) permanent Location: Belgium , Mont-Saint-Guibert Salary: Competitive Introduction to role Are you ready to dive into the world of transformative therapies and make a significant impact? At EsoBiotec, now part of AstraZeneca, we are setting n…
 
 Location: Belgium - Mont-Saint-Guibert | Stack: communication, eln, flow_cytometry, gmp, gxp, statistics</description>
@@ -611,7 +731,7 @@ Location: Belgium - Mont-Saint-Guibert | Stack: communication, eln, flow_cytomet
       <title>AstraZeneca — Statistical Programming Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/Statistical-Programming-Director_R-245942-1</link>
       <guid isPermaLink="false">workday:R-245942</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you an experienced Statistical Programmer with deep knowledge of clinical drug development? Would you like to be part of a fast-paced and agile global team that has direct strategic impact on drug development, empowered and trusted to innovate and experiment? Join us at AstraZeneca CVRM (Cardiovascular Renal Metab…
 
 Location: US - Boston - MA | Stack: agile, data_science, microscopy, single_cell, statistics</description>
@@ -621,7 +741,7 @@ Location: US - Boston - MA | Stack: agile, data_science, microscopy, single_cell
       <title>AstraZeneca — Statistical Science Associate Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/Statistical-Science-Associate-Director_R-245984</link>
       <guid isPermaLink="false">workday:R-245984</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Statistical Science Associate Director Location: Boston, MA The Statistical Science Associate Director has sufficient experience working as a statistician in the pharmaceutical industry to independently perform and lead statistical work within a project, an indication within a more complex project or complex studies .…
 
 Location: US - Boston - MA | Stack: communication, go, project_mgmt, python, r, statistics</description>
@@ -631,7 +751,7 @@ Location: US - Boston - MA | Stack: communication, go, project_mgmt, python, r, 
       <title>AstraZeneca — Statistical Science Associate Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Statistical-Science-Associate-Director_R-245983</link>
       <guid isPermaLink="false">workday:R-245983</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Statistical Science Associate Director Location: Gaithersburg The Statistical Science Associate Director has sufficient experience working as a statistician in the pharmaceutical industry to independently perform and lead statistical work within a project, an indication within a more complex project or complex studies…
 
 Location: US - Gaithersburg - MD | Stack: communication, go, project_mgmt, python, r, statistics</description>
@@ -641,7 +761,7 @@ Location: US - Gaithersburg - MD | Stack: communication, go, project_mgmt, pytho
       <title>AstraZeneca — Statistical Science Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Statistical-Science-Director_R-245985</link>
       <guid isPermaLink="false">workday:R-245985</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Statistical Science Director Location: Gaithersburg The Statistical Science Director has sufficient experience working as a statistician in the pharmaceutical industry to be accountable and independently lead the statistical strategy or technical activities related to design, delivery and interpretation, high level in…
 
 Location: US - Gaithersburg - MD | Stack: communication, go, project_mgmt, python, r, statistics</description>
@@ -651,7 +771,7 @@ Location: US - Gaithersburg - MD | Stack: communication, go, project_mgmt, pytho
       <title>AstraZeneca — Statistical Science Director, Boston MA</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/Statistical-Science-Director--Boston-MA_R-245986</link>
       <guid isPermaLink="false">workday:R-245986</guid>
-      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Thu, 12 Feb 2026 23:00:00 GMT</pubDate>
       <description>Statistical Science Director Location: Boston, MA The Statistical Science Director has sufficient experience working as a statistician in the pharmaceutical industry to be accountable and independently lead the statistical strategy or technical activities related to design, delivery and interpretation, high level inte…
 
 Location: US - Boston - MA | Stack: communication, go, project_mgmt, python, r, statistics</description>
@@ -661,7 +781,7 @@ Location: US - Boston - MA | Stack: communication, go, project_mgmt, python, r, 
       <title>AstraZeneca — (Senior) Finance Manager - Deal Finance China</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/China/Manager---Deal-Finance_R-245732</link>
       <guid isPermaLink="false">workday:R-245732</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>ROLE &amp; RESPONSIBILITIES Work in support of the Deal Finance Directors to work on all stages of the deal process – from initial negotiations to due diligence, contract closure and post-deal integration Build complex, consistent and accurate transaction valuation models. Providing high-quality financial analysis and adv…
 
 Location: China | Stack: excel</description>
@@ -671,7 +791,7 @@ Location: China | Stack: excel</description>
       <title>AstraZeneca — Administrative Coordinator</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Administrative-Coordinator_R-245880-1</link>
       <guid isPermaLink="false">workday:R-245880</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>AstraZeneca is a global biopharmaceutical organization dedicated to the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. We need great people who share our passion for science and have the drive and determination to meet the unmet needs of patients a…
 
 Location: US - Gaithersburg - MD | Stack: excel</description>
@@ -681,7 +801,7 @@ Location: US - Gaithersburg - MD | Stack: excel</description>
       <title>AstraZeneca — Area Manager - CVRM - HN</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Vietnam---Hanoi/Area-Manager---CVRM---HN_R-245280-1</link>
       <guid isPermaLink="false">workday:R-245280</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Area Manager - CVRM - HN About AstraZeneca and AstraZeneca Vietnam AstraZeneca AstraZeneca (LSE/STO/Nasdaq: AZN) is a global, science-led biopharmaceutical company that focuses on the discovery, development, and commercialization of prescription medicines in Oncology, Rare Diseases and BioPharmaceuticals, including Ca…
 
 Location: Vietnam - Hanoi | Stack: communication, go, r</description>
@@ -691,7 +811,7 @@ Location: Vietnam - Hanoi | Stack: communication, go, r</description>
       <title>AstraZeneca — Associate Director, Bioanalysis (CPSS Cell Therapy)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Associate-Director--Bioanalysis--CPSS-Cell-Therapy-_R-245862-1</link>
       <guid isPermaLink="false">workday:R-245862</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Associate Director, Bioanalysis ( CPSS Cell Therapy) Introduction to role Are you ready to make a significant impact in the field of cell therapy? Join our dynamic team at AstraZeneca as an Associate Director with in Clinical Pharmacology and Safety Sciences (CPSS) Cell Therapy team , where you will lead the design an…
 
 Location: US - Gaithersburg - MD | Stack: clinical_trials, cta, ind, tableau, validation</description>
@@ -701,7 +821,7 @@ Location: US - Gaithersburg - MD | Stack: clinical_trials, cta, ind, tableau, va
       <title>AstraZeneca — Associate Director, R&amp;I Clinical Regulatory Writing (CReW)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Associate-Director--R-I-Clinical-Regulatory-Writing--CReW-_R-245681-1</link>
       <guid isPermaLink="false">workday:R-245681</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>We are now recruiting a n Associate Director , R&amp;I Clinical Regulatory Writing ( CReW ) . A s part of a clinical delivery or submission team, the Associate Director provide s strategic communications leadership to projects, establish es communication standards and best practice, and continuously advocate s for quality…
 
 Location: US - Gaithersburg - MD | Stack: communication, r</description>
@@ -711,7 +831,7 @@ Location: US - Gaithersburg - MD | Stack: communication, r</description>
       <title>AstraZeneca — Associate Manager P&amp;R</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/South-Korea---Seoul/Associate-Manager-P-R_R-245793</link>
       <guid isPermaLink="false">workday:R-245793</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Description ​ Development and Execution of pricing &amp; reimbursement strategy for assigned brand with understanding products, markets, stakeholders and health care policy supporting P&amp;R manager P&amp;R dossier development including Health Economics/Budget Impact Analysis and deliver scientific communication/follow up on…
 
 Location: South Korea - Seoul | Stack: communication, r, reg_affairs</description>
@@ -721,7 +841,7 @@ Location: South Korea - Seoul | Stack: communication, r, reg_affairs</descriptio
       <title>AstraZeneca — Brand Manager, Breakthrough Launch – CVRM (m/w/d)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Austria---Vienna/Brand-Manager--Breakthrough-Launch---CVRM--m-w-d-_R-245311</link>
       <guid isPermaLink="false">workday:R-245311</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Brand Manager, Breakthrough Launch – CVRM Location: Vienna, Austria Contract: Full-time About the role Join AstraZeneca to lead brand management for a breakthrough launch product in Cardiovascular, Renal and Metabolism (CVRM)—the first innovation to this category in a decade. You own the annual brand budget for costs…
 
 Location: Austria - Vienna | Stack: excel, go, reg_affairs</description>
@@ -731,7 +851,7 @@ Location: Austria - Vienna | Stack: excel, go, reg_affairs</description>
       <title>AstraZeneca — Buying Content Specialist</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Buying-Content-Specialist_R-245814-1</link>
       <guid isPermaLink="false">workday:R-245814</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Buying Content Specialist Location: Warsaw Hybrid Model: 3 days per week from office At AstraZeneca, we put patients first and strive to meet their unmet needs worldwide. Working here means being entrepreneurial, thinking big and working together to make the impossible a reality. If you are swift to action, confident…
 
 Location: Poland - Warsaw | Stack: excel, powerbi, sop</description>
@@ -741,7 +861,7 @@ Location: Poland - Warsaw | Stack: excel, powerbi, sop</description>
       <title>AstraZeneca — Decision Intelligence Developer</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Decision-Intelligence-Developer_R-245837</link>
       <guid isPermaLink="false">workday:R-245837</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Title: Decision Intelligence Developer Location: Warsaw, Poland Hybrid Model: 3 days per week from office Pharmaceutical Technology and Development (PT&amp;D) is the organization that turns brilliant science into actual medicines that help millions of people. We work across the entire value chain, designing and delivering…
 
 Location: Poland - Warsaw | Stack: agile, data_engineering, data_science, gcp, gcp_clinical, gmp, gxp, java, python, sql</description>
@@ -751,7 +871,7 @@ Location: Poland - Warsaw | Stack: agile, data_engineering, data_science, gcp, g
       <title>AstraZeneca — Director, Process Safety and SIF (Serious Injury &amp; Fatality) Prevention</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Director--Process-Safety-and-SIF--Serious-Injury---Fatality--Prevention_R-245845</link>
       <guid isPermaLink="false">workday:R-245845</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Director, Process Safety &amp; SIF (Serious Injury &amp; Fatality) Prevention Location: Gaithersburg, MD Function: Global SHE (Safety, Health &amp; Environment) Why This Role Matters As one of the architects of AstraZeneca’s global Process Safety and SIF strategy, you will reshape our global safety culture, influence senior execu…
 
 Location: US - Gaithersburg - MD | Stack: r</description>
@@ -761,7 +881,7 @@ Location: US - Gaithersburg - MD | Stack: r</description>
       <title>AstraZeneca — Director, Site Management &amp; Monitoring (Cell Therapy)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Director--Site-Management---Monitoring--Cell-Therapy-_R-244793</link>
       <guid isPermaLink="false">workday:R-244793</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we are united by a common purpose: to push the boundaries of science to deliver life-changing medicines. Every day, we make a difference by delivering potentially life-changing medicines to millions of people worldwide. Our purpose is results-oriented and so is our approach. Becoming a more agile and c…
 
 Location: Poland - Warsaw | Stack: agile, clinical_trials, communication, cra, gcp, gcp_clinical, gxp, ich, project_mgmt</description>
@@ -771,7 +891,7 @@ Location: Poland - Warsaw | Stack: agile, clinical_trials, communication, cra, g
       <title>AstraZeneca — Ethics &amp; Compliance Associate Director Gulf and DMF International Region</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UAE---Dubai/Ethics---Compliance-Associate-Director-Gulf-and-DMF-International-Region_R-244802</link>
       <guid isPermaLink="false">workday:R-244802</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>JOB TITLE Ethics &amp; Compliance Associate Director Gulf and DMF International Region ABOUT ASTRAZENECA AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases.…
 
 Location: UAE - Dubai | Stack: gxp, project_mgmt, stakeholder</description>
@@ -781,7 +901,7 @@ Location: UAE - Dubai | Stack: gxp, project_mgmt, stakeholder</description>
       <title>AstraZeneca — Key Account Associate/ Senior Key Account Associate/ Key Account Executive (CVRM HA Team)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Hong-Kong/Key-Account-Associate--Senior-Key-Account-Associate--Key-Account-Executive--CVRM-HA-Team-_R-245795</link>
       <guid isPermaLink="false">workday:R-245795</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Do you have expertise in, and passion for pharmaceutical sales? Would you like to apply your expertise to impact the lives of patients in a company that follows the science and turns ideas into life changing medicines? Then AstraZeneca might be the one for you! ABOUT ASTRAZENECA AstraZeneca is a global, science-led, p…
 
 Location: Hong Kong</description>
@@ -791,7 +911,7 @@ Location: Hong Kong</description>
       <title>AstraZeneca — Key Account Manager – Oncology/Haematology – Slovakia</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Slovakia---Bratislava/Key-Account-Manager---Oncology-Haematology---Slovakia_R-244958</link>
       <guid isPermaLink="false">workday:R-244958</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager – Oncology/Haematology – Slovakia Diverse Minds. Bold Disruptors. Meaningful Impact. AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseas…
 
 Location: Slovakia - Bratislava | Stack: pv</description>
@@ -801,7 +921,7 @@ Location: Slovakia - Bratislava | Stack: pv</description>
       <title>AstraZeneca — Key Accounts Manager - Chandigarh</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Chandigarh/Key-Accounts-Manager---Chandigarh_R-245799-1</link>
       <guid isPermaLink="false">workday:R-245799</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companies. Job Descri…
 
 Location: India - Chandigarh</description>
@@ -811,7 +931,7 @@ Location: India - Chandigarh</description>
       <title>AstraZeneca — Key Accounts Manager - Guwahati</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Assam/Key-Accounts-Manager---Guwahati_R-245809</link>
       <guid isPermaLink="false">workday:R-245809</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companies. Job Description / Capsule Me…
 
 Location: India - Assam</description>
@@ -821,7 +941,7 @@ Location: India - Assam</description>
       <title>AstraZeneca — Key Accounts Manager - Guwahati</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Assam/Key-Accounts-Manager---Guwahati_R-245804-1</link>
       <guid isPermaLink="false">workday:R-245804</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companies. Job Descri…
 
 Location: India - Assam</description>
@@ -831,7 +951,7 @@ Location: India - Assam</description>
       <title>AstraZeneca — Key Accounts Manager - Jaipur</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Rajasthan/Key-Accounts-Manager---Jaipur_R-245796-1</link>
       <guid isPermaLink="false">workday:R-245796</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companies. Job Descri…
 
 Location: India - Rajasthan</description>
@@ -841,7 +961,7 @@ Location: India - Rajasthan</description>
       <title>AstraZeneca — KSA CIT &amp; Digital Solution Lead, BBU</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Central-Riyadh/KSA-CIT---Digital-Solution-Lead--BBU_R-238268</link>
       <guid isPermaLink="false">workday:R-238268</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Commercial IT &amp; Digital Solutions Lead – BBU Do you bring deep expertise and a passion for leading commercial IT and digital solutions—and want to use it to improve patient outcomes at a company that follows the science and turns ideas into life‑changing medicines? If so, the Commercial IT &amp; Digital Solutions Lead rol…
 
 Location: Central-Riyadh | Stack: agile, go, project_mgmt, stakeholder</description>
@@ -851,7 +971,7 @@ Location: Central-Riyadh | Stack: agile, go, project_mgmt, stakeholder</descript
       <title>AstraZeneca — KSA CIT &amp; Digital Solution Lead, OBU&amp; RDU</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Central-Riyadh/KSA-CIT---Digital-Solution-Lead--OBU--RDU_R-238270</link>
       <guid isPermaLink="false">workday:R-238270</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Commercial IT &amp; Digital Solutions Lead – OBU, RDU Do you bring deep expertise and a passion for leading commercial IT and digital solutions—and want to use it to improve patient outcomes at a company that follows the science and turns ideas into life‑changing medicines? If so, the Commercial IT &amp; Digital Solutions Lea…
 
 Location: Central-Riyadh | Stack: agile, go, project_mgmt, stakeholder</description>
@@ -861,7 +981,7 @@ Location: Central-Riyadh | Stack: agile, go, project_mgmt, stakeholder</descript
       <title>AstraZeneca — KSA Transform Care Digital Program Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Central-Riyadh/KSA-Transform-Care-Digital-Program-Director_R-238273</link>
       <guid isPermaLink="false">workday:R-238273</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>KSA Transform Care Digital Program Director Do you bring deep expertise and a passion for leading large‑scale digital health programs—and want to use it to improve patient outcomes at a company that follows the science and turns ideas into life‑changing medicines? If so, the KSA Transform Care Digital Program Director…
 
 Location: Central-Riyadh | Stack: agile, go, project_mgmt, stakeholder</description>
@@ -871,7 +991,7 @@ Location: Central-Riyadh | Stack: agile, go, project_mgmt, stakeholder</descript
       <title>AstraZeneca — Lead Consultant - Enterprise Platform Systems (Moveworks/ServiceNow)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Chennai/Lead-Consultant---Enterprise-Platform-Systems--Moveworks-ServiceNow-_R-241775-1</link>
       <guid isPermaLink="false">workday:R-241775</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Lead Consultant - Enterprise Platform Systems (Moveworks/ServiceNow) Career Level: E Introduction to role: Are you ready to lead the charge in redefining employee experiences through ground breaking technology? As the myAZ Agentic Platform Systems Admin and Technical Services Lead, you&apos;ll coordinate the str…
 
 Location: India - Chennai | Stack: agile, llm, project_mgmt, stakeholder, statistics</description>
@@ -881,7 +1001,7 @@ Location: India - Chennai | Stack: agile, llm, project_mgmt, stakeholder, statis
       <title>AstraZeneca — Medical Healthcare Transformation Manager – Amyloidosis</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Portugal---Barcarena/Medical-Healthcare-Transformation-Manager---Amyloidosis_R-245833</link>
       <guid isPermaLink="false">workday:R-245833</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you ready to think and act fast to change the lives of patients living with amyloidosis, a complex disease area with significant impact on polyneuropathy and cardiomyopathy? As a Medical Healthcare Transformation Manager, you will provide medical input to business strategic and operational planning for this new an…
 
 Location: Portugal - Barcarena | Stack: project_mgmt, spark</description>
@@ -891,7 +1011,7 @@ Location: Portugal - Barcarena | Stack: project_mgmt, spark</description>
       <title>AstraZeneca — Medical Representative - Respiratory and Immunology Inhaled (North Central Bulgaria)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Bulgaria---Sofia/Medical-Representative---Respiratory-and-Immunology-Inhaled--North-Central-Bulgaria-_R-245818</link>
       <guid isPermaLink="false">workday:R-245818</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Medical Representative - Respiratory and Immunology Inhaled (North Central Bulgaria – Pleven, Veliko Tarnovo, Ruse) At AstraZeneca, we put patients first and strive to meet their unmet needs worldwide. Working here means being entrepreneurial, thinking big and working together to make the impossible a reality. If you…
 
 Location: Bulgaria - Sofia</description>
@@ -901,7 +1021,7 @@ Location: Bulgaria - Sofia</description>
       <title>AstraZeneca — Medical Science Liaison, Respiratory- Hartford, CT</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Hartford---CT/Medical-Science-Liaison--Respiratory---Hartford--CT_R-245872-1</link>
       <guid isPermaLink="false">workday:R-245872</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we put patients first and strive to meet their unmet needs worldwide. Working here means being entrepreneurial, thinking big and working together to make the impossible a reality. AstraZeneca holds a unique position in respiratory disease, including asthma and chronic obstructive pulmonary disease (COP…
 
 Location: US - Hartford - CT | Stack: project_mgmt</description>
@@ -911,7 +1031,7 @@ Location: US - Hartford - CT | Stack: project_mgmt</description>
       <title>AstraZeneca — Medical Science Liaison, Respiratory- Indianapolis, IN</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Indianapolis---IN/Medical-Science-Liaison--Respiratory---Indianapolis--IN_R-245875</link>
       <guid isPermaLink="false">workday:R-245875</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we put patients first and strive to meet their unmet needs worldwide. Working here means being entrepreneurial, thinking big and working together to make the impossible a reality. AstraZeneca holds a unique position in respiratory disease, including asthma and chronic obstructive pulmonary disease (COP…
 
 Location: US - Indianapolis - IN | Stack: project_mgmt</description>
@@ -921,7 +1041,7 @@ Location: US - Indianapolis - IN | Stack: project_mgmt</description>
       <title>AstraZeneca — Oncology Account Specialist (Breast) – Minneapolis North, MN</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Minneapolis---MN/Oncology-Account-Specialist--Breast----Minneapolis-North--MN_R-244151</link>
       <guid isPermaLink="false">workday:R-244151</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Ready to make a difference in the lives of patients with cancer? As an Oncology Account Specialist (OAS) in the Minneapolis North market for the Breast team , you&apos;ll be at the forefront of transforming patient care and demonstrate your deep disease-area expertise to engage healthcare professionals through diverse medi…
 
 Location: US - Minneapolis - MN | Stack: fda</description>
@@ -931,7 +1051,7 @@ Location: US - Minneapolis - MN | Stack: fda</description>
       <title>AstraZeneca — Oncology Account Specialist (Lung) – Atlanta, GA</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Atlanta---GA/Oncology-Account-Specialist--Lung----Atlanta--GA_R-245860-1</link>
       <guid isPermaLink="false">workday:R-245860</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Ready to make a difference in the lives of patients with Lung cancer? As an Oncology Account Specialist (OAS) in Atlanta market for the Lung Cancer team , you&apos;ll be at the forefront of transforming patient care and demonstrate your deep disease-area expertise to engage healthcare professionals through diverse media ch…
 
 Location: US - Atlanta - GA | Stack: fda</description>
@@ -941,7 +1061,7 @@ Location: US - Atlanta - GA | Stack: fda</description>
       <title>AstraZeneca — Pharmaceutical Sales Specialist - R&amp;I Primary Care - Cambridge SE, OH</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Zanesville---OH/Pharmaceutical-Sales-Specialist---R-I-Primary-Care----Cambridge-SE--OH_R-245791</link>
       <guid isPermaLink="false">workday:R-245791</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>*Ideal candidate will reside in southeast Ohio This territory is unique as it covers St. Clairsville, Marietta, Cambridge and stretches to Belpre At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the poten…
 
 Location: US - Zanesville - OH | Stack: r</description>
@@ -951,7 +1071,7 @@ Location: US - Zanesville - OH | Stack: r</description>
       <title>AstraZeneca — Pharmaceutical Sales Specialist - Respiratory Specialty - Worcester, MA</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Worcester---MA/Pharmaceutical-Sales-Specialist---Respiratory-Specialty---Worcester--MA_R-245854-1</link>
       <guid isPermaLink="false">workday:R-245854</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - Worcester - MA | Stack: clinical_trials</description>
@@ -961,7 +1081,7 @@ Location: US - Worcester - MA | Stack: clinical_trials</description>
       <title>AstraZeneca — Pharmaceutical Sales Specialist, CVRM Primary Care - Chillicothe OH</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Columbus---OH/Pharmaceutical-Sales-Specialist--CVRM-Primary-Care---Chillicothe-OH_R-245587</link>
       <guid isPermaLink="false">workday:R-245587</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - Columbus - OH</description>
@@ -971,7 +1091,7 @@ Location: US - Columbus - OH</description>
       <title>AstraZeneca — Principal AI Engineer - Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UK---London/Principal-AI-Engineer---Evinova_R-240662</link>
       <guid isPermaLink="false">workday:R-240662</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Principal AI Engineer - Evinova Location: London, UK It currently takes over 10 years and $1.3B to develop a drug. More than 70% of that investment goes into clinical trials, yet only ~10% of candidates make it from Phase I to approval. Evinova - a new health-tech business within the AstraZeneca Group—is here to chang…
 
 Location: UK - London | Stack: aws, clinical_trials, communication, github_actions, pandas, python, scipy</description>
@@ -981,7 +1101,7 @@ Location: UK - London | Stack: aws, clinical_trials, communication, github_actio
       <title>AstraZeneca — Principal AI Engineer - Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Principal-AI-Engineer---Evinova_R-240424</link>
       <guid isPermaLink="false">workday:R-240424</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Role Barcelona onsite - 3 days at office / 2 days at home It currently takes over 10 years and $1.3B to develop a drug. More than 70% of that investment goes into clinical trials, yet only ~10% of candidates make it from Phase I to approval. Evinova is here to change the math. We use advanced algorithms and GenAI to a…
 
 Location: Spain - Barcelona | Stack: aws, clinical_trials, communication, github_actions, pandas, python, scipy</description>
@@ -991,7 +1111,7 @@ Location: Spain - Barcelona | Stack: aws, clinical_trials, communication, github
       <title>AstraZeneca — Project Manager - Trials and Publication</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India--Mumbai-Commerz/Project-Manager---Trials-and-Publication_R-245830-2</link>
       <guid isPermaLink="false">workday:R-245830</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Role: Project Manager – Trials and Publication About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world…
 
 Location: India – Mumbai Commerz | Stack: capA, clinical_trials, gcp, gcp_clinical, gxp, ich, project_mgmt, sop</description>
@@ -1001,7 +1121,7 @@ Location: India – Mumbai Commerz | Stack: capA, clinical_trials, gcp, gcp_clin
       <title>AstraZeneca — Safety Evidence Synthesis Manager</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Canada---Mississauga/Safety-Evidence-Synthesis-Manager_R-237901-1</link>
       <guid isPermaLink="false">workday:R-237901</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions and even the globe. Recognizing the importance of individualized flexibility, our ways of work…
 
 Location: Canada - Mississauga | Stack: pv, r</description>
@@ -1011,7 +1131,7 @@ Location: Canada - Mississauga | Stack: pv, r</description>
       <title>AstraZeneca — Senior Counsel</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Wilmington---DE/Senior-Counsel_R-245871-1</link>
       <guid isPermaLink="false">workday:R-245871</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>AstraZeneca is a global, science-led biopharmaceutical company focusing on discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. We push the boundaries of science to deliver life-changing medicines to patients across our key therapeutic areas. We have an…
 
 Location: US - Wilmington - DE</description>
@@ -1021,7 +1141,7 @@ Location: US - Wilmington - DE</description>
       <title>AstraZeneca — Senior Director, Communications, International</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UAE---Dubai/Senior-Director--International-Communications_R-245608</link>
       <guid isPermaLink="false">workday:R-245608</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>AstraZeneca is a global, science-led biopharmaceutical company dedicated to unlocking the power of what science can do for people, society and the planet. Working here means being entrepreneurial, thinking big and working together to make the seemingly impossible a reality. AstraZeneca is seeking a Senior Director to…
 
 Location: UAE - Dubai | Stack: stakeholder</description>
@@ -1031,27 +1151,17 @@ Location: UAE - Dubai | Stack: stakeholder</description>
       <title>AstraZeneca — Senior Director, Global Oncology RWD Platform</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Senior-Director--Global-Oncology-RWD-Platform_R-245778</link>
       <guid isPermaLink="false">workday:R-245778</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Join the NextGen Sciences team, within AstraZeneca Global Medical Affairs’ Oncology Evidence Generation to Publications (EG2P) organization as a Senior Director, AstraZeneca Global Oncology RWD Platform, including the AZ Partnerships in Oncology Maximising real world evidence (APOLLO) platform. APOLLO is a key EG2P in…
 
 Location: US - Gaithersburg - MD | Stack: communication, ngs, sop, statistics</description>
     </item>
 
     <item>
-      <title>AstraZeneca — Senior Director, Global Regulatory Strategy - Early Development &amp; Business Development</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/Senior-Director--Global-Regulatory-Strategy---Early-Development---Business-Development_R-239749</link>
-      <guid isPermaLink="false">workday:R-239749</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Job Title: Senior Director, Global Regulatory Strategy - Early Development &amp; Business Development Location: Boston, MA At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work…
-
-Location: US - Boston - MA | Stack: communication, ema, fda, gxp, ich, ind, r</description>
-    </item>
-
-    <item>
       <title>AstraZeneca — Senior Director, Head of Alliance Management - Business Development and Licensing - Biopharma</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Senior-Director--Head-of-Alliance-Management---Business-Development-and-Licensing---Biopharma_R-245780</link>
       <guid isPermaLink="false">workday:R-245780</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Senior Director, Head of Alliance Management - Business Development and Licensing - Biopharma Location: Gaithersburg, MD At AstraZeneca, we put patients first and strive to meet their unmet needs worldwide. Working here means being entrepreneurial, thinking big and working together to make the impossible a…
 
 Location: US - Gaithersburg - MD | Stack: project_mgmt, r, stakeholder</description>
@@ -1061,7 +1171,7 @@ Location: US - Gaithersburg - MD | Stack: project_mgmt, r, stakeholder</descript
       <title>AstraZeneca — Senior Manager, Nonclinical and Clinical Pharmacology Writing</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Senior-Manager--Nonclinical-and-Clinical-Pharmacology-Writing_R-242324</link>
       <guid isPermaLink="false">workday:R-242324</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Location: Barcelona, Spain (Hybrid Model) This role requires working from the office 03 days per week. This position is responsible for the timely preparation of high-quality, regulatory-compliant nonclinical and clinical documents in support of the clinical development portfolio at the Alexion Rare Disease Unit (Alex…
 
 Location: Spain - Barcelona | Stack: clinical_trials, cta, ind, medical_writing</description>
@@ -1071,7 +1181,7 @@ Location: Spain - Barcelona | Stack: clinical_trials, cta, ind, medical_writing<
       <title>AstraZeneca — Senior Medical Représentative</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Casablanca/Senior-Medical-Reprsentative_R-245828</link>
       <guid isPermaLink="false">workday:R-245828</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Join AstraZeneca, be part of a mission that puts patients first and be the driving force behind impactful healthcare solutions! If you&apos;re passionate about science, strategic in your approach, and thrive on building meaningful relationships with healthcare professionals — this is your chance to grow with a global leade…
 
 Location: Casablanca | Stack: pv</description>
@@ -1081,7 +1191,7 @@ Location: Casablanca | Stack: pv</description>
       <title>AstraZeneca — Solutions Implementation Lead</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Durham---NC/Solutions-Implementation-Lead_R-244256-1</link>
       <guid isPermaLink="false">workday:R-244256</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Solutions Implementation Lead Introduction to role: Global Clinical Solution (GCS) drives the delivery of Business Technology Excellence for R&amp;D by providing industry-leading technology and services in collaboration with internal and external partners. The Solutions Implementation Lead (SIL) serves as the main point o…
 
 Location: US - Durham - NC | Stack: clinical_trials, cv, microscopy, project_mgmt, r, stakeholder</description>
@@ -1091,7 +1201,7 @@ Location: US - Durham - NC | Stack: clinical_trials, cv, microscopy, project_mgm
       <title>AstraZeneca — Sr Brand lead</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India--Mumbai-Commerz/Sr-Brand-lead_R-245802-2</link>
       <guid isPermaLink="false">workday:R-245802</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companies. Job Descri…
 
 Location: India – Mumbai Commerz | Stack: communication</description>
@@ -1101,7 +1211,7 @@ Location: India – Mumbai Commerz | Stack: communication</description>
       <title>AstraZeneca — Sr Marketing Manager - Rare Disease</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India--Mumbai-Commerz/Sr-Marketing-Manager---Rare-Disease_R-245794-1</link>
       <guid isPermaLink="false">workday:R-245794</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companies. Sr Marketi…
 
 Location: India – Mumbai Commerz | Stack: excel</description>
@@ -1111,7 +1221,7 @@ Location: India – Mumbai Commerz | Stack: excel</description>
       <title>AstraZeneca — Therapy Area Specialist / Pharmareferent (m/w/d) Respiratory (COPD) Gebiet: Ingolstadt, Regensburg, Passau , Rosenheim</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Germany---Hamburg/Therapy-Area-Specialist---Pharmareferent--m-w-d--Respiratory--COPD--Gebiet--Ingolstadt--Regensburg--Passau---Rosenheim_R-245823-2</link>
       <guid isPermaLink="false">workday:R-245823</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Innovativ, dynamisch und nachhaltig: Als eines der weltweit führenden Unternehmen der forschenden Arzneimittelindustrie bieten wir bei AstraZeneca die besten Möglichkeiten für Ihre persönliche und berufliche Entwicklung. Für uns steht fest: Wenn wir eine Chance auf Veränderung sehen, ergreifen wir sie und machen sie m…
 
 Location: Germany - Hamburg | Stack: r, stakeholder</description>
@@ -1121,7 +1231,7 @@ Location: Germany - Hamburg | Stack: r, stakeholder</description>
       <title>AstraZeneca — Therapy Area Specialist / Pharmareferent (m/w/d) Respiratory (COPD) Gebiet: Stuttgart, Baden-Baden, Freiburg</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Germany---Hamburg/Therapy-Area-Specialist---Pharmareferent--m-w-d--Respiratory--COPD--Gebiet--Stuttgart--Baden-Baden--Freiburg_R-245816-1</link>
       <guid isPermaLink="false">workday:R-245816</guid>
-      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Wed, 11 Feb 2026 23:00:00 GMT</pubDate>
       <description>Innovativ, dynamisch und nachhaltig: Als eines der weltweit führenden Unternehmen der forschenden Arzneimittelindustrie bieten wir bei AstraZeneca die besten Möglichkeiten für Ihre persönliche und berufliche Entwicklung. Für uns steht fest: Wenn wir eine Chance auf Veränderung sehen, ergreifen wir sie und machen sie m…
 
 Location: Germany - Hamburg | Stack: r, stakeholder</description>
@@ -1131,7 +1241,7 @@ Location: Germany - Hamburg | Stack: r, stakeholder</description>
       <title>AstraZeneca — Associate Director - Clinical Outcomes Assessment (COA) Measurement Science</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Associate-Director---Clinical-Outcomes-Assessment--COA--Measurement-Science_R-241100</link>
       <guid isPermaLink="false">workday:R-241100</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Associate Director - Clinical Outcomes Assessment (COA) Measurement Science Location: Gaithersburg, MD At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work acro…
 
 Location: US - Gaithersburg - MD | Stack: clinical_trials, communication, fda, project_mgmt, r, stakeholder, statistics</description>
@@ -1141,7 +1251,7 @@ Location: US - Gaithersburg - MD | Stack: clinical_trials, communication, fda, p
       <title>AstraZeneca — Associate Director Operations Lead Multimodal Biomarkers (Project Manager)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Business-Planning-and-Operations-Associate-Director--Cancer-Biomarker-Development_R-245540</link>
       <guid isPermaLink="false">workday:R-245540</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Business Planning and Operations Associate Director, Cancer Biomarker Development Location: Gaithersburg MD or Waltham, MA At AstraZeneca, we put patients first and strive to meet their unmet needs worldwide. Working here means being entrepreneurial, thinking big and working together to make the impossible…
 
 Location: US - Gaithersburg - MD | Stack: project_mgmt, r</description>
@@ -1151,7 +1261,7 @@ Location: US - Gaithersburg - MD | Stack: project_mgmt, r</description>
       <title>AstraZeneca — Associate Director Technology &amp; Insights</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Associate-Director-Technology---Insights_R-245683</link>
       <guid isPermaLink="false">workday:R-245683</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>The Associate Director of Technology &amp; Insights leads cross-functional teams to deliver data analytics and visualization solutions that address complex business challenges! This role translates team member needs into actionable data strategies while driving strategic technology integration and evaluating emerging solu…
 
 Location: US - Gaithersburg - MD | Stack: bi, python, r, spark, sql, tableau</description>
@@ -1161,7 +1271,7 @@ Location: US - Gaithersburg - MD | Stack: bi, python, r, spark, sql, tableau</de
       <title>AstraZeneca — Associate Director, Cell Therapy Territory Operations Manager</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Los-Angeles---CA/Associate-Director--Cell-Therapy-Territory-Operations-Manager_R-241301</link>
       <guid isPermaLink="false">workday:R-241301</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>In AstraZeneca&apos;s Cell Therapy division, we follow the science to explore and innovate. We are working towards treating, preventing, modifying, and even curing some of the world&apos;s most complex diseases. We have the potential to grow our pipeline and positively impact the lives of patients around the world. We are commi…
 
 Location: US - Los Angeles - CA | Stack: capA, project_mgmt, sop</description>
@@ -1171,7 +1281,7 @@ Location: US - Los Angeles - CA | Stack: capA, project_mgmt, sop</description>
       <title>AstraZeneca — Associate Director, Chemical Development</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UK---Macclesfield/Associate-Director---Chemical-Development_R-245767-2</link>
       <guid isPermaLink="false">workday:R-245767</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Associate Director Chemical Developer Location: Macclesfield Competitive salary and Benefits Hybrid working 3 days a week in the office About us: At AstraZeneca, we&apos;re united by a bold ambition: to push the boundaries of science and deliver life-changing medicines to patients worldwide. As a global, science-led biopha…
 
 Location: UK - Macclesfield | Stack: project_mgmt, validation</description>
@@ -1181,7 +1291,7 @@ Location: UK - Macclesfield | Stack: project_mgmt, validation</description>
       <title>AstraZeneca — Associate Director, Contract Strategy</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Associate-Director--Contract-Strategy_R-245782</link>
       <guid isPermaLink="false">workday:R-245782</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Associate Director, Contract Strategy Location: Gaithersburg The Oncology therapy area at AstraZeneca is unparalleled. We have built and strategically acquired one of the most promising Oncology pipelines in the industry. You will be among inspiring oncology industry leaders who will keep you engaged and empower you t…
 
 Location: US - Gaithersburg - MD</description>
@@ -1191,7 +1301,7 @@ Location: US - Gaithersburg - MD</description>
       <title>AstraZeneca — Associate Director, Global Medical Procurement Business Partner</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Associate-Director--Global-Medical-Procurement-Business-Partner_R-245759</link>
       <guid isPermaLink="false">workday:R-245759</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Associate Director, Global Medical Procurement Business Partner Location: Gaithersburg, USA At AstraZeneca, we put patients first and strive to meet their unmet needs worldwide. Working here means being entrepreneurial, thinking big and working together to make the impossible a reality. If you are swift to…
 
 Location: US - Gaithersburg - MD | Stack: communication, go, project_mgmt, stakeholder</description>
@@ -1201,7 +1311,7 @@ Location: US - Gaithersburg - MD | Stack: communication, go, project_mgmt, stake
       <title>AstraZeneca — Axial Data Design Manager – Procurement &amp; Material Management</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Axial-Data-Design-Manager---Procurement---Material-Management_R-241010</link>
       <guid isPermaLink="false">workday:R-241010</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Axial Data Design Manager – Procurement &amp; Material Management​ Location: Warsaw Hybrid Model: 3 days per week from office Introduction to role: Are you ready to be part of a transformative journey at AstraZeneca? As we experience strong growth, our mission is to make a difference to patients worldwide throu…
 
 Location: Poland - Warsaw | Stack: go, project_mgmt</description>
@@ -1211,7 +1321,7 @@ Location: Poland - Warsaw | Stack: go, project_mgmt</description>
       <title>AstraZeneca — Business Performance Analyst</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Egypt/Business-Performance-Analyst_R-241138</link>
       <guid isPermaLink="false">workday:R-241138</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Typical Accountabilities • Support assessment of all aspects of business performance in the functional area: create and design appropriate measures, evaluate metrics and outputs and report on business performance and trends so that leaders understand business performance against key indicators, risks and actions to mi…
 
 Location: Egypt | Stack: bi, powerbi, python, sql, stakeholder</description>
@@ -1221,7 +1331,7 @@ Location: Egypt | Stack: bi, powerbi, python, sql, stakeholder</description>
       <title>AstraZeneca — Director Enterprise Architecture</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UK---Macclesfield/Director-Enterprise-Architecture_R-245739-1</link>
       <guid isPermaLink="false">workday:R-245739</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Introduction to role: Are you ready to develop an enterprise architecture that strengthens product quality and speeds up the provision of medications to patients worldwide? In this role, you will lead the end-to-end architecture across Pharmaceutical Technology, Quality Control, and Global Quality Assurance—linking da…
 
 Location: UK - Macclesfield | Stack: aws, azure, data_engineering, data_science, gxp, limes, r, validation</description>
@@ -1231,7 +1341,7 @@ Location: UK - Macclesfield | Stack: aws, azure, data_engineering, data_science,
       <title>AstraZeneca — Director, Alliance Management</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Sweden---Gothenburg/Director--Alliance-Management_R-242342-2</link>
       <guid isPermaLink="false">workday:R-242342</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you energized by building high performing partnerships and driving operational excellence at scale? Do you have a strong track record in alliance management within outsourced service models in pharma R&amp;D? We’re recruiting a Director, Alliance Management to serve as Alliance Lead for one or more strategic partnersh…
 
 Location: Sweden - Gothenburg | Stack: clinical_ops, data_science, gcp, gcp_clinical, gxp, r</description>
@@ -1241,7 +1351,7 @@ Location: Sweden - Gothenburg | Stack: clinical_ops, data_science, gcp, gcp_clin
       <title>AstraZeneca — Director, US Corporate Affairs, Market Access and BioPharmaceuticals Medical</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Wilmington---DE/Director--US-Corporate-Affairs--Market-Access-and-BioPharmaceuticals-Medical_R-245715-1</link>
       <guid isPermaLink="false">workday:R-245715</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Director, US Corporate Affairs, Market Access and BioPharmaceuticals Medical Global Corporate Affairs Wilmington, DE Hybrid Work- on average 3 days a week from office The Director of US Corporate Affairs, Market Access and BioPharmaceuticals Medical is part of the US Corporate Communications team and responsible for s…
 
 Location: US - Wilmington - DE</description>
@@ -1251,7 +1361,7 @@ Location: US - Wilmington - DE</description>
       <title>AstraZeneca — District Sales Manager, Specialty Care - Westchester, NY</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Westchester---NY/District-Sales-Manager--Specialty-Care---Westchester--NY_R-243075</link>
       <guid isPermaLink="false">workday:R-243075</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - Westchester - NY | Stack: agile, excel</description>
@@ -1261,7 +1371,7 @@ Location: US - Westchester - NY | Stack: agile, excel</description>
       <title>AstraZeneca — Franchise Manager - Lung</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Ireland---Dublin-College-Park/Franchise-Manager---Oncology_R-242934</link>
       <guid isPermaLink="false">workday:R-242934</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Franchise Manager - Lung Location: Dublin - Ireland Type: Permanent Competitive salary and benefits Introduction to role Are you ready to transform the lives of people living with cancer? At AstraZeneca, we are more than just a leading pharmaceutical company; we are a global, science-led, patient-focused biopharmaceut…
 
 Location: Ireland - Dublin College Park</description>
@@ -1271,7 +1381,7 @@ Location: Ireland - Dublin College Park</description>
       <title>AstraZeneca — Generative AI Cloud Operations Engineer - Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Senior-ML-AI-Operations-Engineer---Evinova_R-229736</link>
       <guid isPermaLink="false">workday:R-229736</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Generative AI Cloud Operations Engineer - Evinova Location: Gaithersburg, MD At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions and ev…
 
 Location: US - Gaithersburg - MD | Stack: aws, azure, clinical_trials, communication, data_science, docker, gcp, gcp_clinical, github_actions, gxp, kubernetes, llm, python, typescript</description>
@@ -1281,27 +1391,17 @@ Location: US - Gaithersburg - MD | Stack: aws, azure, clinical_trials, communica
       <title>AstraZeneca — Generative AI Platform Architect – Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/ML-AI-Operations-Architect---Evinova_R-229733</link>
       <guid isPermaLink="false">workday:R-229733</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Generative AI Platform Architect – Evinova Location: Gaithersburg, MD At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions and even the…
 
 Location: US - Gaithersburg - MD | Stack: airflow, aws, clinical_trials, communication, data_science, gcp_clinical, github_actions, kubernetes, lambda, llm, python, s3, sql, typescript, validation</description>
     </item>
 
     <item>
-      <title>AstraZeneca — Global Study Associate, Oncology R&amp;D, Early Oncology Clinical (12 - Month Contract)</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Canada---Mississauga/Global-Study-Associate--Oncology-R-D--Early-Oncology-Clinical--12---Month-Contract-_R-242246-1</link>
-      <guid isPermaLink="false">workday:R-242246</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
-      <description>At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions and even the globe. Recognizing the importance of individualized flexibility, our ways of work…
-
-Location: Canada - Mississauga | Stack: communication, gcp, gcp_clinical, gxp, ich, r</description>
-    </item>
-
-    <item>
       <title>AstraZeneca — Junior Finance Business Partner</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Mexico---Lomas-Verdes/Junior-Finance-Business-Partner_R-236123</link>
       <guid isPermaLink="false">workday:R-236123</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>AstraZeneca Vacancy: Finance Business Partner Location: Operations Lomas Verdes AstraZeneca is seeking an ambitious and dedicated Finance Business Partner to join our Operations team at Lomas Verdes. This is a key role for talented finance professionals passionate about supporting business growth, operational excellen…
 
 Location: Mexico - Lomas Verdes</description>
@@ -1311,7 +1411,7 @@ Location: Mexico - Lomas Verdes</description>
       <title>AstraZeneca — Key Account Manager CVRM - Constanta</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager-CVRM---Constanta_R-245656</link>
       <guid isPermaLink="false">workday:R-245656</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager CVRM – Constanta AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical co…
 
 Location: Romania - Bucharest</description>
@@ -1321,7 +1421,7 @@ Location: Romania - Bucharest</description>
       <title>AstraZeneca — Key Account Manager Oncology GI - Brasov</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager-Oncology--GI---Brasov_R-245682</link>
       <guid isPermaLink="false">workday:R-245682</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager Oncology GI - Brasov Diverse Minds. Bold Disruptors. Meaningful Impact. AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’r…
 
 Location: Romania - Bucharest</description>
@@ -1331,7 +1431,7 @@ Location: Romania - Bucharest</description>
       <title>AstraZeneca — Key Account Manager Rare Diseases - Bucharest</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager--Rare-Diseases-----Bucharest_R-245673</link>
       <guid isPermaLink="false">workday:R-245673</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager – Rare Diseases – Bucharest AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharm…
 
 Location: Romania - Bucharest | Stack: communication</description>
@@ -1341,7 +1441,7 @@ Location: Romania - Bucharest | Stack: communication</description>
       <title>AstraZeneca — Key Account Manager Rare Diseases - Bucharest</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager--Rare-Diseases-----Bucharest_R-245672-1</link>
       <guid isPermaLink="false">workday:R-245672</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager – Rare Diseases – Bucharest AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharm…
 
 Location: Romania - Bucharest | Stack: communication</description>
@@ -1351,7 +1451,7 @@ Location: Romania - Bucharest | Stack: communication</description>
       <title>AstraZeneca — Key Account Manager Rare Diseases - Bucharest</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager--Rare-Diseases-----Bucharest_R-245748</link>
       <guid isPermaLink="false">workday:R-245748</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager – Rare Diseases – Bucharest AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharm…
 
 Location: Romania - Bucharest | Stack: communication</description>
@@ -1361,7 +1461,7 @@ Location: Romania - Bucharest | Stack: communication</description>
       <title>AstraZeneca — Key Account Manager Rare Diseases - Cluj</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager--Rare-Diseases-----Cluj_R-245749</link>
       <guid isPermaLink="false">workday:R-245749</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager – Rare Diseases – Cluj AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceut…
 
 Location: Romania - Bucharest | Stack: communication</description>
@@ -1371,7 +1471,7 @@ Location: Romania - Bucharest | Stack: communication</description>
       <title>AstraZeneca — Key Account Manager Rare Diseases - Timisoara</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager--Rare-Diseases-----Timisoara_R-245674</link>
       <guid isPermaLink="false">workday:R-245674</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager – Rare Diseases – Timisoara AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharm…
 
 Location: Romania - Bucharest | Stack: communication</description>
@@ -1381,7 +1481,7 @@ Location: Romania - Bucharest | Stack: communication</description>
       <title>AstraZeneca — Key Accounts Manager - Chennai</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Tamil-Nadu/Key-Accounts-Manager---Chennai_R-245624-2</link>
       <guid isPermaLink="false">workday:R-245624</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that concentrates on the discovery, development and commercialization of prescription medicines addressing some of the planet’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companie…
 
 Location: India - Tamil Nadu | Stack: communication, r, stakeholder</description>
@@ -1391,7 +1491,7 @@ Location: India - Tamil Nadu | Stack: communication, r, stakeholder</description
       <title>AstraZeneca — Label Specialist (fixed-term/secondment)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Label-Specialist--fixed-term-secondment-_R-245727-1</link>
       <guid isPermaLink="false">workday:R-245727</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Label Specialist Location: Warsaw, Poland Work model : Hybrid (3 days per week in office) The role is offered as a 12 month fixed-term/ s econdment. Label Specialist leads Label development projects/programmes. The individual has a working knowledge of project management methodologies, tools and templates a…
 
 Location: Poland - Warsaw | Stack: clinical_trials, communication, gcp, gcp_clinical, gmp, gxp, project_mgmt, react, stakeholder</description>
@@ -1401,7 +1501,7 @@ Location: Poland - Warsaw | Stack: clinical_trials, communication, gcp, gcp_clin
       <title>AstraZeneca — Labeling Strategy Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Canada---Mississauga/Labeling-Strategy-Director_R-242701</link>
       <guid isPermaLink="false">workday:R-242701</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>About the role The Labelling Strategy Director provides regulatory labelling expertise and guidance , typically for more complex drug projects and across a Therapy Area (TA) /Disease Area (DA) , to Global Regulatory Submission Team (GRST)/Global Regulatory Execution Team (GRET) and cross functional Product Labelling T…
 
 Location: Canada - Mississauga | Stack: communication</description>
@@ -1411,7 +1511,7 @@ Location: Canada - Mississauga | Stack: communication</description>
       <title>AstraZeneca — Lead Consultant - Global Hosting Services(Microservice Platform)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Chennai/Lead-Consultant---Global-Hosting-Services-Microservice-Platform-_R-243026-1</link>
       <guid isPermaLink="false">workday:R-243026</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Lead Consultant - Global Hosting Services(Microservice Platform) GCL: E Introduction to role: Are you ready to build a modern microservice-based and technology-powered compute platform that accelerates how life-changing medicines reach patients? Do you want to own a strategic capability that turns pioneerin…
 
 Location: India - Chennai | Stack: aws, azure, gcp, gcp_clinical, gxp, kubernetes, project_mgmt</description>
@@ -1421,7 +1521,7 @@ Location: India - Chennai | Stack: aws, azure, gcp, gcp_clinical, gxp, kubernete
       <title>AstraZeneca — Lead Consultant – Cyber SOC Operations</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Chennai/Lead-Consultant---Cyber-SOC-Operations_R-245605-1</link>
       <guid isPermaLink="false">workday:R-245605</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Lead Consultant – Cyber SOC Operations GCL: E Introduction to role: Are you ready to lead a high-impact Security Operations Center and defend the expertise behind life-changing medicines? As Lead Consultant – Cyber SOC Operations, you will guide incident response across a sophisticated digital world, safegu…
 
 Location: India - Chennai | Stack: aws, azure, communication, gcp, gcp_clinical, gxp, python, siem, soc, sop, spark</description>
@@ -1431,7 +1531,7 @@ Location: India - Chennai | Stack: aws, azure, communication, gcp, gcp_clinical,
       <title>AstraZeneca — Manager, Quality Technology, R&amp;D Quality Assurance</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Manager--Quality-Technology--R-D-Quality-Assurance_R-245726</link>
       <guid isPermaLink="false">workday:R-245726</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Location: Warsaw, Poland Hybrid model of work: 3 days in office, 2 remote per week As the independent second line assurance function for R&amp;D, our mission in R&amp;D Quality Assurance (QA) is to achieve enduring excellence in auditing, quality management, quality risk assessment and enhance the R&amp;D quality mindset for the…
 
 Location: Poland - Warsaw | Stack: project_mgmt, r</description>
@@ -1441,7 +1541,7 @@ Location: Poland - Warsaw | Stack: project_mgmt, r</description>
       <title>AstraZeneca — Medical Science Liaison (m/f/d) – CVRM (East and South Austria) (M/W/D)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Austria---Vienna/Medical-Science-Liaison--m-f-d----CVRM--East-and-South-Austria---M-W-D-_R-245730</link>
       <guid isPermaLink="false">workday:R-245730</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Medical Science Liaison (m/f/d) – CVRM (East and South Austria) Location: East and South of Austria (Lower Austria, Vienna, Burgenland, Styria, Carinthia) Do you want to bring your expertise to a company that translates scientific findings into life-changing medicines? Then AstraZeneca could be just right for you! Ast…
 
 Location: Austria - Vienna | Stack: communication</description>
@@ -1451,7 +1551,7 @@ Location: Austria - Vienna | Stack: communication</description>
       <title>AstraZeneca — Payroll Senior Specialist, HR Services</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Malaysia---Mutiara-Damansara/Payroll-Senior-Specialist--HR-Services_R-245725</link>
       <guid isPermaLink="false">workday:R-245725</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>AstraZeneca is a global, innovation-driven BioPharmaceutical business that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious disease. But we’re more than one of the world’s leading pharmaceutical companies. We are trusted partners who are connect…
 
 Location: Malaysia - Mutiara Damansara | Stack: communication</description>
@@ -1461,7 +1561,7 @@ Location: Malaysia - Mutiara Damansara | Stack: communication</description>
       <title>AstraZeneca — Pharmaceutical Sales Specialist, Advanced Specialty Care Immunology- Manhattan, NY</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Manhattan---NY/Pharmaceutical-Sales-Specialist--Advanced-Specialty-Care-Immunology--Manhattan--NY_R-245761</link>
       <guid isPermaLink="false">workday:R-245761</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Pharmaceutical Sales Specialist, Advanced Specialty Care Immunology- Manhattan, NY At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around t…
 
 Location: US - Manhattan - NY | Stack: agile</description>
@@ -1471,7 +1571,7 @@ Location: US - Manhattan - NY | Stack: agile</description>
       <title>AstraZeneca — Postdoctoral Fellow – Oligonucleotide Therapies, Streamlining design through omics dissection of mRNA biology</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Sweden---Gothenburg/Postdoctoral-Fellow---Oligonucleotide-Therapies--Streamlining-design-through-omics-dissection-of-mRNA-biology_R-245747-1</link>
       <guid isPermaLink="false">workday:R-245747</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you a PhD-trained molecular biologist passionate about RNA biology and Next Generation Sequencing (NGS)? Join AstraZeneca’s NGS &amp; Transcriptomics function in the Centre for Genomics Research in Gothenburg to decode the RNA dynamics that determine on-target potency and limit off-target effects of oligonucleotide th…
 
 Location: Sweden - Gothenburg | Stack: bioinformatics, communication, genomics, ngs, python, r, rna, transcriptomics</description>
@@ -1481,7 +1581,7 @@ Location: Sweden - Gothenburg | Stack: bioinformatics, communication, genomics, 
       <title>AstraZeneca — Quality Engineering Manager - Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Canada---Mississauga/Quality-Engineering-Manager_R-239113-1</link>
       <guid isPermaLink="false">workday:R-239113</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>WHY JOIN US? Transform billions of patients’ lives through technology, data, and innovative ways of working. You’re disruptive, decisive, and transformative. Someone excited to use technology to improve patients’ health. We’re building a new Health-tech business – Evinova, a fully-owned subsidiary of AstraZeneca Group…
 
 Location: Canada - Mississauga | Stack: communication, sop, stakeholder, validation</description>
@@ -1491,7 +1591,7 @@ Location: Canada - Mississauga | Stack: communication, sop, stakeholder, validat
       <title>AstraZeneca — Quality Engineering Manager - Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Durham---NC/Quality-Engineering-Manager---Evinova_R-245196</link>
       <guid isPermaLink="false">workday:R-245196</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>WHY JOIN US? Transform billions of patients’ lives through technology, data, and innovative ways of working. You’re disruptive, decisive, and transformative. Someone excited to use technology to improve patients’ health. We’re building a new Health-tech business – Evinova, a fully-owned subsidiary of AstraZeneca Group…
 
 Location: US - Durham - NC | Stack: communication, sop, stakeholder, validation</description>
@@ -1501,7 +1601,7 @@ Location: US - Durham - NC | Stack: communication, sop, stakeholder, validation<
       <title>AstraZeneca — Rare Diseases Key Account Manager - Nephrology, Heamatology &amp; Transplant (pomorskie, kujawsko-pomorskie)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Rare-Diseases-Key-Account-Manager---Nephrology--Heamatology---Transplant--pomorskie--kujawsko-pomorskie-_R-245729</link>
       <guid isPermaLink="false">workday:R-245729</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we are united by a common purpose: to push the boundaries of science to deliver life-changing medicines. Every day, we make a difference by delivering potentially life-changing medicines to millions of people worldwide. Our purpose is results-oriented and so is our approach. Becoming a more agile and c…
 
 Location: Poland - Warsaw | Stack: agile</description>
@@ -1511,7 +1611,7 @@ Location: Poland - Warsaw | Stack: agile</description>
       <title>AstraZeneca — Regional Liaison Director CVRM (East)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US/Regional-Liaison-Director-CVRM--East-_R-243699</link>
       <guid isPermaLink="false">workday:R-243699</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Introduction to role: Are you ready to lead the charge in transforming cardiovascular and renal care? As the Amyloidosis (ATTR) Regional Liaison Director East, you&apos;ll be at the forefront of executing Medical Affairs strategies that align with our business objectives. You&apos;ll lead and manage a dynamic Field Medical Affa…
 
 Location: US | Stack: clinical_trials, communication, fda</description>
@@ -1521,7 +1621,7 @@ Location: US | Stack: clinical_trials, communication, fda</description>
       <title>AstraZeneca — Senior Clinical Solution Analyst - Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Durham---NC/Senior-Clinical-Solution-Analyst---Evinova_R-245786</link>
       <guid isPermaLink="false">workday:R-245786</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>WHY JOIN US? Transform billions of patients’ lives through technology, data, and innovative ways of working. You’re disruptive, decisive, and transformative. Someone excited to use technology to improve patients’ health. We’re building a new Health-tech business – Evinova, a fully-owned subsidiary of AstraZeneca Group…
 
 Location: US - Durham - NC | Stack: clinical_trials, communication, go, sop</description>
@@ -1531,7 +1631,7 @@ Location: US - Durham - NC | Stack: clinical_trials, communication, go, sop</des
       <title>AstraZeneca — Senior Clinical Solution Analyst - Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Canada---Mississauga/Senior-Manager--Clinical-Solutions-Delivery_R-239116</link>
       <guid isPermaLink="false">workday:R-239116</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>WHY JOIN US? Transform billions of patients’ lives through technology, data, and innovative ways of working. You’re disruptive, decisive, and transformative. Someone excited to use technology to improve patients’ health. We’re building a new Health-tech business – Evinova, a fully-owned subsidiary of AstraZeneca Group…
 
 Location: Canada - Mississauga | Stack: clinical_trials, communication, go, sop</description>
@@ -1541,7 +1641,7 @@ Location: Canada - Mississauga | Stack: clinical_trials, communication, go, sop<
       <title>AstraZeneca — Senior Director Process Engineering &amp; Packaging</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UK---Cambridge/Senior-Director-Process-Engineering---Packaging_R-243871</link>
       <guid isPermaLink="false">workday:R-243871</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Director Process Engineering &amp; Packaging Location: Cambridge Biomedical Campus, UK Hybrid Working model - 3 days per week Introduction Join AstraZeneca Biologics as a Process Engineering &amp; Packaging Leader and drive innovation in biopharmaceutical process development and technology transfer across our UK an…
 
 Location: UK - Cambridge | Stack: clinical_ops, stakeholder</description>
@@ -1551,7 +1651,7 @@ Location: UK - Cambridge | Stack: clinical_ops, stakeholder</description>
       <title>AstraZeneca — Senior Director, Operations Commercialization Lead (Cell Therapy)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Boston---MA/Senior-Director--Senior-Director--Commercialization-Lead-Cell-Therapy-_R-233702-1</link>
       <guid isPermaLink="false">workday:R-233702</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Position Overview The Senior Director, Operations Commercialization Lead will establish AstraZeneca&apos;s global supply chain commercialization and roadmap for cell therapy products. Drive the development of go-to-market operational strategies, optimizing supply chain efficiency,, cost, and long term success across clinic…
 
 Location: US - Boston - MA | Stack: go, project_mgmt, stakeholder</description>
@@ -1561,7 +1661,7 @@ Location: US - Boston - MA | Stack: go, project_mgmt, stakeholder</description>
       <title>AstraZeneca — Senior Engineer – Cyber SOC Operations</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Chennai/Senior-Engineer---Cyber-SOC-Operations_R-245603</link>
       <guid isPermaLink="false">workday:R-245603</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Senior Engineer - Cyber SOC Operations Introduction to role: Are you ready to turn signal into certainty and protect the science that changes patients’ lives? As a Senior Engineer in our Cybersecurity Operations Center, you will be on the first line of defense. You will secure platforms that support the dis…
 
 Location: India - Chennai | Stack: aws, azure, python, soc</description>
@@ -1571,7 +1671,7 @@ Location: India - Chennai | Stack: aws, azure, python, soc</description>
       <title>AstraZeneca — Senior Frontend Engineer - Evinova</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Senior-Frontend-Engineer---Evinova_R-245785</link>
       <guid isPermaLink="false">workday:R-245785</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Senior Frontend Engineer Location: Gaithersburg, MD At AstraZeneca, we put patients first and strive to meet their unmet needs worldwide. Working here means being entrepreneurial, thinking big and working together to make the impossible a reality. If you are swift to action, confident to lead, willing to co…
 
 Location: US - Gaithersburg - MD | Stack: clinical_trials, javascript, nextjs, react, typescript</description>
@@ -1581,7 +1681,7 @@ Location: US - Gaithersburg - MD | Stack: clinical_trials, javascript, nextjs, r
       <title>AstraZeneca — Senior Scientist, BioScience, In-vitro Discovery and Data Scientist</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Senior-Scientist--BioScience--In-vitro-Discovery-and-Data-Scientist_R-241903-1</link>
       <guid isPermaLink="false">workday:R-241903</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we pride ourselves on crafting a collaborative culture that champions knowledge-sharing, ambitious thinking and innovation – ultimately providing employees with the opportunity to work across teams, functions and even the globe. Recognizing the importance of individualized flexibility, our ways of work…
 
 Location: US - Gaithersburg - MD | Stack: cell_culture, data_science, flow_cytometry, ngs</description>
@@ -1591,7 +1691,7 @@ Location: US - Gaithersburg - MD | Stack: cell_culture, data_science, flow_cytom
       <title>AstraZeneca — Sr. Fullstack Software Engineer (Focus on Backend)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Spain---Barcelona/Sr-Fullstack-Software-Engineer--Focus-on-Backend-_R-242958-2</link>
       <guid isPermaLink="false">workday:R-242958</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Evinova is currently looking for an Sr. Fullstack Software Engineer to join our Product Engineering team with a higher focus on backend capabilities . This role requires someone that codes daily, is self-motivated, and has a passion for development. We’ll rely on you to bring your technical acumen to help the team con…
 
 Location: Spain - Barcelona | Stack: aws, clinical_trials, docker, node, react, sql, typescript</description>
@@ -1601,7 +1701,7 @@ Location: Spain - Barcelona | Stack: aws, clinical_trials, docker, node, react, 
       <title>AstraZeneca — Sr. Pharmaceutical Sales Specialist, CVRM Specialty-Atlanta East</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Atlanta---GA/Sr-Pharmaceutical-Sales-Specialist--CVRM-Specialty-Atlanta-East_R-245783</link>
       <guid isPermaLink="false">workday:R-245783</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca, we turn ideas into life-changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course o…
 
 Location: US - Atlanta - GA | Stack: clinical_trials</description>
@@ -1611,7 +1711,7 @@ Location: US - Atlanta - GA | Stack: clinical_trials</description>
       <title>AstraZeneca — Statistical Programming Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Statistical-Programming-Director_R-245566</link>
       <guid isPermaLink="false">workday:R-245566</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you an experienced Statistical Programmer with deep knowledge of clinical drug development? Would you like to be part of a fast-paced and agile global team that has direct strategic impact on drug development, empowered and trusted to innovate and experiment? Join us at AstraZeneca CVRM (Cardiovascular Renal Metab…
 
 Location: US - Gaithersburg - MD | Stack: agile, data_science, microscopy, single_cell, statistics</description>
@@ -1621,7 +1721,7 @@ Location: US - Gaithersburg - MD | Stack: agile, data_science, microscopy, singl
       <title>AstraZeneca — Statistical Science Associate Director</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/UK---Cambridge/Statistical-Science-Associate-Director_R-245784</link>
       <guid isPermaLink="false">workday:R-245784</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Statistical Science Associate Director Cambridge (3 days onsite per week) About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re…
 
 Location: UK - Cambridge | Stack: communication, project_mgmt, python, r, statistics</description>
@@ -1631,7 +1731,7 @@ Location: UK - Cambridge | Stack: communication, project_mgmt, python, r, statis
       <title>AstraZeneca — Therapy Area Specialist / Pharmareferent (m/w/d) pädiatrische Infektiologie - Gebiet: Dortmund - Duisburg – Münster</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Germany---Hamburg/Therapy-Area-Specialist---Pharmareferent--m-w-d--pdiatrische-Infektiologie---Gebiet--Dortmund---Duisburg---Mnster_R-242189-2</link>
       <guid isPermaLink="false">workday:R-242189</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Innovativ, dynamisch und nachhaltig: Als eines der weltweit führenden Unternehmen der forschenden Arzneimittelindustrie bieten wir bei AstraZeneca die besten Möglichkeiten für Ihre persönliche und berufliche Entwicklung. Denn für uns steht fest: Forschung bildet das Fundament unserer aller Zukunft. Wir bei AstraZeneca…
 
 Location: Germany - Hamburg | Stack: agile, r, stakeholder</description>
@@ -1641,7 +1741,7 @@ Location: Germany - Hamburg | Stack: agile, r, stakeholder</description>
       <title>AstraZeneca — Workforce Data Manager, People Services</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Workforce-Data-Manager--People-Services_R-245524-1</link>
       <guid isPermaLink="false">workday:R-245524</guid>
-      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Tue, 10 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Workforce Data Manager, People Services Location : Warsaw, Poland Work model : Hybrid (3 days per week in office) Introduction to role: Are you ready to take the lead in delivering exceptional data administration support to employees, line managers, and the HR community across United Kingdom, Ireland and Sw…
 
 Location: Poland - Warsaw | Stack: powerbi</description>
@@ -1651,7 +1751,7 @@ Location: Poland - Warsaw | Stack: powerbi</description>
       <title>AstraZeneca — Administrative Coordinator – Cell Therapy Development and Operations</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US--Tarzana--CA/Administrative-Coordinator---Cell-Therapy-Development-and-Operations_R-245692</link>
       <guid isPermaLink="false">workday:R-245692</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Administrative Coordinator – Cell Therapy Development and Operations Location: Tarzana, CA Introduction to role: Join us at AstraZeneca, a place where we collaborate in an inclusive environment, full of bold new opportunities. We are looking for an experienced administrative professional that is energized by working i…
 
 Location: US – Tarzana – CA | Stack: communication, stakeholder</description>
@@ -1661,7 +1761,7 @@ Location: US – Tarzana – CA | Stack: communication, stakeholder</description
       <title>AstraZeneca — AI Engineering Specialist - Level 1</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India---Bangalore/AI-Engineering-Specialist---Level-1_R-245616-2</link>
       <guid isPermaLink="false">workday:R-245616</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: AI Engineering Specialist - Level 1 Introduction to role: Are you ready to make a significant impact in the world of healthcare? We are seeking a Senior Data Scientist to lead our Data Science and AI initiatives within AstraZeneca&apos;s Commercial Data Science &amp; AI Team, located in Chennai and Bangalore, India.…
 
 Location: India - Bangalore | Stack: airflow, aws, azure, data_science, docker, gcp, gcp_clinical, gxp, llm, nlp, python, pytorch, sklearn, sql, statistics, tensorflow</description>
@@ -1671,7 +1771,7 @@ Location: India - Bangalore | Stack: airflow, aws, azure, data_science, docker, 
       <title>AstraZeneca — Associate Director, Global Analytics &amp; Insights - Hematology</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Associate-Director--Global-Analytics---Insights---Hematology_R-243411</link>
       <guid isPermaLink="false">workday:R-243411</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Working at AstraZeneca means being entrepreneurial, thinking big and working together to make the impossible a reality. AstraZeneca is a science-led, global biopharmaceutical company, with a focused portfolio in core therapies. We are committed to improving the health and lives of people across the globe, through our…
 
 Location: US - Gaithersburg - MD | Stack: communication, r, typescript</description>
@@ -1681,7 +1781,7 @@ Location: US - Gaithersburg - MD | Stack: communication, r, typescript</descript
       <title>AstraZeneca — Associate Director, Medical Affairs Belgium</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Belgium---Uccle/Associate-Director--Medical-Affairs-Belgium_R-245653</link>
       <guid isPermaLink="false">workday:R-245653</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Alexion is AstraZeneca’s Rare Disease unit, focused on developing and delivering therapies for conditions with high unmet need, particularly those involving complement system dysregulation and select metabolic/hematologic disorders. The portfolio includes Soliris (eculizumab) and Ultomiris (ravulizumab), alongside an…
 
 Location: Belgium - Uccle | Stack: clinical_ops, clinical_trials, communication, pv, r</description>
@@ -1691,7 +1791,7 @@ Location: Belgium - Uccle | Stack: clinical_ops, clinical_trials, communication,
       <title>AstraZeneca — Associate Director, Omnichannel Strategist</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Wilmington---DE/Associate-Director--Omnichannel-Strategist_R-244286</link>
       <guid isPermaLink="false">workday:R-244286</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Associate Director, Omnichannel Strategist Introduction to role: Are you ready to shape the future of customer experiences in Pharmaceuticals? As an Associate Director, Omnichannel Strategist at AstraZeneca within the US BBU Innovation and Business Excellence team, you&apos;ll be at the forefront of designing seamless cust…
 
 Location: US - Wilmington - DE | Stack: agile</description>
@@ -1701,7 +1801,7 @@ Location: US - Wilmington - DE | Stack: agile</description>
       <title>AstraZeneca — Associate Regulatory Affairs Director – Cardiovascular, Renal and Metabolism</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Associate-Regulatory-Affairs-Director---Cardiovascular--Renal-and-Metabolism_R-245637</link>
       <guid isPermaLink="false">workday:R-245637</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Associate Regulatory Affairs Director – Cardiovascular, Renal and Metabolism Location: Warsaw, hybrid work ( 3 days per week from office) Do you have in-depth knowledge within Regulatory Affairs and want to develop your skills within project management ? At AstraZeneca, we offer you a unique experience to work in cros…
 
 Location: Poland - Warsaw | Stack: clinical_trials, cta, project_mgmt, reg_affairs</description>
@@ -1711,7 +1811,7 @@ Location: Poland - Warsaw | Stack: clinical_trials, cta, project_mgmt, reg_affai
       <title>AstraZeneca — Business Analyst, FP&amp;A Commercial</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Malaysia---Mutiara-Damansara/Business-Analyst--FP-A-Commercial_R-242678</link>
       <guid isPermaLink="false">workday:R-242678</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>AstraZeneca is a global, innovation-driven Biopharmaceutical business that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious disease. But we’re more than one of the world’s leading pharmaceutical companies. We are trusted partners who are connect…
 
 Location: Malaysia - Mutiara Damansara | Stack: bi, excel, powerbi</description>
@@ -1721,7 +1821,7 @@ Location: Malaysia - Mutiara Damansara | Stack: bi, excel, powerbi</description>
       <title>AstraZeneca — Business Unit Director - Oncology (OBUD) CAMCAR</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Costa-Rica---San-Jose/Business-Unit-Director--Oncology--OBUD-_R-245489-1</link>
       <guid isPermaLink="false">workday:R-245489</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Business Unit Director: Oncology (OBUD) Based in Costa Rica The Oncology Business Unit Director (OBUD) will lead the strategy development and tactics execution of the Oncology Business Unit in the CAMCAR Cluster. The OBUD is instrumental in positioning AstraZeneca as a leader in oncology in the Cluster, and is account…
 
 Location: Costa Rica - San Jose | Stack: stakeholder</description>
@@ -1731,7 +1831,7 @@ Location: Costa Rica - San Jose | Stack: stakeholder</description>
       <title>AstraZeneca — Business Unit Director CVRM - CAMCAR</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Costa-Rica---San-Jose/Job-Posting-Title-Business-Unit-Director-CVRM---CAMCAR_R-245488</link>
       <guid isPermaLink="false">workday:R-245488</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Business Unit Director: Cardiovascular Renal and Metabolism (CVRM) Based in Costa Rica The CVRM Business Unit Director, effectively leads the TA team to ensure the highest level of professional sales and marketing strategy, achieve a market leading position by delivering above-budget sales, growth, contribution and ma…
 
 Location: Costa Rica - San Jose | Stack: communication</description>
@@ -1741,7 +1841,7 @@ Location: Costa Rica - San Jose | Stack: communication</description>
       <title>AstraZeneca — Business Unit Director R&amp;I - CAMCAR</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Costa-Rica---San-Jose/Business-Unit-Director-R-I---CAMCAR_R-245459</link>
       <guid isPermaLink="false">workday:R-245459</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Business Unit Director: Respiratory &amp; Immunology (R&amp;I) Based in Costa Rica The Respiratory &amp; Immunology Business Unit Director, effectively leads the TA team to ensure the highest level of professional sales and marketing strategy, achieve a market leading position by delivering above-budget sales, growth, contributio…
 
 Location: Costa Rica - San Jose | Stack: r</description>
@@ -1751,7 +1851,7 @@ Location: Costa Rica - San Jose | Stack: r</description>
       <title>AstraZeneca — Client Lead, Synthetics DS Facility</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Client-Lead--Synthetics-DS-Facility_R-245475</link>
       <guid isPermaLink="false">workday:R-245475</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Job Title: Client Lead, Synthetics DS Facility Location: Virginia, US Hybrid working model, 3 days per week in the office location About us: At AstraZeneca, we&apos;re united by a bold ambition: to push the boundaries of science and deliver life-changing medicines to patients worldwide. As a global, science-led biopharmace…
 
 Location: US - Gaithersburg - MD | Stack: gmp, gxp, spark, stakeholder</description>
@@ -1761,7 +1861,7 @@ Location: US - Gaithersburg - MD | Stack: gmp, gxp, spark, stakeholder</descript
       <title>AstraZeneca — Commercial Business Director, Primary Care - Mid Atlantic</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US/Commercial-Business-Director--Primary-Care---Mid-Atlantic_R-245657</link>
       <guid isPermaLink="false">workday:R-245657</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>At AstraZeneca we turn ideas into life - changing medicines. Working here means thinking big and working together to make the impossible a reality. We’re focused on the potential of science to address the unmet needs of patients around the world. We commit to those areas where we think we can really change the course…
 
 Location: US</description>
@@ -1771,27 +1871,17 @@ Location: US</description>
       <title>AstraZeneca — Digital Developer Site Respiratory - Sweden Operations</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Sweden---Snckviken/Digital-Developer-Site-Respiratory---Sweden-Operations_R-243874-1</link>
       <guid isPermaLink="false">workday:R-243874</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>We have an exciting opportunity to welcome our next Digital Developer to the Technology organisation within Site Respiratory! Welcome to Sweden Operations, here the pulse is high and the possibility to develop is high. We work sustainably for each other and the planet in a high-tech and positive environment. Coaching…
 
 Location: Sweden - Snäckviken | Stack: agile, bi, communication, project_mgmt</description>
     </item>
 
     <item>
-      <title>AstraZeneca — Director, Procurement Business Partner Oncology Business Unit</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Director--Procurement-Business-Partner-Oncology-Business-Unit_R-238422</link>
-      <guid isPermaLink="false">workday:R-238422</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Introduction to role: Are you ready to elevate Procurement&apos;s reputation as a trusted advisor and strategic enabler within the Commercial Business? As the Procurement Business Partner, you&apos;ll act as the vital link between Procurement and internal partners, driving early engagement and aligning Procurement priorities wi…
-
-Location: US - Gaithersburg - MD | Stack: communication, project_mgmt, r, react</description>
-    </item>
-
-    <item>
       <title>AstraZeneca — Director, US Federal Government Affairs</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Washington---DC/Director--US-Federal-Government-Affairs_R-245565</link>
       <guid isPermaLink="false">workday:R-245565</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Director, US Federal Government Affairs Washington, DC Global Corporate Affairs Hybrid Work- on average 3 days a week from office Travel up to 20% of the time for political events within the US Are you ready to take accountability and be trusted to innovate every day? As a member of the US Federal Government Affairs a…
 
 Location: US - Washington - DC</description>
@@ -1801,7 +1891,7 @@ Location: US - Washington - DC</description>
       <title>AstraZeneca — Director, US Public Health Policy</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Washington---DC/Director--US-Public-Health-Policy_R-245714</link>
       <guid isPermaLink="false">workday:R-245714</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Introduction to role: Are you ready to shape US public health policy to expand patient access and accelerate the impact of breakthrough medicines? Do you thrive at the intersection of science, policy, and public health, translating complex data into clear positions that move decision-makers? As Director, US Public Hea…
 
 Location: US - Washington - DC | Stack: fda, stakeholder</description>
@@ -1811,7 +1901,7 @@ Location: US - Washington - DC | Stack: fda, stakeholder</description>
       <title>AstraZeneca — Franchise Lead, Respiratory &amp; Immunology, Vaccines &amp; Immune Therapies</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Singapore/Franchise-Lead--Respiratory---Inhaled--Vaccines---Immunology_R-245548</link>
       <guid isPermaLink="false">workday:R-245548</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Franchise Lead, R&amp;I &amp; V&amp;I Do you have the expertise and passion to lead a high-performing commercial team within AstraZeneca’s Respiratory &amp; Immunology and Vaccines &amp; Immune Therapy portfolio? Are you motivated by the opportunity to apply your skills to transform patient outcomes in a company that follows the science…
 
 Location: Singapore | Stack: r</description>
@@ -1821,7 +1911,7 @@ Location: Singapore | Stack: r</description>
       <title>AstraZeneca — Global Clinical Supply Chain Planner</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Global-Clinical-Supply-Chain-Planner_R-240633</link>
       <guid isPermaLink="false">workday:R-240633</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Title : Global Clinical Supply Chain Planner Location: Warsaw, Poland Hybrid Model: 3 days per week from office ABOUT DEPARTMENT Lead our transforming supply chain—drive change with high energy and an analytical, digital mindset. Step into a transforming supply chain and lead the change—bring your high energy, analyti…
 
 Location: Poland - Warsaw | Stack: clinical_trials, gmp, gxp, r</description>
@@ -1831,7 +1921,7 @@ Location: Poland - Warsaw | Stack: clinical_trials, gmp, gxp, r</description>
       <title>AstraZeneca — Government Affairs Lead</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Belgium---Uccle/Government-Affairs-Lead_R-244848</link>
       <guid isPermaLink="false">workday:R-244848</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Government Affairs Lead at AZ BeLux Role Summary In a fast-changing world marked by evolving healthcare policies, rapid innovation, and rising expectations from patients, regulators, and society, strong and integrated corporate affairs are essential to advancing AstraZeneca’s purpose and business. The Government Affai…
 
 Location: Belgium - Uccle | Stack: r, stakeholder</description>
@@ -1841,7 +1931,7 @@ Location: Belgium - Uccle | Stack: r, stakeholder</description>
       <title>AstraZeneca — IRT Functional Process Owner</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/IRT-Functional-Process-Owner_R-244901-1</link>
       <guid isPermaLink="false">workday:R-244901</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>IRT Functional Process Owner Location: Warsaw, Poland Hybrid work: 3 days per week in the office Global Clinical Solutions (GCS) drives the delivery of Technology and associated processes for the BioPharmaceuticals R&amp;D organisation, owning and providing industry leading technology and services on behalf of Clinical Op…
 
 Location: Poland - Warsaw | Stack: capA, clinical_ops, clinical_trials, gcp, gcp_clinical, gxp, ich, project_mgmt, r, sop, validation</description>
@@ -1851,7 +1941,7 @@ Location: Poland - Warsaw | Stack: capA, clinical_ops, clinical_trials, gcp, gcp
       <title>AstraZeneca — Junior Diagnostic Biomarker Manager</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Junior-Diagnostic-Biomarker-Manager_R-245658</link>
       <guid isPermaLink="false">workday:R-245658</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Junior Diagnostic Biomarker Manager AstraZeneca is seeking a Junior Diagnostic Biomarker Manager to support the development and implementation of national diagnostic strategies that enable timely, high-quality testing and companion diagnostics for our Oncology portfolio. This role partners closely with the Oncology Di…
 
 Location: Poland - Warsaw | Stack: project_mgmt, stakeholder</description>
@@ -1861,7 +1951,7 @@ Location: Poland - Warsaw | Stack: project_mgmt, stakeholder</description>
       <title>AstraZeneca — Key Account Manager – Oncology (Gastroenterology) West-Österreich (M/W/D)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Austria---Vienna/Key-Account-Manager---Oncology--Gastroenterology--West-sterreich--M-W-D-_R-241086</link>
       <guid isPermaLink="false">workday:R-241086</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager – Oncology (Gastroenterology) West-Österreich (M/W/D) Location of the role : West-Österreich (Vorarlberg, Tirol, Salzburg) Introduction to role Are you ready to make a significant impact in the field of Oncology? AstraZeneca is seeking passionate Key Account Managers to join our team in Austria. If…
 
 Location: Austria - Vienna | Stack: communication, excel</description>
@@ -1871,7 +1961,7 @@ Location: Austria - Vienna | Stack: communication, excel</description>
       <title>AstraZeneca — Key Account Manager R &amp; I - Bacau</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager--R---I---Bacau_R-245623</link>
       <guid isPermaLink="false">workday:R-245623</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager R &amp; I – Bacau Diverse Minds. Bold Disruptors. Meaningful Impact. AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re more…
 
 Location: Romania - Bucharest | Stack: r</description>
@@ -1881,7 +1971,7 @@ Location: Romania - Bucharest | Stack: r</description>
       <title>AstraZeneca — Key Account Manager R &amp; I - Bucuresti</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Romania---Bucharest/Key-Account-Manager--R---I---Bucuresti_R-245622-1</link>
       <guid isPermaLink="false">workday:R-245622</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Key Account Manager R &amp; I – Bucharest Diverse Minds. Bold Disruptors. Meaningful Impact. AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development, and commercialisation of prescription medicines for some of the world’s most serious diseases. But we’re m…
 
 Location: Romania - Bucharest | Stack: r</description>
@@ -1891,7 +1981,7 @@ Location: Romania - Bucharest | Stack: r</description>
       <title>AstraZeneca — Lead Regulatory Affairs</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/India--Mumbai-Commerz/Lead-Regulatory-Affairs_R-244394-1</link>
       <guid isPermaLink="false">workday:R-244394</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>About AstraZeneca AstraZeneca is a global, science-led, patient-focused biopharmaceutical company that focuses on the discovery, development and commercialization of prescription medicines for some of the world’s most serious diseases. But we’re more than one of the world’s leading pharmaceutical companies. Marketing…
 
 Location: India – Mumbai Commerz | Stack: clinical_trials, reg_affairs</description>
@@ -1901,7 +1991,7 @@ Location: India – Mumbai Commerz | Stack: clinical_trials, reg_affairs</descri
       <title>AstraZeneca — Manager, Global Clinical Solutions (GCS)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Durham---NC/Manager--Global-Clinical-Solutions--GCS-_R-245709</link>
       <guid isPermaLink="false">workday:R-245709</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Location: Durham, NC Hybrid Policy: 3 days a week onsite Global Clinical Solutions powers the services and technology that enable AstraZeneca’s clinical development at scale. As a GCS Manager, you will coordinate, lead, and continuously improve the processes, systems, and services that help teams deliver clinical prog…
 
 Location: US - Durham - NC | Stack: gcp, gcp_clinical, go, gxp, ich, project_mgmt, stakeholder</description>
@@ -1911,100 +2001,10 @@ Location: US - Durham - NC | Stack: gcp, gcp_clinical, go, gxp, ich, project_mgm
       <title>AstraZeneca — Medical Communications &amp; Information Content Manager (Medical Writing)</title>
       <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Gaithersburg---MD/Medical-Communications---Information-Content-Manager--Medical-Writing-_R-245696</link>
       <guid isPermaLink="false">workday:R-245696</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
+      <pubDate>Mon, 09 Feb 2026 23:00:00 GMT</pubDate>
       <description>Are you ready to convey detailed scientific information as clear, discoverable stories that advise clinical decisions and accelerate impact for patients? In this role, you will transform scientific data into compelling narratives across channels, ensuring medical communities can find, trust, and act on evidence when i…
 
 Location: US - Gaithersburg - MD | Stack: medical_writing, spark, stakeholder</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Medical Science Liaison (MSL) Oncology Switzerland – Breast Cancer (100%) Central -CH</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Switzerland---Baar/Medical-Science-Liaison--MSL--Oncology-Switzerland---Breast--Cancer--100---Central--CH_R-245538</link>
-      <guid isPermaLink="false">workday:R-245538</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Medical Science Liaison (MSL) Oncology Switzerland – Breast Cancer (100%) Central -CH In this function you will be a scientific expert in the field (70-80% field time) with a specific focus on engaging in high-level scientific exchange, on building and maintaining peer-to peer relationship with external experts and on…
-
-Location: Switzerland - Baar | Stack: communication</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Oncology Sales Account Manager (Genitourinary &amp; Gynecologic Cancers, Switzerland)</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Switzerland---Baar/Oncology-Sales-Account-Manager--Genitourinary---Gynecologic-Cancers--Switzerland-_R-245627</link>
-      <guid isPermaLink="false">workday:R-245627</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Role Summary The Oncology Sales Account Manager is a Field-based and customer-facing role with frequent travel within the assigned territory, as well as regular internal meetings. You will own territory performance for our in-label Genitourinary (GU) and Gynecologic (Gyn) oncology portfolio by building trusted, long-t…
-
-Location: Switzerland - Baar | Stack: communication, stakeholder</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Operations Finance Manager (18-month secondment/FTC)</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Operations-Finance-Manager--18-month-secondment-FTC-_R-245464-1</link>
-      <guid isPermaLink="false">workday:R-245464</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Operations Finance Manager (18-month secondment/FTC) Location: Warsaw Hybrid Model: 3 days per week from office Operations Finance Manager will play an essential role in supporting the Associate Director – Manufacturing Accounting in the delivery of the scorecard goals and objectives. Additionally acting as the primar…
-
-Location: Poland - Warsaw | Stack: communication, excel</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Product Manager (Respiratory &amp; Immunology)</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Turkey---Istanbul/Product-Manager--Respiratory---Immunology-_R-245659</link>
-      <guid isPermaLink="false">workday:R-245659</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Are you ready to shape the future of respiratory and immunology treatments? As a Product Manager, you will be at the forefront of preparing, updating, and implementing Brand Strategic Plans. Your role will involve setting short- and long-term market share and sales targets, gathering and interpreting customer segmenta…
-
-Location: Turkey - Istanbul</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Production Technician I/II/III</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Frederick---MD/Production-Technician-I-II-III_R-245711-1</link>
-      <guid isPermaLink="false">workday:R-245711</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Our Frederick Manufacturing Center (FMC) creates life-changing medicines for people around the world and has been recognized by our local community as being a Top 50’ Business in Frederick and awarded Frederick County’s ‘Best Place to Work’. This distinctive biologic manufacturing facility, with over 800 employees, ma…
-
-Location: US - Frederick - MD | Stack: cell_culture</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Production Technician I/II/III -Nights</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US---Frederick---MD/Production-Technician-I-II-III--Nights_R-245712-1</link>
-      <guid isPermaLink="false">workday:R-245712</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Our Frederick Manufacturing Center (FMC) creates life-changing medicines for people around the world and has been recognized by our local community as being a Top 50’ Business in Frederick and awarded Frederick County’s ‘Best Place to Work’. This distinctive biologic manufacturing facility, with over 800 employees, ma…
-
-Location: US - Frederick - MD | Stack: cell_culture</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Regulatory Affairs Associate - Cardiovascular, Renal and Metabolism</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Regulatory-Affairs-Associate---Cardiovascular--Renal-and-Metabolism_R-245643-1</link>
-      <guid isPermaLink="false">workday:R-245643</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Regulatory Affairs Associate - Cardiovascular, Renal and Metabolism Location: Warsaw, hybrid work (3 days per week from office) Are you passionate about science and have or would like to get experience within regulatory affairs ? Do you want to be part of a cross functional and global team , applying your administrati…
-
-Location: Poland - Warsaw | Stack: communication, fda, project_mgmt, reg_affairs</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Regulatory Affairs Manager</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/Poland---Warsaw/Regulatory-Affairs-Manager_R-245640</link>
-      <guid isPermaLink="false">workday:R-245640</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Regulatory Affairs Manager Location: Warsaw, hybrid work (3 days per week from office) At AstraZeneca, we offer you a unique experience to work in cross functional teams with all phases of drug development , from clinical trials to marketing authorization applications worldwide. You will lead the end-to-end planning,…
-
-Location: Poland - Warsaw | Stack: clinical_trials, communication, project_mgmt, reg_affairs</description>
-    </item>
-
-    <item>
-      <title>AstraZeneca — Scientist, Analytical Sciences</title>
-      <link>https://astrazeneca.wd3.myworkdayjobs.com/wday/cxs/astrazeneca/Careers/job/US--Santa-Monica-Colorado-Avenue--CA/Scientist--Analytical-Sciences_R-245679</link>
-      <guid isPermaLink="false">workday:R-245679</guid>
-      <pubDate>Sun, 08 Feb 2026 23:00:00 GMT</pubDate>
-      <description>Scientist, Analytical Sciences Introduction to role We are looking for an experienced Scientist to join Analytical Operations within Analytical Sciences, Cell Therapy Development and Operations. This position is focused on the development and optimization of the genomic assay testing function to support process and pr…
-
-Location: US – Santa Monica Colorado Avenue – CA | Stack: cell_culture, dna, flow_cytometry, go, microscopy, python, rna</description>
     </item>
   </channel>
 </rss>
